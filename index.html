@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>English Curriculum</title>
+<title>英语启蒙 · 主题课程规划</title>
 <style>
   :root {
     --p1: #7eb8e0; --p1-bg: #e8f4fd;
@@ -198,6 +198,46 @@
   }
 
   /* Empty state */
+  /* Video Player Overlay */
+  .video-overlay {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.85); z-index: 999;
+    display: none; align-items: center; justify-content: center;
+    backdrop-filter: blur(4px);
+  }
+  .video-overlay.visible { display: flex; }
+  .video-player {
+    max-width: 90vw; max-height: 85vh;
+    border-radius: 12px; overflow: hidden;
+    background: #000; box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+    position: relative;
+  }
+  .video-player video {
+    display: block; width: 100%; max-height: 80vh;
+    outline: none;
+  }
+  .video-close {
+    position: absolute; top: -40px; right: 0;
+    background: none; border: none; color: #fff;
+    font-size: 28px; cursor: pointer; padding: 4px 8px;
+    opacity: 0.7; transition: opacity 0.2s;
+  }
+  .video-close:hover { opacity: 1; }
+  .video-title {
+    position: absolute; top: -36px; left: 0;
+    color: rgba(255,255,255,0.7); font-size: 14px;
+  }
+  .play-btn {
+    display: inline-flex; align-items: center; gap: 4px;
+    margin-top: 6px; background: #28a745; color: #fff;
+    padding: 4px 12px; border-radius: 6px;
+    font-size: 12px; cursor: pointer; border: none;
+    transition: background 0.2s;
+  }
+  .play-btn:hover { background: #218838; }
+  .play-btn.remote { background: #667eea; }
+  .play-btn.remote:hover { background: #5a6fd6; }
+
   .empty-state {
     text-align: center; padding: 60px 20px; color: #aaa;
   }
@@ -221,7 +261,7 @@
 <div class="header">
   <div class="header-inner">
     <div>
-      <h1>🎯 English <span>Curriculum</span></h1>
+      <h1>🎯 英语启蒙 · <span>主题课程规划</span></h1>
     </div>
     <div class="header-controls">
       <span class="week-counter" id="weekCounter"></span>
@@ -259,7 +299,31 @@
   </div>
 </div>
 
+<!-- Video Player Overlay -->
+<div class="video-overlay" id="videoOverlay" onclick="closeVideo(event)">
+  <div class="video-player" id="videoPlayer">
+    <button class="video-close" onclick="closeVideo()">✕</button>
+    <div class="video-title" id="videoTitle"></div>
+    <video id="videoElement" controls autoplay></video>
+  </div>
+</div>
+
 <script>
+// ─── Video Player ───
+function openVideo(src, title) {
+  document.getElementById('videoTitle').textContent = title || '';
+  const video = document.getElementById('videoElement');
+  video.src = src;
+  document.getElementById('videoOverlay').classList.add('visible');
+}
+function closeVideo(e) {
+  if (e && e.target !== e.currentTarget) return; // only close on overlay bg
+  const overlay = document.getElementById('videoOverlay');
+  overlay.classList.remove('visible');
+  document.getElementById('videoElement').pause();
+  document.getElementById('videoElement').src = '';
+}
+
 // ─── State ───
 let curriculum = null;
 let currentWeek = null;
@@ -487,6 +551,21 @@ function showDay(dayIdx) {
       const resourceLibrary = curriculum.resourceLibrary || [];
       const resInfo = resourceLibrary.find(r => r.id === act.resourceId);
 
+      // Build resource buttons: local video first, then external link
+      let resourceButtons = '';
+      // Check activity-level localPath first, then resource library
+      const localSrc = act.localPath || (resInfo && resInfo.localPath);
+      const extUrl = resInfo && resInfo.url;
+      const displayName = act.resourceLabel || (resInfo && resInfo.name) || '';
+
+      if (localSrc) {
+        const safeTitle = displayName.replace(/'/g, "\\'");
+        resourceButtons += `<button class="play-btn" onclick="openVideo('${localSrc}','${safeTitle}')">▶ 播放 · ${displayName || '本地视频'}</button>`;
+      }
+      if (extUrl) {
+        resourceButtons += `<a class="resource-link" href="${extUrl}" target="_blank">🔗 ${displayName || '在线资源'}</a>`;
+      }
+
       card.innerHTML = `
         <div style="flex:1;min-width:0;">
           <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
@@ -500,7 +579,9 @@ function showDay(dayIdx) {
               ${act.wordsFocus.map(w => `<span>${w}</span>`).join('')}
             </div>
           ` : ''}
-          ${resInfo && resInfo.url ? `<a class="resource-link" href="${resInfo.url}" target="_blank">🔗 ${resInfo.name}</a>` : ''}
+          <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:6px;">
+            ${resourceButtons}
+          </div>
         </div>
       `;
       container.appendChild(card);

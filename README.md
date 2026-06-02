@@ -1,4 +1,4 @@
-# English Curriculum
+# English Curriculum App
 
 ## Quick Start
 

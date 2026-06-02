@@ -11,20 +11,78 @@
     "totalPhases": 4,
     "createdAt": "2026-06-02"
   },
-
   "resourceLibrary": [
-    { "id": "sss", "type": "SSS", "name": "Super Simple Songs", "url": "https://supersimple.com/super-simple-songs/", "description": "英语启蒙儿歌金牌资源，语速慢、重复高、有配套闪卡" },
-    { "id": "yd", "type": "YD", "name": "Yakka Dee! (BBC)", "url": "https://www.bbc.co.uk/cbeebies/shows/yakka-dee", "description": "BBC单词启蒙动画，每集聚焦一个词，真人+动画结合" },
-    { "id": "lf", "type": "LF", "name": "Little Fox", "url": "https://www.littlefox.com", "description": "分级动画图书馆，Level 1语速极慢，适合零基础" },
-    { "id": "pp", "type": "PP", "name": "Peppa Pig", "url": "", "description": "经典生活情景动画，语速适中，英音" },
-    { "id": "pf", "type": "PF", "name": "Pinkfong", "url": "https://www.youtube.com/@Pinkfong", "description": "Baby Shark 出品方，儿歌动作感强" },
-    { "id": "cc", "type": "CC", "name": "Cocomelon", "url": "", "description": "3D儿歌动画，节奏明快，美音" },
-    { "id": "bb", "type": "BB", "name": "Barefoot Books", "url": "https://www.youtube.com/@BarefootBooks", "description": "绘本风格儿歌，画面精美，重复句多" },
-    { "id": "ss", "type": "SS", "name": "Sesame Street", "url": "", "description": "经典综合启蒙节目" },
-    { "id": "kf", "type": "KF", "name": "Khan Academy Kids", "url": "", "description": "免费互动学习App，有主题单元" },
-    { "id": "ai", "type": "AI", "name": "AI 对话练习", "url": "", "description": "AI驱动的英语对话练习，模拟真人互动" }
+    {
+      "id": "sss",
+      "type": "SSS",
+      "name": "Super Simple Songs",
+      "url": "https://supersimple.com/super-simple-songs/",
+      "description": "英语启蒙儿歌金牌资源，语速慢、重复高、有配套闪卡"
+    },
+    {
+      "id": "yd",
+      "type": "YD",
+      "name": "Yakka Dee! (BBC)",
+      "url": "https://www.bbc.co.uk/cbeebies/shows/yakka-dee",
+      "description": "BBC单词启蒙动画，每集聚焦一个词，真人+动画结合"
+    },
+    {
+      "id": "lf",
+      "type": "LF",
+      "name": "Little Fox",
+      "url": "https://www.littlefox.com",
+      "description": "分级动画图书馆，Level 1语速极慢，适合零基础"
+    },
+    {
+      "id": "pp",
+      "type": "PP",
+      "name": "Peppa Pig",
+      "url": "",
+      "description": "经典生活情景动画，语速适中，英音"
+    },
+    {
+      "id": "pf",
+      "type": "PF",
+      "name": "Pinkfong",
+      "url": "https://www.youtube.com/@Pinkfong",
+      "description": "Baby Shark 出品方，儿歌动作感强"
+    },
+    {
+      "id": "cc",
+      "type": "CC",
+      "name": "Cocomelon",
+      "url": "",
+      "description": "3D儿歌动画，节奏明快，美音"
+    },
+    {
+      "id": "bb",
+      "type": "BB",
+      "name": "Barefoot Books",
+      "url": "https://www.youtube.com/@BarefootBooks",
+      "description": "绘本风格儿歌，画面精美，重复句多"
+    },
+    {
+      "id": "ss",
+      "type": "SS",
+      "name": "Sesame Street",
+      "url": "",
+      "description": "经典综合启蒙节目"
+    },
+    {
+      "id": "kf",
+      "type": "KF",
+      "name": "Khan Academy Kids",
+      "url": "",
+      "description": "免费互动学习App，有主题单元"
+    },
+    {
+      "id": "ai",
+      "type": "AI",
+      "name": "AI 对话练习",
+      "url": "",
+      "description": "AI驱动的英语对话练习，模拟真人互动"
+    }
   ],
-
   "phases": [
     {
       "id": "phase-1",
@@ -37,45 +95,195 @@
           "theme": "Greetings & Feelings",
           "themeCn": "打招呼与情绪",
           "phaseId": "phase-1",
-          "keyWords": ["hello", "bye-bye", "happy", "sad", "clap", "stomp", "angry", "I love you"],
+          "keyWords": [
+            "hello",
+            "bye-bye",
+            "happy",
+            "sad",
+            "clap",
+            "stomp",
+            "angry",
+            "I love you"
+          ],
           "parentTips": "这周最关键的是每天早晚用英语打招呼。早上说 Good morning，放学说 Bye-bye。3岁孩子不需要理解完整句子，重点在音-义绑定。情绪用表情卡片辅助效果最好。",
           "days": [
             {
-              "dayOfWeek": 1, "label": "周一", "type": "input",
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "Hello Hello!", "description": "边唱边做动作：拍手、跺脚、转身、起立坐下。重复2-3遍。", "wordsFocus": ["hello", "bye-bye", "happy"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Hello", "description": "看Dee说hello，观察真人小朋友怎么打招呼。", "wordsFocus": ["hello"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "面对面打招呼", "description": "早上起床说Good morning! 放学说Bye-bye! 孩子不一定开口，但坚持每天做。", "wordsFocus": ["hello", "bye-bye"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Hello Hello!",
+                  "description": "边唱边做动作：拍手、跺脚、转身、起立坐下。重复2-3遍。",
+                  "wordsFocus": [
+                    "hello",
+                    "bye-bye",
+                    "happy"
+                  ],
+                  "localPath": "videos/week01/hello-hello.mp4"
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Hello",
+                  "description": "看Dee说hello，观察真人小朋友怎么打招呼。",
+                  "wordsFocus": [
+                    "hello"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "面对面打招呼",
+                  "description": "早上起床说Good morning! 放学说Bye-bye! 孩子不一定开口，但坚持每天做。",
+                  "wordsFocus": [
+                    "hello",
+                    "bye-bye"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 2, "label": "周二", "type": "input",
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "How's the Weather?（happy段落）", "description": "仅唱sunny=happy段落，配合happy/sad表情卡片。", "wordsFocus": ["happy", "sad"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Happy / Sad", "description": "看Dee和小朋友的表情变化，可以一起做表情。", "wordsFocus": ["happy", "sad"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "照镜子做表情", "description": "家长说Make a happy face!孩子做。再换成sad/angry。", "wordsFocus": ["happy", "sad", "angry"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "How's the Weather?（happy段落）",
+                  "description": "仅唱sunny=happy段落，配合happy/sad表情卡片。",
+                  "wordsFocus": [
+                    "happy",
+                    "sad"
+                  ],
+                  "localPath": "videos/week01/hows-the-weather.mp4"
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Happy / Sad",
+                  "description": "看Dee和小朋友的表情变化，可以一起做表情。",
+                  "wordsFocus": [
+                    "happy",
+                    "sad"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "照镜子做表情",
+                  "description": "家长说Make a happy face!孩子做。再换成sad/angry。",
+                  "wordsFocus": [
+                    "happy",
+                    "sad",
+                    "angry"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 3, "label": "周三", "type": "input",
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "If You're Happy", "description": "边唱边做clap/stomp/shout hooray。", "wordsFocus": ["happy", "clap", "stomp"] },
-                { "priority": "optional", "resourceId": "pp", "resourceType": "PP", "title": "Muddy Puddles 选段", "description": "Peppa开心跳泥坑的段落，感受happy情绪。", "wordsFocus": ["happy"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "情绪卡片配对", "description": "打印happy/sad/angry表情卡片，家长说词孩子指。", "wordsFocus": ["happy", "sad", "angry"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "If You're Happy",
+                  "description": "边唱边做clap/stomp/shout hooray。",
+                  "wordsFocus": [
+                    "happy",
+                    "clap",
+                    "stomp"
+                  ],
+                  "localPath": "videos/week01/if-youre-happy.mp4"
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "pp",
+                  "resourceType": "PP",
+                  "title": "Muddy Puddles 选段",
+                  "description": "Peppa开心跳泥坑的段落，感受happy情绪。",
+                  "wordsFocus": [
+                    "happy"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "情绪卡片配对",
+                  "description": "打印happy/sad/angry表情卡片，家长说词孩子指。",
+                  "wordsFocus": [
+                    "happy",
+                    "sad",
+                    "angry"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 4, "label": "周四", "type": "review",
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "复习周 1-3 天全部歌曲", "description": "孩子选本周最爱的一首唱跳。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "配套闪卡配对", "description": "从supersimple.com免费下载emotions闪卡，玩配对游戏。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "复习周 1-3 天全部歌曲",
+                  "description": "孩子选本周最爱的一首唱跳。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "配套闪卡配对",
+                  "description": "从supersimple.com免费下载emotions闪卡，玩配对游戏。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 5, "label": "周五", "type": "output",
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "output",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "毛绒玩具角色扮演", "description": "用玩偶互打招呼：Hello! I'm Teddy. 孩子替玩偶回答。", "wordsFocus": ["hello", "bye-bye", "happy", "sad"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "画表情", "description": "画一张笑脸/哭脸，边画边说This is happy/sad。", "wordsFocus": ["happy", "sad"] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "毛绒玩具角色扮演",
+                  "description": "用玩偶互打招呼：Hello! I'm Teddy. 孩子替玩偶回答。",
+                  "wordsFocus": [
+                    "hello",
+                    "bye-bye",
+                    "happy",
+                    "sad"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "画表情",
+                  "description": "画一张笑脸/哭脸，边画边说This is happy/sad。",
+                  "wordsFocus": [
+                    "happy",
+                    "sad"
+                  ]
+                }
               ]
             }
           ]
@@ -85,45 +293,201 @@
           "theme": "My Body",
           "themeCn": "我的身体",
           "phaseId": "phase-1",
-          "keyWords": ["head", "shoulders", "knees", "toes", "eyes", "ears", "mouth", "nose", "hands", "feet", "fingers"],
+          "keyWords": [
+            "head",
+            "shoulders",
+            "knees",
+            "toes",
+            "eyes",
+            "ears",
+            "mouth",
+            "nose",
+            "hands",
+            "feet",
+            "fingers"
+          ],
           "parentTips": "最重要的主题之一。身体部位是孩子最先能理解和输出的词汇群。每天洗澡时都可以复习：Wash your nose! Wash your toes!",
           "days": [
             {
-              "dayOfWeek": 1, "label": "周一", "type": "input",
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "Head Shoulders Knees & Toes", "description": "慢速版。边唱边指对应身体部位。", "wordsFocus": ["head", "shoulders", "knees", "toes", "eyes", "ears", "mouth", "nose"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Eyes / Nose", "description": "看两集Yakka Dee，学眼睛和鼻子。", "wordsFocus": ["eyes", "nose"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "指部位游戏", "description": "Where are your eyes? 孩子指。逐步加快速度。", "wordsFocus": ["eyes", "nose", "mouth", "ears"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Head Shoulders Knees & Toes",
+                  "description": "慢速版。边唱边指对应身体部位。",
+                  "wordsFocus": [
+                    "head",
+                    "shoulders",
+                    "knees",
+                    "toes",
+                    "eyes",
+                    "ears",
+                    "mouth",
+                    "nose"
+                  ],
+                  "localPath": "videos/week02/head-shoulders-knees-toes.mp4"
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Eyes / Nose",
+                  "description": "看两集Yakka Dee，学眼睛和鼻子。",
+                  "wordsFocus": [
+                    "eyes",
+                    "nose"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "指部位游戏",
+                  "description": "Where are your eyes? 孩子指。逐步加快速度。",
+                  "wordsFocus": [
+                    "eyes",
+                    "nose",
+                    "mouth",
+                    "ears"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 2, "label": "周二", "type": "input",
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "One Little Finger", "description": "重点唱tap tap tap段落，指head/nose/chin/arm/leg。", "wordsFocus": ["head", "nose", "chin", "arm", "leg", "foot"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Mouth / Ears", "description": "学嘴巴和耳朵的说法。", "wordsFocus": ["mouth", "ears"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "身体部位贴纸", "description": "家长说一个部位，孩子把贴纸贴到对应位置。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "One Little Finger",
+                  "description": "重点唱tap tap tap段落，指head/nose/chin/arm/leg。",
+                  "wordsFocus": [
+                    "head",
+                    "nose",
+                    "chin",
+                    "arm",
+                    "leg",
+                    "foot"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Mouth / Ears",
+                  "description": "学嘴巴和耳朵的说法。",
+                  "wordsFocus": [
+                    "mouth",
+                    "ears"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "身体部位贴纸",
+                  "description": "家长说一个部位，孩子把贴纸贴到对应位置。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 3, "label": "周三", "type": "input",
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "pf", "resourceType": "PF", "title": "Baby Shark（动作版）", "description": "重点做daddy/mommy/baby shark手势。", "wordsFocus": ["hands", "teeth", "fingers"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Hands", "description": "Dee教说hands。", "wordsFocus": ["hands"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "Simon Says 基础版", "description": "Simon says touch your nose! 孩子照做，没说Simon says就不动。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": "pf",
+                  "resourceType": "PF",
+                  "title": "Baby Shark（动作版）",
+                  "description": "重点做daddy/mommy/baby shark手势。",
+                  "wordsFocus": [
+                    "hands",
+                    "teeth",
+                    "fingers"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Hands",
+                  "description": "Dee教说hands。",
+                  "wordsFocus": [
+                    "hands"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "Simon Says 基础版",
+                  "description": "Simon says touch your nose! 孩子照做，没说Simon says就不动。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 4, "label": "周四", "type": "review",
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "Head Shoulders 加速版", "description": "挑战快速指部位，孩子大笑中巩固。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "身体部位拼图", "description": "打印一张脸剪开，拼回来说出每个部位。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Head Shoulders 加速版",
+                  "description": "挑战快速指部位，孩子大笑中巩固。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "身体部位拼图",
+                  "description": "打印一张脸剪开，拼回来说出每个部位。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 5, "label": "周五", "type": "output",
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "output",
               "activities": [
-                { "priority": "core", "resourceId": "kf", "resourceType": "KF", "title": "Body 单元", "description": "Khan Academy Kids免费互动，练习8个身体部位。", "wordsFocus": ["head", "shoulders", "knees", "toes", "eyes", "ears", "mouth", "nose"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "画我自己", "description": "画一幅自画像，边画边指着说：This is my nose. 可以用贴纸装饰。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": "kf",
+                  "resourceType": "KF",
+                  "title": "Body 单元",
+                  "description": "Khan Academy Kids免费互动，练习8个身体部位。",
+                  "wordsFocus": [
+                    "head",
+                    "shoulders",
+                    "knees",
+                    "toes",
+                    "eyes",
+                    "ears",
+                    "mouth",
+                    "nose"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "画我自己",
+                  "description": "画一幅自画像，边画边指着说：This is my nose. 可以用贴纸装饰。",
+                  "wordsFocus": []
+                }
               ]
             }
           ]
@@ -133,45 +497,192 @@
           "theme": "My Family",
           "themeCn": "我的家人",
           "phaseId": "phase-1",
-          "keyWords": ["mommy", "daddy", "baby", "sister", "brother", "grandma", "grandpa", "love", "family"],
+          "keyWords": [
+            "mommy",
+            "daddy",
+            "baby",
+            "sister",
+            "brother",
+            "grandma",
+            "grandpa",
+            "love",
+            "family"
+          ],
           "parentTips": "把家人的照片打印出来做成小卡片，这周每天玩2分钟。I love you是这周最值得教的情感表达。",
           "days": [
             {
-              "dayOfWeek": 1, "label": "周一", "type": "input",
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "The Family Song", "description": "指着家庭照片或手指玩偶唱mommy/daddy/baby。", "wordsFocus": ["mommy", "daddy", "baby"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Mommy / Daddy", "description": "Dee教说mommy和daddy。", "wordsFocus": ["mommy", "daddy"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "家庭照片翻翻看", "description": "准备5-6张家人照片，翻到谁就说mommy/daddy/baby。", "wordsFocus": ["mommy", "daddy", "baby"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "The Family Song",
+                  "description": "指着家庭照片或手指玩偶唱mommy/daddy/baby。",
+                  "wordsFocus": [
+                    "mommy",
+                    "daddy",
+                    "baby"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Mommy / Daddy",
+                  "description": "Dee教说mommy和daddy。",
+                  "wordsFocus": [
+                    "mommy",
+                    "daddy"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "家庭照片翻翻看",
+                  "description": "准备5-6张家人照片，翻到谁就说mommy/daddy/baby。",
+                  "wordsFocus": [
+                    "mommy",
+                    "daddy",
+                    "baby"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 2, "label": "周二", "type": "input",
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "Baby Shark（完整版）", "description": "唱全家版本：daddy/mommy/grandpa/grandma/baby shark。", "wordsFocus": ["sister", "brother", "grandma", "grandpa"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Baby", "description": "Dee说baby。", "wordsFocus": ["baby"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "手指谣", "description": "Daddy finger, daddy finger, where are you? Here I am! 用5根手指扮演不同家人。", "wordsFocus": ["daddy", "mommy", "brother", "sister", "baby"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Baby Shark（完整版）",
+                  "description": "唱全家版本：daddy/mommy/grandpa/grandma/baby shark。",
+                  "wordsFocus": [
+                    "sister",
+                    "brother",
+                    "grandma",
+                    "grandpa"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Baby",
+                  "description": "Dee说baby。",
+                  "wordsFocus": [
+                    "baby"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "手指谣",
+                  "description": "Daddy finger, daddy finger, where are you? Here I am! 用5根手指扮演不同家人。",
+                  "wordsFocus": [
+                    "daddy",
+                    "mommy",
+                    "brother",
+                    "sister",
+                    "baby"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 3, "label": "周三", "type": "input",
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "cc", "resourceType": "CC", "title": "We Are Family", "description": "Cocomelon家庭主题儿歌，感受家庭氛围。", "wordsFocus": ["love", "family"] },
-                { "priority": "optional", "resourceId": "pp", "resourceType": "PP", "title": "Mummy Pig at Work 选段", "description": "Peppa一家的日常互动。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "角色扮演：玩偶一家", "description": "This is mommy bear. This is baby bear. 用家里现有的玩偶。", "wordsFocus": ["mommy", "daddy", "baby"] }
+                {
+                  "priority": "core",
+                  "resourceId": "cc",
+                  "resourceType": "CC",
+                  "title": "We Are Family",
+                  "description": "Cocomelon家庭主题儿歌，感受家庭氛围。",
+                  "wordsFocus": [
+                    "love",
+                    "family"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "pp",
+                  "resourceType": "PP",
+                  "title": "Mummy Pig at Work 选段",
+                  "description": "Peppa一家的日常互动。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "角色扮演：玩偶一家",
+                  "description": "This is mommy bear. This is baby bear. 用家里现有的玩偶。",
+                  "wordsFocus": [
+                    "mommy",
+                    "daddy",
+                    "baby"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 4, "label": "周四", "type": "review",
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "唱Baby Shark用家人照片", "description": "把家人照片排成一排，唱到谁指谁。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "家人闪卡配对+抱抱", "description": "说出一个家人的称呼，孩子去找并抱抱TA。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "唱Baby Shark用家人照片",
+                  "description": "把家人照片排成一排，唱到谁指谁。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "家人闪卡配对+抱抱",
+                  "description": "说出一个家人的称呼，孩子去找并抱抱TA。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 5, "label": "周五", "type": "output",
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "output",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "家庭相册英语时间", "description": "翻相册说This is mommy. I love mommy. 引导孩子重复最后的词。", "wordsFocus": ["mommy", "daddy", "baby", "I love you"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "画全家福", "description": "画一幅全家福，用英语说出每个画的是谁。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "家庭相册英语时间",
+                  "description": "翻相册说This is mommy. I love mommy. 引导孩子重复最后的词。",
+                  "wordsFocus": [
+                    "mommy",
+                    "daddy",
+                    "baby",
+                    "I love you"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "画全家福",
+                  "description": "画一幅全家福，用英语说出每个画的是谁。",
+                  "wordsFocus": []
+                }
               ]
             }
           ]
@@ -181,45 +692,193 @@
           "theme": "My Toys",
           "themeCn": "我的玩具",
           "phaseId": "phase-1",
-          "keyWords": ["ball", "car", "doll", "block", "teddy bear", "puzzle", "robot", "bike", "play", "share"],
+          "keyWords": [
+            "ball",
+            "car",
+            "doll",
+            "block",
+            "teddy bear",
+            "puzzle",
+            "robot",
+            "bike",
+            "play",
+            "share"
+          ],
           "parentTips": "充分利用孩子已有的玩具。用实物比用卡片效果好10倍。每天结束时用英语说Put away your toys! 建立习惯绑定。",
           "days": [
             {
-              "dayOfWeek": 1, "label": "周一", "type": "input",
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "What's Your Name?（玩偶版）", "description": "用玩偶互问What's your name? My name is Teddy。", "wordsFocus": ["ball", "car", "doll", "block"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Ball / Car", "description": "Dee教说ball和car。", "wordsFocus": ["ball", "car"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "What's this?", "description": "拿出玩具问What's this? 孩子答ball/car。不需要完整句子。", "wordsFocus": ["ball", "car", "doll", "block"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "What's Your Name?（玩偶版）",
+                  "description": "用玩偶互问What's your name? My name is Teddy。",
+                  "wordsFocus": [
+                    "ball",
+                    "car",
+                    "doll",
+                    "block"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Ball / Car",
+                  "description": "Dee教说ball和car。",
+                  "wordsFocus": [
+                    "ball",
+                    "car"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "What's this?",
+                  "description": "拿出玩具问What's this? 孩子答ball/car。不需要完整句子。",
+                  "wordsFocus": [
+                    "ball",
+                    "car",
+                    "doll",
+                    "block"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 2, "label": "周二", "type": "input",
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "Do You Have a Pet?（改编为玩具版）", "description": "改歌词：Do you have a ball? Yes, I do! 配合实物点头摇头。", "wordsFocus": ["teddy bear", "robot", "puzzle"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Teddy / Block", "description": "Dee教说teddy和block。", "wordsFocus": ["teddy bear", "block"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "找玩具", "description": "Find the ball! 孩子去把球拿过来。锻炼英语听力指令。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Do You Have a Pet?（改编为玩具版）",
+                  "description": "改歌词：Do you have a ball? Yes, I do! 配合实物点头摇头。",
+                  "wordsFocus": [
+                    "teddy bear",
+                    "robot",
+                    "puzzle"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Teddy / Block",
+                  "description": "Dee教说teddy和block。",
+                  "wordsFocus": [
+                    "teddy bear",
+                    "block"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "找玩具",
+                  "description": "Find the ball! 孩子去把球拿过来。锻炼英语听力指令。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 3, "label": "周三", "type": "input",
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "bb", "resourceType": "BB", "title": "Here We Go Round the Mulberry Bush（玩具版）", "description": "唱This is the way we play with blocks...配合实际玩玩具的动作。", "wordsFocus": ["play", "share", "put away"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Kite / Bike", "description": "Dee教说kite和bike。", "wordsFocus": ["kite", "bike"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "收玩具仪式", "description": "边收边唱Tidy up, tidy up! 建立英语指令和生活习惯的绑定。", "wordsFocus": ["put away", "tidy up"] }
+                {
+                  "priority": "core",
+                  "resourceId": "bb",
+                  "resourceType": "BB",
+                  "title": "Here We Go Round the Mulberry Bush（玩具版）",
+                  "description": "唱This is the way we play with blocks...配合实际玩玩具的动作。",
+                  "wordsFocus": [
+                    "play",
+                    "share",
+                    "put away"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Kite / Bike",
+                  "description": "Dee教说kite和bike。",
+                  "wordsFocus": [
+                    "kite",
+                    "bike"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "收玩具仪式",
+                  "description": "边收边唱Tidy up, tidy up! 建立英语指令和生活习惯的绑定。",
+                  "wordsFocus": [
+                    "put away",
+                    "tidy up"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 4, "label": "周四", "type": "review",
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "玩具分类", "description": "把玩具图片分成balls/cars/dolls三类，边分边说。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "神秘袋游戏", "description": "袋子里放一个玩具，摸出来说出名字。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "玩具分类",
+                  "description": "把玩具图片分成balls/cars/dolls三类，边分边说。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "神秘袋游戏",
+                  "description": "袋子里放一个玩具，摸出来说出名字。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 5, "label": "周五", "type": "output",
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "output",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "玩具展示会", "description": "拿最喜欢的玩具介绍：This is my ball! I like my ball!", "wordsFocus": ["ball", "car", "doll", "teddy", "I like"] },
-                { "priority": "optional", "resourceId": "kf", "resourceType": "KF", "title": "Toys 主题", "description": "Khan Academy Kids玩具主题互动。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "玩具展示会",
+                  "description": "拿最喜欢的玩具介绍：This is my ball! I like my ball!",
+                  "wordsFocus": [
+                    "ball",
+                    "car",
+                    "doll",
+                    "teddy",
+                    "I like"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "kf",
+                  "resourceType": "KF",
+                  "title": "Toys 主题",
+                  "description": "Khan Academy Kids玩具主题互动。",
+                  "wordsFocus": []
+                }
               ]
             }
           ]
@@ -234,33 +893,78 @@
           "parentTips": "不推进新内容，用游戏形式复习前4周所有Key Words（约25个词）。观察孩子哪些词已经掌握，哪些需要加强。",
           "days": [
             {
-              "dayOfWeek": 1, "label": "周一", "type": "review",
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "复习舞会", "description": "放前4周最爱的SSS歌曲，唱跳大联欢。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "复习舞会",
+                  "description": "放前4周最爱的SSS歌曲，唱跳大联欢。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 2, "label": "周二", "type": "review",
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "闪卡大闯关", "description": "混洗25张闪卡，认出一张得一个贴纸。目标：得5个贴纸。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "闪卡大闯关",
+                  "description": "混洗25张闪卡，认出一张得一个贴纸。目标：得5个贴纸。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 3, "label": "周三", "type": "review",
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "主题绘画日", "description": "选一个最爱的主题画一幅画，画完用英语分享。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "主题绘画日",
+                  "description": "选一个最爱的主题画一幅画，画完用英语分享。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 4, "label": "周四", "type": "review",
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "神秘袋2.0", "description": "混放玩具和身体部位卡片，摸到啥说啥。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "神秘袋2.0",
+                  "description": "混放玩具和身体部位卡片，摸到啥说啥。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 5, "label": "周五", "type": "review",
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "小表演", "description": "用玩偶表演前4周学过的场景：打招呼/指身体部位/说家人。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "小表演",
+                  "description": "用玩偶表演前4周学过的场景：打招呼/指身体部位/说家人。",
+                  "wordsFocus": []
+                }
               ]
             }
           ]
@@ -278,45 +982,181 @@
           "theme": "Pets",
           "themeCn": "宠物",
           "phaseId": "phase-2",
-          "keyWords": ["cat", "dog", "fish", "bird", "bunny", "turtle", "pet", "cute", "friend"],
+          "keyWords": [
+            "cat",
+            "dog",
+            "fish",
+            "bird",
+            "bunny",
+            "turtle",
+            "pet",
+            "cute",
+            "friend"
+          ],
           "parentTips": "宠物是孩子最有兴趣的主题之一。家里有宠物就是最好的教具；没有就用玩偶代替。拟声词（woof/meow/quack）也是语言输入的一部分。",
           "days": [
             {
-              "dayOfWeek": 1, "label": "周一", "type": "input",
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "I Have a Pet", "description": "边唱边模仿cat/dog/fish/bird的动作和叫声。", "wordsFocus": ["cat", "dog", "fish", "bird"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Dog / Cat", "description": "看Dee教说dog和cat。", "wordsFocus": ["dog", "cat"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "动物叫声配对", "description": "What does a dog say? Woof woof! 帮助建立动物-叫声-英语词的三方绑定。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "I Have a Pet",
+                  "description": "边唱边模仿cat/dog/fish/bird的动作和叫声。",
+                  "wordsFocus": [
+                    "cat",
+                    "dog",
+                    "fish",
+                    "bird"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Dog / Cat",
+                  "description": "看Dee教说dog和cat。",
+                  "wordsFocus": [
+                    "dog",
+                    "cat"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "动物叫声配对",
+                  "description": "What does a dog say? Woof woof! 帮助建立动物-叫声-英语词的三方绑定。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 2, "label": "周二", "type": "input",
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "BINGO", "description": "用狗玩偶配合，边拍手边拼唱B-I-N-G-O。", "wordsFocus": ["bunny", "turtle", "pet"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Bunny / Fish", "description": "Dee教说bunny和fish。", "wordsFocus": ["bunny", "fish"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "Find the cat!", "description": "家里藏动物玩偶，找到并说出名字。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "BINGO",
+                  "description": "用狗玩偶配合，边拍手边拼唱B-I-N-G-O。",
+                  "wordsFocus": [
+                    "bunny",
+                    "turtle",
+                    "pet"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Bunny / Fish",
+                  "description": "Dee教说bunny和fish。",
+                  "wordsFocus": [
+                    "bunny",
+                    "fish"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "Find the cat!",
+                  "description": "家里藏动物玩偶，找到并说出名字。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 3, "label": "周三", "type": "input",
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "pf", "resourceType": "PF", "title": "Pet Friends", "description": "Pinkfong宠物主题歌。", "wordsFocus": ["I like", "cute", "friend"] },
-                { "priority": "optional", "resourceId": "pp", "resourceType": "PP", "title": "Mr Dinosaur is Lost 选段", "description": "Peppa找她的恐龙玩具（宠物替代）。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "模仿宠物动作", "description": "Hop like a bunny! Swim like a fish! 全身动起来。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": "pf",
+                  "resourceType": "PF",
+                  "title": "Pet Friends",
+                  "description": "Pinkfong宠物主题歌。",
+                  "wordsFocus": [
+                    "I like",
+                    "cute",
+                    "friend"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "pp",
+                  "resourceType": "PP",
+                  "title": "Mr Dinosaur is Lost 选段",
+                  "description": "Peppa找她的恐龙玩具（宠物替代）。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "模仿宠物动作",
+                  "description": "Hop like a bunny! Swim like a fish! 全身动起来。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 4, "label": "周四", "type": "review",
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "宠物叫声配对", "description": "匹配动物和它的叫声。家长学叫声，孩子说动物名。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "猜宠物Who am I?", "description": "学一种宠物的动作/叫声，孩子猜。交换角色。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "宠物叫声配对",
+                  "description": "匹配动物和它的叫声。家长学叫声，孩子说动物名。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "猜宠物Who am I?",
+                  "description": "学一种宠物的动作/叫声，孩子猜。交换角色。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 5, "label": "周五", "type": "output",
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "output",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "My Favorite Pet", "description": "拿动物玩偶说This is my cat. I have a cat.", "wordsFocus": ["cat", "dog", "fish", "bunny", "I have"] },
-                { "priority": "optional", "resourceId": "lf", "resourceType": "LF", "title": "Bat and Friends 选1-2集", "description": "Little Fox Level 1，极简短、语速极慢的动物故事。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "My Favorite Pet",
+                  "description": "拿动物玩偶说This is my cat. I have a cat.",
+                  "wordsFocus": [
+                    "cat",
+                    "dog",
+                    "fish",
+                    "bunny",
+                    "I have"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "lf",
+                  "resourceType": "LF",
+                  "title": "Bat and Friends 选1-2集",
+                  "description": "Little Fox Level 1，极简短、语速极慢的动物故事。",
+                  "wordsFocus": []
+                }
               ]
             }
           ]
@@ -326,45 +1166,189 @@
           "theme": "Farm Animals",
           "themeCn": "农场动物",
           "phaseId": "phase-2",
-          "keyWords": ["cow", "pig", "horse", "duck", "sheep", "chicken", "rooster", "goat", "moo", "baa", "quack"],
+          "keyWords": [
+            "cow",
+            "pig",
+            "horse",
+            "duck",
+            "sheep",
+            "chicken",
+            "rooster",
+            "goat",
+            "moo",
+            "baa",
+            "quack"
+          ],
           "parentTips": "Old MacDonald这首歌的重复率极高，一周下来孩子一定能输出至少2-3个动物名。不要一次教完所有动物，三天分散教。",
           "days": [
             {
-              "dayOfWeek": 1, "label": "周一", "type": "input",
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "Old MacDonald Had a Farm", "description": "边唱边做动物动作，第一天先教cow/pig/horse。", "wordsFocus": ["cow", "pig", "horse", "duck", "sheep"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Cow / Duck", "description": "Dee教说cow和duck。", "wordsFocus": ["cow", "duck"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "学动物叫", "description": "A cow says moo~ 每学一个动物就加上叫声。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Old MacDonald Had a Farm",
+                  "description": "边唱边做动物动作，第一天先教cow/pig/horse。",
+                  "wordsFocus": [
+                    "cow",
+                    "pig",
+                    "horse",
+                    "duck",
+                    "sheep"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Cow / Duck",
+                  "description": "Dee教说cow和duck。",
+                  "wordsFocus": [
+                    "cow",
+                    "duck"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "学动物叫",
+                  "description": "A cow says moo~ 每学一个动物就加上叫声。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 2, "label": "周二", "type": "input",
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "The Animals On The Farm", "description": "唱更多农场动物，第二天加chicken/goat/rooster。", "wordsFocus": ["chicken", "rooster", "goat"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Pig / Sheep", "description": "Dee教说pig和sheep。", "wordsFocus": ["pig", "sheep"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "农场动物配对", "description": "动物模型放到对应的农场背景图上。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "The Animals On The Farm",
+                  "description": "唱更多农场动物，第二天加chicken/goat/rooster。",
+                  "wordsFocus": [
+                    "chicken",
+                    "rooster",
+                    "goat"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Pig / Sheep",
+                  "description": "Dee教说pig和sheep。",
+                  "wordsFocus": [
+                    "pig",
+                    "sheep"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "农场动物配对",
+                  "description": "动物模型放到对应的农场背景图上。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 3, "label": "周三", "type": "input",
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "Yes, I Can!（农场动物版）", "description": "Little bird, little bird, can you fly? 配合动作回答。", "wordsFocus": ["can", "fly", "run", "swim", "climb"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Horse / Goat", "description": "Dee教说horse和goat。", "wordsFocus": ["horse", "goat"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "动作模仿", "description": "Can you run like a horse? 孩子跑起来。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Yes, I Can!（农场动物版）",
+                  "description": "Little bird, little bird, can you fly? 配合动作回答。",
+                  "wordsFocus": [
+                    "can",
+                    "fly",
+                    "run",
+                    "swim",
+                    "climb"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Horse / Goat",
+                  "description": "Dee教说horse和goat。",
+                  "wordsFocus": [
+                    "horse",
+                    "goat"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "动作模仿",
+                  "description": "Can you run like a horse? 孩子跑起来。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 4, "label": "周四", "type": "review",
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "Old MacDonald 完整版", "description": "带上所有7个动物轮唱，孩子选动物你来唱。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "动物脚印配对", "description": "打印动物脚印图案，连线匹配到对应动物。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "Old MacDonald 完整版",
+                  "description": "带上所有7个动物轮唱，孩子选动物你来唱。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "动物脚印配对",
+                  "description": "打印动物脚印图案，连线匹配到对应动物。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 5, "label": "周五", "type": "output",
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "output",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "农场展示", "description": "用动物模型搭建农场场景，说The cow says moo. The pig is pink.", "wordsFocus": ["cow", "pig", "horse", "duck", "sheep"] },
-                { "priority": "optional", "resourceId": "lf", "resourceType": "LF", "title": "Bat and Friends 选2集", "description": "Little Fox动物故事延续。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "农场展示",
+                  "description": "用动物模型搭建农场场景，说The cow says moo. The pig is pink.",
+                  "wordsFocus": [
+                    "cow",
+                    "pig",
+                    "horse",
+                    "duck",
+                    "sheep"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "lf",
+                  "resourceType": "LF",
+                  "title": "Bat and Friends 选2集",
+                  "description": "Little Fox动物故事延续。",
+                  "wordsFocus": []
+                }
               ]
             }
           ]
@@ -374,45 +1358,188 @@
           "theme": "Weather",
           "themeCn": "天气",
           "phaseId": "phase-2",
-          "keyWords": ["sunny", "rainy", "cloudy", "snowy", "windy", "hot", "cold", "umbrella", "rainbow"],
+          "keyWords": [
+            "sunny",
+            "rainy",
+            "cloudy",
+            "snowy",
+            "windy",
+            "hot",
+            "cold",
+            "umbrella",
+            "rainbow"
+          ],
           "parentTips": "天气是最容易融入生活的主题——每天早上拉开窗帘就说一句It's sunny today! 坚持一周，孩子自然就懂了。",
           "days": [
             {
-              "dayOfWeek": 1, "label": "周一", "type": "input",
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "How's the Weather?", "description": "边唱边指窗外，配合天气卡片。", "wordsFocus": ["sunny", "rainy", "cloudy"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Sun / Rain", "description": "看Dee教说sun和rain。", "wordsFocus": ["sun", "rain"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "看天气", "description": "Is it sunny today? 点头yes / 摇头no。", "wordsFocus": ["sunny", "rainy"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "How's the Weather?",
+                  "description": "边唱边指窗外，配合天气卡片。",
+                  "wordsFocus": [
+                    "sunny",
+                    "rainy",
+                    "cloudy"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Sun / Rain",
+                  "description": "看Dee教说sun和rain。",
+                  "wordsFocus": [
+                    "sun",
+                    "rain"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "看天气",
+                  "description": "Is it sunny today? 点头yes / 摇头no。",
+                  "wordsFocus": [
+                    "sunny",
+                    "rainy"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 2, "label": "周二", "type": "input",
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "Rain Rain Go Away", "description": "用小雨伞道具配合，唱到rain就打开伞。", "wordsFocus": ["rainy", "cold", "umbrella"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Snow / Wind", "description": "Dee教说snow和wind。", "wordsFocus": ["snow", "wind"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "天气感官袋", "description": "密封袋装水+蓝色色素=rain，棉花=cloud。让孩子触摸感受。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Rain Rain Go Away",
+                  "description": "用小雨伞道具配合，唱到rain就打开伞。",
+                  "wordsFocus": [
+                    "rainy",
+                    "cold",
+                    "umbrella"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Snow / Wind",
+                  "description": "Dee教说snow和wind。",
+                  "wordsFocus": [
+                    "snow",
+                    "wind"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "天气感官袋",
+                  "description": "密封袋装水+蓝色色素=rain，棉花=cloud。让孩子触摸感受。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 3, "label": "周三", "type": "input",
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "I See Something Blue（天气版）", "description": "改歌词唱I see something sunny！I see something rainy!", "wordsFocus": ["hot", "cold", "windy"] },
-                { "priority": "optional", "resourceId": "pp", "resourceType": "PP", "title": "Polly Parrot（下雨段落）", "description": "Peppa在雨天玩耍的场景。", "wordsFocus": ["rainy"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "穿衣配对", "description": "晴天戴帽子，雨天拿雨伞，冷天穿外套。", "wordsFocus": ["hot", "cold"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "I See Something Blue（天气版）",
+                  "description": "改歌词唱I see something sunny！I see something rainy!",
+                  "wordsFocus": [
+                    "hot",
+                    "cold",
+                    "windy"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "pp",
+                  "resourceType": "PP",
+                  "title": "Polly Parrot（下雨段落）",
+                  "description": "Peppa在雨天玩耍的场景。",
+                  "wordsFocus": [
+                    "rainy"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "穿衣配对",
+                  "description": "晴天戴帽子，雨天拿雨伞，冷天穿外套。",
+                  "wordsFocus": [
+                    "hot",
+                    "cold"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 4, "label": "周四", "type": "review",
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "天气播报", "description": "每天看窗外，贴对应天气卡片到日历上。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "天气骰子", "description": "掷到哪个天气就做对应的动作表现。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "天气播报",
+                  "description": "每天看窗外，贴对应天气卡片到日历上。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "天气骰子",
+                  "description": "掷到哪个天气就做对应的动作表现。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 5, "label": "周五", "type": "output",
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "output",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "小小天气播报员", "description": "站窗边说It's sunny! 或 It's rainy! 家长录像记录。", "wordsFocus": ["sunny", "rainy", "cloudy", "cold", "hot"] },
-                { "priority": "optional", "resourceId": "kf", "resourceType": "KF", "title": "Weather 主题", "description": "Khan Academy Kids天气互动。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "小小天气播报员",
+                  "description": "站窗边说It's sunny! 或 It's rainy! 家长录像记录。",
+                  "wordsFocus": [
+                    "sunny",
+                    "rainy",
+                    "cloudy",
+                    "cold",
+                    "hot"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "kf",
+                  "resourceType": "KF",
+                  "title": "Weather 主题",
+                  "description": "Khan Academy Kids天气互动。",
+                  "wordsFocus": []
+                }
               ]
             }
           ]
@@ -427,33 +1554,78 @@
           "parentTips": "复习第6-8周（宠物+农场动物+天气），约22个词。",
           "days": [
             {
-              "dayOfWeek": 1, "label": "周一", "type": "review",
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "动物叫声大挑战", "description": "听叫声说动物名，说对一个得一分。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "动物叫声大挑战",
+                  "description": "听叫声说动物名，说对一个得一分。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 2, "label": "周二", "type": "review",
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "天气+穿衣配对", "description": "看天气卡片选出对应的衣物。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "天气+穿衣配对",
+                  "description": "看天气卡片选出对应的衣物。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 3, "label": "周三", "type": "review",
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "Old MacDonald 全家合唱", "description": "每个人轮流唱一种动物，其他人和声。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "Old MacDonald 全家合唱",
+                  "description": "每个人轮流唱一种动物，其他人和声。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 4, "label": "周四", "type": "review",
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "闪卡钓鱼", "description": "闪卡上别回形针，用磁铁钓竿钓，钓到一张说一个。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "闪卡钓鱼",
+                  "description": "闪卡上别回形针，用磁铁钓竿钓，钓到一张说一个。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 5, "label": "周五", "type": "review",
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "自选 Mini Show", "description": "孩子选宠物/农场/天气中最爱的主题展示。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "自选 Mini Show",
+                  "description": "孩子选宠物/农场/天气中最爱的主题展示。",
+                  "wordsFocus": []
+                }
               ]
             }
           ]
@@ -471,45 +1643,199 @@
           "theme": "Food & Fruits",
           "themeCn": "水果与食物",
           "phaseId": "phase-3",
-          "keyWords": ["apple", "banana", "orange", "milk", "bread", "cookie", "juice", "hungry", "yummy", "yucky", "eat", "delicious"],
+          "keyWords": [
+            "apple",
+            "banana",
+            "orange",
+            "milk",
+            "bread",
+            "cookie",
+            "juice",
+            "hungry",
+            "yummy",
+            "yucky",
+            "eat",
+            "delicious"
+          ],
           "parentTips": "用真实水果！3岁孩子对真实物品的兴趣远大于卡片。边切边说Apple! Cut the apple! 周五做沙拉是本周高潮。",
           "days": [
             {
-              "dayOfWeek": 1, "label": "周一", "type": "input",
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "Do You Like Broccoli Ice Cream?", "description": "表情夸张地唱yes/no，孩子会模仿你的表情。", "wordsFocus": ["apple", "banana", "orange", "milk"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Apple / Banana", "description": "Dee教说apple和banana。", "wordsFocus": ["apple", "banana"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "品尝水果", "description": "切真实水果块品尝，每吃一口说Yummy! 或者Yucky! 表情要夸张。", "wordsFocus": ["yummy", "yucky", "apple", "banana"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Do You Like Broccoli Ice Cream?",
+                  "description": "表情夸张地唱yes/no，孩子会模仿你的表情。",
+                  "wordsFocus": [
+                    "apple",
+                    "banana",
+                    "orange",
+                    "milk"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Apple / Banana",
+                  "description": "Dee教说apple和banana。",
+                  "wordsFocus": [
+                    "apple",
+                    "banana"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "品尝水果",
+                  "description": "切真实水果块品尝，每吃一口说Yummy! 或者Yucky! 表情要夸张。",
+                  "wordsFocus": [
+                    "yummy",
+                    "yucky",
+                    "apple",
+                    "banana"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 2, "label": "周二", "type": "input",
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "Are You Hungry?", "description": "拍肚子唱hungry，吃东西时唱mm mm mm。", "wordsFocus": ["hungry", "eat", "cake", "bread"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Milk / Bread", "description": "Dee教说milk和bread。", "wordsFocus": ["milk", "bread"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "Yummy or Yucky?", "description": "拿出不同食物/图片，孩子判断好吃还是难吃。", "wordsFocus": ["yummy", "yucky"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Are You Hungry?",
+                  "description": "拍肚子唱hungry，吃东西时唱mm mm mm。",
+                  "wordsFocus": [
+                    "hungry",
+                    "eat",
+                    "cake",
+                    "bread"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Milk / Bread",
+                  "description": "Dee教说milk和bread。",
+                  "wordsFocus": [
+                    "milk",
+                    "bread"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "Yummy or Yucky?",
+                  "description": "拿出不同食物/图片，孩子判断好吃还是难吃。",
+                  "wordsFocus": [
+                    "yummy",
+                    "yucky"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 3, "label": "周三", "type": "input",
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "Peekaboo I See You（食物版）", "description": "I see an apple! 从背后拿出水果。", "wordsFocus": ["juice", "cookie", "hungry", "delicious"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Cookie / Juice", "description": "Dee教说cookie和juice。", "wordsFocus": ["cookie", "juice"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "水果切切乐", "description": "用水果切切乐玩具切水果，切一个说一个名字。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Peekaboo I See You（食物版）",
+                  "description": "I see an apple! 从背后拿出水果。",
+                  "wordsFocus": [
+                    "juice",
+                    "cookie",
+                    "hungry",
+                    "delicious"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Cookie / Juice",
+                  "description": "Dee教说cookie和juice。",
+                  "wordsFocus": [
+                    "cookie",
+                    "juice"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "水果切切乐",
+                  "description": "用水果切切乐玩具切水果，切一个说一个名字。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 4, "label": "周四", "type": "review",
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "水果闪卡+真实水果配对", "description": "闪卡放在一边，真实水果（或模型）放另一边，配对。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "I want... 点餐", "description": "用玩偶开餐厅，孩子点餐I want an apple, please!", "wordsFocus": ["I want"] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "水果闪卡+真实水果配对",
+                  "description": "闪卡放在一边，真实水果（或模型）放另一边，配对。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "I want... 点餐",
+                  "description": "用玩偶开餐厅，孩子点餐I want an apple, please!",
+                  "wordsFocus": [
+                    "I want"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 5, "label": "周五", "type": "output",
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "output",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "水果沙拉制作", "description": "边切边说水果名，混在一起做沙拉，最后一起吃。全程英语。", "wordsFocus": ["apple", "banana", "orange", "yummy", "I like"] },
-                { "priority": "optional", "resourceId": "lf", "resourceType": "LF", "title": "Mrs. Kelly's Class（食物相关集）", "description": "Little Fox课堂场景，食物主题。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "水果沙拉制作",
+                  "description": "边切边说水果名，混在一起做沙拉，最后一起吃。全程英语。",
+                  "wordsFocus": [
+                    "apple",
+                    "banana",
+                    "orange",
+                    "yummy",
+                    "I like"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "lf",
+                  "resourceType": "LF",
+                  "title": "Mrs. Kelly's Class（食物相关集）",
+                  "description": "Little Fox课堂场景，食物主题。",
+                  "wordsFocus": []
+                }
               ]
             }
           ]
@@ -519,45 +1845,199 @@
           "theme": "Clothes",
           "themeCn": "衣物穿戴",
           "phaseId": "phase-3",
-          "keyWords": ["shoes", "socks", "hat", "jacket", "pants", "shirt", "boots", "dress", "warm", "cold", "wear", "put on", "take off"],
+          "keyWords": [
+            "shoes",
+            "socks",
+            "hat",
+            "jacket",
+            "pants",
+            "shirt",
+            "boots",
+            "dress",
+            "warm",
+            "cold",
+            "wear",
+            "put on",
+            "take off"
+          ],
           "parentTips": "这周最自然的应用场景就是每天穿衣服/穿鞋出门时。把Put On Your Shoes设为出门预备铃，一到穿鞋时就放。",
           "days": [
             {
-              "dayOfWeek": 1, "label": "周一", "type": "input",
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "Put On Your Shoes", "description": "边唱边做穿鞋/穿外套/戴帽子的动作。", "wordsFocus": ["shoes", "socks", "hat", "jacket"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Shoes / Hat", "description": "Dee教说shoes和hat。", "wordsFocus": ["shoes", "hat"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "穿戴比赛", "description": "Put on your hat! 看谁先戴好帽子。", "wordsFocus": ["put on"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Put On Your Shoes",
+                  "description": "边唱边做穿鞋/穿外套/戴帽子的动作。",
+                  "wordsFocus": [
+                    "shoes",
+                    "socks",
+                    "hat",
+                    "jacket"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Shoes / Hat",
+                  "description": "Dee教说shoes和hat。",
+                  "wordsFocus": [
+                    "shoes",
+                    "hat"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "穿戴比赛",
+                  "description": "Put on your hat! 看谁先戴好帽子。",
+                  "wordsFocus": [
+                    "put on"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 2, "label": "周二", "type": "input",
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "This Is The Way We Get Dressed", "description": "边唱边做全套穿衣动作。", "wordsFocus": ["pants", "shirt", "dress", "boots"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Pants / Boots", "description": "Dee教说pants和boots。", "wordsFocus": ["pants", "boots"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "帮玩偶穿衣服", "description": "Put the hat on Teddy! 孩子给小玩偶穿衣服。", "wordsFocus": ["put on", "hat", "shoes"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "This Is The Way We Get Dressed",
+                  "description": "边唱边做全套穿衣动作。",
+                  "wordsFocus": [
+                    "pants",
+                    "shirt",
+                    "dress",
+                    "boots"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Pants / Boots",
+                  "description": "Dee教说pants和boots。",
+                  "wordsFocus": [
+                    "pants",
+                    "boots"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "帮玩偶穿衣服",
+                  "description": "Put the hat on Teddy! 孩子给小玩偶穿衣服。",
+                  "wordsFocus": [
+                    "put on",
+                    "hat",
+                    "shoes"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 3, "label": "周三", "type": "input",
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "pf", "resourceType": "PF", "title": "What Should I Wear?", "description": "Pinkfong穿衣主题，讨论天气和衣物的关系。", "wordsFocus": ["warm", "cold", "wear", "take off"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Scarf / Socks", "description": "Dee教说scarf和socks。", "wordsFocus": ["scarf", "socks"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "天气穿衣配对", "description": "冷天穿jacket，热天穿shorts的配对游戏。", "wordsFocus": ["warm", "cold"] }
+                {
+                  "priority": "core",
+                  "resourceId": "pf",
+                  "resourceType": "PF",
+                  "title": "What Should I Wear?",
+                  "description": "Pinkfong穿衣主题，讨论天气和衣物的关系。",
+                  "wordsFocus": [
+                    "warm",
+                    "cold",
+                    "wear",
+                    "take off"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Scarf / Socks",
+                  "description": "Dee教说scarf和socks。",
+                  "wordsFocus": [
+                    "scarf",
+                    "socks"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "天气穿衣配对",
+                  "description": "冷天穿jacket，热天穿shorts的配对游戏。",
+                  "wordsFocus": [
+                    "warm",
+                    "cold"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 4, "label": "周四", "type": "review",
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "衣柜探索", "description": "打开衣柜，找出对应的衣物，边找边说。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "穿搭小模特", "description": "孩子自己选衣服穿上，用英语说出自己穿了什么。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "衣柜探索",
+                  "description": "打开衣柜，找出对应的衣物，边找边说。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "穿搭小模特",
+                  "description": "孩子自己选衣服穿上，用英语说出自己穿了什么。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 5, "label": "周五", "type": "output",
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "output",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "What are you wearing?", "description": "I'm wearing a red shirt! 最好配合真实的穿戴场景。", "wordsFocus": ["shoes", "socks", "hat", "pants", "shirt"] },
-                { "priority": "optional", "resourceId": "pp", "resourceType": "PP", "title": "The Playgroup 选段", "description": "Peppa穿衣去幼儿园的场景。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "What are you wearing?",
+                  "description": "I'm wearing a red shirt! 最好配合真实的穿戴场景。",
+                  "wordsFocus": [
+                    "shoes",
+                    "socks",
+                    "hat",
+                    "pants",
+                    "shirt"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "pp",
+                  "resourceType": "PP",
+                  "title": "The Playgroup 选段",
+                  "description": "Peppa穿衣去幼儿园的场景。",
+                  "wordsFocus": []
+                }
               ]
             }
           ]
@@ -567,45 +2047,184 @@
           "theme": "Daily Routine",
           "themeCn": "日常作息",
           "phaseId": "phase-3",
-          "keyWords": ["wake up", "brush teeth", "wash face", "comb hair", "take a bath", "breakfast", "bath", "clean", "towel", "sleep", "good night"],
+          "keyWords": [
+            "wake up",
+            "brush teeth",
+            "wash face",
+            "comb hair",
+            "take a bath",
+            "breakfast",
+            "bath",
+            "clean",
+            "towel",
+            "sleep",
+            "good night"
+          ],
           "parentTips": "最实用的主题。这周之后可以在每天做每个环节时说对应的英语：Brush your teeth! 出门说Put on your shoes! 孩子会在语境中自然习得。",
           "days": [
             {
-              "dayOfWeek": 1, "label": "周一", "type": "input",
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "This Is The Way（起床版）", "description": "边唱边做起床→刷牙→梳头动作。", "wordsFocus": ["wake up", "brush teeth", "wash face"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Brush / Soap", "description": "Dee教说brush和soap。", "wordsFocus": ["brush", "soap"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "用玩偶演示起床", "description": "玩偶醒来→伸懒腰→刷牙→洗脸，全程英语解说。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "This Is The Way（起床版）",
+                  "description": "边唱边做起床→刷牙→梳头动作。",
+                  "wordsFocus": [
+                    "wake up",
+                    "brush teeth",
+                    "wash face"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Brush / Soap",
+                  "description": "Dee教说brush和soap。",
+                  "wordsFocus": [
+                    "brush",
+                    "soap"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "用玩偶演示起床",
+                  "description": "玩偶醒来→伸懒腰→刷牙→洗脸，全程英语解说。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 2, "label": "周二", "type": "input",
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "cc", "resourceType": "CC", "title": "Yes Yes Brush Your Teeth", "description": "Cocomelon刷牙歌，节奏明快，孩子会跟着哼。", "wordsFocus": ["comb hair", "take a bath", "breakfast"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Milk / Cup（早餐关联）", "description": "早餐场景相关词汇。", "wordsFocus": ["milk", "cup"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "作息卡片排序", "description": "起床→刷牙→吃早饭→穿衣服，按顺序排卡片。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": "cc",
+                  "resourceType": "CC",
+                  "title": "Yes Yes Brush Your Teeth",
+                  "description": "Cocomelon刷牙歌，节奏明快，孩子会跟着哼。",
+                  "wordsFocus": [
+                    "comb hair",
+                    "take a bath",
+                    "breakfast"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Milk / Cup（早餐关联）",
+                  "description": "早餐场景相关词汇。",
+                  "wordsFocus": [
+                    "milk",
+                    "cup"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "作息卡片排序",
+                  "description": "起床→刷牙→吃早饭→穿衣服，按顺序排卡片。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 3, "label": "周三", "type": "input",
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "The Bath Song", "description": "边唱边做洗澡动作，洗每个身体部位。", "wordsFocus": ["bath", "clean", "towel", "water"] },
-                { "priority": "optional", "resourceId": "pp", "resourceType": "PP", "title": "The Bath 选段", "description": "Peppa洗澡的故事。", "wordsFocus": ["bath"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "泡泡浴玩偶", "description": "用一小盆水和泡泡，给玩偶洗澡，边洗边说身体部位。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "The Bath Song",
+                  "description": "边唱边做洗澡动作，洗每个身体部位。",
+                  "wordsFocus": [
+                    "bath",
+                    "clean",
+                    "towel",
+                    "water"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "pp",
+                  "resourceType": "PP",
+                  "title": "The Bath 选段",
+                  "description": "Peppa洗澡的故事。",
+                  "wordsFocus": [
+                    "bath"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "泡泡浴玩偶",
+                  "description": "用一小盆水和泡泡，给玩偶洗澡，边洗边说身体部位。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 4, "label": "周四", "type": "review",
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "作息大转盘", "description": "画一个转盘分成4格（起床/吃饭/洗澡/睡觉），转到哪个做哪个。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "What do you do?", "description": "家长问What do you do in the morning? 孩子用动作回应。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "作息大转盘",
+                  "description": "画一个转盘分成4格（起床/吃饭/洗澡/睡觉），转到哪个做哪个。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "What do you do?",
+                  "description": "家长问What do you do in the morning? 孩子用动作回应。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 5, "label": "周五", "type": "output",
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "output",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "一日作息小书", "description": "画/贴4张作息图（起床/吃/洗澡/睡觉），每张配一个英语词。", "wordsFocus": ["wake up", "eat", "bath", "sleep"] },
-                { "priority": "optional", "resourceId": "kf", "resourceType": "KF", "title": "Daily Routine 主题", "description": "Khan Academy Kids日常作息互动。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "一日作息小书",
+                  "description": "画/贴4张作息图（起床/吃/洗澡/睡觉），每张配一个英语词。",
+                  "wordsFocus": [
+                    "wake up",
+                    "eat",
+                    "bath",
+                    "sleep"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "kf",
+                  "resourceType": "KF",
+                  "title": "Daily Routine 主题",
+                  "description": "Khan Academy Kids日常作息互动。",
+                  "wordsFocus": []
+                }
               ]
             }
           ]
@@ -615,45 +2234,195 @@
           "theme": "Transportation",
           "themeCn": "交通工具",
           "phaseId": "phase-3",
-          "keyWords": ["bus", "car", "train", "boat", "plane", "bike", "truck", "tractor", "fast", "slow", "go", "stop"],
+          "keyWords": [
+            "bus",
+            "car",
+            "train",
+            "boat",
+            "plane",
+            "bike",
+            "truck",
+            "tractor",
+            "fast",
+            "slow",
+            "go",
+            "stop"
+          ],
           "parentTips": "The Wheels On The Bus是SSS播放量最高的歌曲之一。如果有玩具车，这周每天玩5分钟英语车车时间。",
           "days": [
             {
-              "dayOfWeek": 1, "label": "周一", "type": "input",
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "The Wheels On The Bus", "description": "边唱边做轮子转/雨刷动/喇叭响的动作。", "wordsFocus": ["bus", "wheel", "go round", "wiper"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Car / Bus", "description": "Dee教说car和bus。", "wordsFocus": ["car", "bus"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "模拟开车", "description": "手握方向盘（或者呼啦圈），Beep beep! I'm driving a car!", "wordsFocus": ["car", "go"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "The Wheels On The Bus",
+                  "description": "边唱边做轮子转/雨刷动/喇叭响的动作。",
+                  "wordsFocus": [
+                    "bus",
+                    "wheel",
+                    "go round",
+                    "wiper"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Car / Bus",
+                  "description": "Dee教说car和bus。",
+                  "wordsFocus": [
+                    "car",
+                    "bus"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "模拟开车",
+                  "description": "手握方向盘（或者呼啦圈），Beep beep! I'm driving a car!",
+                  "wordsFocus": [
+                    "car",
+                    "go"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 2, "label": "周二", "type": "input",
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "We All Go Traveling By", "description": "Barefoot Books经典，唱遍所有交通工具。", "wordsFocus": ["train", "boat", "plane", "bike"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Train / Boat", "description": "Dee教说train和boat。", "wordsFocus": ["train", "boat"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "交通工具声音", "description": "What goes choo-choo? A train! 建立声音-物体-英语词三方绑定。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "We All Go Traveling By",
+                  "description": "Barefoot Books经典，唱遍所有交通工具。",
+                  "wordsFocus": [
+                    "train",
+                    "boat",
+                    "plane",
+                    "bike"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Train / Boat",
+                  "description": "Dee教说train和boat。",
+                  "wordsFocus": [
+                    "train",
+                    "boat"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "交通工具声音",
+                  "description": "What goes choo-choo? A train! 建立声音-物体-英语词三方绑定。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 3, "label": "周三", "type": "input",
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "bb", "resourceType": "BB", "title": "Driving My Tractor", "description": "Barefoot Books拖拉机主题，重复句多。", "wordsFocus": ["truck", "tractor", "fast", "slow"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Bike / Rocket", "description": "Dee教说bike和rocket。", "wordsFocus": ["bike", "rocket"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "Fast or Slow? 游戏", "description": "开得快说fast，慢说slow。用手推车玩具演示。", "wordsFocus": ["fast", "slow"] }
+                {
+                  "priority": "core",
+                  "resourceId": "bb",
+                  "resourceType": "BB",
+                  "title": "Driving My Tractor",
+                  "description": "Barefoot Books拖拉机主题，重复句多。",
+                  "wordsFocus": [
+                    "truck",
+                    "tractor",
+                    "fast",
+                    "slow"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Bike / Rocket",
+                  "description": "Dee教说bike和rocket。",
+                  "wordsFocus": [
+                    "bike",
+                    "rocket"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "Fast or Slow? 游戏",
+                  "description": "开得快说fast，慢说slow。用手推车玩具演示。",
+                  "wordsFocus": [
+                    "fast",
+                    "slow"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 4, "label": "周四", "type": "review",
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "交通工具声音配对", "description": "听交通工具声音，选出对应的闪卡。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "车辆大巡游", "description": "用玩具车排一列，每辆说出名字。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "交通工具声音配对",
+                  "description": "听交通工具声音，选出对应的闪卡。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "车辆大巡游",
+                  "description": "用玩具车排一列，每辆说出名字。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 5, "label": "周五", "type": "output",
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "output",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "By... I go to...", "description": "I go to the park by car! 替换不同地点和交通方式。", "wordsFocus": ["bus", "car", "train", "boat", "plane"] },
-                { "priority": "optional", "resourceId": "lf", "resourceType": "LF", "title": "Tire Town School 选2集", "description": "Little Fox汽车城故事，语速极慢，车主题。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "By... I go to...",
+                  "description": "I go to the park by car! 替换不同地点和交通方式。",
+                  "wordsFocus": [
+                    "bus",
+                    "car",
+                    "train",
+                    "boat",
+                    "plane"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "lf",
+                  "resourceType": "LF",
+                  "title": "Tire Town School 选2集",
+                  "description": "Little Fox汽车城故事，语速极慢，车主题。",
+                  "wordsFocus": []
+                }
               ]
             }
           ]
@@ -668,33 +2437,78 @@
           "parentTips": "复习第10-13周（食物+衣物+作息+交通工具）。",
           "days": [
             {
-              "dayOfWeek": 1, "label": "周一", "type": "review",
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "Yummy or Yucky?", "description": "品尝真实食物并分类，边尝边说。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "Yummy or Yucky?",
+                  "description": "品尝真实食物并分类，边尝边说。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 2, "label": "周二", "type": "review",
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "穿搭比赛", "description": "最快穿好并用英语说出穿的衣物。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "穿搭比赛",
+                  "description": "最快穿好并用英语说出穿的衣物。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 3, "label": "周三", "type": "review",
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "作息大转盘", "description": "转到哪个环节就表演出来并用英语说。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "作息大转盘",
+                  "description": "转到哪个环节就表演出来并用英语说。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 4, "label": "周四", "type": "review",
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "交通工具声音猜谜", "description": "听声音猜交通工具。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "交通工具声音猜谜",
+                  "description": "听声音猜交通工具。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 5, "label": "周五", "type": "review",
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "综合闯关", "description": "完整流程：穿好衣服→吃早餐→开车去公园。全程英语。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "综合闯关",
+                  "description": "完整流程：穿好衣服→吃早餐→开车去公园。全程英语。",
+                  "wordsFocus": []
+                }
               ]
             }
           ]
@@ -712,45 +2526,190 @@
           "theme": "Colors",
           "themeCn": "颜色",
           "phaseId": "phase-4",
-          "keyWords": ["blue", "red", "yellow", "green", "purple", "orange", "pink", "white", "black", "brown", "colorful", "I see"],
+          "keyWords": [
+            "blue",
+            "red",
+            "yellow",
+            "green",
+            "purple",
+            "orange",
+            "pink",
+            "white",
+            "black",
+            "brown",
+            "colorful",
+            "I see"
+          ],
           "parentTips": "颜色不需要一次全教完。3岁孩子能掌握3-4种颜色就已经很好。重点是用真实物品：This apple is red. This banana is yellow.",
           "days": [
             {
-              "dayOfWeek": 1, "label": "周一", "type": "input",
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "I See Something Blue", "description": "边唱边在房间里找蓝色的东西。", "wordsFocus": ["blue", "yellow", "red", "green"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Blue / Red", "description": "Dee教说blue和red。", "wordsFocus": ["blue", "red"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "颜色寻宝", "description": "Find something red! 满屋子跑着找对应颜色的物品。", "wordsFocus": ["red", "blue"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "I See Something Blue",
+                  "description": "边唱边在房间里找蓝色的东西。",
+                  "wordsFocus": [
+                    "blue",
+                    "yellow",
+                    "red",
+                    "green"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Blue / Red",
+                  "description": "Dee教说blue和red。",
+                  "wordsFocus": [
+                    "blue",
+                    "red"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "颜色寻宝",
+                  "description": "Find something red! 满屋子跑着找对应颜色的物品。",
+                  "wordsFocus": [
+                    "red",
+                    "blue"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 2, "label": "周二", "type": "input",
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "Red Yellow Green Blue", "description": "四个颜色的歌，重复性极高，每句都在重复颜色名。", "wordsFocus": ["purple", "orange", "pink"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Pink / Green", "description": "Dee教说pink和green。", "wordsFocus": ["pink", "green"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "颜色分类乐高", "description": "把混在一起的彩色积木按颜色分类，Put the red ones here.", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Red Yellow Green Blue",
+                  "description": "四个颜色的歌，重复性极高，每句都在重复颜色名。",
+                  "wordsFocus": [
+                    "purple",
+                    "orange",
+                    "pink"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Pink / Green",
+                  "description": "Dee教说pink和green。",
+                  "wordsFocus": [
+                    "pink",
+                    "green"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "颜色分类乐高",
+                  "description": "把混在一起的彩色积木按颜色分类，Put the red ones here.",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 3, "label": "周三", "type": "input",
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "pf", "resourceType": "PF", "title": "Baby Shark（颜色版）", "description": "Red shark, doo doo doo... 每个颜色换一条鲨鱼。", "wordsFocus": ["white", "black", "brown", "colorful"] },
-                { "priority": "optional", "resourceId": "pp", "resourceType": "PP", "title": "Colors 选段", "description": "Peppa学颜色的故事。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "颜色冰棒棍", "description": "冰棒棍涂色，配对相同颜色的。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": "pf",
+                  "resourceType": "PF",
+                  "title": "Baby Shark（颜色版）",
+                  "description": "Red shark, doo doo doo... 每个颜色换一条鲨鱼。",
+                  "wordsFocus": [
+                    "white",
+                    "black",
+                    "brown",
+                    "colorful"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "pp",
+                  "resourceType": "PP",
+                  "title": "Colors 选段",
+                  "description": "Peppa学颜色的故事。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "颜色冰棒棍",
+                  "description": "冰棒棍涂色，配对相同颜色的。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 4, "label": "周四", "type": "review",
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "颜色骰子", "description": "掷到哪个颜色就找到对应的物品。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "I Spy 颜色版", "description": "I spy something blue! 孩子指出对应颜色的东西。", "wordsFocus": ["I see"] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "颜色骰子",
+                  "description": "掷到哪个颜色就找到对应的物品。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "I Spy 颜色版",
+                  "description": "I spy something blue! 孩子指出对应颜色的东西。",
+                  "wordsFocus": [
+                    "I see"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 5, "label": "周五", "type": "output",
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "output",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "颜色小书", "description": "每页一个颜色+对应物品的涂鸦，边画边说。", "wordsFocus": ["blue", "red", "yellow", "green", "I see"] },
-                { "priority": "optional", "resourceId": "kf", "resourceType": "KF", "title": "Colors 主题", "description": "Khan Academy Kids颜色互动。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "颜色小书",
+                  "description": "每页一个颜色+对应物品的涂鸦，边画边说。",
+                  "wordsFocus": [
+                    "blue",
+                    "red",
+                    "yellow",
+                    "green",
+                    "I see"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "kf",
+                  "resourceType": "KF",
+                  "title": "Colors 主题",
+                  "description": "Khan Academy Kids颜色互动。",
+                  "wordsFocus": []
+                }
               ]
             }
           ]
@@ -760,45 +2719,194 @@
           "theme": "Numbers 1-5",
           "themeCn": "数字 1-5",
           "phaseId": "phase-4",
-          "keyWords": ["one", "two", "three", "four", "five", "count", "how many", "number"],
+          "keyWords": [
+            "one",
+            "two",
+            "three",
+            "four",
+            "five",
+            "count",
+            "how many",
+            "number"
+          ],
           "parentTips": "3岁不要强求数到10，1-5数清楚就很好。重点是一一对应（点一个物品说一个数），这是数学启蒙的基础。用楼梯、饼干、积木都可以数。",
           "days": [
             {
-              "dayOfWeek": 1, "label": "周一", "type": "input",
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "One Little Finger", "description": "边唱边伸手指头数数。", "wordsFocus": ["one", "two", "three", "four", "five"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "One / Two", "description": "Dee教说数字1和2。", "wordsFocus": ["one", "two"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "数手指", "description": "How many? 伸出1-5根手指头让孩子说。", "wordsFocus": ["one", "two", "three", "four", "five"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "One Little Finger",
+                  "description": "边唱边伸手指头数数。",
+                  "wordsFocus": [
+                    "one",
+                    "two",
+                    "three",
+                    "four",
+                    "five"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "One / Two",
+                  "description": "Dee教说数字1和2。",
+                  "wordsFocus": [
+                    "one",
+                    "two"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "数手指",
+                  "description": "How many? 伸出1-5根手指头让孩子说。",
+                  "wordsFocus": [
+                    "one",
+                    "two",
+                    "three",
+                    "four",
+                    "five"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 2, "label": "周二", "type": "input",
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "Five Little Monkeys", "description": "配合手指或玩偶表演，5只猴子在床上跳。", "wordsFocus": ["jump", "bump", "fall off", "no more"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Three / Four", "description": "Dee教说3和4。", "wordsFocus": ["three", "four"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "数玩具", "description": "Let's count the blocks! 数1-5个积木。", "wordsFocus": ["count"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Five Little Monkeys",
+                  "description": "配合手指或玩偶表演，5只猴子在床上跳。",
+                  "wordsFocus": [
+                    "jump",
+                    "bump",
+                    "fall off",
+                    "no more"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Three / Four",
+                  "description": "Dee教说3和4。",
+                  "wordsFocus": [
+                    "three",
+                    "four"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "数玩具",
+                  "description": "Let's count the blocks! 数1-5个积木。",
+                  "wordsFocus": [
+                    "count"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 3, "label": "周三", "type": "input",
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "Count & Move", "description": "从1数到5，配合蹦跳动作动起来。", "wordsFocus": ["count", "let's count", "number"] },
-                { "priority": "optional", "resourceId": "pp", "resourceType": "PP", "title": "Numbers 选段", "description": "Peppa和数字相关的故事。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "Give me three!", "description": "孩子给家长对应数量的物品。交换角色。", "wordsFocus": ["one", "two", "three", "four", "five"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Count & Move",
+                  "description": "从1数到5，配合蹦跳动作动起来。",
+                  "wordsFocus": [
+                    "count",
+                    "let's count",
+                    "number"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "pp",
+                  "resourceType": "PP",
+                  "title": "Numbers 选段",
+                  "description": "Peppa和数字相关的故事。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "Give me three!",
+                  "description": "孩子给家长对应数量的物品。交换角色。",
+                  "wordsFocus": [
+                    "one",
+                    "two",
+                    "three",
+                    "four",
+                    "five"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 4, "label": "周四", "type": "review",
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "数字+实物计数", "description": "闪卡和实物配对，数一数有几个。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "数字跳格子", "description": "地上贴1-5，跳到哪个说哪个。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "数字+实物计数",
+                  "description": "闪卡和实物配对，数一数有几个。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "数字跳格子",
+                  "description": "地上贴1-5，跳到哪个说哪个。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 5, "label": "周五", "type": "output",
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "output",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "小老师", "description": "孩子伸出指头问How many? 家长回答。", "wordsFocus": ["one-five", "how many", "count"] },
-                { "priority": "optional", "resourceId": "kf", "resourceType": "KF", "title": "Numbers 主题", "description": "Khan Academy Kids数字互动。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "小老师",
+                  "description": "孩子伸出指头问How many? 家长回答。",
+                  "wordsFocus": [
+                    "one-five",
+                    "how many",
+                    "count"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "kf",
+                  "resourceType": "KF",
+                  "title": "Numbers 主题",
+                  "description": "Khan Academy Kids数字互动。",
+                  "wordsFocus": []
+                }
               ]
             }
           ]
@@ -808,45 +2916,202 @@
           "theme": "Actions & Movement",
           "themeCn": "动作与运动",
           "phaseId": "phase-4",
-          "keyWords": ["run", "jump", "hop", "stop", "clap", "stomp", "spin", "fly", "swim", "crawl", "stretch", "freeze"],
+          "keyWords": [
+            "run",
+            "jump",
+            "hop",
+            "stop",
+            "clap",
+            "stomp",
+            "spin",
+            "fly",
+            "swim",
+            "crawl",
+            "stretch",
+            "freeze"
+          ],
           "parentTips": "3岁孩子的TPR（全身反应法）黄金期——通过动作学语言，不需要翻译。这周是最容易看到效果的：你一说jump!孩子就跳。",
           "days": [
             {
-              "dayOfWeek": 1, "label": "周一", "type": "input",
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "Walk Walk Walk", "description": "边唱边做walk/hop/run/stop。孩子可以反复跑。", "wordsFocus": ["walk", "run", "hop", "stop"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Run / Jump", "description": "Dee教说run和jump。", "wordsFocus": ["run", "jump"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "动作指令游戏", "description": "Run! Stop! Jump! 家长发指令孩子做动作。", "wordsFocus": ["run", "jump", "hop", "stop"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Walk Walk Walk",
+                  "description": "边唱边做walk/hop/run/stop。孩子可以反复跑。",
+                  "wordsFocus": [
+                    "walk",
+                    "run",
+                    "hop",
+                    "stop"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Run / Jump",
+                  "description": "Dee教说run和jump。",
+                  "wordsFocus": [
+                    "run",
+                    "jump"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "动作指令游戏",
+                  "description": "Run! Stop! Jump! 家长发指令孩子做动作。",
+                  "wordsFocus": [
+                    "run",
+                    "jump",
+                    "hop",
+                    "stop"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 2, "label": "周二", "type": "input",
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "Can You Make A Happy Face?", "description": "动作和表情结合，本周重点是动作部分。", "wordsFocus": ["jump", "clap", "stomp", "spin"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Jump / Clap", "description": "Dee教说jump和clap。", "wordsFocus": ["jump", "clap"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "Freeze Dance", "description": "放SSS音乐，音乐停就freeze（定住不动）。", "wordsFocus": ["freeze", "stop"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Can You Make A Happy Face?",
+                  "description": "动作和表情结合，本周重点是动作部分。",
+                  "wordsFocus": [
+                    "jump",
+                    "clap",
+                    "stomp",
+                    "spin"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Jump / Clap",
+                  "description": "Dee教说jump和clap。",
+                  "wordsFocus": [
+                    "jump",
+                    "clap"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "Freeze Dance",
+                  "description": "放SSS音乐，音乐停就freeze（定住不动）。",
+                  "wordsFocus": [
+                    "freeze",
+                    "stop"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 3, "label": "周三", "type": "input",
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "Oh Mr Sun（律动版）", "description": "边唱边做stretch/turn around等动作。", "wordsFocus": ["fly", "swim", "crawl", "stretch"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Fly / Swim", "description": "Dee教说fly和swim。", "wordsFocus": ["fly", "swim"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "动物动作模仿", "description": "Can you fly like a bird? Can you swim like a fish?", "wordsFocus": ["fly", "swim", "crawl"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Oh Mr Sun（律动版）",
+                  "description": "边唱边做stretch/turn around等动作。",
+                  "wordsFocus": [
+                    "fly",
+                    "swim",
+                    "crawl",
+                    "stretch"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Fly / Swim",
+                  "description": "Dee教说fly和swim。",
+                  "wordsFocus": [
+                    "fly",
+                    "swim"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "动物动作模仿",
+                  "description": "Can you fly like a bird? Can you swim like a fish?",
+                  "wordsFocus": [
+                    "fly",
+                    "swim",
+                    "crawl"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 4, "label": "周四", "type": "review",
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "动作大转盘", "description": "画一个转盘分6格，转到哪个做哪个动作。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "你说我做", "description": "Hop like a bunny! Stomp like an elephant! 结合动物和动作。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "动作大转盘",
+                  "description": "画一个转盘分6格，转到哪个做哪个动作。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "你说我做",
+                  "description": "Hop like a bunny! Stomp like an elephant! 结合动物和动作。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 5, "label": "周五", "type": "output",
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "output",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "动作小老师", "description": "孩子发指令，家长做动作。孩子体验掌控感。", "wordsFocus": ["run", "jump", "hop", "stop", "clap", "spin"] },
-                { "priority": "optional", "resourceId": "lf", "resourceType": "LF", "title": "The Big Green Forest 选1集", "description": "动物蹦蹦跳跳的故事。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "动作小老师",
+                  "description": "孩子发指令，家长做动作。孩子体验掌控感。",
+                  "wordsFocus": [
+                    "run",
+                    "jump",
+                    "hop",
+                    "stop",
+                    "clap",
+                    "spin"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "lf",
+                  "resourceType": "LF",
+                  "title": "The Big Green Forest 选1集",
+                  "description": "动物蹦蹦跳跳的故事。",
+                  "wordsFocus": []
+                }
               ]
             }
           ]
@@ -856,45 +3121,194 @@
           "theme": "Wild Animals",
           "themeCn": "野生动物",
           "phaseId": "phase-4",
-          "keyWords": ["elephant", "lion", "monkey", "tiger", "giraffe", "snake", "frog", "parrot", "big", "small", "tall", "strong", "roar"],
+          "keyWords": [
+            "elephant",
+            "lion",
+            "monkey",
+            "tiger",
+            "giraffe",
+            "snake",
+            "frog",
+            "parrot",
+            "big",
+            "small",
+            "tall",
+            "strong",
+            "roar"
+          ],
           "parentTips": "野生动物比农场动物更吸引孩子，因为体型大、特征鲜明。重点是动作模仿——3岁孩子做stomp/roar/swing的过程就是在内化语言。",
           "days": [
             {
-              "dayOfWeek": 1, "label": "周一", "type": "input",
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "Let's Go To The Zoo", "description": "Stomp like the elephants do! 模仿各种野生动物的动作。", "wordsFocus": ["elephant", "lion", "monkey", "giraffe"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Elephant / Monkey", "description": "Dee教说elephant和monkey。", "wordsFocus": ["elephant", "monkey"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "动作模仿", "description": "Stomp like an elephant! Swing like a monkey!", "wordsFocus": ["elephant", "monkey"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Let's Go To The Zoo",
+                  "description": "Stomp like the elephants do! 模仿各种野生动物的动作。",
+                  "wordsFocus": [
+                    "elephant",
+                    "lion",
+                    "monkey",
+                    "giraffe"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Elephant / Monkey",
+                  "description": "Dee教说elephant和monkey。",
+                  "wordsFocus": [
+                    "elephant",
+                    "monkey"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "动作模仿",
+                  "description": "Stomp like an elephant! Swing like a monkey!",
+                  "wordsFocus": [
+                    "elephant",
+                    "monkey"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 2, "label": "周二", "type": "input",
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "Walking In The Jungle", "description": "边唱边做在丛林中探险的动作，遇到各种动物。", "wordsFocus": ["tiger", "snake", "frog", "parrot"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Lion / Frog", "description": "Dee教说lion和frog。", "wordsFocus": ["lion", "frog"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "丛林探险", "description": "把客厅假装成丛林，在里头找隐藏的动物玩偶。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Walking In The Jungle",
+                  "description": "边唱边做在丛林中探险的动作，遇到各种动物。",
+                  "wordsFocus": [
+                    "tiger",
+                    "snake",
+                    "frog",
+                    "parrot"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Lion / Frog",
+                  "description": "Dee教说lion和frog。",
+                  "wordsFocus": [
+                    "lion",
+                    "frog"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "丛林探险",
+                  "description": "把客厅假装成丛林，在里头找隐藏的动物玩偶。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 3, "label": "周三", "type": "input",
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "pf", "resourceType": "PF", "title": "The Animal Dance", "description": "Pinkfong动物舞蹈，跟着音乐跳。", "wordsFocus": ["big", "tall", "strong", "fast"] },
-                { "priority": "optional", "resourceId": "pp", "resourceType": "PP", "title": "The Zoo 选段", "description": "Peppa去动物园的故事。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "Big or Small?", "description": "The elephant is BIG. The frog is small. 用手势比大小。", "wordsFocus": ["big", "small", "tall"] }
+                {
+                  "priority": "core",
+                  "resourceId": "pf",
+                  "resourceType": "PF",
+                  "title": "The Animal Dance",
+                  "description": "Pinkfong动物舞蹈，跟着音乐跳。",
+                  "wordsFocus": [
+                    "big",
+                    "tall",
+                    "strong",
+                    "fast"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "pp",
+                  "resourceType": "PP",
+                  "title": "The Zoo 选段",
+                  "description": "Peppa去动物园的故事。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "Big or Small?",
+                  "description": "The elephant is BIG. The frog is small. 用手势比大小。",
+                  "wordsFocus": [
+                    "big",
+                    "small",
+                    "tall"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 4, "label": "周四", "type": "review",
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "动物+动作配对", "description": "一张动物闪卡+一张动作闪卡，配对。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "Who am I? 动物版", "description": "家长学一种动物的动作和叫声，孩子猜。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "动物+动作配对",
+                  "description": "一张动物闪卡+一张动作闪卡，配对。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "Who am I? 动物版",
+                  "description": "家长学一种动物的动作和叫声，孩子猜。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 5, "label": "周五", "type": "output",
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "output",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "动物园向导", "description": "This is a lion! The lion says ROAR! 用动物模型展示。", "wordsFocus": ["elephant", "lion", "monkey", "tiger", "big"] },
-                { "priority": "optional", "resourceId": "lf", "resourceType": "LF", "title": "Meet the Animals 选2集", "description": "Little Fox真实动物照片+简单介绍。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "动物园向导",
+                  "description": "This is a lion! The lion says ROAR! 用动物模型展示。",
+                  "wordsFocus": [
+                    "elephant",
+                    "lion",
+                    "monkey",
+                    "tiger",
+                    "big"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "lf",
+                  "resourceType": "LF",
+                  "title": "Meet the Animals 选2集",
+                  "description": "Little Fox真实动物照片+简单介绍。",
+                  "wordsFocus": []
+                }
               ]
             }
           ]
@@ -904,45 +3318,209 @@
           "theme": "Bedtime & Nighttime",
           "themeCn": "睡前与夜晚",
           "phaseId": "phase-4",
-          "keyWords": ["star", "moon", "sky", "night", "bed", "pillow", "blanket", "teddy", "sleep", "dream", "quiet", "hug", "good night"],
+          "keyWords": [
+            "star",
+            "moon",
+            "sky",
+            "night",
+            "bed",
+            "pillow",
+            "blanket",
+            "teddy",
+            "sleep",
+            "dream",
+            "quiet",
+            "hug",
+            "good night"
+          ],
           "parentTips": "这周最珍贵的是建立一个英语睡前仪式。即使这周结束了也可以长期沿用：唱Twinkle Twinkle→说Good night→关灯。这个仪式会刻在孩子的记忆里。",
           "days": [
             {
-              "dayOfWeek": 1, "label": "周一", "type": "input",
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "Twinkle Twinkle Little Star", "description": "关灯，用手电筒在天花板上做星星投影。", "wordsFocus": ["star", "moon", "sky", "night"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Moon / Star", "description": "Dee教说moon和star。", "wordsFocus": ["moon", "star"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "看星星", "description": "关灯看天花板上手电筒的星星，一起唱。", "wordsFocus": ["star", "night"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Twinkle Twinkle Little Star",
+                  "description": "关灯，用手电筒在天花板上做星星投影。",
+                  "wordsFocus": [
+                    "star",
+                    "moon",
+                    "sky",
+                    "night"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Moon / Star",
+                  "description": "Dee教说moon和star。",
+                  "wordsFocus": [
+                    "moon",
+                    "star"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "看星星",
+                  "description": "关灯看天花板上手电筒的星星，一起唱。",
+                  "wordsFocus": [
+                    "star",
+                    "night"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 2, "label": "周二", "type": "input",
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "Sweet Dreams", "description": "安静温馨的睡前歌，语速极慢。", "wordsFocus": ["bed", "pillow", "blanket", "teddy"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Bed / Teddy", "description": "Dee教说bed和teddy。", "wordsFocus": ["bed", "teddy"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "哄玩偶睡觉", "description": "给玩偶铺床→放好→盖被子→说Night night, Teddy!", "wordsFocus": ["bed", "good night", "sleep"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Sweet Dreams",
+                  "description": "安静温馨的睡前歌，语速极慢。",
+                  "wordsFocus": [
+                    "bed",
+                    "pillow",
+                    "blanket",
+                    "teddy"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Bed / Teddy",
+                  "description": "Dee教说bed和teddy。",
+                  "wordsFocus": [
+                    "bed",
+                    "teddy"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "哄玩偶睡觉",
+                  "description": "给玩偶铺床→放好→盖被子→说Night night, Teddy!",
+                  "wordsFocus": [
+                    "bed",
+                    "good night",
+                    "sleep"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 3, "label": "周三", "type": "input",
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "cc", "resourceType": "CC", "title": "Are You Sleeping?", "description": "Cocomelon版，柔和旋律。", "wordsFocus": ["sleep", "dream", "quiet", "hug"] },
-                { "priority": "optional", "resourceId": "pp", "resourceType": "PP", "title": "Bedtime 选段", "description": "Peppa睡觉的故事。", "wordsFocus": ["bedtime", "sleep"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "睡前流程排序", "description": "刷牙→换上睡衣→讲故事→关灯，按顺序排卡片并执行。", "wordsFocus": ["sleep", "bed", "good night"] }
+                {
+                  "priority": "core",
+                  "resourceId": "cc",
+                  "resourceType": "CC",
+                  "title": "Are You Sleeping?",
+                  "description": "Cocomelon版，柔和旋律。",
+                  "wordsFocus": [
+                    "sleep",
+                    "dream",
+                    "quiet",
+                    "hug"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "pp",
+                  "resourceType": "PP",
+                  "title": "Bedtime 选段",
+                  "description": "Peppa睡觉的故事。",
+                  "wordsFocus": [
+                    "bedtime",
+                    "sleep"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "睡前流程排序",
+                  "description": "刷牙→换上睡衣→讲故事→关灯，按顺序排卡片并执行。",
+                  "wordsFocus": [
+                    "sleep",
+                    "bed",
+                    "good night"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 4, "label": "周四", "type": "review",
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "睡前闪卡排序", "description": "把睡前要做的事按顺序排列。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "哄睡玩偶", "description": "Shhh, Baby is sleeping. 把玩偶哄睡着，轻手轻脚。", "wordsFocus": ["sleep", "quiet"] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "睡前闪卡排序",
+                  "description": "把睡前要做的事按顺序排列。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "哄睡玩偶",
+                  "description": "Shhh, Baby is sleeping. 把玩偶哄睡着，轻手轻脚。",
+                  "wordsFocus": [
+                    "sleep",
+                    "quiet"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 5, "label": "周五", "type": "output",
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "output",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "Good Night!", "description": "对每个家人/玩偶说Good night! 可以是2-3轮。", "wordsFocus": ["star", "moon", "bed", "sleep", "good night"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "英语睡前仪式启动", "description": "每晚固定模式：唱Twinkle Twinkle→Good night stars, good night moon→关灯。从今晚开始。", "wordsFocus": ["good night", "star", "moon", "sleep"] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "Good Night!",
+                  "description": "对每个家人/玩偶说Good night! 可以是2-3轮。",
+                  "wordsFocus": [
+                    "star",
+                    "moon",
+                    "bed",
+                    "sleep",
+                    "good night"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "英语睡前仪式启动",
+                  "description": "每晚固定模式：唱Twinkle Twinkle→Good night stars, good night moon→关灯。从今晚开始。",
+                  "wordsFocus": [
+                    "good night",
+                    "star",
+                    "moon",
+                    "sleep"
+                  ]
+                }
               ]
             }
           ]
@@ -952,45 +3530,191 @@
           "theme": "Shapes",
           "themeCn": "形状",
           "phaseId": "phase-4",
-          "keyWords": ["circle", "square", "triangle", "star", "heart", "rectangle", "diamond", "oval", "round", "draw"],
+          "keyWords": [
+            "circle",
+            "square",
+            "triangle",
+            "star",
+            "heart",
+            "rectangle",
+            "diamond",
+            "oval",
+            "round",
+            "draw"
+          ],
           "parentTips": "3岁能分清circle/square/triangle就可以了。周五的形状饼干活动是高潮——没有什么比边做饼干边学形状更有效。",
           "days": [
             {
-              "dayOfWeek": 1, "label": "周一", "type": "input",
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "The Shape Song #1", "description": "边唱边用手指在空中画circle/square/triangle/star。", "wordsFocus": ["circle", "square", "triangle", "star"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Star / Circle", "description": "Dee教说star和circle。", "wordsFocus": ["star", "circle"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "形状寻宝", "description": "Find a circle! 在家里找圆形的东西：钟表、盘子、硬币。", "wordsFocus": ["circle", "square"] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "The Shape Song #1",
+                  "description": "边唱边用手指在空中画circle/square/triangle/star。",
+                  "wordsFocus": [
+                    "circle",
+                    "square",
+                    "triangle",
+                    "star"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Star / Circle",
+                  "description": "Dee教说star和circle。",
+                  "wordsFocus": [
+                    "star",
+                    "circle"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "形状寻宝",
+                  "description": "Find a circle! 在家里找圆形的东西：钟表、盘子、硬币。",
+                  "wordsFocus": [
+                    "circle",
+                    "square"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 2, "label": "周二", "type": "input",
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "sss", "resourceType": "SSS", "title": "The Shape Song #2", "description": "更多形状：rectangle/diamond/heart/oval。", "wordsFocus": ["rectangle", "diamond", "heart", "oval"] },
-                { "priority": "core", "resourceId": "yd", "resourceType": "YD", "title": "Heart", "description": "Yakka Dee心形特集。", "wordsFocus": ["heart"] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "形状积木配对", "description": "把形状积木放进对应的洞里。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "The Shape Song #2",
+                  "description": "更多形状：rectangle/diamond/heart/oval。",
+                  "wordsFocus": [
+                    "rectangle",
+                    "diamond",
+                    "heart",
+                    "oval"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Heart",
+                  "description": "Yakka Dee心形特集。",
+                  "wordsFocus": [
+                    "heart"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "形状积木配对",
+                  "description": "把形状积木放进对应的洞里。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 3, "label": "周三", "type": "input",
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "input",
               "activities": [
-                { "priority": "core", "resourceId": "bb", "resourceType": "BB", "title": "Shapes（Barefoot版）", "description": "Barefoot Books形状歌谣，画面精美。", "wordsFocus": ["round", "pointy", "curvy", "straight"] },
-                { "priority": "optional", "resourceId": "pp", "resourceType": "PP", "title": "Shapes 选段", "description": "Peppa学形状。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "形状饼干", "description": "用饼干切模做形状，边做边说。周末烤饼干效果最好。", "wordsFocus": ["circle", "square", "triangle", "heart"] }
+                {
+                  "priority": "core",
+                  "resourceId": "bb",
+                  "resourceType": "BB",
+                  "title": "Shapes（Barefoot版）",
+                  "description": "Barefoot Books形状歌谣，画面精美。",
+                  "wordsFocus": [
+                    "round",
+                    "pointy",
+                    "curvy",
+                    "straight"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "pp",
+                  "resourceType": "PP",
+                  "title": "Shapes 选段",
+                  "description": "Peppa学形状。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "形状饼干",
+                  "description": "用饼干切模做形状，边做边说。周末烤饼干效果最好。",
+                  "wordsFocus": [
+                    "circle",
+                    "square",
+                    "triangle",
+                    "heart"
+                  ]
+                }
               ]
             },
             {
-              "dayOfWeek": 4, "label": "周四", "type": "review",
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "形状+实物配对", "description": "圆形钟表→circle，方形窗户→square。", "wordsFocus": [] },
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "形状贴纸画", "description": "用不同形状的贴纸拼成一幅画。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "形状+实物配对",
+                  "description": "圆形钟表→circle，方形窗户→square。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "形状贴纸画",
+                  "description": "用不同形状的贴纸拼成一幅画。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 5, "label": "周五", "type": "output",
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "output",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "PARENT", "title": "I can draw a circle!", "description": "用蜡笔画形状并命名。孩子画得不像没关系，重点是边说边画。", "wordsFocus": ["circle", "square", "triangle", "star", "heart"] },
-                { "priority": "optional", "resourceId": "kf", "resourceType": "KF", "title": "Shapes 主题", "description": "Khan Academy Kids形状互动。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "I can draw a circle!",
+                  "description": "用蜡笔画形状并命名。孩子画得不像没关系，重点是边说边画。",
+                  "wordsFocus": [
+                    "circle",
+                    "square",
+                    "triangle",
+                    "star",
+                    "heart"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "kf",
+                  "resourceType": "KF",
+                  "title": "Shapes 主题",
+                  "description": "Khan Academy Kids形状互动。",
+                  "wordsFocus": []
+                }
               ]
             }
           ]
@@ -1005,34 +3729,79 @@
           "parentTips": "全年回顾！从全部20个主题中精选每个主题2个核心词=40词大闯关。这是收获的一周，看看孩子全年积累了多少。",
           "days": [
             {
-              "dayOfWeek": 1, "label": "周一", "type": "review",
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "单词大阅兵", "description": "40张闪卡快速过一遍，认出一张贴纸上墙。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "单词大阅兵",
+                  "description": "40张闪卡快速过一遍，认出一张贴纸上墙。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-              "dayOfWeek": 2, "label": "周二", "type": "review",
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "review",
               "activities": [
-                { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "最爱主题演唱会", "description": "孩子选3首最爱的SSS全曲唱跳。", "wordsFocus": [] }
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "最爱主题演唱会",
+                  "description": "孩子选3首最爱的SSS全曲唱跳。",
+                  "wordsFocus": []
+                }
               ]
             },
             {
-                "dayOfWeek": 3, "label": "周三", "type": "review",
-                "activities": [
-                  { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "综合寻宝游戏", "description": "按线索找宝藏：Find something RED that you WEAR（红色衣服）— 跨主题综合。", "wordsFocus": [] }
-                ]
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "review",
+              "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "综合寻宝游戏",
+                  "description": "按线索找宝藏：Find something RED that you WEAR（红色衣服）— 跨主题综合。",
+                  "wordsFocus": []
+                }
+              ]
             },
             {
-                "dayOfWeek": 4, "label": "周四", "type": "review",
-                "activities": [
-                  { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "英语小剧场", "description": "用全年学过的句型串成一个小故事，用玩偶演出。", "wordsFocus": [] }
-                ]
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
+              "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "英语小剧场",
+                  "description": "用全年学过的句型串成一个小故事，用玩偶演出。",
+                  "wordsFocus": []
+                }
+              ]
             },
             {
-                "dayOfWeek": 5, "label": "周五", "type": "review",
-                "activities": [
-                  { "priority": "core", "resourceId": null, "resourceType": "REVIEW", "title": "🎉 结业派对", "description": "邀请家人观看孩子表演——唱一首歌、指身体部位、数数、说颜色。满满的成就感！", "wordsFocus": [] }
-                ]
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "review",
+              "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "REVIEW",
+                  "title": "🎉 结业派对",
+                  "description": "邀请家人观看孩子表演——唱一首歌、指身体部位、数数、说颜色。满满的成就感！",
+                  "wordsFocus": []
+                }
+              ]
             }
           ]
         }
