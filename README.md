@@ -1,20 +1,20 @@
-# English Curriculum App
+# English Curriculum
 
 ## Quick Start
 
 ```bash
 # Option 1: Python
-python3 -m http.server 8080 --directory /root/english-curriculum-app
+python3 -m http.server 8080 --directory /root/Projects/english-curriculum
 # → http://localhost:8080
 
 # Option 2: Node
-npx serve /root/english-curriculum-app
+npx serve /root/Projects/english-curriculum
 ```
 
 ## Project Structure
 
 ```
-english-curriculum-app/
+english-curriculum/
 ├── index.html              ← 单页 Web App（零依赖）
 ├── data/
 │   ├── schema.md           ← 数据层设计文档
