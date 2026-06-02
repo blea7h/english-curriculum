@@ -81,6 +81,27 @@
       "name": "AI 对话练习",
       "url": "",
       "description": "AI驱动的英语对话练习，模拟真人互动"
+    },
+    {
+      "id": "word",
+      "type": "WORD",
+      "name": "单词认读",
+      "url": "",
+      "description": "核心词汇认读，建立音-义-形连接"
+    },
+    {
+      "id": "quiz",
+      "type": "QUIZ",
+      "name": "小测验",
+      "url": "",
+      "description": "简单互动测验，检验理解"
+    },
+    {
+      "id": "speaking",
+      "type": "SPEAKING",
+      "name": "跟读口语",
+      "url": "",
+      "description": "引导宝宝开口跟读"
     }
   ],
   "phases": [
@@ -127,12 +148,43 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：hello、bye-bye",
+                  "description": "跟着妈妈读单词：hello bye-bye",
+                  "wordsFocus": [
+                    "hello",
+                    "bye-bye"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Hello",
                   "description": "看Dee说hello，观察真人小朋友怎么打招呼。",
                   "wordsFocus": [
                     "hello"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is hello?』——宝宝能指出hello对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "hello"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：happy！大声说出来吧～",
+                  "wordsFocus": [
+                    "happy"
                   ]
                 },
                 {
@@ -167,12 +219,43 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：happy、sad",
+                  "description": "跟着妈妈读单词：happy sad",
+                  "wordsFocus": [
+                    "happy",
+                    "sad"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Happy / Sad",
                   "description": "看Dee和小朋友的表情变化，可以一起做表情。",
                   "wordsFocus": [
                     "happy",
+                    "sad"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is bye-bye?』——宝宝能指出bye-bye对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "bye-bye"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：sad！大声说出来吧～",
+                  "wordsFocus": [
                     "sad"
                   ]
                 },
@@ -209,6 +292,17 @@
                   "localPath": "videos/week01/if-youre-happy.mp4"
                 },
                 {
+                  "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：clap、stomp",
+                  "description": "跟着妈妈读单词：clap stomp",
+                  "wordsFocus": [
+                    "clap",
+                    "stomp"
+                  ]
+                },
+                {
                   "priority": "optional",
                   "resourceId": "pp",
                   "resourceType": "PP",
@@ -216,6 +310,26 @@
                   "description": "Peppa开心跳泥坑的段落，感受happy情绪。",
                   "wordsFocus": [
                     "happy"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is happy?』——宝宝能指出happy对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "happy"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：clap！大声说出来吧～",
+                  "wordsFocus": [
+                    "clap"
                   ]
                 },
                 {
@@ -252,6 +366,27 @@
                   "title": "配套闪卡配对",
                   "description": "从supersimple.com免费下载emotions闪卡，玩配对游戏。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "『Can you find angry?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "angry",
+                    "I love you"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "大声说出来：clap！你真棒！",
+                  "wordsFocus": [
+                    "clap"
+                  ]
                 }
               ]
             },
@@ -260,6 +395,17 @@
               "label": "周五",
               "type": "output",
               "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "口语展示",
+                  "description": "宝宝来展示一下这周学的内容吧！说给妈妈听：hello bye-bye",
+                  "wordsFocus": [
+                    "hello",
+                    "bye-bye"
+                  ]
+                },
                 {
                   "priority": "core",
                   "resourceId": null,
@@ -279,6 +425,17 @@
                   "resourceType": "PARENT",
                   "title": "画表情",
                   "description": "画一张笑脸/哭脸，边画边说This is happy/sad。",
+                  "wordsFocus": [
+                    "happy",
+                    "sad"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "综合小测验",
+                  "description": "『Can you find happy?』——在闪卡/图片中找一找吧！",
                   "wordsFocus": [
                     "happy",
                     "sad"
@@ -333,6 +490,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：head、shoulders",
+                  "description": "跟着妈妈读单词：head shoulders",
+                  "wordsFocus": [
+                    "head",
+                    "shoulders"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Eyes / Nose",
@@ -340,6 +508,26 @@
                   "wordsFocus": [
                     "eyes",
                     "nose"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is head?』——宝宝能指出head对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "head"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：knees！大声说出来吧～",
+                  "wordsFocus": [
+                    "knees"
                   ]
                 },
                 {
@@ -379,6 +567,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：knees、toes",
+                  "description": "跟着妈妈读单词：knees toes",
+                  "wordsFocus": [
+                    "knees",
+                    "toes"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Mouth / Ears",
@@ -386,6 +585,26 @@
                   "wordsFocus": [
                     "mouth",
                     "ears"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is shoulders?』——宝宝能指出shoulders对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "shoulders"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：toes！大声说出来吧～",
+                  "wordsFocus": [
+                    "toes"
                   ]
                 },
                 {
@@ -417,12 +636,43 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：eyes、ears",
+                  "description": "跟着妈妈读单词：eyes ears",
+                  "wordsFocus": [
+                    "eyes",
+                    "ears"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Hands",
                   "description": "Dee教说hands。",
                   "wordsFocus": [
                     "hands"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is knees?』——宝宝能指出knees对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "knees"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：eyes！大声说出来吧～",
+                  "wordsFocus": [
+                    "eyes"
                   ]
                 },
                 {
@@ -455,6 +705,27 @@
                   "title": "身体部位拼图",
                   "description": "打印一张脸剪开，拼回来说出每个部位。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "『Can you find mouth?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "mouth",
+                    "nose"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "大声说出来：eyes！你真棒！",
+                  "wordsFocus": [
+                    "eyes"
+                  ]
                 }
               ]
             },
@@ -463,6 +734,17 @@
               "label": "周五",
               "type": "output",
               "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "口语展示",
+                  "description": "宝宝来展示一下这周学的内容吧！说给妈妈听：hands feet",
+                  "wordsFocus": [
+                    "hands",
+                    "feet"
+                  ]
+                },
                 {
                   "priority": "core",
                   "resourceId": "kf",
@@ -487,6 +769,17 @@
                   "title": "画我自己",
                   "description": "画一幅自画像，边画边指着说：This is my nose. 可以用贴纸装饰。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "综合小测验",
+                  "description": "『Can you find fingers?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "fingers",
+                    "head"
+                  ]
                 }
               ]
             }
@@ -529,6 +822,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：mommy、daddy",
+                  "description": "跟着妈妈读单词：mommy daddy",
+                  "wordsFocus": [
+                    "mommy",
+                    "daddy"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Mommy / Daddy",
@@ -536,6 +840,26 @@
                   "wordsFocus": [
                     "mommy",
                     "daddy"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is mommy?』——宝宝能指出mommy对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "mommy"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：baby！大声说出来吧～",
+                  "wordsFocus": [
+                    "baby"
                   ]
                 },
                 {
@@ -572,12 +896,43 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：baby、sister",
+                  "description": "跟着妈妈读单词：baby sister",
+                  "wordsFocus": [
+                    "baby",
+                    "sister"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Baby",
                   "description": "Dee说baby。",
                   "wordsFocus": [
                     "baby"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is daddy?』——宝宝能指出daddy对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "daddy"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：sister！大声说出来吧～",
+                  "wordsFocus": [
+                    "sister"
                   ]
                 },
                 {
@@ -613,12 +968,43 @@
                   ]
                 },
                 {
+                  "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：brother、grandma",
+                  "description": "跟着妈妈读单词：brother grandma",
+                  "wordsFocus": [
+                    "brother",
+                    "grandma"
+                  ]
+                },
+                {
                   "priority": "optional",
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "Mummy Pig at Work 选段",
                   "description": "Peppa一家的日常互动。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is baby?』——宝宝能指出baby对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "baby"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：brother！大声说出来吧～",
+                  "wordsFocus": [
+                    "brother"
+                  ]
                 },
                 {
                   "priority": "core",
@@ -654,6 +1040,27 @@
                   "title": "家人闪卡配对+抱抱",
                   "description": "说出一个家人的称呼，孩子去找并抱抱TA。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "『Can you find grandpa?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "grandpa",
+                    "love"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "大声说出来：brother！你真棒！",
+                  "wordsFocus": [
+                    "brother"
+                  ]
                 }
               ]
             },
@@ -662,6 +1069,17 @@
               "label": "周五",
               "type": "output",
               "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "口语展示",
+                  "description": "宝宝来展示一下这周学的内容吧！说给妈妈听：family mommy",
+                  "wordsFocus": [
+                    "family",
+                    "mommy"
+                  ]
+                },
                 {
                   "priority": "core",
                   "resourceId": null,
@@ -682,6 +1100,17 @@
                   "title": "画全家福",
                   "description": "画一幅全家福，用英语说出每个画的是谁。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "综合小测验",
+                  "description": "『Can you find daddy?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "daddy",
+                    "baby"
+                  ]
                 }
               ]
             }
@@ -726,6 +1155,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：ball、car",
+                  "description": "跟着妈妈读单词：ball car",
+                  "wordsFocus": [
+                    "ball",
+                    "car"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Ball / Car",
@@ -733,6 +1173,26 @@
                   "wordsFocus": [
                     "ball",
                     "car"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is ball?』——宝宝能指出ball对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "ball"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：doll！大声说出来吧～",
+                  "wordsFocus": [
+                    "doll"
                   ]
                 },
                 {
@@ -769,12 +1229,43 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：doll、block",
+                  "description": "跟着妈妈读单词：doll block",
+                  "wordsFocus": [
+                    "doll",
+                    "block"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Teddy / Block",
                   "description": "Dee教说teddy和block。",
                   "wordsFocus": [
                     "teddy bear",
+                    "block"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is car?』——宝宝能指出car对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "car"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：block！大声说出来吧～",
+                  "wordsFocus": [
                     "block"
                   ]
                 },
@@ -807,6 +1298,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：teddy bear、puzzle",
+                  "description": "跟着妈妈读单词：teddy bear puzzle",
+                  "wordsFocus": [
+                    "teddy bear",
+                    "puzzle"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Kite / Bike",
@@ -814,6 +1316,26 @@
                   "wordsFocus": [
                     "kite",
                     "bike"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is doll?』——宝宝能指出doll对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "doll"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：teddy bear！大声说出来吧～",
+                  "wordsFocus": [
+                    "teddy bear"
                   ]
                 },
                 {
@@ -849,6 +1371,27 @@
                   "title": "神秘袋游戏",
                   "description": "袋子里放一个玩具，摸出来说出名字。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "『Can you find robot?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "robot",
+                    "bike"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "大声说出来：teddy bear！你真棒！",
+                  "wordsFocus": [
+                    "teddy bear"
+                  ]
                 }
               ]
             },
@@ -857,6 +1400,17 @@
               "label": "周五",
               "type": "output",
               "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "口语展示",
+                  "description": "宝宝来展示一下这周学的内容吧！说给妈妈听：play share",
+                  "wordsFocus": [
+                    "play",
+                    "share"
+                  ]
+                },
                 {
                   "priority": "core",
                   "resourceId": null,
@@ -878,6 +1432,17 @@
                   "title": "Toys 主题",
                   "description": "Khan Academy Kids玩具主题互动。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "综合小测验",
+                  "description": "『Can you find ball?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "ball",
+                    "car"
+                  ]
                 }
               ]
             }
@@ -904,6 +1469,22 @@
                   "title": "复习舞会",
                   "description": "放前4周最爱的SSS歌曲，唱跳大联欢。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "和宝宝一起回顾这周学过的内容吧！",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "和妈妈一起回顾这周学过的单词吧！",
+                  "wordsFocus": []
                 }
               ]
             },
@@ -918,6 +1499,22 @@
                   "resourceType": "REVIEW",
                   "title": "闪卡大闯关",
                   "description": "混洗25张闪卡，认出一张得一个贴纸。目标：得5个贴纸。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "和宝宝一起回顾这周学过的内容吧！",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "和妈妈一起回顾这周学过的单词吧！",
                   "wordsFocus": []
                 }
               ]
@@ -934,6 +1531,22 @@
                   "title": "主题绘画日",
                   "description": "选一个最爱的主题画一幅画，画完用英语分享。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "和宝宝一起回顾这周学过的内容吧！",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "和妈妈一起回顾这周学过的单词吧！",
+                  "wordsFocus": []
                 }
               ]
             },
@@ -949,6 +1562,22 @@
                   "title": "神秘袋2.0",
                   "description": "混放玩具和身体部位卡片，摸到啥说啥。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "和宝宝一起回顾这周学过的内容吧！",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "和妈妈一起回顾这周学过的单词吧！",
+                  "wordsFocus": []
                 }
               ]
             },
@@ -963,6 +1592,22 @@
                   "resourceType": "REVIEW",
                   "title": "小表演",
                   "description": "用玩偶表演前4周学过的场景：打招呼/指身体部位/说家人。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "和宝宝一起回顾这周学过的内容吧！",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "和妈妈一起回顾这周学过的单词吧！",
                   "wordsFocus": []
                 }
               ]
@@ -1015,6 +1660,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：cat、dog",
+                  "description": "跟着妈妈读单词：cat dog",
+                  "wordsFocus": [
+                    "cat",
+                    "dog"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Dog / Cat",
@@ -1022,6 +1678,26 @@
                   "wordsFocus": [
                     "dog",
                     "cat"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is cat?』——宝宝能指出cat对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "cat"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：fish！大声说出来吧～",
+                  "wordsFocus": [
+                    "fish"
                   ]
                 },
                 {
@@ -1053,6 +1729,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：fish、bird",
+                  "description": "跟着妈妈读单词：fish bird",
+                  "wordsFocus": [
+                    "fish",
+                    "bird"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Bunny / Fish",
@@ -1060,6 +1747,26 @@
                   "wordsFocus": [
                     "bunny",
                     "fish"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is dog?』——宝宝能指出dog对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "dog"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：bird！大声说出来吧～",
+                  "wordsFocus": [
+                    "bird"
                   ]
                 },
                 {
@@ -1090,12 +1797,43 @@
                   ]
                 },
                 {
+                  "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：bunny、turtle",
+                  "description": "跟着妈妈读单词：bunny turtle",
+                  "wordsFocus": [
+                    "bunny",
+                    "turtle"
+                  ]
+                },
+                {
                   "priority": "optional",
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "Mr Dinosaur is Lost 选段",
                   "description": "Peppa找她的恐龙玩具（宠物替代）。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is fish?』——宝宝能指出fish对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "fish"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：bunny！大声说出来吧～",
+                  "wordsFocus": [
+                    "bunny"
+                  ]
                 },
                 {
                   "priority": "core",
@@ -1127,6 +1865,27 @@
                   "title": "猜宠物Who am I?",
                   "description": "学一种宠物的动作/叫声，孩子猜。交换角色。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "『Can you find pet?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "pet",
+                    "cute"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "大声说出来：bunny！你真棒！",
+                  "wordsFocus": [
+                    "bunny"
+                  ]
                 }
               ]
             },
@@ -1135,6 +1894,17 @@
               "label": "周五",
               "type": "output",
               "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "口语展示",
+                  "description": "宝宝来展示一下这周学的内容吧！说给妈妈听：friend cat",
+                  "wordsFocus": [
+                    "friend",
+                    "cat"
+                  ]
+                },
                 {
                   "priority": "core",
                   "resourceId": null,
@@ -1156,6 +1926,17 @@
                   "title": "Bat and Friends 选1-2集",
                   "description": "Little Fox Level 1，极简短、语速极慢的动物故事。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "综合小测验",
+                  "description": "『Can you find dog?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "dog",
+                    "fish"
+                  ]
                 }
               ]
             }
@@ -1202,6 +1983,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：cow、pig",
+                  "description": "跟着妈妈读单词：cow pig",
+                  "wordsFocus": [
+                    "cow",
+                    "pig"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Cow / Duck",
@@ -1209,6 +2001,26 @@
                   "wordsFocus": [
                     "cow",
                     "duck"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is cow?』——宝宝能指出cow对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "cow"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：horse！大声说出来吧～",
+                  "wordsFocus": [
+                    "horse"
                   ]
                 },
                 {
@@ -1240,6 +2052,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：horse、duck",
+                  "description": "跟着妈妈读单词：horse duck",
+                  "wordsFocus": [
+                    "horse",
+                    "duck"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Pig / Sheep",
@@ -1247,6 +2070,26 @@
                   "wordsFocus": [
                     "pig",
                     "sheep"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is pig?』——宝宝能指出pig对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "pig"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：duck！大声说出来吧～",
+                  "wordsFocus": [
+                    "duck"
                   ]
                 },
                 {
@@ -1280,6 +2123,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：sheep、chicken",
+                  "description": "跟着妈妈读单词：sheep chicken",
+                  "wordsFocus": [
+                    "sheep",
+                    "chicken"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Horse / Goat",
@@ -1287,6 +2141,26 @@
                   "wordsFocus": [
                     "horse",
                     "goat"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is horse?』——宝宝能指出horse对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "horse"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：sheep！大声说出来吧～",
+                  "wordsFocus": [
+                    "sheep"
                   ]
                 },
                 {
@@ -1319,6 +2193,27 @@
                   "title": "动物脚印配对",
                   "description": "打印动物脚印图案，连线匹配到对应动物。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "『Can you find rooster?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "rooster",
+                    "goat"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "大声说出来：sheep！你真棒！",
+                  "wordsFocus": [
+                    "sheep"
+                  ]
                 }
               ]
             },
@@ -1327,6 +2222,17 @@
               "label": "周五",
               "type": "output",
               "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "口语展示",
+                  "description": "宝宝来展示一下这周学的内容吧！说给妈妈听：moo baa",
+                  "wordsFocus": [
+                    "moo",
+                    "baa"
+                  ]
+                },
                 {
                   "priority": "core",
                   "resourceId": null,
@@ -1348,6 +2254,17 @@
                   "title": "Bat and Friends 选2集",
                   "description": "Little Fox动物故事延续。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "综合小测验",
+                  "description": "『Can you find quack?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "quack",
+                    "cow"
+                  ]
                 }
               ]
             }
@@ -1390,6 +2307,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：sunny、rainy",
+                  "description": "跟着妈妈读单词：sunny rainy",
+                  "wordsFocus": [
+                    "sunny",
+                    "rainy"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Sun / Rain",
@@ -1397,6 +2325,26 @@
                   "wordsFocus": [
                     "sun",
                     "rain"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is sunny?』——宝宝能指出sunny对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "sunny"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：cloudy！大声说出来吧～",
+                  "wordsFocus": [
+                    "cloudy"
                   ]
                 },
                 {
@@ -1431,6 +2379,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：cloudy、snowy",
+                  "description": "跟着妈妈读单词：cloudy snowy",
+                  "wordsFocus": [
+                    "cloudy",
+                    "snowy"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Snow / Wind",
@@ -1438,6 +2397,26 @@
                   "wordsFocus": [
                     "snow",
                     "wind"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is rainy?』——宝宝能指出rainy对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "rainy"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：snowy！大声说出来吧～",
+                  "wordsFocus": [
+                    "snowy"
                   ]
                 },
                 {
@@ -1468,6 +2447,17 @@
                   ]
                 },
                 {
+                  "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：windy、hot",
+                  "description": "跟着妈妈读单词：windy hot",
+                  "wordsFocus": [
+                    "windy",
+                    "hot"
+                  ]
+                },
+                {
                   "priority": "optional",
                   "resourceId": "pp",
                   "resourceType": "PP",
@@ -1475,6 +2465,26 @@
                   "description": "Peppa在雨天玩耍的场景。",
                   "wordsFocus": [
                     "rainy"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is cloudy?』——宝宝能指出cloudy对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "cloudy"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：windy！大声说出来吧～",
+                  "wordsFocus": [
+                    "windy"
                   ]
                 },
                 {
@@ -1510,6 +2520,27 @@
                   "title": "天气骰子",
                   "description": "掷到哪个天气就做对应的动作表现。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "『Can you find cold?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "cold",
+                    "umbrella"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "大声说出来：windy！你真棒！",
+                  "wordsFocus": [
+                    "windy"
+                  ]
                 }
               ]
             },
@@ -1518,6 +2549,17 @@
               "label": "周五",
               "type": "output",
               "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "口语展示",
+                  "description": "宝宝来展示一下这周学的内容吧！说给妈妈听：rainbow sunny",
+                  "wordsFocus": [
+                    "rainbow",
+                    "sunny"
+                  ]
+                },
                 {
                   "priority": "core",
                   "resourceId": null,
@@ -1539,6 +2581,17 @@
                   "title": "Weather 主题",
                   "description": "Khan Academy Kids天气互动。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "综合小测验",
+                  "description": "『Can you find rainy?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "rainy",
+                    "cloudy"
+                  ]
                 }
               ]
             }
@@ -1565,6 +2618,22 @@
                   "title": "动物叫声大挑战",
                   "description": "听叫声说动物名，说对一个得一分。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "和宝宝一起回顾这周学过的内容吧！",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "和妈妈一起回顾这周学过的单词吧！",
+                  "wordsFocus": []
                 }
               ]
             },
@@ -1579,6 +2648,22 @@
                   "resourceType": "REVIEW",
                   "title": "天气+穿衣配对",
                   "description": "看天气卡片选出对应的衣物。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "和宝宝一起回顾这周学过的内容吧！",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "和妈妈一起回顾这周学过的单词吧！",
                   "wordsFocus": []
                 }
               ]
@@ -1595,6 +2680,22 @@
                   "title": "Old MacDonald 全家合唱",
                   "description": "每个人轮流唱一种动物，其他人和声。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "和宝宝一起回顾这周学过的内容吧！",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "和妈妈一起回顾这周学过的单词吧！",
+                  "wordsFocus": []
                 }
               ]
             },
@@ -1610,6 +2711,22 @@
                   "title": "闪卡钓鱼",
                   "description": "闪卡上别回形针，用磁铁钓竿钓，钓到一张说一个。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "和宝宝一起回顾这周学过的内容吧！",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "和妈妈一起回顾这周学过的单词吧！",
+                  "wordsFocus": []
                 }
               ]
             },
@@ -1624,6 +2741,22 @@
                   "resourceType": "REVIEW",
                   "title": "自选 Mini Show",
                   "description": "孩子选宠物/农场/天气中最爱的主题展示。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "和宝宝一起回顾这周学过的内容吧！",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "和妈妈一起回顾这周学过的单词吧！",
                   "wordsFocus": []
                 }
               ]
@@ -1679,6 +2812,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：apple、banana",
+                  "description": "跟着妈妈读单词：apple banana",
+                  "wordsFocus": [
+                    "apple",
+                    "banana"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Apple / Banana",
@@ -1686,6 +2830,26 @@
                   "wordsFocus": [
                     "apple",
                     "banana"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is apple?』——宝宝能指出apple对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "apple"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：orange！大声说出来吧～",
+                  "wordsFocus": [
+                    "orange"
                   ]
                 },
                 {
@@ -1723,6 +2887,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：orange、milk",
+                  "description": "跟着妈妈读单词：orange milk",
+                  "wordsFocus": [
+                    "orange",
+                    "milk"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Milk / Bread",
@@ -1730,6 +2905,26 @@
                   "wordsFocus": [
                     "milk",
                     "bread"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is banana?』——宝宝能指出banana对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "banana"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：milk！大声说出来吧～",
+                  "wordsFocus": [
+                    "milk"
                   ]
                 },
                 {
@@ -1765,6 +2960,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：bread、cookie",
+                  "description": "跟着妈妈读单词：bread cookie",
+                  "wordsFocus": [
+                    "bread",
+                    "cookie"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Cookie / Juice",
@@ -1772,6 +2978,26 @@
                   "wordsFocus": [
                     "cookie",
                     "juice"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is orange?』——宝宝能指出orange对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "orange"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：bread！大声说出来吧～",
+                  "wordsFocus": [
+                    "bread"
                   ]
                 },
                 {
@@ -1806,6 +3032,27 @@
                   "wordsFocus": [
                     "I want"
                   ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "『Can you find juice?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "juice",
+                    "hungry"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "大声说出来：bread！你真棒！",
+                  "wordsFocus": [
+                    "bread"
+                  ]
                 }
               ]
             },
@@ -1814,6 +3061,17 @@
               "label": "周五",
               "type": "output",
               "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "口语展示",
+                  "description": "宝宝来展示一下这周学的内容吧！说给妈妈听：yummy yucky",
+                  "wordsFocus": [
+                    "yummy",
+                    "yucky"
+                  ]
+                },
                 {
                   "priority": "core",
                   "resourceId": null,
@@ -1835,6 +3093,17 @@
                   "title": "Mrs. Kelly's Class（食物相关集）",
                   "description": "Little Fox课堂场景，食物主题。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "综合小测验",
+                  "description": "『Can you find eat?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "eat",
+                    "delicious"
+                  ]
                 }
               ]
             }
@@ -1882,12 +3151,43 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：shoes、socks",
+                  "description": "跟着妈妈读单词：shoes socks",
+                  "wordsFocus": [
+                    "shoes",
+                    "socks"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Shoes / Hat",
                   "description": "Dee教说shoes和hat。",
                   "wordsFocus": [
                     "shoes",
+                    "hat"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is shoes?』——宝宝能指出shoes对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "shoes"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：hat！大声说出来吧～",
+                  "wordsFocus": [
                     "hat"
                   ]
                 },
@@ -1923,6 +3223,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：hat、jacket",
+                  "description": "跟着妈妈读单词：hat jacket",
+                  "wordsFocus": [
+                    "hat",
+                    "jacket"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Pants / Boots",
@@ -1930,6 +3241,26 @@
                   "wordsFocus": [
                     "pants",
                     "boots"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is socks?』——宝宝能指出socks对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "socks"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：jacket！大声说出来吧～",
+                  "wordsFocus": [
+                    "jacket"
                   ]
                 },
                 {
@@ -1966,6 +3297,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：pants、shirt",
+                  "description": "跟着妈妈读单词：pants shirt",
+                  "wordsFocus": [
+                    "pants",
+                    "shirt"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Scarf / Socks",
@@ -1973,6 +3315,26 @@
                   "wordsFocus": [
                     "scarf",
                     "socks"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is hat?』——宝宝能指出hat对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "hat"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：pants！大声说出来吧～",
+                  "wordsFocus": [
+                    "pants"
                   ]
                 },
                 {
@@ -2008,6 +3370,27 @@
                   "title": "穿搭小模特",
                   "description": "孩子自己选衣服穿上，用英语说出自己穿了什么。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "『Can you find boots?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "boots",
+                    "dress"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "大声说出来：pants！你真棒！",
+                  "wordsFocus": [
+                    "pants"
+                  ]
                 }
               ]
             },
@@ -2016,6 +3399,17 @@
               "label": "周五",
               "type": "output",
               "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "口语展示",
+                  "description": "宝宝来展示一下这周学的内容吧！说给妈妈听：warm cold",
+                  "wordsFocus": [
+                    "warm",
+                    "cold"
+                  ]
+                },
                 {
                   "priority": "core",
                   "resourceId": null,
@@ -2037,6 +3431,17 @@
                   "title": "The Playgroup 选段",
                   "description": "Peppa穿衣去幼儿园的场景。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "综合小测验",
+                  "description": "『Can you find wear?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "wear",
+                    "put on"
+                  ]
                 }
               ]
             }
@@ -2081,6 +3486,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：wake up、brush teeth",
+                  "description": "跟着妈妈读单词：wake up brush teeth",
+                  "wordsFocus": [
+                    "wake up",
+                    "brush teeth"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Brush / Soap",
@@ -2088,6 +3504,26 @@
                   "wordsFocus": [
                     "brush",
                     "soap"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is wake up?』——宝宝能指出wake up对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "wake up"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：wash face！大声说出来吧～",
+                  "wordsFocus": [
+                    "wash face"
                   ]
                 },
                 {
@@ -2119,6 +3555,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：wash face、comb hair",
+                  "description": "跟着妈妈读单词：wash face comb hair",
+                  "wordsFocus": [
+                    "wash face",
+                    "comb hair"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Milk / Cup（早餐关联）",
@@ -2126,6 +3573,26 @@
                   "wordsFocus": [
                     "milk",
                     "cup"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is brush teeth?』——宝宝能指出brush teeth对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "brush teeth"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：comb hair！大声说出来吧～",
+                  "wordsFocus": [
+                    "comb hair"
                   ]
                 },
                 {
@@ -2157,6 +3624,17 @@
                   ]
                 },
                 {
+                  "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：take a bath、breakfast",
+                  "description": "跟着妈妈读单词：take a bath breakfast",
+                  "wordsFocus": [
+                    "take a bath",
+                    "breakfast"
+                  ]
+                },
+                {
                   "priority": "optional",
                   "resourceId": "pp",
                   "resourceType": "PP",
@@ -2164,6 +3642,26 @@
                   "description": "Peppa洗澡的故事。",
                   "wordsFocus": [
                     "bath"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is wash face?』——宝宝能指出wash face对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "wash face"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：take a bath！大声说出来吧～",
+                  "wordsFocus": [
+                    "take a bath"
                   ]
                 },
                 {
@@ -2196,6 +3694,27 @@
                   "title": "What do you do?",
                   "description": "家长问What do you do in the morning? 孩子用动作回应。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "『Can you find bath?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "bath",
+                    "clean"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "大声说出来：take a bath！你真棒！",
+                  "wordsFocus": [
+                    "take a bath"
+                  ]
                 }
               ]
             },
@@ -2204,6 +3723,17 @@
               "label": "周五",
               "type": "output",
               "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "口语展示",
+                  "description": "宝宝来展示一下这周学的内容吧！说给妈妈听：towel sleep",
+                  "wordsFocus": [
+                    "towel",
+                    "sleep"
+                  ]
+                },
                 {
                   "priority": "core",
                   "resourceId": null,
@@ -2224,6 +3754,17 @@
                   "title": "Daily Routine 主题",
                   "description": "Khan Academy Kids日常作息互动。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "综合小测验",
+                  "description": "『Can you find good night?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "good night",
+                    "wake up"
+                  ]
                 }
               ]
             }
@@ -2270,6 +3811,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：bus、car",
+                  "description": "跟着妈妈读单词：bus car",
+                  "wordsFocus": [
+                    "bus",
+                    "car"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Car / Bus",
@@ -2277,6 +3829,26 @@
                   "wordsFocus": [
                     "car",
                     "bus"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is bus?』——宝宝能指出bus对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "bus"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：train！大声说出来吧～",
+                  "wordsFocus": [
+                    "train"
                   ]
                 },
                 {
@@ -2312,12 +3884,43 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：train、boat",
+                  "description": "跟着妈妈读单词：train boat",
+                  "wordsFocus": [
+                    "train",
+                    "boat"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Train / Boat",
                   "description": "Dee教说train和boat。",
                   "wordsFocus": [
                     "train",
+                    "boat"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is car?』——宝宝能指出car对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "car"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：boat！大声说出来吧～",
+                  "wordsFocus": [
                     "boat"
                   ]
                 },
@@ -2351,6 +3954,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：plane、bike",
+                  "description": "跟着妈妈读单词：plane bike",
+                  "wordsFocus": [
+                    "plane",
+                    "bike"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Bike / Rocket",
@@ -2358,6 +3972,26 @@
                   "wordsFocus": [
                     "bike",
                     "rocket"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is train?』——宝宝能指出train对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "train"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：plane！大声说出来吧～",
+                  "wordsFocus": [
+                    "plane"
                   ]
                 },
                 {
@@ -2393,6 +4027,27 @@
                   "title": "车辆大巡游",
                   "description": "用玩具车排一列，每辆说出名字。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "『Can you find truck?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "truck",
+                    "tractor"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "大声说出来：plane！你真棒！",
+                  "wordsFocus": [
+                    "plane"
+                  ]
                 }
               ]
             },
@@ -2401,6 +4056,17 @@
               "label": "周五",
               "type": "output",
               "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "口语展示",
+                  "description": "宝宝来展示一下这周学的内容吧！说给妈妈听：fast slow",
+                  "wordsFocus": [
+                    "fast",
+                    "slow"
+                  ]
+                },
                 {
                   "priority": "core",
                   "resourceId": null,
@@ -2422,6 +4088,17 @@
                   "title": "Tire Town School 选2集",
                   "description": "Little Fox汽车城故事，语速极慢，车主题。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "综合小测验",
+                  "description": "『Can you find go?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "go",
+                    "stop"
+                  ]
                 }
               ]
             }
@@ -2448,6 +4125,22 @@
                   "title": "Yummy or Yucky?",
                   "description": "品尝真实食物并分类，边尝边说。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "和宝宝一起回顾这周学过的内容吧！",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "和妈妈一起回顾这周学过的单词吧！",
+                  "wordsFocus": []
                 }
               ]
             },
@@ -2462,6 +4155,22 @@
                   "resourceType": "REVIEW",
                   "title": "穿搭比赛",
                   "description": "最快穿好并用英语说出穿的衣物。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "和宝宝一起回顾这周学过的内容吧！",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "和妈妈一起回顾这周学过的单词吧！",
                   "wordsFocus": []
                 }
               ]
@@ -2478,6 +4187,22 @@
                   "title": "作息大转盘",
                   "description": "转到哪个环节就表演出来并用英语说。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "和宝宝一起回顾这周学过的内容吧！",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "和妈妈一起回顾这周学过的单词吧！",
+                  "wordsFocus": []
                 }
               ]
             },
@@ -2493,6 +4218,22 @@
                   "title": "交通工具声音猜谜",
                   "description": "听声音猜交通工具。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "和宝宝一起回顾这周学过的内容吧！",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "和妈妈一起回顾这周学过的单词吧！",
+                  "wordsFocus": []
                 }
               ]
             },
@@ -2507,6 +4248,22 @@
                   "resourceType": "REVIEW",
                   "title": "综合闯关",
                   "description": "完整流程：穿好衣服→吃早餐→开车去公园。全程英语。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "和宝宝一起回顾这周学过的内容吧！",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "和妈妈一起回顾这周学过的单词吧！",
                   "wordsFocus": []
                 }
               ]
@@ -2562,6 +4319,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：blue、red",
+                  "description": "跟着妈妈读单词：blue red",
+                  "wordsFocus": [
+                    "blue",
+                    "red"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Blue / Red",
@@ -2569,6 +4337,26 @@
                   "wordsFocus": [
                     "blue",
                     "red"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is blue?』——宝宝能指出blue对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "blue"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：yellow！大声说出来吧～",
+                  "wordsFocus": [
+                    "yellow"
                   ]
                 },
                 {
@@ -2603,12 +4391,43 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：yellow、green",
+                  "description": "跟着妈妈读单词：yellow green",
+                  "wordsFocus": [
+                    "yellow",
+                    "green"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Pink / Green",
                   "description": "Dee教说pink和green。",
                   "wordsFocus": [
                     "pink",
+                    "green"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is red?』——宝宝能指出red对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "red"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：green！大声说出来吧～",
+                  "wordsFocus": [
                     "green"
                   ]
                 },
@@ -2641,12 +4460,43 @@
                   ]
                 },
                 {
+                  "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：purple、orange",
+                  "description": "跟着妈妈读单词：purple orange",
+                  "wordsFocus": [
+                    "purple",
+                    "orange"
+                  ]
+                },
+                {
                   "priority": "optional",
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "Colors 选段",
                   "description": "Peppa学颜色的故事。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is yellow?』——宝宝能指出yellow对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "yellow"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：purple！大声说出来吧～",
+                  "wordsFocus": [
+                    "purple"
+                  ]
                 },
                 {
                   "priority": "core",
@@ -2680,6 +4530,27 @@
                   "wordsFocus": [
                     "I see"
                   ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "『Can you find pink?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "pink",
+                    "white"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "大声说出来：purple！你真棒！",
+                  "wordsFocus": [
+                    "purple"
+                  ]
                 }
               ]
             },
@@ -2688,6 +4559,17 @@
               "label": "周五",
               "type": "output",
               "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "口语展示",
+                  "description": "宝宝来展示一下这周学的内容吧！说给妈妈听：black brown",
+                  "wordsFocus": [
+                    "black",
+                    "brown"
+                  ]
+                },
                 {
                   "priority": "core",
                   "resourceId": null,
@@ -2709,6 +4591,17 @@
                   "title": "Colors 主题",
                   "description": "Khan Academy Kids颜色互动。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "综合小测验",
+                  "description": "『Can you find colorful?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "colorful",
+                    "I see"
+                  ]
                 }
               ]
             }
@@ -2752,6 +4645,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：one、two",
+                  "description": "跟着妈妈读单词：one two",
+                  "wordsFocus": [
+                    "one",
+                    "two"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "One / Two",
@@ -2759,6 +4663,26 @@
                   "wordsFocus": [
                     "one",
                     "two"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is one?』——宝宝能指出one对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "one"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：three！大声说出来吧～",
+                  "wordsFocus": [
+                    "three"
                   ]
                 },
                 {
@@ -2797,12 +4721,43 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：three、four",
+                  "description": "跟着妈妈读单词：three four",
+                  "wordsFocus": [
+                    "three",
+                    "four"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Three / Four",
                   "description": "Dee教说3和4。",
                   "wordsFocus": [
                     "three",
+                    "four"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is two?』——宝宝能指出two对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "two"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：four！大声说出来吧～",
+                  "wordsFocus": [
                     "four"
                   ]
                 },
@@ -2836,12 +4791,43 @@
                   ]
                 },
                 {
+                  "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：five、count",
+                  "description": "跟着妈妈读单词：five count",
+                  "wordsFocus": [
+                    "five",
+                    "count"
+                  ]
+                },
+                {
                   "priority": "optional",
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "Numbers 选段",
                   "description": "Peppa和数字相关的故事。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is three?』——宝宝能指出three对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "three"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：five！大声说出来吧～",
+                  "wordsFocus": [
+                    "five"
+                  ]
                 },
                 {
                   "priority": "core",
@@ -2879,6 +4865,27 @@
                   "title": "数字跳格子",
                   "description": "地上贴1-5，跳到哪个说哪个。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "『Can you find how many?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "how many",
+                    "number"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "大声说出来：five！你真棒！",
+                  "wordsFocus": [
+                    "five"
+                  ]
                 }
               ]
             },
@@ -2887,6 +4894,17 @@
               "label": "周五",
               "type": "output",
               "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "口语展示",
+                  "description": "宝宝来展示一下这周学的内容吧！说给妈妈听：one two",
+                  "wordsFocus": [
+                    "one",
+                    "two"
+                  ]
+                },
                 {
                   "priority": "core",
                   "resourceId": null,
@@ -2906,6 +4924,17 @@
                   "title": "Numbers 主题",
                   "description": "Khan Academy Kids数字互动。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "综合小测验",
+                  "description": "『Can you find three?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "three",
+                    "four"
+                  ]
                 }
               ]
             }
@@ -2952,6 +4981,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：run、jump",
+                  "description": "跟着妈妈读单词：run jump",
+                  "wordsFocus": [
+                    "run",
+                    "jump"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Run / Jump",
@@ -2959,6 +4999,26 @@
                   "wordsFocus": [
                     "run",
                     "jump"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is run?』——宝宝能指出run对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "run"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：hop！大声说出来吧～",
+                  "wordsFocus": [
+                    "hop"
                   ]
                 },
                 {
@@ -2996,6 +5056,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：hop、stop",
+                  "description": "跟着妈妈读单词：hop stop",
+                  "wordsFocus": [
+                    "hop",
+                    "stop"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Jump / Clap",
@@ -3003,6 +5074,26 @@
                   "wordsFocus": [
                     "jump",
                     "clap"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is jump?』——宝宝能指出jump对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "jump"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：stop！大声说出来吧～",
+                  "wordsFocus": [
+                    "stop"
                   ]
                 },
                 {
@@ -3038,6 +5129,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：clap、stomp",
+                  "description": "跟着妈妈读单词：clap stomp",
+                  "wordsFocus": [
+                    "clap",
+                    "stomp"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Fly / Swim",
@@ -3045,6 +5147,26 @@
                   "wordsFocus": [
                     "fly",
                     "swim"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is hop?』——宝宝能指出hop对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "hop"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：clap！大声说出来吧～",
+                  "wordsFocus": [
+                    "clap"
                   ]
                 },
                 {
@@ -3081,6 +5203,27 @@
                   "title": "你说我做",
                   "description": "Hop like a bunny! Stomp like an elephant! 结合动物和动作。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "『Can you find spin?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "spin",
+                    "fly"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "大声说出来：clap！你真棒！",
+                  "wordsFocus": [
+                    "clap"
+                  ]
                 }
               ]
             },
@@ -3089,6 +5232,17 @@
               "label": "周五",
               "type": "output",
               "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "口语展示",
+                  "description": "宝宝来展示一下这周学的内容吧！说给妈妈听：swim crawl",
+                  "wordsFocus": [
+                    "swim",
+                    "crawl"
+                  ]
+                },
                 {
                   "priority": "core",
                   "resourceId": null,
@@ -3111,6 +5265,17 @@
                   "title": "The Big Green Forest 选1集",
                   "description": "动物蹦蹦跳跳的故事。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "综合小测验",
+                  "description": "『Can you find stretch?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "stretch",
+                    "freeze"
+                  ]
                 }
               ]
             }
@@ -3158,12 +5323,43 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：elephant、lion",
+                  "description": "跟着妈妈读单词：elephant lion",
+                  "wordsFocus": [
+                    "elephant",
+                    "lion"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Elephant / Monkey",
                   "description": "Dee教说elephant和monkey。",
                   "wordsFocus": [
                     "elephant",
+                    "monkey"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is elephant?』——宝宝能指出elephant对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "elephant"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：monkey！大声说出来吧～",
+                  "wordsFocus": [
                     "monkey"
                   ]
                 },
@@ -3200,6 +5396,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：monkey、tiger",
+                  "description": "跟着妈妈读单词：monkey tiger",
+                  "wordsFocus": [
+                    "monkey",
+                    "tiger"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Lion / Frog",
@@ -3207,6 +5414,26 @@
                   "wordsFocus": [
                     "lion",
                     "frog"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is lion?』——宝宝能指出lion对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "lion"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：tiger！大声说出来吧～",
+                  "wordsFocus": [
+                    "tiger"
                   ]
                 },
                 {
@@ -3238,12 +5465,43 @@
                   ]
                 },
                 {
+                  "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：giraffe、snake",
+                  "description": "跟着妈妈读单词：giraffe snake",
+                  "wordsFocus": [
+                    "giraffe",
+                    "snake"
+                  ]
+                },
+                {
                   "priority": "optional",
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "The Zoo 选段",
                   "description": "Peppa去动物园的故事。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is monkey?』——宝宝能指出monkey对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "monkey"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：giraffe！大声说出来吧～",
+                  "wordsFocus": [
+                    "giraffe"
+                  ]
                 },
                 {
                   "priority": "core",
@@ -3279,6 +5537,27 @@
                   "title": "Who am I? 动物版",
                   "description": "家长学一种动物的动作和叫声，孩子猜。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "『Can you find frog?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "frog",
+                    "parrot"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "大声说出来：giraffe！你真棒！",
+                  "wordsFocus": [
+                    "giraffe"
+                  ]
                 }
               ]
             },
@@ -3287,6 +5566,17 @@
               "label": "周五",
               "type": "output",
               "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "口语展示",
+                  "description": "宝宝来展示一下这周学的内容吧！说给妈妈听：big small",
+                  "wordsFocus": [
+                    "big",
+                    "small"
+                  ]
+                },
                 {
                   "priority": "core",
                   "resourceId": null,
@@ -3308,6 +5598,17 @@
                   "title": "Meet the Animals 选2集",
                   "description": "Little Fox真实动物照片+简单介绍。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "综合小测验",
+                  "description": "『Can you find tall?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "tall",
+                    "strong"
+                  ]
                 }
               ]
             }
@@ -3355,6 +5656,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：star、moon",
+                  "description": "跟着妈妈读单词：star moon",
+                  "wordsFocus": [
+                    "star",
+                    "moon"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Moon / Star",
@@ -3362,6 +5674,26 @@
                   "wordsFocus": [
                     "moon",
                     "star"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is star?』——宝宝能指出star对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "star"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：sky！大声说出来吧～",
+                  "wordsFocus": [
+                    "sky"
                   ]
                 },
                 {
@@ -3397,6 +5729,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：sky、night",
+                  "description": "跟着妈妈读单词：sky night",
+                  "wordsFocus": [
+                    "sky",
+                    "night"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Bed / Teddy",
@@ -3404,6 +5747,26 @@
                   "wordsFocus": [
                     "bed",
                     "teddy"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is moon?』——宝宝能指出moon对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "moon"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：night！大声说出来吧～",
+                  "wordsFocus": [
+                    "night"
                   ]
                 },
                 {
@@ -3439,6 +5802,17 @@
                   ]
                 },
                 {
+                  "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：bed、pillow",
+                  "description": "跟着妈妈读单词：bed pillow",
+                  "wordsFocus": [
+                    "bed",
+                    "pillow"
+                  ]
+                },
+                {
                   "priority": "optional",
                   "resourceId": "pp",
                   "resourceType": "PP",
@@ -3447,6 +5821,26 @@
                   "wordsFocus": [
                     "bedtime",
                     "sleep"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is sky?』——宝宝能指出sky对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "sky"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：bed！大声说出来吧～",
+                  "wordsFocus": [
+                    "bed"
                   ]
                 },
                 {
@@ -3486,6 +5880,27 @@
                     "sleep",
                     "quiet"
                   ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "『Can you find blanket?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "blanket",
+                    "teddy"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "大声说出来：bed！你真棒！",
+                  "wordsFocus": [
+                    "bed"
+                  ]
                 }
               ]
             },
@@ -3494,6 +5909,17 @@
               "label": "周五",
               "type": "output",
               "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "口语展示",
+                  "description": "宝宝来展示一下这周学的内容吧！说给妈妈听：sleep dream",
+                  "wordsFocus": [
+                    "sleep",
+                    "dream"
+                  ]
+                },
                 {
                   "priority": "core",
                   "resourceId": null,
@@ -3519,6 +5945,17 @@
                     "star",
                     "moon",
                     "sleep"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "综合小测验",
+                  "description": "『Can you find quiet?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "quiet",
+                    "hug"
                   ]
                 }
               ]
@@ -3564,6 +6001,17 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：circle、square",
+                  "description": "跟着妈妈读单词：circle square",
+                  "wordsFocus": [
+                    "circle",
+                    "square"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Star / Circle",
@@ -3571,6 +6019,26 @@
                   "wordsFocus": [
                     "star",
                     "circle"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is circle?』——宝宝能指出circle对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "circle"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：triangle！大声说出来吧～",
+                  "wordsFocus": [
+                    "triangle"
                   ]
                 },
                 {
@@ -3606,12 +6074,43 @@
                 },
                 {
                   "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：triangle、star",
+                  "description": "跟着妈妈读单词：triangle star",
+                  "wordsFocus": [
+                    "triangle",
+                    "star"
+                  ]
+                },
+                {
+                  "priority": "core",
                   "resourceId": "yd",
                   "resourceType": "YD",
                   "title": "Heart",
                   "description": "Yakka Dee心形特集。",
                   "wordsFocus": [
                     "heart"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is square?』——宝宝能指出square对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "square"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：star！大声说出来吧～",
+                  "wordsFocus": [
+                    "star"
                   ]
                 },
                 {
@@ -3643,12 +6142,43 @@
                   ]
                 },
                 {
+                  "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：heart、rectangle",
+                  "description": "跟着妈妈读单词：heart rectangle",
+                  "wordsFocus": [
+                    "heart",
+                    "rectangle"
+                  ]
+                },
+                {
                   "priority": "optional",
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "Shapes 选段",
                   "description": "Peppa学形状。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is triangle?』——宝宝能指出triangle对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "triangle"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：heart！大声说出来吧～",
+                  "wordsFocus": [
+                    "heart"
+                  ]
                 },
                 {
                   "priority": "core",
@@ -3685,6 +6215,27 @@
                   "title": "形状贴纸画",
                   "description": "用不同形状的贴纸拼成一幅画。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "『Can you find diamond?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "diamond",
+                    "oval"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "大声说出来：heart！你真棒！",
+                  "wordsFocus": [
+                    "heart"
+                  ]
                 }
               ]
             },
@@ -3693,6 +6244,17 @@
               "label": "周五",
               "type": "output",
               "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "口语展示",
+                  "description": "宝宝来展示一下这周学的内容吧！说给妈妈听：round draw",
+                  "wordsFocus": [
+                    "round",
+                    "draw"
+                  ]
+                },
                 {
                   "priority": "core",
                   "resourceId": null,
@@ -3714,6 +6276,17 @@
                   "title": "Shapes 主题",
                   "description": "Khan Academy Kids形状互动。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "综合小测验",
+                  "description": "『Can you find circle?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "circle",
+                    "square"
+                  ]
                 }
               ]
             }
@@ -3740,6 +6313,22 @@
                   "title": "单词大阅兵",
                   "description": "40张闪卡快速过一遍，认出一张贴纸上墙。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "和宝宝一起回顾这周学过的内容吧！",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "和妈妈一起回顾这周学过的单词吧！",
+                  "wordsFocus": []
                 }
               ]
             },
@@ -3754,6 +6343,22 @@
                   "resourceType": "REVIEW",
                   "title": "最爱主题演唱会",
                   "description": "孩子选3首最爱的SSS全曲唱跳。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "和宝宝一起回顾这周学过的内容吧！",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "和妈妈一起回顾这周学过的单词吧！",
                   "wordsFocus": []
                 }
               ]
@@ -3770,6 +6375,22 @@
                   "title": "综合寻宝游戏",
                   "description": "按线索找宝藏：Find something RED that you WEAR（红色衣服）— 跨主题综合。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "和宝宝一起回顾这周学过的内容吧！",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "和妈妈一起回顾这周学过的单词吧！",
+                  "wordsFocus": []
                 }
               ]
             },
@@ -3785,6 +6406,22 @@
                   "title": "英语小剧场",
                   "description": "用全年学过的句型串成一个小故事，用玩偶演出。",
                   "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "和宝宝一起回顾这周学过的内容吧！",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "和妈妈一起回顾这周学过的单词吧！",
+                  "wordsFocus": []
                 }
               ]
             },
@@ -3799,6 +6436,22 @@
                   "resourceType": "REVIEW",
                   "title": "🎉 结业派对",
                   "description": "邀请家人观看孩子表演——唱一首歌、指身体部位、数数、说颜色。满满的成就感！",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "和宝宝一起回顾这周学过的内容吧！",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "和妈妈一起回顾这周学过的单词吧！",
                   "wordsFocus": []
                 }
               ]

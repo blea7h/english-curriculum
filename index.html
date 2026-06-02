@@ -581,14 +581,15 @@ function showDay(dayIdx) {
       const card = document.createElement('div');
       card.className = 'activity-card';
       const isCore = act.priority === 'core';
+      const isVideoType = act.resourceType && !['PARENT','REVIEW','WORD','QUIZ','SPEAKING'].includes(act.resourceType);
       let resourceBadge = '';
-      if (act.resourceType && act.resourceType !== 'PARENT' && act.resourceType !== 'REVIEW') {
+      if (isVideoType) {
         resourceBadge = `<span style="font-size:11px;color:#888;background:#eee;padding:2px 8px;border-radius:6px;">${act.resourceType}</span>`;
       }
 
       const resourceLibrary = curriculum.resourceLibrary || [];
       const resInfo = resourceLibrary.find(r => r.id === act.resourceId);
-      const isMedia = act.resourceType && act.resourceType !== 'PARENT' && act.resourceType !== 'REVIEW';
+      const isMedia = isVideoType;
 
       // Generate a unique ID for the resource button area
       const resId = 'res-' + Date.now() + '-' + Math.random().toString(36).slice(2, 8);
