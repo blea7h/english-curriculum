@@ -237,6 +237,18 @@
   .play-btn:hover { background: #218838; }
   .play-btn.remote { background: #667eea; }
   .play-btn.remote:hover { background: #5a6fd6; }
+  .bilibili-link {
+    display: inline-flex; align-items: center; gap: 4px;
+    margin-top: 6px; background: #fb7299; color: #fff;
+    padding: 4px 12px; border-radius: 6px;
+    font-size: 12px; text-decoration: none;
+    transition: background 0.2s;
+  }
+  .bilibili-link:hover { background: #e55d87; }
+  .res-checking {
+    display: inline-block; margin-top: 6px;
+    font-size: 11px; color: #aaa;
+  }
 
   .empty-state {
     text-align: center; padding: 60px 20px; color: #aaa;
@@ -322,6 +334,32 @@ function closeVideo(e) {
   overlay.classList.remove('visible');
   document.getElementById('videoElement').pause();
   document.getElementById('videoElement').src = '';
+}
+
+// ─── Helpers ───
+function slugify(str) {
+  return str
+    .toLowerCase()
+    .replace(/[（(][^）)]*[）)]/g, '')
+    .replace(/[\u4e00-\u9fff]+/g, '')
+    .replace(/[^\w\s-]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+function generateLocalPath(weekNum, title) {
+  const slug = slugify(title);
+  if (!slug) return null;
+  return `videos/week${String(weekNum).padStart(2, '0')}/${slug}.mp4`;
+}
+async function fileExists(path) {
+  try {
+    const resp = await fetch(path, { method: 'HEAD', cache: 'no-cache' });
+    return resp.ok;
+  } catch { return false; }
+}
+function bilibiliSearchUrl(keyword) {
+  return `https://search.bilibili.com/all?keyword=${encodeURIComponent(keyword)}`;
 }
 
 // ─── State ───
@@ -550,21 +588,10 @@ function showDay(dayIdx) {
 
       const resourceLibrary = curriculum.resourceLibrary || [];
       const resInfo = resourceLibrary.find(r => r.id === act.resourceId);
+      const isMedia = act.resourceType && act.resourceType !== 'PARENT' && act.resourceType !== 'REVIEW';
 
-      // Build resource buttons: local video first, then external link
-      let resourceButtons = '';
-      // Check activity-level localPath first, then resource library
-      const localSrc = act.localPath || (resInfo && resInfo.localPath);
-      const extUrl = resInfo && resInfo.url;
-      const displayName = act.resourceLabel || (resInfo && resInfo.name) || '';
-
-      if (localSrc) {
-        const safeTitle = displayName.replace(/'/g, "\\'");
-        resourceButtons += `<button class="play-btn" onclick="openVideo('${localSrc}','${safeTitle}')">▶ 播放 · ${displayName || '本地视频'}</button>`;
-      }
-      if (extUrl) {
-        resourceButtons += `<a class="resource-link" href="${extUrl}" target="_blank">🔗 ${displayName || '在线资源'}</a>`;
-      }
+      // Generate a unique ID for the resource button area
+      const resId = 'res-' + Date.now() + '-' + Math.random().toString(36).slice(2, 8);
 
       card.innerHTML = `
         <div style="flex:1;min-width:0;">
@@ -579,16 +606,46 @@ function showDay(dayIdx) {
               ${act.wordsFocus.map(w => `<span>${w}</span>`).join('')}
             </div>
           ` : ''}
-          <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:6px;">
-            ${resourceButtons}
+          <div id="${resId}" style="display:flex;flex-wrap:wrap;gap:6px;margin-top:6px;">
+            ${isMedia ? '<span class="res-checking">🔍 检查本地资源...</span>' : ''}
           </div>
         </div>
       `;
       container.appendChild(card);
+
+      // Async check for media resources
+      if (isMedia && resInfo) {
+        checkAndRenderResource(act, resInfo, currentWeek.number, resId);
+      }
     });
   } else {
     container.innerHTML += '<p style="color:#aaa;font-size:14px;">暂无活动安排</p>';
   }
+}
+
+// ─── Async resource check — local file or Bilibili fallback ───
+async function checkAndRenderResource(act, resInfo, weekNum, containerId) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+
+  // Determine expected local path (explicit field or auto-generated)
+  const localPath = act.localPath || generateLocalPath(weekNum, act.title);
+  const providerName = resInfo.name || '';
+  const searchTerm = `${providerName} ${act.title}`;
+
+  if (localPath) {
+    const fileOk = await fileExists(localPath);
+    if (fileOk) {
+      // File exists → play button
+      const safeTitle = (act.title || providerName).replace(/'/g, "\\'");
+      container.innerHTML = `<button class="play-btn" onclick="openVideo('${localPath}','${safeTitle}')">▶ 播放 · ${providerName}</button>`;
+      return;
+    }
+  }
+
+  // File missing → Bilibili search link
+  const url = bilibiliSearchUrl(searchTerm);
+  container.innerHTML = `<a class="bilibili-link" href="${url}" target="_blank">📺 B站搜索 · ${providerName}</a>`;
 }
 
 // ─── Close detail ───
