@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>英语启蒙 · 主题课程规划</title>
+<style>
+  :root {
+    --p1: #7eb8e0; --p1-bg: #e8f4fd;
+    --p2: #7ec8a3; --p2-bg: #e8f8f0;
+    --p3: #f0b87a; --p3-bg: #fef5e8;
+    --p4: #c89bd8; --p4-bg: #f5edfa;
+    --review: #f5a9b8; --review-bg: #fdeef2;
+    --radius: 12px;
+    --shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans SC", sans-serif;
+    background: #f7f8fa;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  /* Header */
+  .header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    padding: 24px 20px;
+    position: sticky; top: 0; z-index: 100;
+    box-shadow: 0 2px 12px rgba(102,126,234,0.3);
+  }
+  .header-inner {
+    max-width: 1000px; margin: 0 auto;
+    display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+  }
+  .header h1 { font-size: 22px; font-weight: 700; }
+  .header h1 span { font-weight: 400; opacity: 0.85; font-size: 16px; }
+  .header-controls { display: flex; align-items: center; gap: 12px; }
+  .header-controls select {
+    padding: 8px 14px; border-radius: 8px; border: none;
+    font-size: 14px; font-weight: 500; cursor: pointer;
+    background: rgba(255,255,255,0.2); color: #fff;
+    -webkit-appearance: none; appearance: none;
+  }
+  .header-controls select option { color: #333; background: #fff; }
+  .week-counter { font-size: 14px; opacity: 0.85; }
+
+  /* Main */
+  .main { max-width: 1000px; margin: 0 auto; padding: 20px; }
+
+  /* Phase Section */
+  .phase {
+    background: #fff; border-radius: var(--radius);
+    margin-bottom: 20px; box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+  .phase-header {
+    padding: 16px 20px; cursor: pointer;
+    display: flex; align-items: center; justify-content: space-between;
+    transition: background 0.2s;
+  }
+  .phase-header:hover { filter: brightness(0.97); }
+  .phase-header[data-phase="phase-1"] { background: var(--p1-bg); border-left: 4px solid var(--p1); }
+  .phase-header[data-phase="phase-2"] { background: var(--p2-bg); border-left: 4px solid var(--p2); }
+  .phase-header[data-phase="phase-3"] { background: var(--p3-bg); border-left: 4px solid var(--p3); }
+  .phase-header[data-phase="phase-4"] { background: var(--p4-bg); border-left: 4px solid var(--p4); }
+  .phase-name { font-size: 17px; font-weight: 600; }
+  .phase-name small { font-weight: 400; color: #888; font-size: 13px; }
+  .phase-toggle { font-size: 13px; color: #888; }
+
+  /* Week Grid */
+  .week-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 10px; padding: 16px 20px;
+  }
+  .week-card {
+    background: #f7f8fa; border-radius: 10px;
+    padding: 14px 10px; text-align: center; cursor: pointer;
+    transition: all 0.2s; border: 2px solid transparent;
+    position: relative;
+  }
+  .week-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+  .week-card.active { border-color: #667eea; background: #eef0ff; }
+  .week-card.is-review { background: var(--review-bg); border-color: var(--review); }
+  .week-card .week-num {
+    font-size: 11px; font-weight: 600; color: #aaa; letter-spacing: 0.5px;
+  }
+  .week-card .week-theme {
+    font-size: 15px; font-weight: 600; margin-top: 4px;
+  }
+  .week-card .week-theme-cn {
+    font-size: 12px; color: #888; margin-top: 2px;
+  }
+  .week-card .phase-dot {
+    display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+    margin-top: 6px;
+  }
+  .phase-dot.p1 { background: var(--p1); }
+  .phase-dot.p2 { background: var(--p2); }
+  .phase-dot.p3 { background: var(--p3); }
+  .phase-dot.p4 { background: var(--p4); }
+  .phase-dot.review { background: var(--review); }
+
+  /* Detail Panel */
+  .detail {
+    background: #fff; border-radius: var(--radius); box-shadow: var(--shadow);
+    margin-bottom: 20px; overflow: hidden;
+    display: none;
+  }
+  .detail.visible { display: block; }
+  .detail-header {
+    padding: 20px 24px 16px;
+    display: flex; align-items: flex-start; justify-content: space-between;
+    flex-wrap: wrap; gap: 12px;
+  }
+  .detail-header h2 { font-size: 20px; font-weight: 700; }
+  .detail-header .week-tag {
+    font-size: 12px; padding: 3px 10px; border-radius: 20px;
+    font-weight: 500;
+  }
+  .detail-header .close-btn {
+    background: none; border: none; font-size: 24px; cursor: pointer;
+    color: #aaa; padding: 4px; line-height: 1;
+  }
+  .detail-header .close-btn:hover { color: #333; }
+
+  .detail-body { padding: 0 24px 24px; }
+
+  /* Key Words */
+  .keyword-section { margin-bottom: 16px; }
+  .keyword-section h3 { font-size: 13px; color: #888; margin-bottom: 6px; }
+  .keyword-list { display: flex; flex-wrap: wrap; gap: 6px; }
+  .keyword-tag {
+    background: #eef0ff; color: #667eea; padding: 3px 10px;
+    border-radius: 20px; font-size: 12px; font-weight: 500;
+  }
+
+  .parent-tips {
+    background: #fffbe6; border-left: 3px solid #f0c040;
+    padding: 12px 16px; border-radius: 0 8px 8px 0;
+    margin-bottom: 16px; font-size: 13px; color: #665;
+    line-height: 1.7;
+  }
+
+  /* Day Tabs */
+  .day-tabs {
+    display: flex; gap: 4px; margin-bottom: 12px;
+    overflow-x: auto; padding-bottom: 4px;
+  }
+  .day-tab {
+    padding: 8px 16px; border-radius: 8px; border: none;
+    font-size: 13px; font-weight: 500; cursor: pointer;
+    background: #f0f0f0; color: #888; white-space: nowrap;
+    transition: all 0.2s;
+  }
+  .day-tab:hover { background: #e0e0e0; }
+  .day-tab.active { background: #667eea; color: #fff; }
+  .day-tab .day-type-icon { margin-right: 4px; font-size: 12px; }
+
+  /* Day Content */
+  .day-content { display: none; }
+  .day-content.visible { display: block; }
+  .activity-card {
+    background: #f7f8fa; border-radius: 10px; padding: 14px 16px;
+    margin-bottom: 10px; display: flex; align-items: flex-start; gap: 12px;
+  }
+  .activity-card .priority-badge {
+    font-size: 11px; padding: 2px 8px; border-radius: 10px;
+    font-weight: 500; white-space: nowrap;
+    background: #e8f4fd; color: #5a8fc9;
+  }
+  .activity-card .priority-badge.optional {
+    background: #fef5e8; color: #d4a04a;
+  }
+  .activity-card .act-title { font-weight: 600; font-size: 14px; }
+  .activity-card .act-description { font-size: 13px; color: #666; margin-top: 4px; }
+  .activity-card .act-words {
+    display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px;
+  }
+  .activity-card .act-words span {
+    background: #eef0ff; color: #667eea; padding: 1px 8px;
+    border-radius: 10px; font-size: 11px;
+  }
+
+  .resource-link {
+    display: inline-block; margin-top: 6px;
+    background: #667eea; color: #fff; padding: 3px 10px;
+    border-radius: 6px; font-size: 12px; text-decoration: none;
+    transition: background 0.2s;
+  }
+  .resource-link:hover { background: #5a6fd6; }
+
+  .day-type-header {
+    font-size: 12px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.5px; color: #aaa; margin: 12px 0 6px;
+  }
+
+  /* Empty state */
+  .empty-state {
+    text-align: center; padding: 60px 20px; color: #aaa;
+  }
+  .empty-state h3 { font-size: 18px; margin-bottom: 8px; color: #888; }
+  .empty-state p { font-size: 14px; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    .week-grid { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 8px; padding: 12px; }
+    .week-card { padding: 10px 8px; }
+    .week-card .week-theme { font-size: 13px; }
+    .detail-header { padding: 16px; }
+    .detail-body { padding: 0 16px 16px; }
+    .day-tab { padding: 6px 12px; font-size: 12px; }
+    .header h1 { font-size: 18px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-inner">
+    <div>
+      <h1>🎯 英语启蒙 · <span>主题课程规划</span></h1>
+    </div>
+    <div class="header-controls">
+      <span class="week-counter" id="weekCounter"></span>
+      <select id="curriculumSelect">
+        <option value="data/curriculum-3yo.json">3岁 · 启蒙课程</option>
+      </select>
+    </div>
+  </div>
+</div>
+
+<div class="main" id="app">
+  <div class="empty-state" id="emptyState">
+    <h3>加载中...</h3>
+    <p>正在读取课程数据</p>
+  </div>
+</div>
+
+<!-- Detail Panel -->
+<div class="detail" id="detailPanel">
+  <div class="detail-header">
+    <div>
+      <h2 id="detailTitle">第 1 周：Greetings</h2>
+      <span class="week-tag" id="detailTag">Phase 1</span>
+    </div>
+    <button class="close-btn" onclick="closeDetail()">✕</button>
+  </div>
+  <div class="detail-body" id="detailBody">
+    <div class="keyword-section">
+      <h3>📖 核心词汇</h3>
+      <div class="keyword-list" id="detailKeywords"></div>
+    </div>
+    <div class="parent-tips" id="detailTips"></div>
+    <div class="day-tabs" id="dayTabs"></div>
+    <div id="dayContent"></div>
+  </div>
+</div>
+
+<script>
+// ─── State ───
+let curriculum = null;
+let currentWeek = null;
+
+// ─── Phase colors ───
+const phaseColors = {
+  'phase-1': { border: '#7eb8e0', bg: '#e8f4fd', dotClass: 'p1', label: 'Phase 1' },
+  'phase-2': { border: '#7ec8a3', bg: '#e8f8f0', dotClass: 'p2', label: 'Phase 2' },
+  'phase-3': { border: '#f0b87a', bg: '#fef5e8', dotClass: 'p3', label: 'Phase 3' },
+  'phase-4': { border: '#c89bd8', bg: '#f5edfa', dotClass: 'p4', label: 'Phase 4' },
+};
+
+const dayTypeIcons = {
+  input: '🎵', review: '🔄', output: '🎤',
+  'comprehensive': '🎨',
+};
+
+const dayTypeLabels = {
+  input: '输入日', review: '巩固日', output: '输出日',
+  'comprehensive': '综合日',
+};
+
+// ─── Load curriculum ───
+async function loadCurriculum(path) {
+  try {
+    const resp = await fetch(path);
+    if (!resp.ok) throw new Error('Failed to load');
+    curriculum = await resp.json();
+    document.getElementById('weekCounter').textContent =
+      `${curriculum.metadata.totalWeeks} 周 · ${curriculum.metadata.title}`;
+    render();
+  } catch (e) {
+    document.getElementById('emptyState').innerHTML = `
+      <h3>⚠️ 加载失败</h3>
+      <p>请确保课程数据文件存在：${path}</p>
+    `;
+  }
+}
+
+// ─── Render ───
+function render(weekToOpen) {
+  const container = document.getElementById('app');
+  container.innerHTML = '';
+
+  if (!curriculum || !curriculum.phases) {
+    container.innerHTML = `<div class="empty-state"><h3>暂无课程数据</h3></div>`;
+    return;
+  }
+
+  let allWeeks = [];
+  curriculum.phases.forEach(p => {
+    const phaseColorsData = phaseColors[p.id] || { dotClass: 'review' };
+
+    // Phase header
+    const phase = document.createElement('div');
+    phase.className = 'phase';
+    phase.innerHTML = `
+      <div class="phase-header" data-phase="${p.id}" onclick="togglePhase(this)">
+        <div>
+          <div class="phase-name">${p.name} <small>${p.description.slice(0, 50)}...</small></div>
+        </div>
+        <span class="phase-toggle">▼</span>
+      </div>
+      <div class="week-grid" id="grid-${p.id}"></div>
+    `;
+    container.appendChild(phase);
+
+    const grid = document.getElementById(`grid-${p.id}`);
+    p.weeks.forEach((w, idx) => {
+      allWeeks.push(w);
+      const isReview = w.isReviewWeek;
+      const card = document.createElement('div');
+      card.className = 'week-card' + (isReview ? ' is-review' : '');
+      if (weekToOpen && weekToOpen === (`${p.id}-${idx}`)) card.classList.add('active');
+
+      card.innerHTML = `
+        <div class="week-num">${ isReview ? '★ 复习周' : `WEEK ${w.number}` }</div>
+        <div class="week-theme">${ isReview ? w.themeCn : w.theme }</div>
+        <div class="week-theme-cn">${ w.themeCn }</div>
+        <div class="phase-dot ${ isReview ? 'review' : phaseColorsData.dotClass }"></div>
+      `;
+      card.onclick = () => openWeek(p.id, idx);
+      grid.appendChild(card);
+    });
+  });
+
+  // Open default
+  if (weekToOpen) {
+    const [pid, widx] = weekToOpen.split('-');
+    openWeek(pid, parseInt(widx));
+  } else if (allWeeks.length > 0) {
+    openWeek(curriculum.phases[0].id, 0);
+  }
+}
+
+// ─── Toggle phase collapse ───
+function togglePhase(el) {
+  const grid = el.nextElementSibling;
+  const toggle = el.querySelector('.phase-toggle');
+  if (grid.style.display === 'none') {
+    grid.style.display = 'grid';
+    toggle.textContent = '▼';
+  } else {
+    grid.style.display = 'none';
+    toggle.textContent = '▶';
+  }
+}
+
+// ─── Open week detail ───
+function openWeek(phaseId, weekIdx) {
+  const phase = curriculum.phases.find(p => p.id === phaseId);
+  if (!phase) return;
+  const week = phase.weeks[weekIdx];
+  if (!week) return;
+  currentWeek = week;
+
+  // Update active state
+  document.querySelectorAll('.week-card.active').forEach(c => c.classList.remove('active'));
+  const grid = document.getElementById(`grid-${phaseId}`);
+  if (grid) {
+    const cards = grid.querySelectorAll('.week-card');
+    if (cards[weekIdx]) cards[weekIdx].classList.add('active');
+  }
+
+  const detail = document.getElementById('detailPanel');
+  detail.classList.add('visible');
+
+  // Title
+  const title = week.isReviewWeek
+    ? `★ ${week.themeCn}`
+    : `第 ${week.number} 周：${week.theme} · ${week.themeCn}`;
+  document.getElementById('detailTitle').textContent = title;
+
+  const pc = phaseColors[phaseId] || { label: '复习' };
+  const tag = document.getElementById('detailTag');
+  if (week.isReviewWeek) {
+    tag.textContent = '★ 复习周';
+    tag.style.background = 'var(--review-bg)';
+    tag.style.color = '#d45a6a';
+  } else {
+    tag.textContent = `${pc.label} · ${phase.name}`;
+    tag.style.background = pc.bg;
+    tag.style.color = pc.border;
+  }
+
+  // Keywords
+  const kwContainer = document.getElementById('detailKeywords');
+  kwContainer.innerHTML = '';
+  if (week.keyWords && week.keyWords.length > 0) {
+    week.keyWords.forEach(kw => {
+      const span = document.createElement('span');
+      span.className = 'keyword-tag';
+      span.textContent = kw;
+      kwContainer.appendChild(span);
+    });
+  } else {
+    kwContainer.innerHTML = '<span style="color:#aaa;font-size:13px;">（复习周无新词汇）</span>';
+  }
+
+  // Parent tips
+  const tips = document.getElementById('detailTips');
+  if (week.parentTips) {
+    tips.textContent = '💡 ' + week.parentTips;
+    tips.style.display = 'block';
+  } else {
+    tips.style.display = 'none';
+  }
+
+  // Day tabs
+  const dayTabs = document.getElementById('dayTabs');
+  dayTabs.innerHTML = '';
+  const dayContent = document.getElementById('dayContent');
+  dayContent.innerHTML = '';
+
+  if (!week.days || week.days.length === 0) return;
+
+  week.days.forEach((day, i) => {
+    const tab = document.createElement('button');
+    tab.className = 'day-tab' + (i === 0 ? ' active' : '');
+    const icon = dayTypeIcons[day.type] || '📅';
+    const label = dayTypeLabels[day.type] || day.label;
+    tab.innerHTML = `${icon} ${day.label}<br><small style="font-weight:400;font-size:11px;">${label}</small>`;
+    tab.onclick = () => showDay(i);
+    dayTabs.appendChild(tab);
+  });
+
+  // Show first day
+  showDay(0);
+}
+
+// ─── Show a specific day ───
+function showDay(dayIdx) {
+  if (!currentWeek || !currentWeek.days) return;
+
+  // Update tab active
+  const tabs = document.getElementById('dayTabs').querySelectorAll('.day-tab');
+  tabs.forEach((t, i) => t.classList.toggle('active', i === dayIdx));
+
+  const day = currentWeek.days[dayIdx];
+  if (!day) return;
+
+  const container = document.getElementById('dayContent');
+  container.innerHTML = '';
+
+  const icon = dayTypeIcons[day.type] || '📅';
+  const label = dayTypeLabels[day.type] || '';
+
+  // Day header
+  const header = document.createElement('div');
+  header.className = 'day-type-header';
+  header.textContent = `${icon} ${day.label} · ${label}`;
+  container.appendChild(header);
+
+  // Activities
+  if (day.activities && day.activities.length > 0) {
+    day.activities.forEach(act => {
+      const card = document.createElement('div');
+      card.className = 'activity-card';
+      const isCore = act.priority === 'core';
+      let resourceBadge = '';
+      if (act.resourceType && act.resourceType !== 'PARENT' && act.resourceType !== 'REVIEW') {
+        resourceBadge = `<span style="font-size:11px;color:#888;background:#eee;padding:2px 8px;border-radius:6px;">${act.resourceType}</span>`;
+      }
+
+      const resourceLibrary = curriculum.resourceLibrary || [];
+      const resInfo = resourceLibrary.find(r => r.id === act.resourceId);
+
+      card.innerHTML = `
+        <div style="flex:1;min-width:0;">
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+            <span class="priority-badge ${isCore ? '' : 'optional'}">${isCore ? '✅ 核心' : '➕ 可选'}</span>
+            <span class="act-title">${act.title}</span>
+            ${resourceBadge}
+          </div>
+          <div class="act-description">${act.description}</div>
+          ${act.wordsFocus && act.wordsFocus.length > 0 ? `
+            <div class="act-words">
+              ${act.wordsFocus.map(w => `<span>${w}</span>`).join('')}
+            </div>
+          ` : ''}
+          ${resInfo && resInfo.url ? `<a class="resource-link" href="${resInfo.url}" target="_blank">🔗 ${resInfo.name}</a>` : ''}
+        </div>
+      `;
+      container.appendChild(card);
+    });
+  } else {
+    container.innerHTML += '<p style="color:#aaa;font-size:14px;">暂无活动安排</p>';
+  }
+}
+
+// ─── Close detail ───
+function closeDetail() {
+  document.getElementById('detailPanel').classList.remove('visible');
+  document.querySelectorAll('.week-card.active').forEach(c => c.classList.remove('active'));
+}
+
+// ─── Curriculum selector ───
+document.getElementById('curriculumSelect').addEventListener('change', function() {
+  loadCurriculum(this.value);
+});
+
+// ─── Init ───
+loadCurriculum('data/curriculum-3yo.json');
+</script>
+</body>
+</html>
