@@ -44,6 +44,22 @@ def pick_words(week_kw, day_idx, count=3):
     start = (day_idx * count) % len(week_kw)
     return [week_kw[(start + i) % len(week_kw)] for i in range(count)]
 
+def dedup_kw(words):
+    seen = set()
+    out = []
+    for w in words:
+        if w.lower() not in seen:
+            seen.add(w.lower())
+            out.append(w)
+    return out
+
+def get_cumulative_keywords(phase_data, up_to_week_num):
+    pk = []
+    for pw in phase_data['weeks']:
+        if pw['number'] < up_to_week_num:
+            pk.extend(pw.get('keyWords', []))
+    return dedup_kw(pk)
+
 def word_title(words):
     return "核心词汇：" + "、".join(words) if words else "核心词汇"
 
@@ -76,6 +92,8 @@ stats = {'input': 0, 'review': 0, 'output': 0}
 for p in data['phases']:
     for w in p['weeks']:
         week_kw = w.get('keyWords', [])
+        if not week_kw:
+            week_kw = get_cumulative_keywords(p, w['number'])
         for di, d in enumerate(w['days']):
             acts = d['activities']
             dtype = d['type']

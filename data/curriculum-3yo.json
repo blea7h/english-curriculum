@@ -1475,16 +1475,21 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "和宝宝一起回顾这周学过的内容吧！",
-                  "wordsFocus": []
+                  "description": "『Can you find hello?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "hello",
+                    "bye-bye"
+                  ]
                 },
                 {
                   "priority": "core",
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "和妈妈一起回顾这周学过的单词吧！",
-                  "wordsFocus": []
+                  "description": "大声说出来：bye-bye！你真棒！",
+                  "wordsFocus": [
+                    "bye-bye"
+                  ]
                 }
               ]
             },
@@ -1506,16 +1511,21 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "和宝宝一起回顾这周学过的内容吧！",
-                  "wordsFocus": []
+                  "description": "『Can you find happy?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "happy",
+                    "sad"
+                  ]
                 },
                 {
                   "priority": "core",
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "和妈妈一起回顾这周学过的单词吧！",
-                  "wordsFocus": []
+                  "description": "大声说出来：happy！你真棒！",
+                  "wordsFocus": [
+                    "happy"
+                  ]
                 }
               ]
             },
@@ -1537,16 +1547,21 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "和宝宝一起回顾这周学过的内容吧！",
-                  "wordsFocus": []
+                  "description": "『Can you find clap?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "clap",
+                    "stomp"
+                  ]
                 },
                 {
                   "priority": "core",
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "和妈妈一起回顾这周学过的单词吧！",
-                  "wordsFocus": []
+                  "description": "大声说出来：sad！你真棒！",
+                  "wordsFocus": [
+                    "sad"
+                  ]
                 }
               ]
             },
@@ -1568,16 +1583,21 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "和宝宝一起回顾这周学过的内容吧！",
-                  "wordsFocus": []
+                  "description": "『Can you find angry?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "angry",
+                    "I love you"
+                  ]
                 },
                 {
                   "priority": "core",
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "和妈妈一起回顾这周学过的单词吧！",
-                  "wordsFocus": []
+                  "description": "大声说出来：clap！你真棒！",
+                  "wordsFocus": [
+                    "clap"
+                  ]
                 }
               ]
             },
@@ -1599,16 +1619,21 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "和宝宝一起回顾这周学过的内容吧！",
-                  "wordsFocus": []
+                  "description": "『Can you find head?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "head",
+                    "shoulders"
+                  ]
                 },
                 {
                   "priority": "core",
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "和妈妈一起回顾这周学过的单词吧！",
-                  "wordsFocus": []
+                  "description": "大声说出来：stomp！你真棒！",
+                  "wordsFocus": [
+                    "stomp"
+                  ]
                 }
               ]
             }
@@ -2624,16 +2649,21 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "和宝宝一起回顾这周学过的内容吧！",
-                  "wordsFocus": []
+                  "description": "『Can you find cat?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "cat",
+                    "dog"
+                  ]
                 },
                 {
                   "priority": "core",
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "和妈妈一起回顾这周学过的单词吧！",
-                  "wordsFocus": []
+                  "description": "大声说出来：dog！你真棒！",
+                  "wordsFocus": [
+                    "dog"
+                  ]
                 }
               ]
             },
@@ -2655,16 +2685,21 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "和宝宝一起回顾这周学过的内容吧！",
-                  "wordsFocus": []
+                  "description": "『Can you find fish?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "fish",
+                    "bird"
+                  ]
                 },
                 {
                   "priority": "core",
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "和妈妈一起回顾这周学过的单词吧！",
-                  "wordsFocus": []
+                  "description": "大声说出来：fish！你真棒！",
+                  "wordsFocus": [
+                    "fish"
+                  ]
                 }
               ]
             },
@@ -2686,16 +2721,21 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "和宝宝一起回顾这周学过的内容吧！",
-                  "wordsFocus": []
+                  "description": "『Can you find bunny?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "bunny",
+                    "turtle"
+                  ]
                 },
                 {
                   "priority": "core",
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "和妈妈一起回顾这周学过的单词吧！",
-                  "wordsFocus": []
+                  "description": "大声说出来：bird！你真棒！",
+                  "wordsFocus": [
+                    "bird"
+                  ]
                 }
               ]
             },
@@ -2717,16 +2757,21 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "和宝宝一起回顾这周学过的内容吧！",
-                  "wordsFocus": []
+                  "description": "『Can you find pet?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "pet",
+                    "cute"
+                  ]
                 },
                 {
                   "priority": "core",
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "和妈妈一起回顾这周学过的单词吧！",
-                  "wordsFocus": []
+                  "description": "大声说出来：bunny！你真棒！",
+                  "wordsFocus": [
+                    "bunny"
+                  ]
                 }
               ]
             },
@@ -2748,16 +2793,21 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "和宝宝一起回顾这周学过的内容吧！",
-                  "wordsFocus": []
+                  "description": "『Can you find friend?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "friend",
+                    "cow"
+                  ]
                 },
                 {
                   "priority": "core",
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "和妈妈一起回顾这周学过的单词吧！",
-                  "wordsFocus": []
+                  "description": "大声说出来：turtle！你真棒！",
+                  "wordsFocus": [
+                    "turtle"
+                  ]
                 }
               ]
             }
@@ -4131,16 +4181,21 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "和宝宝一起回顾这周学过的内容吧！",
-                  "wordsFocus": []
+                  "description": "『Can you find apple?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "apple",
+                    "banana"
+                  ]
                 },
                 {
                   "priority": "core",
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "和妈妈一起回顾这周学过的单词吧！",
-                  "wordsFocus": []
+                  "description": "大声说出来：banana！你真棒！",
+                  "wordsFocus": [
+                    "banana"
+                  ]
                 }
               ]
             },
@@ -4162,16 +4217,21 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "和宝宝一起回顾这周学过的内容吧！",
-                  "wordsFocus": []
+                  "description": "『Can you find orange?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "orange",
+                    "milk"
+                  ]
                 },
                 {
                   "priority": "core",
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "和妈妈一起回顾这周学过的单词吧！",
-                  "wordsFocus": []
+                  "description": "大声说出来：orange！你真棒！",
+                  "wordsFocus": [
+                    "orange"
+                  ]
                 }
               ]
             },
@@ -4193,16 +4253,21 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "和宝宝一起回顾这周学过的内容吧！",
-                  "wordsFocus": []
+                  "description": "『Can you find bread?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "bread",
+                    "cookie"
+                  ]
                 },
                 {
                   "priority": "core",
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "和妈妈一起回顾这周学过的单词吧！",
-                  "wordsFocus": []
+                  "description": "大声说出来：milk！你真棒！",
+                  "wordsFocus": [
+                    "milk"
+                  ]
                 }
               ]
             },
@@ -4224,16 +4289,21 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "和宝宝一起回顾这周学过的内容吧！",
-                  "wordsFocus": []
+                  "description": "『Can you find juice?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "juice",
+                    "hungry"
+                  ]
                 },
                 {
                   "priority": "core",
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "和妈妈一起回顾这周学过的单词吧！",
-                  "wordsFocus": []
+                  "description": "大声说出来：bread！你真棒！",
+                  "wordsFocus": [
+                    "bread"
+                  ]
                 }
               ]
             },
@@ -4255,16 +4325,21 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "和宝宝一起回顾这周学过的内容吧！",
-                  "wordsFocus": []
+                  "description": "『Can you find yummy?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "yummy",
+                    "yucky"
+                  ]
                 },
                 {
                   "priority": "core",
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "和妈妈一起回顾这周学过的单词吧！",
-                  "wordsFocus": []
+                  "description": "大声说出来：cookie！你真棒！",
+                  "wordsFocus": [
+                    "cookie"
+                  ]
                 }
               ]
             }
@@ -6319,16 +6394,21 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "和宝宝一起回顾这周学过的内容吧！",
-                  "wordsFocus": []
+                  "description": "『Can you find blue?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "blue",
+                    "red"
+                  ]
                 },
                 {
                   "priority": "core",
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "和妈妈一起回顾这周学过的单词吧！",
-                  "wordsFocus": []
+                  "description": "大声说出来：red！你真棒！",
+                  "wordsFocus": [
+                    "red"
+                  ]
                 }
               ]
             },
@@ -6350,16 +6430,21 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "和宝宝一起回顾这周学过的内容吧！",
-                  "wordsFocus": []
+                  "description": "『Can you find yellow?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "yellow",
+                    "green"
+                  ]
                 },
                 {
                   "priority": "core",
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "和妈妈一起回顾这周学过的单词吧！",
-                  "wordsFocus": []
+                  "description": "大声说出来：yellow！你真棒！",
+                  "wordsFocus": [
+                    "yellow"
+                  ]
                 }
               ]
             },
@@ -6381,16 +6466,21 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "和宝宝一起回顾这周学过的内容吧！",
-                  "wordsFocus": []
+                  "description": "『Can you find purple?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "purple",
+                    "orange"
+                  ]
                 },
                 {
                   "priority": "core",
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "和妈妈一起回顾这周学过的单词吧！",
-                  "wordsFocus": []
+                  "description": "大声说出来：green！你真棒！",
+                  "wordsFocus": [
+                    "green"
+                  ]
                 }
               ]
             },
@@ -6412,16 +6502,21 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "和宝宝一起回顾这周学过的内容吧！",
-                  "wordsFocus": []
+                  "description": "『Can you find pink?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "pink",
+                    "white"
+                  ]
                 },
                 {
                   "priority": "core",
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "和妈妈一起回顾这周学过的单词吧！",
-                  "wordsFocus": []
+                  "description": "大声说出来：purple！你真棒！",
+                  "wordsFocus": [
+                    "purple"
+                  ]
                 }
               ]
             },
@@ -6443,16 +6538,21 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "和宝宝一起回顾这周学过的内容吧！",
-                  "wordsFocus": []
+                  "description": "『Can you find black?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "black",
+                    "brown"
+                  ]
                 },
                 {
                   "priority": "core",
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "和妈妈一起回顾这周学过的单词吧！",
-                  "wordsFocus": []
+                  "description": "大声说出来：orange！你真棒！",
+                  "wordsFocus": [
+                    "orange"
+                  ]
                 }
               ]
             }
