@@ -1,4 +1,6 @@
 *.bak
+# 本地设计文档
+.design/
 
 # 视频文件不上传 GitHub
 videos/*

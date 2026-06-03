@@ -6,9 +6,9 @@
     "description": "基于斑马AI英语课教学流程，使用SSS儿歌、Yakka Dee等开放资源构建的完整教学闭环。适合3岁（斑马S1对应年龄）。",
     "language": "zh-CN",
     "targetLanguage": "en",
-    "version": "1.0.0",
-    "totalWeeks": 24,
-    "totalPhases": 4,
+    "version": "2.0.0",
+    "totalWeeks": 21,
+    "totalPhases": 5,
     "createdAt": "2026-06-02"
   },
   "resourceLibrary": [
@@ -356,7 +356,7 @@
                   "resourceId": null,
                   "resourceType": "REVIEW",
                   "title": "复习周 1-3 天全部歌曲",
-                  "description": "孩子选本周最爱的一首唱跳。",
+                  "description": "【准备】SSS歌曲Hello Hello! / If You're Happy音频或视频、情绪闪卡(happy/sad/angry/sleepy)\n【步骤】①摊开3-4张情绪闪卡，家长说\"Find happy!\" ②孩子找到happy卡并举起来 ③一起做happy表情唱If You're Happy段落 ④换其他情绪词\n【话术】\"Can you find happy? Point to happy!\" / \"You found happy! Let's make a happy face!\" / \"Where is sad? Show me sad...\"\n【拓展】拍下孩子的各种表情照片，打印出来做专属闪卡",
                   "wordsFocus": []
                 },
                 {
@@ -364,7 +364,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "配套闪卡配对",
-                  "description": "从supersimple.com免费下载emotions闪卡，玩配对游戏。",
+                  "description": "【准备】SSS闪卡（emotions主题）+ 手机自拍功能\n【步骤】①家长展示一张闪卡说出情绪名如\"Happy!\" ②摊开3-4张说\"Find happy!\" ③孩子指对后鼓励\"Yes! That's happy!\" ④让孩子自己翻牌说出名字\n【话术】\"Look, this is happy. Can you say happy?\" / \"Where is sad? Point to sad!\"\n【拓展】用手机自拍表情，让孩子对着照片说happy/sad/angry",
                   "wordsFocus": []
                 },
                 {
@@ -372,7 +372,7 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "『Can you find angry?』——在闪卡/图片中找一找吧！",
+                  "description": "【准备】本周学过的情绪闪卡\n【步骤】①展示3-4张闪卡问\"Can you find angry?\" ②孩子找出对应卡片 ③大声说出情绪名 ④答对收走卡片\n【话术】\"Can you find angry? Show me angry!\" / \"You found it! Say 'angry'!\" / \"Now you ask Mommy — where is happy?\"\n【拓展】角色互换：让孩子考家长",
                   "wordsFocus": [
                     "angry",
                     "I love you"
@@ -383,10 +383,34 @@
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "大声说出来：clap！你真棒！",
+                  "description": "【准备】本周核心词汇clap的动作示范\n【步骤】①家长做拍手动作说\"Clap! Can you say clap?\" ②鼓励孩子跟着做动作并说词 ③说对了击掌庆祝 ④换其他学过的动作词\n【话术】\"Say 'clap'!\" / \"Let's say it together: c-l-a-p, clap!\" / \"High five! You said it!\"\n【拓展】配合SSS歌曲边唱边做动作说词",
                   "wordsFocus": [
                     "clap"
                   ]
+                },
+                {
+                  "title": "Can You Make A Happy Face",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week01/01-Can-You-Make-A-Happy-Face.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "Good Morning Song",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week01/01-Good-Morning-Song.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "If Youre Happy",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week01/01-If-Youre-Happy.mp4",
+                  "duration": "2:00"
                 }
               ]
             },
@@ -695,7 +719,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "Head Shoulders 加速版",
-                  "description": "挑战快速指部位，孩子大笑中巩固。",
+                  "description": "【准备】Head Shoulders Knees & Toes歌曲（慢速版+加速版）\n【步骤】①先慢速指着自己部位说head/shoulders/knees/toes ②播放歌曲慢速版一起唱指 ③切换到加速版看谁指得快 ④让孩子当指挥官指部位\n【话术】\"Ready? Head, shoulders, knees, toes — slow... now fast!\" / \"I'm going to trick you! Touch your nose — haha it's your ears!\"\n【拓展】自己编动作：加上eyes/mouth/ears的版本",
                   "wordsFocus": []
                 },
                 {
@@ -703,7 +727,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "身体部位拼图",
-                  "description": "打印一张脸剪开，拼回来说出每个部位。",
+                  "description": "【准备】打印一张空白脸模板 + 剪开的五官（眼睛/鼻子/嘴巴/耳朵）\n【步骤】①家长说\"Put the nose on the face\" ②孩子找到对应五官贴回去 ③贴完一起指着说\"This is the nose\" ④拆掉再玩一次\n【话术】\"Where does the nose go? On the face!\" / \"That's right, the nose goes here. Say 'nose'!\" / \"Now find the eyes!\"\n【拓展】画上头发和眉毛，增加forehead/eyebrows的输入",
                   "wordsFocus": []
                 },
                 {
@@ -711,7 +735,7 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "『Can you find mouth?』——在闪卡/图片中找一找吧！",
+                  "description": "【准备】身体部位闪卡\n【步骤】①家长指自己的部位问\"What's this?\" ②孩子说出部位名 ③换孩子指部位家长说 ④加快速度挑战\n【话术】\"What's this? (指着嘴巴)\" / \"Is this a nose or a mouth?\" / \"You're so fast! Touch your nose and say 'nose'!\"\n【拓展】结合歌曲一起唱",
                   "wordsFocus": [
                     "mouth",
                     "nose"
@@ -722,10 +746,26 @@
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "大声说出来：eyes！你真棒！",
+                  "description": "【准备】本周核心词汇eyes的动作提示\n【步骤】①指着自己眼睛说\"Eyes! Say 'eyes'\" ②指孩子眼睛\"Your eyes!\" ③鼓励重复 ④换mouth/nose/ears\n【话术】\"Look at Mommy's eyes — can you say 'eyes'?\" / \"Your turn! Point to your eyes and say it!\"\n【拓展】洗澡时复习：Wash your eyes! Wash your nose!",
                   "wordsFocus": [
                     "eyes"
                   ]
+                },
+                {
+                  "title": "Head Shoulders Knees & Toes",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week02/02-Head-Shoulders-Knees-&-Toes.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "One Little Finger",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week02/02-One-Little-Finger.mp4",
+                  "duration": "2:00"
                 }
               ]
             },
@@ -898,11 +938,11 @@
                   "priority": "core",
                   "resourceId": "word",
                   "resourceType": "WORD",
-                  "title": "核心词汇：baby、sister",
-                  "description": "跟着妈妈读单词：baby sister",
+                  "title": "核心词汇：sister、brother",
+                  "description": "跟着妈妈读单词：sister brother",
                   "wordsFocus": [
-                    "baby",
-                    "sister"
+                    "sister",
+                    "brother"
                   ]
                 },
                 {
@@ -920,9 +960,9 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "小测验",
-                  "description": "『Where is daddy?』——宝宝能指出daddy对应的图片或做出动作吗？",
+                  "description": "『Where is sister?』——在家人照片中指出sister吧！",
                   "wordsFocus": [
-                    "daddy"
+                    "sister"
                   ]
                 },
                 {
@@ -930,9 +970,9 @@
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "跟读练习",
-                  "description": "和妈妈一起说：sister！大声说出来吧～",
+                  "description": "和妈妈一起说：brother！大声说出来吧～",
                   "wordsFocus": [
-                    "sister"
+                    "brother"
                   ]
                 },
                 {
@@ -971,11 +1011,11 @@
                   "priority": "core",
                   "resourceId": "word",
                   "resourceType": "WORD",
-                  "title": "核心词汇：brother、grandma",
-                  "description": "跟着妈妈读单词：brother grandma",
+                  "title": "核心词汇：grandma、grandpa",
+                  "description": "跟着妈妈读单词：grandma grandpa",
                   "wordsFocus": [
-                    "brother",
-                    "grandma"
+                    "grandma",
+                    "grandpa"
                   ]
                 },
                 {
@@ -991,9 +1031,9 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "小测验",
-                  "description": "『Where is baby?』——宝宝能指出baby对应的图片或做出动作吗？",
+                  "description": "『Where is grandpa?』——在家人照片中指出grandpa吧！",
                   "wordsFocus": [
-                    "baby"
+                    "grandpa"
                   ]
                 },
                 {
@@ -1001,9 +1041,9 @@
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "跟读练习",
-                  "description": "和妈妈一起说：brother！大声说出来吧～",
+                  "description": "和妈妈一起说：grandma！大声说出来吧～",
                   "wordsFocus": [
-                    "brother"
+                    "grandma"
                   ]
                 },
                 {
@@ -1015,7 +1055,9 @@
                   "wordsFocus": [
                     "mommy",
                     "daddy",
-                    "baby"
+                    "baby",
+                    "grandma",
+                    "grandpa"
                   ]
                 }
               ]
@@ -1030,7 +1072,7 @@
                   "resourceId": null,
                   "resourceType": "REVIEW",
                   "title": "唱Baby Shark用家人照片",
-                  "description": "把家人照片排成一排，唱到谁指谁。",
+                  "description": "【准备】家人照片打印件或手机相册 + Baby Shark歌曲\n【步骤】①把家人照片排成一排 ②唱Baby Shark时唱到哪个家人就指对应的照片 ③第二轮加快速度 ④让孩子自己边唱边指\n【话术】\"Let's sing Baby Shark with our family photos!\" / \"Where's Grandma? Point to Grandma!\" / \"Now you sing and point — go!\"\n【拓展】用毛绒玩具抱在一起唱，唱到谁就抱谁",
                   "wordsFocus": []
                 },
                 {
@@ -1038,7 +1080,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "家人闪卡配对+抱抱",
-                  "description": "说出一个家人的称呼，孩子去找并抱抱TA。",
+                  "description": "【准备】家人闪卡或全家福照片\n【步骤】①家长说\"Where is Grandma?\" ②孩子找到对应的照片并去抱抱(如果大人在场)或指卡片 ③逐一问完所有家人 ④角色互换\n【话术】\"Can you find Grandma? Give Grandma a hug!\" / \"Where's Daddy? Point to Daddy!\" / \"You found everyone! Family!\"\n【拓展】加入I love you：指着家人照片说I love Grandma!",
                   "wordsFocus": []
                 },
                 {
@@ -1046,9 +1088,9 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "『Can you find grandpa?』——在闪卡/图片中找一找吧！",
+                  "description": "【准备】家人闪卡\n【步骤】①展示3-4张家人闪卡 ②问\"Can you find baby?\" ③孩子指认 ④再问\"Who loves you?\"引导说love\n【话术】\"Can you find baby? Where's baby?\" / \"Who is this? Is it Mommy or Daddy?\" / \"I love you! Can you say 'I love you'?\"\n【拓展】边指边说This is...的完整句子",
                   "wordsFocus": [
-                    "grandpa",
+                    "baby",
                     "love"
                   ]
                 },
@@ -1057,10 +1099,26 @@
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "大声说出来：brother！你真棒！",
+                  "description": "【准备】全家福或家人闪卡\n【步骤】①指着全家福说\"This is my family!\" ②鼓励孩子跟着说 ③逐一指家里成员说mommy/daddy/grandma... ④让孩子也指自己的家人\n【话术】\"Say 'family'!\" / \"My family! Your turn!\" / \"Who's this? Grandma! Can you say 'grandma'?\"\n【拓展】唱We Are Family作为结尾",
                   "wordsFocus": [
-                    "brother"
+                    "family"
                   ]
+                },
+                {
+                  "title": "Baby Get Dressed Song",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week03/03-Baby-Get-Dressed-Song.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "Clothing Song For Kids",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week03/03-Clothing-Song-For-Kids.mp4",
+                  "duration": "2:00"
                 }
               ]
             },
@@ -1361,7 +1419,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "玩具分类",
-                  "description": "把玩具图片分成balls/cars/dolls三类，边分边说。",
+                  "description": "【准备】3-4个不同类别的玩具（球/车/娃娃/积木）\n【步骤】①把所有玩具混在一起 ②家长说\"Let's sort! Balls here, cars here\" ③孩子分类摆放 ④每放一个说出名字\n【话术】\"This is a ball. Where do balls go? Here!\" / \"Is this a car or a doll? Car! Put it with the cars\"\n【拓展】增加颜色分类维度——red balls vs blue balls",
                   "wordsFocus": []
                 },
                 {
@@ -1369,7 +1427,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "神秘袋游戏",
-                  "description": "袋子里放一个玩具，摸出来说出名字。",
+                  "description": "【准备】一个不透明布袋 + 放3-4个小玩具进去\n【步骤】①孩子伸手摸一个不拿出来 ②摸形状猜是什么 ③猜完拿出来验证 ④说对名字才能拿走\n【话术】\"What's inside? Feel it... Is it a ball? Round?\" / \"Let's see... It's a car! Vroom vroom!\" / \"Your turn! I'll close my eyes and you hide a toy\"\n【拓展】加描述词：soft/hard/round/long",
                   "wordsFocus": []
                 },
                 {
@@ -1377,7 +1435,7 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "『Can you find robot?』——在闪卡/图片中找一找吧！",
+                  "description": "【准备】玩具闪卡或实物\n【步骤】①家长问\"Can you find robot?\" ②孩子在闪卡或玩具堆里找 ③找到了说出名字 ④加快速度\n【话术】\"Find the robot! Beep boop\" / \"Where's the bike? Can you point to the bike?\" / \"You found everything! You're a toy detective!\"\n【拓展】用英语描述玩具特征",
                   "wordsFocus": [
                     "robot",
                     "bike"
@@ -1388,10 +1446,18 @@
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "大声说出来：teddy bear！你真棒！",
+                  "description": "【准备】teddy bear玩偶\n【步骤】①拿出teddy bear说\"Teddy bear! Say 'teddy bear'\" ②让孩子抱着玩偶说 ③换其他玩具说\n【话术】\"Teddy bear! Can you say 'teddy bear'?\" / \"Awww, teddy bear is hugging you! Say 'teddy'!\" / \"What's this? — Yes! Teddy bear! Good!\"\n【拓展】边唱My Teddy Bear边指部位",
                   "wordsFocus": [
                     "teddy bear"
                   ]
+                },
+                {
+                  "title": "My Teddy Bear",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week04/04-My-Teddy-Bear.mp4",
+                  "duration": "2:00"
                 }
               ]
             },
@@ -1575,7 +1641,7 @@
                   "resourceId": null,
                   "resourceType": "REVIEW",
                   "title": "神秘袋2.0",
-                  "description": "混放玩具和身体部位卡片，摸到啥说啥。",
+                  "description": "【准备】前4周学过的所有闪卡(情绪/身体/家人/玩具)混在一起放入布袋\n【步骤】①孩子从袋子里摸出一张卡 ②说出卡片上的内容 ③说对了获得卡片 ④结束时看谁赢得多\n【话术】\"Reach in and grab one! What is it?\" / \"It's a nose! Can you touch your nose?\" / \"That's right! You get the card!\"\n【拓展】集齐卡片后按主题分类",
                   "wordsFocus": []
                 },
                 {
@@ -1583,7 +1649,7 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "『Can you find angry?』——在闪卡/图片中找一找吧！",
+                  "description": "【准备】前4周学过的情绪/身体/家人/玩具闪卡\n【步骤】①从中抽一张问孩子 ②孩子指认或说出 ③答对后可以自己收着 ④所有卡片问完后看收集了多少\n【话术】\"Can you find angry? Show me your angry face!\" / \"Where are your eyes? Point!\" / \"What's this? (展示ball)\"\n【拓展】用卡片造句：This is a ball",
                   "wordsFocus": [
                     "angry",
                     "I love you"
@@ -1594,10 +1660,26 @@
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "大声说出来：clap！你真棒！",
+                  "description": "【准备】前4周核心词汇闪卡\n【步骤】①快速翻闪卡 ②孩子看到就大声说出 ③试着加快速度 ④看1分钟能说多少个\n【话术】\"Let's see how fast you can say them! Ready? GO!\" / \"Clap! — Yes!\" / \"What's this? Say it fast!\"\n【拓展】边做动作边说词",
                   "wordsFocus": [
                     "clap"
                   ]
+                },
+                {
+                  "title": "Good Morning Mr Rooster",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week05/05-Good-Morning-Mr-Rooster.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "Walking Walking",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week05/05-Walking-Walking.mp4",
+                  "duration": "2:00"
                 }
               ]
             },
@@ -1880,7 +1962,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "宠物叫声配对",
-                  "description": "匹配动物和它的叫声。家长学叫声，孩子说动物名。",
+                  "description": "【准备】宠物闪卡(cat/dog/fish/bird/bunny)\n【步骤】①家长学一种宠物叫声 ②孩子找到对应的闪卡 ③说出宠物名 ④交换：孩子学叫声，家长找\n【话术】\"Meow! What animal says meow?\" / \"That's right, it's a cat! Say 'cat'!\" / \"Your turn! Make a sound and I'll find it\"\n【拓展】用手机播放真实动物声音增加趣味",
                   "wordsFocus": []
                 },
                 {
@@ -1888,7 +1970,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "猜宠物Who am I?",
-                  "description": "学一种宠物的动作/叫声，孩子猜。交换角色。",
+                  "description": "【准备】宠物闪卡\n【步骤】①家长选一个宠物做动作/叫声 ②孩子猜\"Is it a bunny?\" ③猜对了换人 ④猜不出给提示(颜色、大小)\n【话术】\"Who am I? Hop hop hop!\" / \"I have a tail and I say 'woof woof!' What am I?\" / \"Good guess! It's a dog!\"\n【拓展】加入pet词：I have a pet dog!",
                   "wordsFocus": []
                 },
                 {
@@ -1896,7 +1978,7 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "『Can you find pet?』——在闪卡/图片中找一找吧！",
+                  "description": "【准备】宠物闪卡\n【步骤】①展示3-4张闪卡 ②问\"Can you find pet?\" ③孩子找到pet那张 ④问\"Is this cute?\"引导点头\n【话术】\"Can you find the pet? Which one is a pet?\" / \"Is a fish a pet? Yes!\" / \"Cute! Say 'cute'!\"\n【拓展】孩子指着家里的宠物说This is my pet",
                   "wordsFocus": [
                     "pet",
                     "cute"
@@ -1907,10 +1989,18 @@
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "大声说出来：bunny！你真棒！",
+                  "description": "【准备】bunny闪卡或玩具兔\n【步骤】①拿出bunny玩具 ②说\"Bunny! Say 'bunny!'\" ③让孩子抱着bunny说 ④换其他宠物词\n【话术】\"Bunny! Hop like a bunny and say 'bunny'!\" / \"Your turn! What's this? — Bunny! Yes!\"\n【拓展】唱Little Peter Rabbit配合",
                   "wordsFocus": [
                     "bunny"
                   ]
+                },
+                {
+                  "title": "Wag Your Tail",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week06/06-Wag-Your-Tail.mp4",
+                  "duration": "2:00"
                 }
               ]
             },
@@ -2208,7 +2298,7 @@
                   "resourceId": null,
                   "resourceType": "REVIEW",
                   "title": "Old MacDonald 完整版",
-                  "description": "带上所有7个动物轮唱，孩子选动物你来唱。",
+                  "description": "【准备】Old MacDonald歌曲 + 7个农场动物闪卡\n【步骤】①孩子选今天唱哪些动物 ②每唱到一个拿出对应闪卡 ③唱到E-I-E-I-O时一起做动作 ④最后一轮全部唱完\n【话术】\"Which animal do you want? The cow?\" / \"Old MacDonald had a farm, E-I-E-I-O!\" / \"What does the cow say? Moo!\"\n【拓展】用动物玩偶代替闪卡，边唱边演",
                   "wordsFocus": []
                 },
                 {
@@ -2216,7 +2306,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "动物脚印配对",
-                  "description": "打印动物脚印图案，连线匹配到对应动物。",
+                  "description": "【准备】打印动物脚印图案 + 动物闪卡\n【步骤】①摊开动物闪卡 ②展示一个脚印问\"Whose foot is this?\" ③孩子匹配到对应动物 ④说出动物名\n【话术】\"Look at this footprint! Whose foot is it? The cow or the horse?\" / \"It's the pig! Oink oink!\" / \"You matched them all! Farm detective!\"\n【拓展】用橡皮泥做动物脚印拓印",
                   "wordsFocus": []
                 },
                 {
@@ -2224,7 +2314,7 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "『Can you find rooster?』——在闪卡/图片中找一找吧！",
+                  "description": "【准备】农场动物闪卡\n【步骤】①展示4-5张闪卡 ②问\"Can you find rooster?\" ③孩子指认 ④问\"What does the goat say?\"\n【话术】\"Find the rooster! Cock-a-doodle-doo!\" / \"Where's the goat? What sound does a goat make?\" / \"You know all the farm animals!\"\n【拓展】让孩子学动物叫声来回答",
                   "wordsFocus": [
                     "rooster",
                     "goat"
@@ -2235,10 +2325,18 @@
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "大声说出来：sheep！你真棒！",
+                  "description": "【准备】sheep闪卡或棉花球做的小羊\n【步骤】①拿出sheep图片或模型 ②\"Sheep! Baa baa! Say 'sheep'!\" ③鼓励重复 ④换其他农场动物\n【话术】\"Sheep! Baa baa black sheep! Can you say 'sheep'?\" / \"What's this? — Yes! Sheep!\" / \"Make a sheep sound! Baaa!\"\n【拓展】唱Baa Baa Black Sheep",
                   "wordsFocus": [
                     "sheep"
                   ]
+                },
+                {
+                  "title": "What Do You Hear",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week07/07-What-Do-You-Hear.mp4",
+                  "duration": "2:00"
                 }
               ]
             },
@@ -2535,7 +2633,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "天气播报",
-                  "description": "每天看窗外，贴对应天气卡片到日历上。",
+                  "description": "【准备】天气卡片(sunny/rainy/cloudy/snowy/windy) + 日历或白板\n【步骤】①每天起床后看窗外 ②孩子选对应天气卡贴在日历上 ③说出天气\"It's sunny!\" ④做对应的动作\n【话术】\"Look outside! Is it sunny or rainy?\" / \"It's sunny! Can you say 'sunny'?\" / \"Let's check the weather every morning!\"\n【拓展】画天气记录表，一周后看哪种天气最多",
                   "wordsFocus": []
                 },
                 {
@@ -2543,7 +2641,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "天气骰子",
-                  "description": "掷到哪个天气就做对应的动作表现。",
+                  "description": "【准备】一个骰子 + 每面贴不同天气图标\n【步骤】①掷骰子 ②看到什么天气就做什么动作:sunny=伸懒腰、rainy=打伞动作、snowy=发抖、windy=被风吹 ③说出天气名\n【话术】\"Roll the dice! What's the weather?\" / \"Sunny! Let's stretch like it's sunny!\" / \"Snowy! Brrr, I'm cold! Say 'snowy'!\"\n【拓展】配合How's the Weather?歌曲一起唱",
                   "wordsFocus": []
                 },
                 {
@@ -2551,7 +2649,7 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "『Can you find cold?』——在闪卡/图片中找一找吧！",
+                  "description": "【准备】天气闪卡\n【步骤】①展示天气闪卡 ②问\"Can you find cold?\" ③孩子指认 ④问\"Do you need an umbrella when it's rainy?\"\n【话术】\"Find cold! Brrr, it's cold!\" / \"Where's the umbrella? When do we use an umbrella?\" / \"Is it windy? Whoosh!\"\n【拓展】问What do you wear when it's cold?",
                   "wordsFocus": [
                     "cold",
                     "umbrella"
@@ -2562,10 +2660,34 @@
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "大声说出来：windy！你真棒！",
+                  "description": "【准备】windy闪卡 + 吹气道具(如纸条)\n【步骤】①家长吹纸条模拟风 ②\"Windy! Whoosh! Say 'windy'!\" ③让孩子也吹 ④换其他天气词\n【话术】\"Windy! Whoosh! Can you say 'windy'?\" / \"Let's make wind! Blow! Say 'windy'!\" / \"What's the weather today? Is it windy?\"\n【拓展】每天出门前用英语说天气",
                   "wordsFocus": [
                     "windy"
                   ]
+                },
+                {
+                  "title": "Hows The Weather",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week08/08-Hows-The-Weather.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "Little Snowflake",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week08/08-Little-Snowflake.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "Rain Rain Go Away",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week08/08-Rain-Rain-Go-Away.mp4",
+                  "duration": "2:00"
                 }
               ]
             },
@@ -2749,7 +2871,7 @@
                   "resourceId": null,
                   "resourceType": "REVIEW",
                   "title": "闪卡钓鱼",
-                  "description": "闪卡上别回形针，用磁铁钓竿钓，钓到一张说一个。",
+                  "description": "【准备】写有回形针的闪卡 + 自制磁铁钓竿(棍子+线+磁铁)\n【步骤】①闪卡散开放地上 ②用钓竿钓一张 ③钓上来说出名字 ④说对了收走\n【话术】\"Let's go fishing! Catch a card and tell me what it is!\" / \"You caught a cat! Meow! Say 'cat'!\" / \"Wow, you caught a big one!\"\n【拓展】限定主题：只能钓pet或weather卡",
                   "wordsFocus": []
                 },
                 {
@@ -2757,7 +2879,7 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "『Can you find pet?』——在闪卡/图片中找一找吧！",
+                  "description": "【准备】宠物/天气/农场动物闪卡\n【步骤】①展示4-5张混搭闪卡 ②问\"Can you find pet?\" ③孩子找pet卡 ④再问具体动物名\n【话术】\"Which one is a pet? Find the pet!\" / \"Is a rooster a pet? No, it's a farm animal!\" / \"You know all the words!\"\n【拓展】增加难度：找同时是pet又是farm animal的",
                   "wordsFocus": [
                     "pet",
                     "cute"
@@ -2768,10 +2890,26 @@
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "大声说出来：bunny！你真棒！",
+                  "description": "【准备】bunny或sheep闪卡\n【步骤】①快速展示闪卡问\"What's this? Can you say it?\" ②鼓励快速说出 ③换其他词 ④计时30秒看能说多少个\n【话术】\"Bunny! Say it with me — bunny!\" / \"Fast fast fast! What's this one?\" / \"You're getting so good at this!\"\n【拓展】配合动作：hop like a bunny",
                   "wordsFocus": [
                     "bunny"
                   ]
+                },
+                {
+                  "title": "Apples and Bananas",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week09/09-Apples-and-Bananas.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "It Aint Gonna Rain No More",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week09/09-It-Aint-Gonna-Rain-No-More.mp4",
+                  "duration": "2:00"
                 }
               ]
             },
@@ -2817,15 +2955,733 @@
     },
     {
       "id": "phase-3",
-      "name": "日常生活",
-      "description": "食物、衣物、作息、交通工具——这些是孩子每天都在接触的场景。这个阶段的目标是把英语和生活深度绑定，让孩子在真实情境中自然习得。",
+      "name": "颜色与数字",
+      "description": "认识基础颜色和数字1-5，这是后续认知世界（水果颜色、数数）的重要基础。",
       "order": 3,
       "weeks": [
         {
           "number": 10,
+          "theme": "Colors",
+          "themeCn": "颜色",
+          "phaseId": "phase-3",
+          "keyWords": [
+            "blue",
+            "red",
+            "yellow",
+            "green",
+            "purple",
+            "orange",
+            "pink",
+            "white",
+            "black",
+            "brown",
+            "colorful",
+            "I see"
+          ],
+          "parentTips": "颜色不需要一次全教完。3岁孩子能掌握3-4种颜色就已经很好。重点是用真实物品：This apple is red. This banana is yellow.",
+          "days": [
+            {
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "input",
+              "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "I See Something Blue",
+                  "description": "边唱边在房间里找蓝色的东西。",
+                  "wordsFocus": [
+                    "blue",
+                    "yellow",
+                    "red",
+                    "green"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：blue、red",
+                  "description": "跟着妈妈读单词：blue red",
+                  "wordsFocus": [
+                    "blue",
+                    "red"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Blue / Red",
+                  "description": "Dee教说blue和red。",
+                  "wordsFocus": [
+                    "blue",
+                    "red"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is blue?』——宝宝能指出blue对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "blue"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：yellow！大声说出来吧～",
+                  "wordsFocus": [
+                    "yellow"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "颜色寻宝",
+                  "description": "Find something red! 满屋子跑着找对应颜色的物品。",
+                  "wordsFocus": [
+                    "red",
+                    "blue"
+                  ]
+                }
+              ]
+            },
+            {
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "input",
+              "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Red Yellow Green Blue",
+                  "description": "四个颜色的歌，重复性极高，每句都在重复颜色名。",
+                  "wordsFocus": [
+                    "purple",
+                    "orange",
+                    "pink"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：yellow、green",
+                  "description": "跟着妈妈读单词：yellow green",
+                  "wordsFocus": [
+                    "yellow",
+                    "green"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Pink / Green",
+                  "description": "Dee教说pink和green。",
+                  "wordsFocus": [
+                    "pink",
+                    "green"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is red?』——宝宝能指出red对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "red"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：green！大声说出来吧～",
+                  "wordsFocus": [
+                    "green"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "颜色分类乐高",
+                  "description": "把混在一起的彩色积木按颜色分类，Put the red ones here.",
+                  "wordsFocus": []
+                }
+              ]
+            },
+            {
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "input",
+              "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "pf",
+                  "resourceType": "PF",
+                  "title": "Baby Shark（颜色版）",
+                  "description": "Red shark, doo doo doo... 每个颜色换一条鲨鱼。",
+                  "wordsFocus": [
+                    "white",
+                    "black",
+                    "brown",
+                    "colorful"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：purple、orange",
+                  "description": "跟着妈妈读单词：purple orange",
+                  "wordsFocus": [
+                    "purple",
+                    "orange"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "pp",
+                  "resourceType": "PP",
+                  "title": "Colors 选段",
+                  "description": "Peppa学颜色的故事。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is yellow?』——宝宝能指出yellow对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "yellow"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：purple！大声说出来吧～",
+                  "wordsFocus": [
+                    "purple"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "颜色冰棒棍",
+                  "description": "冰棒棍涂色，配对相同颜色的。",
+                  "wordsFocus": []
+                }
+              ]
+            },
+            {
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
+              "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "颜色骰子",
+                  "description": "【准备】自制颜色骰子(每面一个颜色) + 家中彩色物品\n【步骤】①掷骰子 ②说出掷到的颜色 ③在房间里找一个对应颜色的物品 ④拿过来说\"This is [color]\"\n【话术】\"Roll it! What color? Blue! Can you find something blue?\" / \"The cup is blue! Say 'blue cup'!\" / \"Now red! Find something red!\"\n【拓展】计时挑战：30秒内找到最多同一颜色物品",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "I Spy 颜色版",
+                  "description": "【准备】无需准备，利用家中环境\n【步骤】①家长说\"I spy something blue!\" ②孩子环顾四周找到蓝色物品指出来 ③说出物品名和颜色 ④交换角色让孩子说I spy\n【话术】\"I spy something... blue! Can you find it?\" / \"The chair is blue! You found it!\" / \"Now you spy! Say 'I spy something...'\"\n【拓展】用I see句型：I see something red",
+                  "wordsFocus": [
+                    "I see"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "【准备】颜色闪卡(含pink/white)\n【步骤】①展示颜色卡问\"Can you find pink?\" ②孩子指pink ③再问\"Where is white?\" ④混在一起让孩子排序\n【话术】\"Find pink! This is pink! Can you say 'pink'?\" / \"White! Where is white?\" / \"You know all your colors!\"\n【拓展】指着衣服问What color is this?",
+                  "wordsFocus": [
+                    "pink",
+                    "white"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "【准备】purple色卡或紫色物品\n【步骤】①展示紫色说\"Purple! Say 'purple!'\" ②找找家中紫色物品 ③每指一个说一次purple ④换其他颜色\n【话术】\"Purple! Like a grape! Say 'purple'!\" / \"Is this purple or blue?\" / \"Purple! Good job! High five!\"\n【拓展】用彩色蜡笔画画，每拿一支说颜色",
+                  "wordsFocus": [
+                    "purple"
+                  ]
+                },
+                {
+                  "title": "I See Something Blue",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week10/10-I-See-Something-Blue.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "I See Something Pink",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week10/10-I-See-Something-Pink.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "Rock Scissors Paper",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week10/10-Rock-Scissors-Paper.mp4",
+                  "duration": "2:00"
+                }
+              ]
+            },
+            {
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "output",
+              "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "口语展示",
+                  "description": "宝宝来展示一下这周学的内容吧！说给妈妈听：black brown",
+                  "wordsFocus": [
+                    "black",
+                    "brown"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "颜色小书",
+                  "description": "每页一个颜色+对应物品的涂鸦，边画边说。",
+                  "wordsFocus": [
+                    "blue",
+                    "red",
+                    "yellow",
+                    "green",
+                    "I see"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "kf",
+                  "resourceType": "KF",
+                  "title": "Colors 主题",
+                  "description": "Khan Academy Kids颜色互动。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "综合小测验",
+                  "description": "『Can you find colorful?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "colorful",
+                    "I see"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "theme": "Numbers 1-5",
+          "themeCn": "数字 1-5",
+          "phaseId": "phase-3",
+          "keyWords": [
+            "one",
+            "two",
+            "three",
+            "four",
+            "five",
+            "count",
+            "how many",
+            "number"
+          ],
+          "parentTips": "3岁不要强求数到10，1-5数清楚就很好。重点是一一对应（点一个物品说一个数），这是数学启蒙的基础。用楼梯、饼干、积木都可以数。",
+          "days": [
+            {
+              "dayOfWeek": 1,
+              "label": "周一",
+              "type": "input",
+              "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "One Little Finger",
+                  "description": "边唱边伸手指头数数。",
+                  "wordsFocus": [
+                    "one",
+                    "two",
+                    "three",
+                    "four",
+                    "five"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：one、two",
+                  "description": "跟着妈妈读单词：one two",
+                  "wordsFocus": [
+                    "one",
+                    "two"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "One / Two",
+                  "description": "Dee教说数字1和2。",
+                  "wordsFocus": [
+                    "one",
+                    "two"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is one?』——宝宝能指出one对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "one"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：three！大声说出来吧～",
+                  "wordsFocus": [
+                    "three"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "数手指",
+                  "description": "How many? 伸出1-5根手指头让孩子说。",
+                  "wordsFocus": [
+                    "one",
+                    "two",
+                    "three",
+                    "four",
+                    "five"
+                  ]
+                }
+              ]
+            },
+            {
+              "dayOfWeek": 2,
+              "label": "周二",
+              "type": "input",
+              "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Five Little Monkeys",
+                  "description": "配合手指或玩偶表演，5只猴子在床上跳。",
+                  "wordsFocus": [
+                    "jump",
+                    "bump",
+                    "fall off",
+                    "no more"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：three、four",
+                  "description": "跟着妈妈读单词：three four",
+                  "wordsFocus": [
+                    "three",
+                    "four"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "yd",
+                  "resourceType": "YD",
+                  "title": "Three / Four",
+                  "description": "Dee教说3和4。",
+                  "wordsFocus": [
+                    "three",
+                    "four"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is two?』——宝宝能指出two对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "two"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：four！大声说出来吧～",
+                  "wordsFocus": [
+                    "four"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "数玩具",
+                  "description": "Let's count the blocks! 数1-5个积木。",
+                  "wordsFocus": [
+                    "count"
+                  ]
+                }
+              ]
+            },
+            {
+              "dayOfWeek": 3,
+              "label": "周三",
+              "type": "input",
+              "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "sss",
+                  "resourceType": "SSS",
+                  "title": "Count & Move",
+                  "description": "从1数到5，配合蹦跳动作动起来。",
+                  "wordsFocus": [
+                    "count",
+                    "let's count",
+                    "number"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "word",
+                  "resourceType": "WORD",
+                  "title": "核心词汇：five、count",
+                  "description": "跟着妈妈读单词：five count",
+                  "wordsFocus": [
+                    "five",
+                    "count"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "pp",
+                  "resourceType": "PP",
+                  "title": "Numbers 选段",
+                  "description": "Peppa和数字相关的故事。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "小测验",
+                  "description": "『Where is three?』——宝宝能指出three对应的图片或做出动作吗？",
+                  "wordsFocus": [
+                    "three"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "跟读练习",
+                  "description": "和妈妈一起说：five！大声说出来吧～",
+                  "wordsFocus": [
+                    "five"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "Give me three!",
+                  "description": "孩子给家长对应数量的物品。交换角色。",
+                  "wordsFocus": [
+                    "one",
+                    "two",
+                    "three",
+                    "four",
+                    "five"
+                  ]
+                }
+              ]
+            },
+            {
+              "dayOfWeek": 4,
+              "label": "周四",
+              "type": "review",
+              "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "数字+实物计数",
+                  "description": "【准备】数字闪卡1-5 + 对应数量的实物(积木/水果/玩具)\n【步骤】①展示数字3的卡片 ②让孩子数出3块积木 ③放在一起\"Three blocks!\" ④依次完成1-5\n【话术】\"This is the number 3! Can you count 3 blocks? One, two, three!\" / \"How many? Let's count together! 1, 2, 3 — Three!\"\n【拓展】用零食数：数5颗葡萄，数完吃掉",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "数字跳格子",
+                  "description": "【准备】地上贴数字1-5的纸(或粉笔画在地上)\n【步骤】①家长说\"Jump to number 3!\" ②孩子跳到3上 ③站在上面说\"Three!\" ④连续指令1-5随机跳\n【话术】\"Jump to number 1!\" / \"Now run to number 4! Say 'four'!\" / \"Let's count as we jump! 1-2-3-4-5!\"\n【拓展】加颜色：Jump to the red number 3!",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "复习小测验",
+                  "description": "【准备】1-5数字闪卡 + 一些积木\n【步骤】①问\"Can you find how many?\" ②展示3块积木 ③孩子数并说出数字 ④用闪卡确认\n【话术】\"How many blocks? Let's count! 1-2-3!\" / \"Three blocks! Can you find the number 3 card?\" / \"You can count! Amazing!\"\n【拓展】用手指表示数字：Show me five!",
+                  "wordsFocus": [
+                    "how many",
+                    "number"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "复习跟读",
+                  "description": "【准备】five的手势或闪卡\n【步骤】①伸出5根手指\"Five! Say 'five'!\" ②让孩子也伸出5根手指 ③一起说five ④换1-4\n【话术】\"Five! Hold up five fingers! Can you say 'five'?\" / \"Show me five! How many fingers? Five!\" / \"You said five!\"\n【拓展】唱Five Little Monkeys / Five Little Ducks",
+                  "wordsFocus": [
+                    "five"
+                  ]
+                },
+                {
+                  "title": "Five Little Ducks",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week11/11-Five-Little-Ducks.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "Five Little Monkeys",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week11/11-Five-Little-Monkeys.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "Hickory Dickory Dock",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week11/11-Hickory-Dickory-Dock.mp4",
+                  "duration": "2:00"
+                }
+              ]
+            },
+            {
+              "dayOfWeek": 5,
+              "label": "周五",
+              "type": "output",
+              "activities": [
+                {
+                  "priority": "core",
+                  "resourceId": "speaking",
+                  "resourceType": "SPEAKING",
+                  "title": "口语展示",
+                  "description": "宝宝来展示一下这周学的内容吧！说给妈妈听：one two",
+                  "wordsFocus": [
+                    "one",
+                    "two"
+                  ]
+                },
+                {
+                  "priority": "core",
+                  "resourceId": null,
+                  "resourceType": "PARENT",
+                  "title": "小老师",
+                  "description": "孩子伸出指头问How many? 家长回答。",
+                  "wordsFocus": [
+                    "one-five",
+                    "how many",
+                    "count"
+                  ]
+                },
+                {
+                  "priority": "optional",
+                  "resourceId": "kf",
+                  "resourceType": "KF",
+                  "title": "Numbers 主题",
+                  "description": "Khan Academy Kids数字互动。",
+                  "wordsFocus": []
+                },
+                {
+                  "priority": "core",
+                  "resourceId": "quiz",
+                  "resourceType": "QUIZ",
+                  "title": "综合小测验",
+                  "description": "『Can you find three?』——在闪卡/图片中找一找吧！",
+                  "wordsFocus": [
+                    "three",
+                    "four"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phase-4",
+      "name": "日常生活",
+      "description": "从水果食物开始，到衣物穿戴、日常作息、交通工具——覆盖3岁孩子每天接触的生活场景。",
+      "order": 4,
+      "weeks": [
+        {
+          "number": 12,
           "theme": "Food & Fruits",
           "themeCn": "水果与食物",
-          "phaseId": "phase-3",
+          "phaseId": "phase-4",
           "keyWords": [
             "apple",
             "banana",
@@ -3070,7 +3926,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "水果闪卡+真实水果配对",
-                  "description": "闪卡放在一边，真实水果（或模型）放另一边，配对。",
+                  "description": "【准备】水果闪卡 + 真实水果(或水果模型)\n【步骤】①闪卡放左边，真实水果放右边 ②指闪卡\"Find the apple!\" ③孩子拿起真实苹果配对 ④说出\"Apple!\"\n【话术】\"Here's a picture of an apple. Can you find the real apple?\" / \"Match them! Apple goes with apple!\" / \"What's this? Apple!\"\n【拓展】吃水果前复习：This is a banana. Yummy!",
                   "wordsFocus": []
                 },
                 {
@@ -3078,7 +3934,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "I want... 点餐",
-                  "description": "用玩偶开餐厅，孩子点餐I want an apple, please!",
+                  "description": "【准备】食物闪卡或玩具食物 + 玩偶当顾客\n【步骤】①玩偶说\"I want an apple, please!\" ②孩子从菜单中选出苹果 ③递给玩偶\"Here you are!\" ④交换角色\n【话术】\"I want a banana, please! Can you give me a banana?\" / \"Here you are! Thank you!\" / \"Now you be the customer!\"\n【拓展】加入Yes, please / No, thank you",
                   "wordsFocus": [
                     "I want"
                   ]
@@ -3088,7 +3944,7 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "『Can you find juice?』——在闪卡/图片中找一找吧！",
+                  "description": "【准备】食物闪卡\n【步骤】①问\"Can you find juice?\" ②孩子在闪卡中找 ③找到后问\"Are you hungry?\" ④引导点头或说yes\n【话术】\"Find the juice! Where is it?\" / \"Are you hungry? Show me!\" / \"Yes, you're hungry! Let's eat!\"\n【拓展】问Do you like [food]?引导点头摇头",
                   "wordsFocus": [
                     "juice",
                     "hungry"
@@ -3099,10 +3955,34 @@
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "大声说出来：bread！你真棒！",
+                  "description": "【准备】bread面包或面包图片\n【步骤】①拿出面包\"Bread! Say 'bread'!\" ②让孩子摸一摸面包 ③再说一次bread ④换其他食物词\n【话术】\"Bread! Can you say 'bread'?\" / \"Mmm, bread is yummy! Say 'yummy bread'!\" / \"What's this? — Bread! You said it!\"\n【拓展】指着食物问What's this?",
                   "wordsFocus": [
                     "bread"
                   ]
+                },
+                {
+                  "title": "Apples and Bananas",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week12/12-Apples-and-Bananas.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "Peanut Butter and Jelly",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week12/12-Peanut-Butter-and-Jelly.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "Snack Song",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week12/12-Snack-Song.mp4",
+                  "duration": "2:00"
                 }
               ]
             },
@@ -3160,10 +4040,10 @@
           ]
         },
         {
-          "number": 11,
+          "number": 13,
           "theme": "Clothes",
           "themeCn": "衣物穿戴",
-          "phaseId": "phase-3",
+          "phaseId": "phase-4",
           "keyWords": [
             "shoes",
             "socks",
@@ -3410,7 +4290,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "衣柜探索",
-                  "description": "打开衣柜，找出对应的衣物，边找边说。",
+                  "description": "【准备】孩子的衣柜或叠好的衣物\n【步骤】①打开衣柜 ②家长说\"Find your hat!\" ③孩子找到帽子拿出来 ④说出\"Hat!\"然后穿上\n【话术】\"Where's your hat? Can you find it?\" / \"You found your hat! Put it on! Say 'hat'!\" / \"Now find your socks!\"\n【拓展】按颜色找：Find something red to wear!",
                   "wordsFocus": []
                 },
                 {
@@ -3418,7 +4298,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "穿搭小模特",
-                  "description": "孩子自己选衣服穿上，用英语说出自己穿了什么。",
+                  "description": "【准备】孩子自己的衣服\n【步骤】①让孩子自己选要穿什么 ②每穿一件说出英文名\"Pants!\" ③家长帮忙时说\"Let's put on your shirt\"\n【话术】\"What do you want to wear? Pants or a dress?\" / \"Let's put on your shirt! Can you say 'shirt'?\" / \"You look great!\"\n【拓展】出门前让娃指认自己穿了什么",
                   "wordsFocus": []
                 },
                 {
@@ -3426,7 +4306,7 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "『Can you find boots?』——在闪卡/图片中找一找吧！",
+                  "description": "【准备】衣物闪卡\n【步骤】①问\"Can you find boots?\" ②孩子在闪卡里找 ③找到后说\"Boots!\" ④问\"Where do you wear boots?\"\n【话术】\"Find the boots! When do we wear boots? Rainy days!\" / \"Where's the dress? Is this a dress or pants?\"\n【拓展】指着自己穿的问What am I wearing?",
                   "wordsFocus": [
                     "boots",
                     "dress"
@@ -3437,10 +4317,34 @@
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "大声说出来：pants！你真棒！",
+                  "description": "【准备】pants裤子或图片\n【步骤】①指着裤子\"Pants! Say 'pants'!\" ②让孩子摸自己的裤子 ③一起说pants ④换shirt/socks/shoes\n【话术】\"Pants! You're wearing pants! Say 'pants'!\" / \"Can you say 'pants'? Good job!\" / \"What's this? — Pants! Yes!\"\n【拓展】穿脱衣服时反复输入",
                   "wordsFocus": [
                     "pants"
                   ]
+                },
+                {
+                  "title": "Put On Your Shoes",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week13/13-Put-On-Your-Shoes.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "The Eensy Weensy Spider",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week13/13-The-Eensy-Weensy-Spider.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "This Is The Way We Get Dressed",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week13/13-This-Is-The-Way-We-Get-Dressed.mp4",
+                  "duration": "2:00"
                 }
               ]
             },
@@ -3498,10 +4402,10 @@
           ]
         },
         {
-          "number": 12,
+          "number": 14,
           "theme": "Daily Routine",
           "themeCn": "日常作息",
-          "phaseId": "phase-3",
+          "phaseId": "phase-4",
           "keyWords": [
             "wake up",
             "brush teeth",
@@ -3734,7 +4638,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "作息大转盘",
-                  "description": "画一个转盘分成4格（起床/吃饭/洗澡/睡觉），转到哪个做哪个。",
+                  "description": "【准备】画一个转盘分4格：起床/吃饭/洗澡/睡觉 + 指针\n【步骤】①孩子转动指针 ②转到哪个做哪个动作 ③边做边说\"Time to eat!\" ④做完再转下一次\n【话术】\"Spin the wheel! What did we get? Breakfast! Let's eat!\" / \"Bath time! Rub-a-dub-dub! Say 'bath'!\" / \"Sleep time!\"\n【拓展】做了真实动作后拍照做日程表",
                   "wordsFocus": []
                 },
                 {
@@ -3742,7 +4646,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "What do you do?",
-                  "description": "家长问What do you do in the morning? 孩子用动作回应。",
+                  "description": "【准备】日常活动闪卡\n【步骤】①家长问\"What do you do in the morning?\" ②孩子用动作回答(假装刷牙/吃饭) ③家长说\"You brush your teeth!\" ④换下午/晚上\n【话术】\"What do you do in the morning? Show me!\" / \"You brush your teeth! Say 'brush my teeth'!\" / \"What about at night? We take a bath!\"\n【拓展】唱This Is The Way配合",
                   "wordsFocus": []
                 },
                 {
@@ -3750,7 +4654,7 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "『Can you find bath?』——在闪卡/图片中找一找吧！",
+                  "description": "【准备】日常活动闪卡\n【步骤】①问\"Can you find bath?\" ②孩子找bath卡 ③问\"Is bath clean?\"引导点头 ④表演洗澡动作\n【话术】\"Find bath! Do you like taking a bath?\" / \"Clean! We take a bath to get clean!\" / \"Show me how you take a bath!\"\n【拓展】问What do you need for a bath? (soap/towel)",
                   "wordsFocus": [
                     "bath",
                     "clean"
@@ -3761,10 +4665,34 @@
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "大声说出来：take a bath！你真棒！",
+                  "description": "【准备】take a bath图片或动作\n【步骤】①家长做洗澡动作\"Take a bath! Say 'take a bath'!\" ②孩子跟着做动作 ③一起说 ④换其他作息动词\n【话术】\"Take a bath! Can you say 'take a bath'?\" / \"I'm taking a bath — scrub scrub!\" / \"Your turn! What do you do before bed?\"\n【拓展】睡前流程用英语走一遍",
                   "wordsFocus": [
                     "take a bath"
                   ]
+                },
+                {
+                  "title": "Clean Up",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week14/14-Clean-Up.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "The Bath Song",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week14/14-The-Bath-Song.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "This Is The Way",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week14/14-This-Is-The-Way.mp4",
+                  "duration": "2:00"
                 }
               ]
             },
@@ -3821,10 +4749,10 @@
           ]
         },
         {
-          "number": 13,
+          "number": 15,
           "theme": "Transportation",
           "themeCn": "交通工具",
-          "phaseId": "phase-3",
+          "phaseId": "phase-4",
           "keyWords": [
             "bus",
             "car",
@@ -4067,7 +4995,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "交通工具声音配对",
-                  "description": "听交通工具声音，选出对应的闪卡。",
+                  "description": "【准备】交通工具闪卡 + 手机播放交通工具声音\n【步骤】①播放一种交通工具声音(如警笛) ②孩子猜是什么 ③找到对应的闪卡 ④说出名字\n【话术】\"Listen! What's that sound? Is it a car or a police car?\" / \"It's a police car! Woo-woo! Say 'police car'!\"\n【拓展】模仿交通工具声音让孩子猜",
                   "wordsFocus": []
                 },
                 {
@@ -4075,7 +5003,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "车辆大巡游",
-                  "description": "用玩具车排一列，每辆说出名字。",
+                  "description": "【准备】孩子的玩具车\n【步骤】①所有玩具车排成一排 ②家长指一辆问\"What's this?\" ③孩子说出车名 ④拿起来开到终点\n【话术】\"What's this? A car! Vroom!\" / \"This is a truck! Say 'truck'!\" / \"Line up all your vehicles! Which one is fastest?\"\n【拓展】加颜色描述：a red car, a blue truck",
                   "wordsFocus": []
                 },
                 {
@@ -4083,7 +5011,7 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "『Can you find truck?』——在闪卡/图片中找一找吧！",
+                  "description": "【准备】交通工具闪卡\n【步骤】①问\"Can you find truck?\" ②孩子在闪卡里找 ③找到后问\"What sound does a truck make?\" ④模仿声音\n【话术】\"Find the truck! Vroom vroom!\" / \"Where's the tractor? On the farm!\" / \"You know all the vehicles! Awesome!\"\n【拓展】唱The Wheels On The Bus",
                   "wordsFocus": [
                     "truck",
                     "tractor"
@@ -4094,10 +5022,34 @@
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "大声说出来：plane！你真棒！",
+                  "description": "【准备】plane玩具或图片\n【步骤】①举起飞机\"Plane! Say 'plane'!\" ②张开手臂做飞机动作 ③边飞边说plane ④换其他交通工具\n【话术】\"Plane! Let's fly like a plane! Say 'plane'!\" / \"Zoom zoom! You're a plane! Can you say 'plane'?\"\n【拓展】去路上看真实车辆，指认学习",
                   "wordsFocus": [
                     "plane"
                   ]
+                },
+                {
+                  "title": "Row Row Row Your Boat",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week15/15-Row-Row-Row-Your-Boat.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "The Wheels On The Bus (Sing along)",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week15/15-The-Wheels-On-The-Bus-(Sing-along).mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "The Wheels On The Bus",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week15/15-The-Wheels-On-The-Bus.mp4",
+                  "duration": "2:00"
                 }
               ]
             },
@@ -4155,10 +5107,10 @@
           ]
         },
         {
-          "number": 14,
+          "number": 16,
           "theme": null,
           "themeCn": "★ 复习周 C",
-          "phaseId": "phase-3",
+          "phaseId": "phase-4",
           "keyWords": [],
           "isReviewWeek": true,
           "parentTips": "复习第10-13周（食物+衣物+作息+交通工具）。",
@@ -4281,7 +5233,7 @@
                   "resourceId": null,
                   "resourceType": "REVIEW",
                   "title": "交通工具声音猜谜",
-                  "description": "听声音猜交通工具。",
+                  "description": "【准备】交通工具声音手机音频 + 闪卡\n【步骤】①播放一种交通工具声音 ②孩子猜是什么 ③找到对应闪卡 ④说出名字并模仿声音\n【话术】\"Listen carefully! What vehicle is this?\" / \"It's a boat! Toot toot! Say 'boat'!\" / \"You guessed it right!\"\n【拓展】结合食物/衣物一起复习——混搭猜",
                   "wordsFocus": []
                 },
                 {
@@ -4289,7 +5241,7 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "『Can you find juice?』——在闪卡/图片中找一找吧！",
+                  "description": "【准备】本周及之前学过的食物+衣物闪卡\n【步骤】①问\"Can you find juice?\" ②孩子找juice卡 ③问\"Do you like juice?\" ④引导点头摇头\n【话术】\"Find the juice! Yummy juice!\" / \"Are you hungry? Let's find something to eat!\" / \"What's this? Banana or bread?\"\n【拓展】拿出真实物品问：What's this?",
                   "wordsFocus": [
                     "juice",
                     "hungry"
@@ -4300,10 +5252,34 @@
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "大声说出来：bread！你真棒！",
+                  "description": "【准备】bread或之前学过的名词闪卡\n【步骤】①快速翻闪卡 ②孩子尽量快说出单词 ③计时30秒看能说多少个 ④目标是超过上次\n【话术】\"Ready? GO!\" / \"Bread! Fast!\" / \"You said 8 words in 30 seconds! Amazing!\"\n【拓展】让娃当老师考家长",
                   "wordsFocus": [
                     "bread"
                   ]
+                },
+                {
+                  "title": "Bye Bye Goodbye",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week16/16-Bye-Bye-Goodbye.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "Make A Circle",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week16/16-Make-A-Circle.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "Yes Yes Wake Up",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week16/16-Yes-Yes-Wake-Up.mp4",
+                  "duration": "2:00"
                 }
               ]
             },
@@ -4348,678 +5324,16 @@
       ]
     },
     {
-      "id": "phase-4",
-      "name": "概念与游戏",
-      "description": "最后这个阶段进入稍微抽象的概念——颜色、数字、动作、野生动物、睡前、形状。孩子经过前三阶段的积累已经有了约80个词汇的基础，可以开始理解和表达更抽象的内容。",
-      "order": 4,
+      "id": "phase-5",
+      "name": "动作与世界",
+      "description": "从动作运动到野生动物、睡前夜晚再到形状——扩大认知边界，为下一阶段做准备。",
+      "order": 5,
       "weeks": [
-        {
-          "number": 15,
-          "theme": "Colors",
-          "themeCn": "颜色",
-          "phaseId": "phase-4",
-          "keyWords": [
-            "blue",
-            "red",
-            "yellow",
-            "green",
-            "purple",
-            "orange",
-            "pink",
-            "white",
-            "black",
-            "brown",
-            "colorful",
-            "I see"
-          ],
-          "parentTips": "颜色不需要一次全教完。3岁孩子能掌握3-4种颜色就已经很好。重点是用真实物品：This apple is red. This banana is yellow.",
-          "days": [
-            {
-              "dayOfWeek": 1,
-              "label": "周一",
-              "type": "input",
-              "activities": [
-                {
-                  "priority": "core",
-                  "resourceId": "sss",
-                  "resourceType": "SSS",
-                  "title": "I See Something Blue",
-                  "description": "边唱边在房间里找蓝色的东西。",
-                  "wordsFocus": [
-                    "blue",
-                    "yellow",
-                    "red",
-                    "green"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "word",
-                  "resourceType": "WORD",
-                  "title": "核心词汇：blue、red",
-                  "description": "跟着妈妈读单词：blue red",
-                  "wordsFocus": [
-                    "blue",
-                    "red"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "yd",
-                  "resourceType": "YD",
-                  "title": "Blue / Red",
-                  "description": "Dee教说blue和red。",
-                  "wordsFocus": [
-                    "blue",
-                    "red"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "quiz",
-                  "resourceType": "QUIZ",
-                  "title": "小测验",
-                  "description": "『Where is blue?』——宝宝能指出blue对应的图片或做出动作吗？",
-                  "wordsFocus": [
-                    "blue"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "speaking",
-                  "resourceType": "SPEAKING",
-                  "title": "跟读练习",
-                  "description": "和妈妈一起说：yellow！大声说出来吧～",
-                  "wordsFocus": [
-                    "yellow"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": null,
-                  "resourceType": "PARENT",
-                  "title": "颜色寻宝",
-                  "description": "Find something red! 满屋子跑着找对应颜色的物品。",
-                  "wordsFocus": [
-                    "red",
-                    "blue"
-                  ]
-                }
-              ]
-            },
-            {
-              "dayOfWeek": 2,
-              "label": "周二",
-              "type": "input",
-              "activities": [
-                {
-                  "priority": "core",
-                  "resourceId": "sss",
-                  "resourceType": "SSS",
-                  "title": "Red Yellow Green Blue",
-                  "description": "四个颜色的歌，重复性极高，每句都在重复颜色名。",
-                  "wordsFocus": [
-                    "purple",
-                    "orange",
-                    "pink"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "word",
-                  "resourceType": "WORD",
-                  "title": "核心词汇：yellow、green",
-                  "description": "跟着妈妈读单词：yellow green",
-                  "wordsFocus": [
-                    "yellow",
-                    "green"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "yd",
-                  "resourceType": "YD",
-                  "title": "Pink / Green",
-                  "description": "Dee教说pink和green。",
-                  "wordsFocus": [
-                    "pink",
-                    "green"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "quiz",
-                  "resourceType": "QUIZ",
-                  "title": "小测验",
-                  "description": "『Where is red?』——宝宝能指出red对应的图片或做出动作吗？",
-                  "wordsFocus": [
-                    "red"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "speaking",
-                  "resourceType": "SPEAKING",
-                  "title": "跟读练习",
-                  "description": "和妈妈一起说：green！大声说出来吧～",
-                  "wordsFocus": [
-                    "green"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": null,
-                  "resourceType": "PARENT",
-                  "title": "颜色分类乐高",
-                  "description": "把混在一起的彩色积木按颜色分类，Put the red ones here.",
-                  "wordsFocus": []
-                }
-              ]
-            },
-            {
-              "dayOfWeek": 3,
-              "label": "周三",
-              "type": "input",
-              "activities": [
-                {
-                  "priority": "core",
-                  "resourceId": "pf",
-                  "resourceType": "PF",
-                  "title": "Baby Shark（颜色版）",
-                  "description": "Red shark, doo doo doo... 每个颜色换一条鲨鱼。",
-                  "wordsFocus": [
-                    "white",
-                    "black",
-                    "brown",
-                    "colorful"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "word",
-                  "resourceType": "WORD",
-                  "title": "核心词汇：purple、orange",
-                  "description": "跟着妈妈读单词：purple orange",
-                  "wordsFocus": [
-                    "purple",
-                    "orange"
-                  ]
-                },
-                {
-                  "priority": "optional",
-                  "resourceId": "pp",
-                  "resourceType": "PP",
-                  "title": "Colors 选段",
-                  "description": "Peppa学颜色的故事。",
-                  "wordsFocus": []
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "quiz",
-                  "resourceType": "QUIZ",
-                  "title": "小测验",
-                  "description": "『Where is yellow?』——宝宝能指出yellow对应的图片或做出动作吗？",
-                  "wordsFocus": [
-                    "yellow"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "speaking",
-                  "resourceType": "SPEAKING",
-                  "title": "跟读练习",
-                  "description": "和妈妈一起说：purple！大声说出来吧～",
-                  "wordsFocus": [
-                    "purple"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": null,
-                  "resourceType": "PARENT",
-                  "title": "颜色冰棒棍",
-                  "description": "冰棒棍涂色，配对相同颜色的。",
-                  "wordsFocus": []
-                }
-              ]
-            },
-            {
-              "dayOfWeek": 4,
-              "label": "周四",
-              "type": "review",
-              "activities": [
-                {
-                  "priority": "core",
-                  "resourceId": null,
-                  "resourceType": "PARENT",
-                  "title": "颜色骰子",
-                  "description": "掷到哪个颜色就找到对应的物品。",
-                  "wordsFocus": []
-                },
-                {
-                  "priority": "core",
-                  "resourceId": null,
-                  "resourceType": "PARENT",
-                  "title": "I Spy 颜色版",
-                  "description": "I spy something blue! 孩子指出对应颜色的东西。",
-                  "wordsFocus": [
-                    "I see"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "quiz",
-                  "resourceType": "QUIZ",
-                  "title": "复习小测验",
-                  "description": "『Can you find pink?』——在闪卡/图片中找一找吧！",
-                  "wordsFocus": [
-                    "pink",
-                    "white"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "speaking",
-                  "resourceType": "SPEAKING",
-                  "title": "复习跟读",
-                  "description": "大声说出来：purple！你真棒！",
-                  "wordsFocus": [
-                    "purple"
-                  ]
-                }
-              ]
-            },
-            {
-              "dayOfWeek": 5,
-              "label": "周五",
-              "type": "output",
-              "activities": [
-                {
-                  "priority": "core",
-                  "resourceId": "speaking",
-                  "resourceType": "SPEAKING",
-                  "title": "口语展示",
-                  "description": "宝宝来展示一下这周学的内容吧！说给妈妈听：black brown",
-                  "wordsFocus": [
-                    "black",
-                    "brown"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": null,
-                  "resourceType": "PARENT",
-                  "title": "颜色小书",
-                  "description": "每页一个颜色+对应物品的涂鸦，边画边说。",
-                  "wordsFocus": [
-                    "blue",
-                    "red",
-                    "yellow",
-                    "green",
-                    "I see"
-                  ]
-                },
-                {
-                  "priority": "optional",
-                  "resourceId": "kf",
-                  "resourceType": "KF",
-                  "title": "Colors 主题",
-                  "description": "Khan Academy Kids颜色互动。",
-                  "wordsFocus": []
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "quiz",
-                  "resourceType": "QUIZ",
-                  "title": "综合小测验",
-                  "description": "『Can you find colorful?』——在闪卡/图片中找一找吧！",
-                  "wordsFocus": [
-                    "colorful",
-                    "I see"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "number": 16,
-          "theme": "Numbers 1-5",
-          "themeCn": "数字 1-5",
-          "phaseId": "phase-4",
-          "keyWords": [
-            "one",
-            "two",
-            "three",
-            "four",
-            "five",
-            "count",
-            "how many",
-            "number"
-          ],
-          "parentTips": "3岁不要强求数到10，1-5数清楚就很好。重点是一一对应（点一个物品说一个数），这是数学启蒙的基础。用楼梯、饼干、积木都可以数。",
-          "days": [
-            {
-              "dayOfWeek": 1,
-              "label": "周一",
-              "type": "input",
-              "activities": [
-                {
-                  "priority": "core",
-                  "resourceId": "sss",
-                  "resourceType": "SSS",
-                  "title": "One Little Finger",
-                  "description": "边唱边伸手指头数数。",
-                  "wordsFocus": [
-                    "one",
-                    "two",
-                    "three",
-                    "four",
-                    "five"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "word",
-                  "resourceType": "WORD",
-                  "title": "核心词汇：one、two",
-                  "description": "跟着妈妈读单词：one two",
-                  "wordsFocus": [
-                    "one",
-                    "two"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "yd",
-                  "resourceType": "YD",
-                  "title": "One / Two",
-                  "description": "Dee教说数字1和2。",
-                  "wordsFocus": [
-                    "one",
-                    "two"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "quiz",
-                  "resourceType": "QUIZ",
-                  "title": "小测验",
-                  "description": "『Where is one?』——宝宝能指出one对应的图片或做出动作吗？",
-                  "wordsFocus": [
-                    "one"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "speaking",
-                  "resourceType": "SPEAKING",
-                  "title": "跟读练习",
-                  "description": "和妈妈一起说：three！大声说出来吧～",
-                  "wordsFocus": [
-                    "three"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": null,
-                  "resourceType": "PARENT",
-                  "title": "数手指",
-                  "description": "How many? 伸出1-5根手指头让孩子说。",
-                  "wordsFocus": [
-                    "one",
-                    "two",
-                    "three",
-                    "four",
-                    "five"
-                  ]
-                }
-              ]
-            },
-            {
-              "dayOfWeek": 2,
-              "label": "周二",
-              "type": "input",
-              "activities": [
-                {
-                  "priority": "core",
-                  "resourceId": "sss",
-                  "resourceType": "SSS",
-                  "title": "Five Little Monkeys",
-                  "description": "配合手指或玩偶表演，5只猴子在床上跳。",
-                  "wordsFocus": [
-                    "jump",
-                    "bump",
-                    "fall off",
-                    "no more"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "word",
-                  "resourceType": "WORD",
-                  "title": "核心词汇：three、four",
-                  "description": "跟着妈妈读单词：three four",
-                  "wordsFocus": [
-                    "three",
-                    "four"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "yd",
-                  "resourceType": "YD",
-                  "title": "Three / Four",
-                  "description": "Dee教说3和4。",
-                  "wordsFocus": [
-                    "three",
-                    "four"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "quiz",
-                  "resourceType": "QUIZ",
-                  "title": "小测验",
-                  "description": "『Where is two?』——宝宝能指出two对应的图片或做出动作吗？",
-                  "wordsFocus": [
-                    "two"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "speaking",
-                  "resourceType": "SPEAKING",
-                  "title": "跟读练习",
-                  "description": "和妈妈一起说：four！大声说出来吧～",
-                  "wordsFocus": [
-                    "four"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": null,
-                  "resourceType": "PARENT",
-                  "title": "数玩具",
-                  "description": "Let's count the blocks! 数1-5个积木。",
-                  "wordsFocus": [
-                    "count"
-                  ]
-                }
-              ]
-            },
-            {
-              "dayOfWeek": 3,
-              "label": "周三",
-              "type": "input",
-              "activities": [
-                {
-                  "priority": "core",
-                  "resourceId": "sss",
-                  "resourceType": "SSS",
-                  "title": "Count & Move",
-                  "description": "从1数到5，配合蹦跳动作动起来。",
-                  "wordsFocus": [
-                    "count",
-                    "let's count",
-                    "number"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "word",
-                  "resourceType": "WORD",
-                  "title": "核心词汇：five、count",
-                  "description": "跟着妈妈读单词：five count",
-                  "wordsFocus": [
-                    "five",
-                    "count"
-                  ]
-                },
-                {
-                  "priority": "optional",
-                  "resourceId": "pp",
-                  "resourceType": "PP",
-                  "title": "Numbers 选段",
-                  "description": "Peppa和数字相关的故事。",
-                  "wordsFocus": []
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "quiz",
-                  "resourceType": "QUIZ",
-                  "title": "小测验",
-                  "description": "『Where is three?』——宝宝能指出three对应的图片或做出动作吗？",
-                  "wordsFocus": [
-                    "three"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "speaking",
-                  "resourceType": "SPEAKING",
-                  "title": "跟读练习",
-                  "description": "和妈妈一起说：five！大声说出来吧～",
-                  "wordsFocus": [
-                    "five"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": null,
-                  "resourceType": "PARENT",
-                  "title": "Give me three!",
-                  "description": "孩子给家长对应数量的物品。交换角色。",
-                  "wordsFocus": [
-                    "one",
-                    "two",
-                    "three",
-                    "four",
-                    "five"
-                  ]
-                }
-              ]
-            },
-            {
-              "dayOfWeek": 4,
-              "label": "周四",
-              "type": "review",
-              "activities": [
-                {
-                  "priority": "core",
-                  "resourceId": null,
-                  "resourceType": "PARENT",
-                  "title": "数字+实物计数",
-                  "description": "闪卡和实物配对，数一数有几个。",
-                  "wordsFocus": []
-                },
-                {
-                  "priority": "core",
-                  "resourceId": null,
-                  "resourceType": "PARENT",
-                  "title": "数字跳格子",
-                  "description": "地上贴1-5，跳到哪个说哪个。",
-                  "wordsFocus": []
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "quiz",
-                  "resourceType": "QUIZ",
-                  "title": "复习小测验",
-                  "description": "『Can you find how many?』——在闪卡/图片中找一找吧！",
-                  "wordsFocus": [
-                    "how many",
-                    "number"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "speaking",
-                  "resourceType": "SPEAKING",
-                  "title": "复习跟读",
-                  "description": "大声说出来：five！你真棒！",
-                  "wordsFocus": [
-                    "five"
-                  ]
-                }
-              ]
-            },
-            {
-              "dayOfWeek": 5,
-              "label": "周五",
-              "type": "output",
-              "activities": [
-                {
-                  "priority": "core",
-                  "resourceId": "speaking",
-                  "resourceType": "SPEAKING",
-                  "title": "口语展示",
-                  "description": "宝宝来展示一下这周学的内容吧！说给妈妈听：one two",
-                  "wordsFocus": [
-                    "one",
-                    "two"
-                  ]
-                },
-                {
-                  "priority": "core",
-                  "resourceId": null,
-                  "resourceType": "PARENT",
-                  "title": "小老师",
-                  "description": "孩子伸出指头问How many? 家长回答。",
-                  "wordsFocus": [
-                    "one-five",
-                    "how many",
-                    "count"
-                  ]
-                },
-                {
-                  "priority": "optional",
-                  "resourceId": "kf",
-                  "resourceType": "KF",
-                  "title": "Numbers 主题",
-                  "description": "Khan Academy Kids数字互动。",
-                  "wordsFocus": []
-                },
-                {
-                  "priority": "core",
-                  "resourceId": "quiz",
-                  "resourceType": "QUIZ",
-                  "title": "综合小测验",
-                  "description": "『Can you find three?』——在闪卡/图片中找一找吧！",
-                  "wordsFocus": [
-                    "three",
-                    "four"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "number": 17,
           "theme": "Actions & Movement",
           "themeCn": "动作与运动",
-          "phaseId": "phase-4",
+          "phaseId": "phase-5",
           "keyWords": [
             "run",
             "jump",
@@ -5268,7 +5582,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "动作大转盘",
-                  "description": "画一个转盘分6格，转到哪个做哪个动作。",
+                  "description": "【准备】画一个转盘分6格：run/jump/hop/stop/clap/spin + 指针\n【步骤】①孩子转指针 ②转到哪个动作一起做 ③边做边说该动作词 ④做累了换一个\n【话术】\"Spin it! What action? Jump! Jump up high!\" / \"Spin! Let's spin around! Say 'spin'!\" / \"Stop! Freeze! Don't move!\"\n【拓展】加动物结合：Hop like a bunny!",
                   "wordsFocus": []
                 },
                 {
@@ -5276,7 +5590,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "你说我做",
-                  "description": "Hop like a bunny! Stomp like an elephant! 结合动物和动作。",
+                  "description": "【准备】动作卡 + 动物名卡\n【步骤】①家长发指令\"Hop like a bunny!\" ②孩子做动作 ③换孩子发指令家长做 ④故意做错让孩子纠正\n【话术】\"Hop like a bunny! Hop hop hop!\" / \"Stomp like an elephant! Stomp stomp!\" / \"Now you be the teacher! Tell me what to do!\"\n【拓展】让发令人不做动作变Simon Says",
                   "wordsFocus": []
                 },
                 {
@@ -5284,7 +5598,7 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "『Can you find spin?』——在闪卡/图片中找一找吧！",
+                  "description": "【准备】动作闪卡\n【步骤】①问\"Can you find spin?\" ②孩子找spin卡 ③做一个spin动作 ④再问\"Can you fly?\"做飞行动作\n【话术】\"Find spin! Show me spin!\" / \"Can you fly? Arms out — fly!\" / \"You know all the actions! Let's dance!\"\n【拓展】放SSS歌曲做所有动作连跳",
                   "wordsFocus": [
                     "spin",
                     "fly"
@@ -5295,10 +5609,34 @@
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "大声说出来：clap！你真棒！",
+                  "description": "【准备】clap的动作示范\n【步骤】①拍手\"Clap! Say 'clap'!\" ②孩子跟着拍 ③说clap ④换其他动作词\n【话术】\"Clap your hands! Can you say 'clap'?\" / \"Clap, clap, clap! You did it!\" / \"Now say 'jump' and jump!\"\n【拓展】边唱If You're Happy边做动作",
                   "wordsFocus": [
                     "clap"
                   ]
+                },
+                {
+                  "title": "Pat A Cake",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week17/17-Pat-A-Cake.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "We All Fall Down",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week17/17-We-All-Fall-Down.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "Yes I Can",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week17/17-Yes-I-Can.mp4",
+                  "duration": "2:00"
                 }
               ]
             },
@@ -5360,7 +5698,7 @@
           "number": 18,
           "theme": "Wild Animals",
           "themeCn": "野生动物",
-          "phaseId": "phase-4",
+          "phaseId": "phase-5",
           "keyWords": [
             "elephant",
             "lion",
@@ -5602,7 +5940,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "动物+动作配对",
-                  "description": "一张动物闪卡+一张动作闪卡，配对。",
+                  "description": "【准备】动物闪卡 + 动作闪卡\n【步骤】①动物卡排一排，动作卡排一排 ②抽一张动物卡\"The frog can jump!\" ③孩子找对应的动作卡jump ④配对说出\n【话术】\"The frog can... what? Jump! Find the jump card!\" / \"Monkey can... climb! Show me climb!\" / \"You matched them all!\"\n【拓展】去动物园或看动物纪录片指认",
                   "wordsFocus": []
                 },
                 {
@@ -5610,7 +5948,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "Who am I? 动物版",
-                  "description": "家长学一种动物的动作和叫声，孩子猜。",
+                  "description": "【准备】野生动物闪卡\n【步骤】①家长学一个动物的动作或叫声 ②孩子猜\"Is it a frog?\" ③猜对了展示闪卡 ④一起说名字\n【话术】\"Who am I? Ooh ooh ah ah!\" / \"I'm big and gray with a trunk — what am I?\" / \"Elephant! Yes! Say 'elephant'!\"\n【拓展】孩子做动作家长猜",
                   "wordsFocus": []
                 },
                 {
@@ -5618,7 +5956,7 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "『Can you find frog?』——在闪卡/图片中找一找吧！",
+                  "description": "【准备】野生动物闪卡\n【步骤】①问\"Can you find frog?\" ②孩子找frog ③问\"How does a frog go?\" ④跳一下说frog\n【话术】\"Find the frog! Ribbit ribbit!\" / \"Where's the parrot? Pretty bird!\" / \"Can you find the giraffe? It's so tall!\"\n【拓展】玩动物记忆翻翻卡游戏",
                   "wordsFocus": [
                     "frog",
                     "parrot"
@@ -5629,10 +5967,26 @@
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "大声说出来：giraffe！你真棒！",
+                  "description": "【准备】giraffe闪卡或长颈鹿玩偶\n【步骤】①展示长颈鹿\"Giraffe! Say 'giraffe'!\" ②伸手学长颈鹿的高脖子 ③一起说giraffe ④换其他动物\n【话术】\"Giraffe! So tall! Say 'giraffe'!\" / \"Can you stretch your neck like a giraffe? Say 'giraffe'!\" / \"What's this tall animal? — Giraffe! Yes!\"\n【拓展】唱Walking In The Jungle配合",
                   "wordsFocus": [
                     "giraffe"
                   ]
+                },
+                {
+                  "title": "Walking In The Jungle (Playground)",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week18/18-Walking-In-The-Jungle-(Playground).mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "Walking In The Jungle",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week18/18-Walking-In-The-Jungle.mp4",
+                  "duration": "2:00"
                 }
               ]
             },
@@ -5693,7 +6047,7 @@
           "number": 19,
           "theme": "Bedtime & Nighttime",
           "themeCn": "睡前与夜晚",
-          "phaseId": "phase-4",
+          "phaseId": "phase-5",
           "keyWords": [
             "star",
             "moon",
@@ -5942,7 +6296,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "睡前闪卡排序",
-                  "description": "把睡前要做的事按顺序排列。",
+                  "description": "【准备】睡前活动闪卡(洗澡/穿睡衣/刷牙/读绘本/关灯/睡觉)\n【步骤】①把所有闪卡打乱 ②让孩子按睡前顺序排列 ③排好了按顺序做一遍动作 ④每张卡说出名字\n【话术】\"What do we do first? Take a bath! Find the bath card\" / \"Then what? Put on pajamas!\"\n【拓展】当晚上真的做这些事时用英语说",
                   "wordsFocus": []
                 },
                 {
@@ -5950,7 +6304,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "哄睡玩偶",
-                  "description": "Shhh, Baby is sleeping. 把玩偶哄睡着，轻手轻脚。",
+                  "description": "【准备】一个毛绒玩偶\n【步骤】①抱着玩偶说\"Shhh, Baby is sleeping\" ②让孩子也抱一个玩偶 ③轻手轻脚走路 ④说\"Quiet! Don't wake the baby!\"\n【话术】\"Shhh! Baby is sleeping! Walk quietly!\" / \"Put teddy to bed. Say 'good night, teddy!'\" / \"Quiet! We need to be quiet!\"\n【拓展】唱Rock-a-bye Baby摇篮曲",
                   "wordsFocus": [
                     "sleep",
                     "quiet"
@@ -5961,7 +6315,7 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "『Can you find blanket?』——在闪卡/图片中找一找吧！",
+                  "description": "【准备】睡前活动闪卡\n【步骤】①问\"Can you find blanket?\" ②孩子找blanket卡 ③问\"Where is your teddy bear?\" ④抱一下自己的玩偶\n【话术】\"Find the blanket! Cozy warm blanket!\" / \"Where's your teddy? Hug teddy and say 'teddy'!\" / \"Time for bed! Say 'good night'!\"\n【拓展】唱Twinkle Twinkle Little Star",
                   "wordsFocus": [
                     "blanket",
                     "teddy"
@@ -5972,10 +6326,34 @@
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "大声说出来：bed！你真棒！",
+                  "description": "【准备】bed图片或指真实床\n【步骤】①指着床\"Bed! Say 'bed'!\" ②让孩子躺到床上 ③躺着说bed ④说\"Time for bed! Good night!\"\n【话术】\"Bed! This is your bed! Say 'bed'!\" / \"Time for bed! Let's go to bed. Say 'bed'!\" / \"You said bed! Now say 'good night'!\"\n【拓展】睡前仪式全部用英语说一遍",
                   "wordsFocus": [
                     "bed"
                   ]
+                },
+                {
+                  "title": "Good Night Song",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week19/19-Good-Night-Song.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "Rock a bye Baby",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week19/19-Rock-a-bye-Baby.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "Sweet Dreams",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week19/19-Sweet-Dreams.mp4",
+                  "duration": "2:00"
                 }
               ]
             },
@@ -6041,7 +6419,7 @@
           "number": 20,
           "theme": "Shapes",
           "themeCn": "形状",
-          "phaseId": "phase-4",
+          "phaseId": "phase-5",
           "keyWords": [
             "circle",
             "square",
@@ -6280,7 +6658,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "形状+实物配对",
-                  "description": "圆形钟表→circle，方形窗户→square。",
+                  "description": "【准备】形状闪卡 + 家中对应形状的物品\n【步骤】①展示圆形卡\"Circle! Can you find something round?\" ②孩子找到圆形钟表或盘子 ③指物品说\"Circle!\" ④逐个形状\n【话术】\"Circle! Like a clock! Find something round\" / \"Square! Like a window! Point to the window and say 'square'!\" / \"Triangle! Like a roof!\"\n【拓展】用形状饼干做奖励，吃前说形状名",
                   "wordsFocus": []
                 },
                 {
@@ -6288,7 +6666,7 @@
                   "resourceId": null,
                   "resourceType": "PARENT",
                   "title": "形状贴纸画",
-                  "description": "用不同形状的贴纸拼成一幅画。",
+                  "description": "【准备】多种形状贴纸 + 白纸\n【步骤】①让孩子自由用贴纸创作 ②每贴一个说出形状名\"I'm putting a circle\" ③完成画后一起指认 ④数每个形状有几个\n【话术】\"What shape do you want? A circle or a triangle?\" / \"You made a star! Say 'star'!\" / \"How many circles did you use? Let's count!\"\n【拓展】用形状画动物——square dog, triangle fish",
                   "wordsFocus": []
                 },
                 {
@@ -6296,7 +6674,7 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "『Can you find diamond?』——在闪卡/图片中找一找吧！",
+                  "description": "【准备】形状闪卡\n【步骤】①问\"Can you find diamond?\" ②孩子找diamond ③问\"What shape is this? Oval or circle?\" ④用手在空中画形状\n【话术】\"Find the diamond! Sparkle sparkle!\" / \"Oval! Like an egg! Can you find oval?\" / \"You know all the shapes! Shape master!\"\n【拓展】在日常生活中指认形状：车轮是circle",
                   "wordsFocus": [
                     "diamond",
                     "oval"
@@ -6307,10 +6685,34 @@
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "大声说出来：heart！你真棒！",
+                  "description": "【准备】heart形状卡或心形物品\n【步骤】①展示心形\"Heart! Say 'heart'!\" ②用手比心形 ③孩子跟着比 ④说heart\n【话术】\"Heart! I love you! Say 'heart'!\" / \"Make a heart with your hands! Say 'heart'!\" / \"What shape is this? — Heart! Yes!\"\n【拓展】结合颜色：a red heart, a blue star",
                   "wordsFocus": [
                     "heart"
                   ]
+                },
+                {
+                  "title": "Open Shut Them",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week20/20-Open-Shut-Them.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "Rock Scissors Paper",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week20/20-Rock-Scissors-Paper.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "The Shape Song",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week20/20-The-Shape-Song.mp4",
+                  "duration": "2:00"
                 }
               ]
             },
@@ -6371,7 +6773,7 @@
           "number": 21,
           "theme": null,
           "themeCn": "★ 复习周 D",
-          "phaseId": "phase-4",
+          "phaseId": "phase-5",
           "keyWords": [],
           "isReviewWeek": true,
           "parentTips": "全年回顾！从全部20个主题中精选每个主题2个核心词=40词大闯关。这是收获的一周，看看孩子全年积累了多少。",
@@ -6494,7 +6896,7 @@
                   "resourceId": null,
                   "resourceType": "REVIEW",
                   "title": "英语小剧场",
-                  "description": "用全年学过的句型串成一个小故事，用玩偶演出。",
+                  "description": "【准备】全年学过的核心词汇闪卡(挑10-15张)\n【步骤】①用闪卡编一个小故事 ②比如\"Teddy bear wakes up (hello!), eats breakfast (apple!), takes the bus (wheels!)...\" ③孩子配合做动作或说出词 ④用玩偶演出\n【话术】\"Let's tell a story! Once upon a time, Teddy said 'Hello!'\" / \"Then Teddy ate an apple! What's this?\" / \"The end! Great story!\"\n【拓展】让孩子自己编故事",
                   "wordsFocus": []
                 },
                 {
@@ -6502,7 +6904,7 @@
                   "resourceId": "quiz",
                   "resourceType": "QUIZ",
                   "title": "复习小测验",
-                  "description": "『Can you find pink?』——在闪卡/图片中找一找吧！",
+                  "description": "【准备】各主题闪卡混合\n【步骤】①展示闪卡问\"Can you find pink?\" ②孩子找pink ③再问\"What color is the sky?\" ④引导结合主题\n【话术】\"Find pink! What things are pink?\" / \"What color is the sky? Blue!\" / \"You remember everything from the whole year!\"\n【拓展】快速问答——看1分钟能答对多少个",
                   "wordsFocus": [
                     "pink",
                     "white"
@@ -6513,10 +6915,34 @@
                   "resourceId": "speaking",
                   "resourceType": "SPEAKING",
                   "title": "复习跟读",
-                  "description": "大声说出来：purple！你真棒！",
+                  "description": "【准备】各主题词汇闪卡\n【步骤】①快速翻卡 ②孩子看到立刻说出 ③3秒内说出的收走卡片 ④数一共得到多少张\n【话术】\"Quick! What's this?\" / \"Purple! You got it!\" / \"You got 12 cards! New record!\"\n【拓展】让娃选5个最喜欢的词展示给家人",
                   "wordsFocus": [
                     "purple"
                   ]
+                },
+                {
+                  "title": "Bye Bye Goodbye",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week21/21-Bye-Bye-Goodbye.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "Hello Hello",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week21/21-Hello-Hello.mp4",
+                  "duration": "2:00"
+                },
+                {
+                  "title": "Make A Circle",
+                  "description": "【拓展视频】看完后问孩子相关问题引导输出",
+                  "resourceType": "EXTRA_VIDEO",
+                  "ytId": "",
+                  "localPath": "videos/week21/21-Make-A-Circle.mp4",
+                  "duration": "2:00"
                 }
               ]
             },
@@ -6560,5 +6986,12 @@
         }
       ]
     }
-  ]
+  ],
+  "meta": {
+    "version": "2.0.0",
+    "totalWeeks": 21,
+    "totalPhases": 5,
+    "lastUpdated": "2026-06-02",
+    "description": "3-6岁幼儿英语启蒙课程 - 第二版"
+  }
 }

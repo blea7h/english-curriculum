@@ -36,7 +36,7 @@
   }
   .header h1 { font-size: 22px; font-weight: 700; }
   .header h1 span { font-weight: 400; opacity: 0.85; font-size: 16px; }
-  .header-controls { display: flex; align-items: center; gap: 12px; }
+  .header-controls { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
   .header-controls select {
     padding: 8px 14px; border-radius: 8px; border: none;
     font-size: 14px; font-weight: 500; cursor: pointer;
@@ -45,6 +45,25 @@
   }
   .header-controls select option { color: #333; background: #fff; }
   .week-counter { font-size: 14px; opacity: 0.85; }
+  .network-ip {
+    font-size: 12px; opacity: 0.7; display: flex; align-items: center; gap: 4px;
+  }
+  .network-ip a { color: #fff; text-decoration: underline; opacity: 0.9; }
+  .network-ip a:hover { opacity: 1; }
+
+  /* View switcher */
+  .view-overview { display: block; }
+  .view-overview.hidden { display: none; }
+  .view-detail { display: none; padding: 20px; max-width: 1000px; margin: 0 auto; }
+  .view-detail.visible { display: block; }
+  .view-detail .detail { display: block; }
+  .back-btn {
+    display: inline-flex; align-items: center; gap: 4px;
+    background: #f0f0f0; border: none; border-radius: 8px;
+    padding: 6px 14px; font-size: 13px; cursor: pointer;
+    color: #555; font-weight: 500; transition: all 0.2s;
+  }
+  .back-btn:hover { background: #e0e0e0; color: #333; }
 
   /* Main */
   .main { max-width: 1000px; margin: 0 auto; padding: 20px; }
@@ -61,10 +80,18 @@
     transition: background 0.2s;
   }
   .phase-header:hover { filter: brightness(0.97); }
-  .phase-header[data-phase="phase-1"] { background: var(--p1-bg); border-left: 4px solid var(--p1); }
-  .phase-header[data-phase="phase-2"] { background: var(--p2-bg); border-left: 4px solid var(--p2); }
-  .phase-header[data-phase="phase-3"] { background: var(--p3-bg); border-left: 4px solid var(--p3); }
-  .phase-header[data-phase="phase-4"] { background: var(--p4-bg); border-left: 4px solid var(--p4); }
+  .phase-header[data-phase="phase-1"],
+  .phase-header[data-phase="phase-2"],
+  .phase-header[data-phase="phase-3"] { background: var(--p1-bg); border-left: 4px solid var(--p1); }
+  .phase-header[data-phase="phase-4"],
+  .phase-header[data-phase="phase-5"],
+  .phase-header[data-phase="phase-6"] { background: var(--p2-bg); border-left: 4px solid var(--p2); }
+  .phase-header[data-phase="phase-7"],
+  .phase-header[data-phase="phase-8"],
+  .phase-header[data-phase="phase-9"] { background: var(--p3-bg); border-left: 4px solid var(--p3); }
+  .phase-header[data-phase="phase-10"],
+  .phase-header[data-phase="phase-11"],
+  .phase-header[data-phase="phase-12"] { background: var(--p4-bg); border-left: 4px solid var(--p4); }
   .phase-name { font-size: 17px; font-weight: 600; }
   .phase-name small { font-weight: 400; color: #888; font-size: 13px; }
   .phase-toggle { font-size: 13px; color: #888; }
@@ -256,6 +283,234 @@
   .empty-state h3 { font-size: 18px; margin-bottom: 8px; color: #888; }
   .empty-state p { font-size: 14px; }
 
+  /* ─── Interactive Word Cards ─── */
+  .word-card {
+    background: #fff; border: 2px solid #e8f0fe; border-radius: 16px;
+    padding: 20px; margin-bottom: 12px; text-align: center;
+    transition: box-shadow 0.2s;
+  }
+  .word-card:hover { box-shadow: 0 4px 16px rgba(102,126,234,0.12); }
+  .word-card .word-img-area {
+    width: 120px; height: 120px; margin: 0 auto 12px;
+    border-radius: 16px; background: #f7f8fa; overflow: hidden;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 40px; color: #ccc; user-select: none;
+  }
+  .word-card .word-img-area img {
+    width: 100%; height: 100%; object-fit: cover;
+    border-radius: 16px;
+  }
+  .word-card .word-img-area .img-placeholder {
+    font-size: 40px; color: #ccc;
+  }
+  .word-card .word-text {
+    font-size: 28px; font-weight: 700; color: #333;
+    margin-bottom: 8px; letter-spacing: 1px;
+  }
+  .word-card .word-text .word-slash {
+    color: #aaa; font-weight: 300; margin: 0 4px;
+  }
+  .speak-btn {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 10px 24px; border-radius: 40px; border: none;
+    font-size: 15px; font-weight: 600; cursor: pointer;
+    background: #667eea; color: #fff;
+    transition: all 0.2s; touch-action: manipulation;
+  }
+  .speak-btn:hover { background: #5a6fd6; transform: scale(1.03); }
+  .speak-btn:active { transform: scale(0.97); }
+  .speak-btn.speaking { background: #f0b87a; animation: pulse 0.6s ease infinite; }
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+  }
+  .speak-btn-sm {
+    display: inline-flex; align-items: center; gap: 4px;
+    padding: 4px 12px; border-radius: 20px; border: none;
+    font-size: 12px; font-weight: 500; cursor: pointer;
+    background: #eef0ff; color: #667eea;
+    transition: all 0.15s; touch-action: manipulation;
+  }
+  .speak-btn-sm:hover { background: #dddfff; }
+  .speak-btn-sm:active { transform: scale(0.95); }
+  .keyword-tag.speakable {
+    cursor: pointer; transition: all 0.15s;
+  }
+  .keyword-tag.speakable:hover {
+    background: #667eea; color: #fff; transform: scale(1.05);
+  }
+  .keyword-tag.speakable:active { transform: scale(0.95); }
+
+  /* ─── Speaking Cards ─── */
+  .speaking-card {
+    background: #fff; border: 2px solid #e8f8f0; border-radius: 16px;
+    padding: 20px; margin-bottom: 12px;
+  }
+  .speaking-card .speaking-word-area {
+    display: flex; align-items: center; justify-content: center;
+    gap: 12px; margin-bottom: 16px;
+  }
+  .speaking-card .speaking-word {
+    font-size: 24px; font-weight: 700; color: #333;
+  }
+  .speaking-progress {
+    display: flex; gap: 6px; justify-content: center; margin-bottom: 16px;
+  }
+  .speaking-progress .dot {
+    width: 10px; height: 10px; border-radius: 50%;
+    background: #e0e0e0; transition: all 0.3s;
+  }
+  .speaking-progress .dot.done { background: #28a745; }
+  .speaking-progress .dot.active { background: #667eea; box-shadow: 0 0 0 3px rgba(102,126,234,0.3); }
+  .speaking-step-group {
+    display: flex; flex-direction: column; gap: 10px;
+  }
+  .speaking-step-btn {
+    display: flex; align-items: center; gap: 12px;
+    width: 100%; padding: 14px 18px; border-radius: 12px; border: 2px solid #e8e8e8;
+    background: #fafafa; cursor: pointer; font-size: 15px;
+    transition: all 0.2s; text-align: left; touch-action: manipulation;
+    opacity: 0.5; pointer-events: none;
+  }
+  .speaking-step-btn.available {
+    opacity: 1; pointer-events: auto;
+  }
+  .speaking-step-btn:hover.available { border-color: #667eea; background: #f0f2ff; }
+  .speaking-step-btn .step-icon {
+    width: 36px; height: 36px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px; flex-shrink: 0;
+  }
+  .speaking-step-btn .step-label { font-weight: 500; flex: 1; }
+  .speaking-step-btn .step-status { font-size: 12px; color: #aaa; }
+  .speaking-step-btn.done {
+    border-color: #28a745; background: #f0fff4; opacity: 1; pointer-events: none;
+  }
+  .speaking-step-btn.done .step-icon { background: #28a745; color: #fff; }
+  .speaking-step-btn.done .step-status { color: #28a745; }
+  .step-listen .step-icon { background: #667eea; color: #fff; }
+  .step-speak .step-icon { background: #f0b87a; color: #fff; }
+  .step-check .step-icon { background: #e0e0e0; color: #fff; }
+  .speaking-done-msg {
+    text-align: center; padding: 20px; color: #28a745;
+    font-size: 18px; font-weight: 600;
+  }
+
+  /* ─── Quiz Cards ─── */
+  .quiz-card {
+    background: #fff; border: 2px solid #f5edfa; border-radius: 16px;
+    padding: 20px; margin-bottom: 12px; text-align: center;
+  }
+  .quiz-question {
+    font-size: 20px; font-weight: 700; color: #333;
+    margin-bottom: 16px; padding: 8px;
+  }
+  .quiz-question .q-word {
+    color: #764ba2; border-bottom: 3px solid #c89bd8;
+  }
+  .quiz-options {
+    display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;
+  }
+  .quiz-option {
+    width: 100px; height: 100px; border-radius: 16px; overflow: hidden;
+    border: 3px solid #e0e0e0; cursor: pointer;
+    transition: all 0.2s; position: relative;
+    background: #f7f8fa; display: flex; align-items: center; justify-content: center;
+    touch-action: manipulation;
+  }
+  .quiz-option:hover { border-color: #667eea; transform: translateY(-2px); }
+  .quiz-option:active { transform: scale(0.95); }
+  .quiz-option img {
+    width: 100%; height: 100%; object-fit: cover;
+  }
+  .quiz-option .q-placeholder {
+    font-size: 36px; color: #ccc;
+  }
+  .quiz-option .q-label {
+    position: absolute; bottom: 0; left: 0; right: 0;
+    background: rgba(0,0,0,0.5); color: #fff;
+    font-size: 11px; padding: 2px 4px; text-align: center;
+  }
+  .quiz-option.correct {
+    border-color: #28a745; background: #f0fff4;
+    box-shadow: 0 0 0 4px rgba(40,167,69,0.2);
+  }
+  .quiz-option.correct::after {
+    content: '✅'; position: absolute; top: 4px; right: 4px;
+    font-size: 20px;
+  }
+  .quiz-option.wrong {
+    border-color: #dc3545; background: #fff0f0;
+    animation: shake 0.4s ease;
+  }
+  .quiz-option.wrong::after {
+    content: '❌'; position: absolute; top: 4px; right: 4px;
+    font-size: 20px;
+  }
+  .quiz-option.disabled { pointer-events: none; opacity: 0.7; }
+  .quiz-progress {
+    display: flex; gap: 6px; justify-content: center; margin: 16px 0 8px;
+  }
+  .quiz-progress .dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: #e0e0e0; transition: all 0.3s;
+  }
+  .quiz-progress .dot.done { background: #28a745; }
+  .quiz-progress .dot.active { background: #764ba2; box-shadow: 0 0 0 3px rgba(118,75,162,0.3); }
+  .quiz-done-msg {
+    text-align: center; padding: 30px 20px;
+  }
+  .quiz-done-msg .big-icon { font-size: 48px; margin-bottom: 8px; }
+  .quiz-done-msg h3 { font-size: 20px; color: #28a745; margin-bottom: 4px; }
+  .quiz-done-msg p { font-size: 14px; color: #888; }
+  .quiz-done-msg .quiz-score { font-size: 28px; font-weight: 700; color: #667eea; }
+  .quiz-word-hint {
+    font-size: 13px; color: #888; margin-top: 8px;
+    display: flex; align-items: center; justify-content: center; gap: 6px;
+  }
+  .quiz-word-hint .speak-btn-sm { font-size: 11px; }
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-6px); }
+    75% { transform: translateX(6px); }
+  }
+
+  /* ─── Speaking Confirm Modal ─── */
+  .speaking-confirm-overlay {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.4); z-index: 200;
+    display: none; align-items: center; justify-content: center;
+    backdrop-filter: blur(2px);
+  }
+  .speaking-confirm-overlay.visible { display: flex; }
+  .speaking-confirm-box {
+    background: #fff; border-radius: 20px; padding: 28px 32px 24px;
+    max-width: 340px; width: 90%; text-align: center;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.15);
+  }
+  .speaking-confirm-box h3 {
+    font-size: 18px; margin-bottom: 8px; color: #333;
+  }
+  .speaking-confirm-box p {
+    font-size: 14px; color: #666; margin-bottom: 20px;
+  }
+  .speaking-confirm-box .confirm-actions {
+    display: flex; gap: 12px; justify-content: center;
+  }
+  .speaking-confirm-box .confirm-actions button {
+    padding: 12px 24px; border-radius: 12px; border: none;
+    font-size: 15px; font-weight: 600; cursor: pointer;
+    transition: all 0.2s; flex: 1; touch-action: manipulation;
+  }
+  .speaking-confirm-box .btn-yes {
+    background: #28a745; color: #fff;
+  }
+  .speaking-confirm-box .btn-yes:hover { background: #218838; }
+  .speaking-confirm-box .btn-no {
+    background: #f0f0f0; color: #888;
+  }
+  .speaking-confirm-box .btn-no:hover { background: #e0e0e0; }
+
   /* Responsive */
   @media (max-width: 600px) {
     .week-grid { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 8px; padding: 12px; }
@@ -277,28 +532,34 @@
     </div>
     <div class="header-controls">
       <span class="week-counter" id="weekCounter"></span>
+      <span class="network-ip">📡 <span id="ipDisplay">检测网络...</span></span>
       <select id="curriculumSelect">
         <option value="data/curriculum-3yo.json">3岁 · 启蒙课程</option>
+              <option value="data/curriculum-s1.json">斑马英语 S1 · 48周课程</option>
       </select>
     </div>
   </div>
 </div>
 
-<div class="main" id="app">
-  <div class="empty-state" id="emptyState">
-    <h3>加载中...</h3>
-    <p>正在读取课程数据</p>
+<!-- Overview View -->
+<div class="view-overview" id="viewOverview">
+  <div class="main" id="app">
+    <div class="empty-state" id="emptyState">
+      <h3>加载中...</h3>
+      <p>正在读取课程数据</p>
+    </div>
   </div>
 </div>
 
-<!-- Detail Panel -->
-<div class="detail" id="detailPanel">
+<!-- Detail View -->
+<div class="view-detail" id="viewDetail">
+  <div class="detail" id="detailPanel">
   <div class="detail-header">
     <div>
       <h2 id="detailTitle">第 1 周：Greetings</h2>
       <span class="week-tag" id="detailTag">Phase 1</span>
     </div>
-    <button class="close-btn" onclick="closeDetail()">✕</button>
+    <button class="back-btn" onclick="closeDetail()">← 返回课程总览</button>
   </div>
   <div class="detail-body" id="detailBody">
     <div class="keyword-section">
@@ -362,17 +623,83 @@ function bilibiliSearchUrl(keyword) {
   return `https://search.bilibili.com/all?keyword=${encodeURIComponent(keyword)}`;
 }
 
+function wordImageUrl(word) {
+  // Normalize: "teddy bear" → "teddy-bear", "gift/present" → "gift-present"
+  const fname = word.toLowerCase()
+    .replace(/\s+/g, '-')
+    .replace(/\//g, '-')
+    .replace(/[^a-z0-9-]/g, '');
+  return `images/s1/${fname}.jpg`;
+}
+
+function wordAudioUrl(word) {
+  const fname = word.toLowerCase()
+    .replace(/\s+/g, '-')
+    .replace(/\//g, '-')
+    .replace(/[^a-z0-9-]/g, '');
+  return `audio/s1/${fname}.mp3`;
+}
+
+function playWordAudio(word, onStart, onEnd) {
+  // MUST be called from user gesture (click)
+  if (onStart) onStart();
+
+  let settled = false;
+  const settle = () => {
+    if (settled) return;
+    settled = true;
+    try { document.body.removeChild(el); } catch (e) {}
+    if (onEnd) onEnd();
+  };
+
+  // ── Play local MP3 via DOM-attached <audio> ──
+  const url = wordAudioUrl(word);
+  const el = document.createElement('audio');
+  el.src = url;
+  el.preload = 'auto';
+  el.style.display = 'none';
+  document.body.appendChild(el);
+
+  el.onerror = settle;
+  el.load();
+
+  // Play once enough data is buffered
+  el.addEventListener('canplaythrough', () => {
+    if (settled) return;
+    el.play()
+      .then(() => {
+        // Poll el.ended every 100ms — more reliable than the 'ended' event
+        // for very short audio clips across browsers
+        (function poll() {
+          if (settled) return;
+          if (el.ended) { settle(); return; }
+          setTimeout(poll, 100);
+        })();
+      })
+      .catch(settle);
+  }, { once: true });
+}
+
 // ─── State ───
 let curriculum = null;
 let currentWeek = null;
+let currentPhase = null;
 
 // ─── Phase colors ───
-const phaseColors = {
-  'phase-1': { border: '#7eb8e0', bg: '#e8f4fd', dotClass: 'p1', label: 'Phase 1' },
-  'phase-2': { border: '#7ec8a3', bg: '#e8f8f0', dotClass: 'p2', label: 'Phase 2' },
-  'phase-3': { border: '#f0b87a', bg: '#fef5e8', dotClass: 'p3', label: 'Phase 3' },
-  'phase-4': { border: '#c89bd8', bg: '#f5edfa', dotClass: 'p4', label: 'Phase 4' },
-};
+  const phaseColors = {
+    'phase-1':  { border: '#7eb8e0', bg: '#e8f4fd', dotClass: 'p1', label: 'Unit 1' },
+    'phase-2':  { border: '#7eb8e0', bg: '#e8f4fd', dotClass: 'p1', label: 'Unit 2' },
+    'phase-3':  { border: '#7eb8e0', bg: '#e8f4fd', dotClass: 'p1', label: 'Unit 3' },
+    'phase-4':  { border: '#7ec8a3', bg: '#e8f8f0', dotClass: 'p2', label: 'Unit 4' },
+    'phase-5':  { border: '#7ec8a3', bg: '#e8f8f0', dotClass: 'p2', label: 'Unit 5' },
+    'phase-6':  { border: '#7ec8a3', bg: '#e8f8f0', dotClass: 'p2', label: 'Unit 6' },
+    'phase-7':  { border: '#f0b87a', bg: '#fef5e8', dotClass: 'p3', label: 'Unit 7' },
+    'phase-8':  { border: '#f0b87a', bg: '#fef5e8', dotClass: 'p3', label: 'Unit 8' },
+    'phase-9':  { border: '#f0b87a', bg: '#fef5e8', dotClass: 'p3', label: 'Unit 9' },
+    'phase-10': { border: '#c89bd8', bg: '#f5edfa', dotClass: 'p4', label: 'Unit 10' },
+    'phase-11': { border: '#c89bd8', bg: '#f5edfa', dotClass: 'p4', label: 'Unit 11' },
+    'phase-12': { border: '#c89bd8', bg: '#f5edfa', dotClass: 'p4', label: 'Unit 12' },
+  };
 
 const dayTypeIcons = {
   input: '🎵', review: '🔄', output: '🎤',
@@ -448,12 +775,10 @@ function render(weekToOpen) {
     });
   });
 
-  // Open default
+  // Open from hash if present (no auto-open)
   if (weekToOpen) {
     const [pid, widx] = weekToOpen.split('-');
     openWeek(pid, parseInt(widx));
-  } else if (allWeeks.length > 0) {
-    openWeek(curriculum.phases[0].id, 0);
   }
 }
 
@@ -461,7 +786,7 @@ function render(weekToOpen) {
 function togglePhase(el) {
   const grid = el.nextElementSibling;
   const toggle = el.querySelector('.phase-toggle');
-  if (grid.style.display === 'none') {
+  if (grid.style.display === 'none' || grid.style.display === '') {
     grid.style.display = 'grid';
     toggle.textContent = '▼';
   } else {
@@ -477,14 +802,22 @@ function openWeek(phaseId, weekIdx) {
   const week = phase.weeks[weekIdx];
   if (!week) return;
   currentWeek = week;
+  currentPhase = phase;
 
-  // Update active state
+  // Switch to detail view
+  document.getElementById('viewOverview').classList.add('hidden');
+  document.getElementById('viewDetail').classList.add('visible');
+
+  // Update active state in overview
   document.querySelectorAll('.week-card.active').forEach(c => c.classList.remove('active'));
   const grid = document.getElementById(`grid-${phaseId}`);
   if (grid) {
     const cards = grid.querySelectorAll('.week-card');
     if (cards[weekIdx]) cards[weekIdx].classList.add('active');
   }
+
+  // Update hash for bookmarkable URLs
+  window.location.hash = `#phase-${phaseId}-week-${week.number}`;
 
   const detail = document.getElementById('detailPanel');
   detail.classList.add('visible');
@@ -578,10 +911,41 @@ function showDay(dayIdx) {
   // Activities
   if (day.activities && day.activities.length > 0) {
     day.activities.forEach(act => {
+      // ── Interactive: WORD ──
+      if (act.resourceType === 'WORD') {
+        const words = act.wordsFocus && act.wordsFocus.length > 0 ? act.wordsFocus : currentWeek.keyWords || [];
+        words.forEach(word => {
+          const wordCard = createWordCard(word, act);
+          container.appendChild(wordCard);
+        });
+        return;
+      }
+
+      // ── Interactive: SPEAKING ──
+      if (act.resourceType === 'SPEAKING') {
+        const words = act.wordsFocus && act.wordsFocus.length > 0 ? act.wordsFocus : currentWeek.keyWords || [];
+        words.forEach(word => {
+          const speakingCard = createSpeakingCard(word, act);
+          container.appendChild(speakingCard);
+        });
+        return;
+      }
+
+      // ── Interactive: QUIZ ──
+      if (act.resourceType === 'QUIZ') {
+        const words = act.wordsFocus && act.wordsFocus.length > 0 ? act.wordsFocus : currentWeek.keyWords || [];
+        words.forEach(word => {
+          const quizCard = createQuizCard(word, act);
+          container.appendChild(quizCard);
+        });
+        return;
+      }
+
+      // ── Default: activity card (for SSS, PARENT, REVIEW, etc.) ──
       const card = document.createElement('div');
       card.className = 'activity-card';
       const isCore = act.priority === 'core';
-      const isVideoType = act.resourceType && !['PARENT','REVIEW','WORD','QUIZ','SPEAKING'].includes(act.resourceType);
+      const isVideoType = act.resourceType && !['PARENT','REVIEW'].includes(act.resourceType);
       let resourceBadge = '';
       if (isVideoType) {
         resourceBadge = `<span style="font-size:11px;color:#888;background:#eee;padding:2px 8px;border-radius:6px;">${act.resourceType}</span>`;
@@ -624,6 +988,415 @@ function showDay(dayIdx) {
   }
 }
 
+// ═══════════════════════════════════════════
+// Interactive: WORD — 单词发音卡片
+// ═══════════════════════════════════════════
+function createWordCard(word, act) {
+  const card = document.createElement('div');
+  card.className = 'word-card';
+  card.dataset.word = word;
+
+  const imgUrl = wordImageUrl(word);
+  const imgArea = document.createElement('div');
+  imgArea.className = 'word-img-area';
+  imgArea.style.cursor = 'pointer';
+
+  const img = document.createElement('img');
+  img.src = imgUrl;
+  img.alt = word;
+  img.loading = 'lazy';
+  img.onerror = () => {
+    imgArea.innerHTML = '<div class="img-placeholder">📷</div>';
+  };
+
+  imgArea.appendChild(img);
+
+  const text = document.createElement('div');
+  text.className = 'word-text';
+  text.textContent = word;
+
+  const btn = document.createElement('button');
+  btn.className = 'speak-btn';
+  btn.textContent = '🔊 听发音';
+
+  const playFn = () => {
+    btn.textContent = '🔊 播放中...';
+    btn.classList.add('speaking');
+    playWordAudio(word, null, () => {
+      btn.textContent = '🔊 听发音';
+      btn.classList.remove('speaking');
+    });
+  };
+
+  imgArea.onclick = playFn;
+  btn.onclick = playFn;
+
+  card.appendChild(imgArea);
+  card.appendChild(text);
+  card.appendChild(btn);
+  return card;
+}
+
+// ═══════════════════════════════════════════
+// Interactive: SPEAKING — 跟读口语 (3步)
+// ═══════════════════════════════════════════
+let speakingInstances = {}; // keyed by container id
+
+function createSpeakingCard(word, act) {
+  const card = document.createElement('div');
+  card.className = 'speaking-card';
+  const uid = 'spk-' + Date.now() + '-' + Math.random().toString(36).slice(2, 8);
+  card.id = uid;
+
+  card.innerHTML = `
+    <div class="speaking-word-area">
+      <span class="speaking-word">${word}</span>
+    </div>
+    <div class="speaking-progress" id="${uid}-progress">
+      <span class="dot active" data-step="0">👂</span>
+      <span class="dot" data-step="1">🎤</span>
+      <span class="dot" data-step="2">🔁</span>
+    </div>
+    <div class="speaking-step-group" id="${uid}-steps">
+      <button class="speaking-step-btn available step-listen" data-step="0" onclick="speakingListen('${uid}','${word}')">
+        <span class="step-icon">👂</span>
+        <span class="step-label">听发音</span>
+        <span class="step-status">点击播放</span>
+      </button>
+      <button class="speaking-step-btn step-speak" data-step="1" onclick="speakingRecord('${uid}','${word}')">
+        <span class="step-icon">🎤</span>
+        <span class="step-label">跟读录音</span>
+        <span class="step-status">${'先完成上一步'}</span>
+      </button>
+      <button class="speaking-step-btn step-check" data-step="2" onclick="speakingPlayback('${uid}','${word}')">
+        <span class="step-icon">🔁</span>
+        <span class="step-label">听听对比</span>
+        <span class="step-status">${'先完成上一步'}</span>
+      </button>
+    </div>
+    <div id="${uid}-record-status" style="text-align:center;padding:8px;font-size:13px;color:#888;display:none;"></div>
+    <div id="${uid}-record-play" style="text-align:center;padding:8px;display:none;"></div>
+  `;
+
+  // Init state
+  speakingInstances[uid] = {
+    word: word,
+    step: 0,
+    mediaRecorder: null,
+    audioChunks: [],
+    recordingBlob: null,
+    audioStream: null,
+    done: false,
+  };
+
+  return card;
+}
+
+function speakingListen(uid, word) {
+  const state = speakingInstances[uid];
+  if (!state || state.done) return;
+
+  const btn = document.querySelector(`#${uid}-steps .step-listen`);
+  const status = btn.querySelector('.step-status');
+  status.textContent = '🔊 播放中...';
+
+  playWordAudio(word, null, () => {
+    // ended
+    status.textContent = '✅ 已听';
+    btn.classList.add('done');
+    // Unlock step 2
+    const step2Btn = document.querySelector(`#${uid}-steps .step-speak`);
+    step2Btn.classList.add('available');
+    step2Btn.querySelector('.step-status').textContent = '点击开始录音';
+    // Update progress
+    const dots = document.querySelectorAll(`#${uid}-progress .dot`);
+    dots[0].classList.remove('active');
+    dots[0].classList.add('done');
+    dots[1].classList.add('active');
+    state.step = 1;
+  });
+}
+
+function speakingRecord(uid, word) {
+  const state = speakingInstances[uid];
+  if (!state || state.done || state.step < 1) return;
+
+  const statusDiv = document.getElementById(`${uid}-record-status`);
+  statusDiv.style.display = 'block';
+  statusDiv.innerHTML = '🎤 准备录音...';
+
+  if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+    statusDiv.innerHTML = '❌ 浏览器不支持录音';
+    return;
+  }
+
+  const btn = document.querySelector(`#${uid}-steps .step-speak`);
+  const btnStatus = btn.querySelector('.step-status');
+
+  if (!state.mediaRecorder || state.mediaRecorder.state === 'inactive') {
+    // Start recording
+    navigator.mediaDevices.getUserMedia({ audio: true })
+      .then(stream => {
+        state.audioStream = stream;
+        state.audioChunks = [];
+        state.mediaRecorder = new MediaRecorder(stream);
+        state.mediaRecorder.ondataavailable = e => {
+          if (e.data.size > 0) state.audioChunks.push(e.data);
+        };
+        state.mediaRecorder.onstop = () => {
+          state.recordingBlob = new Blob(state.audioChunks, { type: 'audio/webm' });
+          // Stop tracks
+          if (state.audioStream) {
+            state.audioStream.getTracks().forEach(t => t.stop());
+            state.audioStream = null;
+          }
+          statusDiv.style.display = 'none';
+          btnStatus.textContent = '✅ 已录音';
+          btn.classList.add('done');
+          // Unlock step 3
+          const step3Btn = document.querySelector(`#${uid}-steps .step-check`);
+          step3Btn.classList.add('available');
+          step3Btn.querySelector('.step-status').textContent = '点击播放对比';
+          // Update progress
+          const dots = document.querySelectorAll(`#${uid}-progress .dot`);
+          dots[1].classList.remove('active');
+          dots[1].classList.add('done');
+          dots[2].classList.add('active');
+          state.step = 2;
+        };
+        state.mediaRecorder.start();
+        statusDiv.innerHTML = '🔴 录音中... 点击停止';
+        btnStatus.textContent = '⏹ 停止录音';
+        // Switch to stop mode
+        btn.onclick = () => speakingStopRecord(uid, word);
+      })
+      .catch(err => {
+        statusDiv.innerHTML = '❌ 麦克风权限被拒绝，请在浏览器设置中允许麦克风访问';
+      });
+  }
+}
+
+function speakingStopRecord(uid, word) {
+  const state = speakingInstances[uid];
+  if (!state || !state.mediaRecorder || state.mediaRecorder.state === 'inactive') return;
+
+  state.mediaRecorder.stop();
+  // Reset button back to record
+  const btn = document.querySelector(`#${uid}-steps .step-speak`);
+  btn.onclick = () => speakingRecord(uid, word);
+}
+
+function speakingPlayback(uid, word) {
+  const state = speakingInstances[uid];
+  if (!state || state.done || state.step < 2) return;
+
+  const playDiv = document.getElementById(`${uid}-record-play`);
+  playDiv.style.display = 'block';
+
+  if (state.recordingBlob) {
+    const audioUrl = URL.createObjectURL(state.recordingBlob);
+    playDiv.innerHTML = `
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:8px;">
+        <button class="speak-btn-sm" onclick="playWordAudio('${word}', null, null)">🔊 标准发音</button>
+        <button class="speak-btn-sm" onclick="document.getElementById('${uid}-playback-audio').play()">🔁 我的录音</button>
+        <audio id="${uid}-playback-audio" src="${audioUrl}" style="display:none;"></audio>
+      </div>
+      <div style="display:flex;gap:12px;justify-content:center;">
+        <button class="speak-btn-sm" onclick="speakingReset('${uid}','${word}')" style="background:#f0f0f0;color:#888;">🔄 重新来</button>
+        <button class="speak-btn-sm" onclick="speakingDone('${uid}')" style="background:#28a745;color:#fff;">✅ 完成</button>
+      </div>
+    `;
+  } else {
+    playDiv.innerHTML = '<p style="color:#aaa;">没有录音记录，请先录音</p>';
+    return;
+  }
+
+  // Mark step 3 as done
+  const btn = document.querySelector(`#${uid}-steps .step-check`);
+  btn.classList.add('done');
+  btn.querySelector('.step-status').textContent = '✅ 已对比';
+  const dots = document.querySelectorAll(`#${uid}-progress .dot`);
+  dots[2].classList.remove('active');
+  dots[2].classList.add('done');
+  state.step = 3;
+}
+
+function speakingReset(uid, word) {
+  // Cleanup
+  const state = speakingInstances[uid];
+  if (state && state.audioStream) {
+    state.audioStream.getTracks().forEach(t => t.stop());
+  }
+  delete speakingInstances[uid];
+  // Recreate
+  const oldCard = document.getElementById(uid);
+  if (oldCard) {
+    const newCard = createSpeakingCard(word, { title: '跟读练习', priority: 'core' });
+    oldCard.parentNode.replaceChild(newCard, oldCard);
+  }
+}
+
+function speakingDone(uid) {
+  const card = document.getElementById(uid);
+  if (card) {
+    card.innerHTML = `
+      <div class="speaking-done-msg">
+        ✅ 跟读完成！<br>
+        <small style="font-size:14px;color:#888;">宝宝真棒！继续加油～</small>
+      </div>
+    `;
+  }
+  const state = speakingInstances[uid];
+  if (state) { state.done = true; }
+}
+
+// ═══════════════════════════════════════════
+// Interactive: QUIZ — 小测验 (图片点选)
+// ═══════════════════════════════════════════
+let quizInstances = {};
+
+function createQuizCard(correctWord, act) {
+  const card = document.createElement('div');
+  card.className = 'quiz-card';
+  const uid = 'quiz-' + Date.now() + '-' + Math.random().toString(36).slice(2, 8);
+  card.id = uid;
+
+  // Prepare distractors
+  const distractors = getDistractors(correctWord, 2);
+  const options = shuffleArray([correctWord, ...distractors]);
+
+  // Build question
+  const question = document.createElement('div');
+  question.className = 'quiz-question';
+  question.innerHTML = `Where is <span class="q-word">${correctWord}</span>?`;
+
+  // Build options grid
+  const optionsDiv = document.createElement('div');
+  optionsDiv.className = 'quiz-options';
+  optionsDiv.id = `${uid}-options`;
+
+  options.forEach(w => {
+    const opt = document.createElement('div');
+    opt.className = 'quiz-option';
+    opt.dataset.word = w;
+
+    const img = document.createElement('img');
+    img.src = wordImageUrl(w);
+    img.alt = w;
+    img.loading = 'lazy';
+    img.onerror = () => {
+      img.outerHTML = '<span class="q-placeholder">📷</span>';
+    };
+
+    const label = document.createElement('span');
+    label.className = 'q-label';
+    label.textContent = w;
+
+    opt.appendChild(img);
+    opt.appendChild(label);
+    opt.onclick = () => quizSelect(uid, correctWord, opt);
+    optionsDiv.appendChild(opt);
+  });
+
+  // Hint area
+  const hint = document.createElement('div');
+  hint.className = 'quiz-word-hint';
+  const hintBtn = document.createElement('button');
+  hintBtn.className = 'speak-btn-sm';
+  hintBtn.textContent = '🔊 听提示';
+  hintBtn.onclick = () => playWordAudio(correctWord, null, null);
+  hint.appendChild(document.createTextNode('💡 点击图片选择 '));
+  hint.appendChild(hintBtn);
+
+  // Feedback area
+  const feedback = document.createElement('div');
+  feedback.id = `${uid}-feedback`;
+  feedback.style.cssText = 'text-align:center;padding:8px;font-size:16px;font-weight:600;min-height:40px;';
+
+  card.appendChild(question);
+  card.appendChild(optionsDiv);
+  card.appendChild(hint);
+  card.appendChild(feedback);
+
+  quizInstances[uid] = {
+    word: correctWord,
+    answered: false,
+  };
+
+  return card;
+}
+
+function quizSelect(uid, correctWord, el) {
+  const state = quizInstances[uid];
+  if (!state || state.answered) return;
+
+  const selected = el.dataset.word;
+  const options = document.querySelectorAll(`#${uid}-options .quiz-option`);
+  const feedback = document.getElementById(`${uid}-feedback`);
+
+  // Disable all options temporarily
+  options.forEach(o => o.classList.add('disabled'));
+
+  if (selected === correctWord) {
+    el.classList.add('correct');
+    feedback.innerHTML = '✅ 答对啦！';
+    feedback.style.color = '#28a745';
+    state.answered = true;
+    // Play correct word audio
+    playWordAudio(correctWord, null, null);
+  } else {
+    el.classList.add('wrong');
+    feedback.innerHTML = '❌ 再试试！';
+    feedback.style.color = '#dc3545';
+    // Re-enable unselected, non-correct options
+    setTimeout(() => {
+      options.forEach(o => {
+        if (!o.classList.contains('wrong') && !o.classList.contains('correct')) {
+          o.classList.remove('disabled');
+        }
+      });
+    }, 600);
+    // Don't set answered = true, let them retry
+  }
+}
+
+// ─── Distractor Selection ───
+function getDistractors(correctWord, count) {
+  if (!currentPhase || !currentWeek) return [];
+
+  // Determine pool: week 1-3 → within-week, week 4+ → within-unit
+  let pool = [];
+  const weekNum = currentWeek.number;
+
+  if (weekNum <= 3) {
+    // Within current week's keywords
+    pool = [...(currentWeek.keyWords || [])];
+  } else {
+    // Within current unit (phase): collect from all weeks in this phase
+    currentPhase.weeks.forEach(w => {
+      if (w.keyWords) pool.push(...w.keyWords);
+    });
+    // Deduplicate
+    pool = [...new Set(pool)];
+  }
+
+  // Remove the correct word
+  const candidates = pool.filter(w => w !== correctWord);
+
+  // Shuffle and pick `count`
+  shuffleArray(candidates);
+  return candidates.slice(0, count);
+}
+
+// ─── Utility: shuffle array in place ───
+function shuffleArray(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
 // ─── Async resource check — local file or Bilibili fallback ───
 async function checkAndRenderResource(act, resInfo, weekNum, containerId) {
   const container = document.getElementById(containerId);
@@ -649,10 +1422,41 @@ async function checkAndRenderResource(act, resInfo, weekNum, containerId) {
   container.innerHTML = `<a class="bilibili-link" href="${url}" target="_blank">📺 B站搜索 · ${providerName}</a>`;
 }
 
-// ─── Close detail ───
+// ─── Close detail / back to overview ───
 function closeDetail() {
+  document.getElementById('viewDetail').classList.remove('visible');
+  document.getElementById('viewOverview').classList.remove('hidden');
   document.getElementById('detailPanel').classList.remove('visible');
   document.querySelectorAll('.week-card.active').forEach(c => c.classList.remove('active'));
+  currentWeek = null;
+  currentPhase = null;
+  window.location.hash = '';
+}
+
+// ─── Handle hash on page load ───
+function handleHash() {
+  const hash = window.location.hash;
+  if (!hash || !curriculum) return;
+  const match = hash.match(/^#phase-(phase-\d+)-week-(\d+)$/);
+  if (!match) return;
+  const phaseId = match[1];
+  const weekNum = parseInt(match[2]);
+  const phase = curriculum.phases.find(p => p.id === phaseId);
+  if (!phase) return;
+  const weekIdx = phase.weeks.findIndex(w => w.number === weekNum);
+  if (weekIdx >= 0) openWeek(phaseId, weekIdx);
+}
+
+// ─── Network IP detection ───
+function detectNetworkIp() {
+  const ipEl = document.getElementById('ipDisplay');
+  if (!ipEl) return;
+  const host = window.location.hostname;
+  if (host === 'localhost' || host === '127.0.0.1' || host === '0.0.0.0') {
+    ipEl.innerHTML = '同网络手机访问：使用本机 IP + :8080';
+  } else {
+    ipEl.innerHTML = `📱 <a href="http://${host}:8080" target="_blank">${host}:8080</a>`;
+  }
 }
 
 // ─── Curriculum selector ───
@@ -662,6 +1466,10 @@ document.getElementById('curriculumSelect').addEventListener('change', function(
 
 // ─── Init ───
 loadCurriculum('data/curriculum-3yo.json');
+detectNetworkIp();
+window.addEventListener('hashchange', handleHash);
+// handleHash is called after curriculum loads, inside loadCurriculum -> render()
+
 </script>
 </body>
 </html>
