@@ -1,1 +1,11 @@
 *.bak
+
+# 视频文件不上传 GitHub
+videos/*
+!videos/README.md
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.webm
+*.flv
