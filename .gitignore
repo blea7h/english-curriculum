@@ -11,3 +11,27 @@ videos/*
 *.mov
 *.webm
 *.flv
+
+# 图片文件不上传 GitHub
+images/*
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.ico
+*.webp
+
+# 音频文件不上传 GitHub
+audio/*
+*.mp3
+*.wav
+*.ogg
+*.aac
+*.flac
+*.wma
+*.m4a
+
+# 证书文件不上传
+cert.pem
+key.pem
