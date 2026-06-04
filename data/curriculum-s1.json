@@ -114,7 +114,7 @@
             "mouth",
             "eye"
           ],
-          "parentTips": "这周学脸部：nose, mouth, eye。🅰 洗澡时玩\"Wash your nose!\"\"Where is your mouth?\"指认游戏。🅱 唱Head Shoulders Knees & Toes边唱边指，重点放慢nose和mouth。🅲 用镜子玩Face Game——指着自己的nose说\"Mommy's nose\"，再指宝宝的说\"Baby's nose\"。",
+          "parentTips": "这周学脸部：nose, mouth, eye。\nA. 洗澡时玩\"Wash your nose!\"\"Where is your mouth?\"指认游戏。\nB. 唱Head Shoulders Knees & Toes边唱边指，重点放慢nose和mouth。\nC. 用镜子玩Face Game——指着自己的nose说\"Mommy's nose\"，再指宝宝的说\"Baby's nose\"。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -445,7 +445,7 @@
             "ear",
             "hair"
           ],
-          "parentTips": "这周继续脸部：face, ear, hair。🅰 梳头时说\"Comb your hair!\"，玩\"Where is your ear?\"指认。🅱 画人脸简笔画，边画边说\"This is the face\"\"Two ears\"，让孩子帮忙画。🅲 唱One Little Finger，唱到\"point to the ceiling\"时改成\"point to your ear\"。",
+          "parentTips": "这周继续脸部：face, ear, hair。\nA. 梳头时说\"Comb your hair!\"，玩\"Where is your ear?\"指认。\nB. 画人脸简笔画，边画边说\"This is the face\"\"Two ears\"，让孩子帮忙画。\nC. 唱One Little Finger，唱到\"point to the ceiling\"时改成\"point to your ear\"。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -776,7 +776,7 @@
             "arm",
             "foot"
           ],
-          "parentTips": "这周学上半身和脚：hand, arm, foot。🅰 唱Head Shoulders边唱边指，熟练后加快速度挑战反应。🅱 玩\"Touch Game\"——\"Touch your hand!\"\"Touch your arm!\"看谁反应快。🅲 画手印脚印，边画边说\"This is my hand!\"\"Big foot!\"",
+          "parentTips": "这周学上半身和脚：hand, arm, foot。\nA. 唱Head Shoulders边唱边指，熟练后加快速度挑战反应。\nB. 玩\"Touch Game\"——\"Touch your hand!\"\"Touch your arm!\"看谁反应快。\nC. 画手印脚印，边画边说\"This is my hand!\"\"Big foot!\"",
           "days": [
             {
               "dayOfWeek": 1,
@@ -1107,7 +1107,7 @@
             "leg",
             "toe"
           ],
-          "parentTips": "本周复习：head, leg, toe。🅰 用Simon Says游戏巩固全部身体词。\"Simon says touch your head!\"\"Wiggle your toes!\"🅱 唱Head Shoulders Knees & Toes完整版，特别强调knees和toes。🅲 睡前玩身体歌谣，边指边唱强化记忆。",
+          "parentTips": "本周复习：head, leg, toe。\nA. 用Simon Says游戏巩固全部身体词。\"Simon says touch your head!\"\"Wiggle your toes!\"\nB. 唱Head Shoulders Knees & Toes完整版，特别强调knees和toes。\nC. 睡前玩身体歌谣，边指边唱强化记忆。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -1312,8 +1312,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说head、leg、toe，孩子指认对应物品或图片。",
+                  "title": "亲子互动：歌曲律动",
+                  "description": "放相关主题的英文儿歌，边唱边指head和leg，用身体动作加深记忆。",
                   "wordsFocus": [
                     "head",
                     "leg",
@@ -1446,7 +1446,7 @@
             "daddy",
             "sister"
           ],
-          "parentTips": "家庭主题：mommy, daddy, sister。🅰 翻家庭相册，指着照片说\"This is mommy!\"\"Where is daddy?\"🅱 玩Who's Calling游戏——假装打电话\"Hello, mommy!\"\"Bye bye, daddy!\"🅲 唱The Mommy Song，边唱边做家庭角色动作。",
+          "parentTips": "家庭主题：mommy, daddy, sister。\nA. 翻家庭相册，指着照片说\"This is mommy!\"\"Where is daddy?\"\nB. 玩Who's Calling游戏——假装打电话\"Hello, mommy!\"\"Bye bye, daddy!\"\nC. 唱The Mommy Song，边唱边做家庭角色动作。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -1480,7 +1480,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Mommy",
-                  "description": "看Peppa Pig动画片段，听听Peppa一家是怎么说mommy的。",
+                  "description": "看Peppa Pig S01E03: Mommy Pig at Work动画片段，在生活情景中理解mommy的意思！",
                   "wordsFocus": [
                     "mommy"
                   ]
@@ -1551,7 +1551,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Daddy",
-                  "description": "和Peppa Pig一起学daddy，在生活情景中理解这个词的意思！",
+                  "description": "看Peppa Pig S01E07: Daddy Pig's Office动画片段，在生活情景中理解daddy的意思！",
                   "wordsFocus": [
                     "daddy"
                   ]
@@ -1580,8 +1580,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说mommy、daddy、sister，孩子指认对应物品或图片。",
+                  "title": "亲子互动：歌曲律动",
+                  "description": "放相关主题的英文儿歌，边唱边指mommy和daddy，用身体动作加深记忆。",
                   "wordsFocus": [
                     "mommy",
                     "daddy",
@@ -1622,7 +1622,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Sister",
-                  "description": "Peppa Pig动画片段——跟着可爱的小猪Peppa学习sister。",
+                  "description": "看Peppa Pig S01E12: The Baby Pig动画片段，在生活情景中理解sister的意思！",
                   "wordsFocus": [
                     "sister"
                   ]
@@ -1777,7 +1777,7 @@
             "grandpa",
             "brother"
           ],
-          "parentTips": "祖辈周：grandma, grandpa, brother。🅰 打视频电话时让孩子说\"Hello, grandma!\"\"Love you, grandpa!\"🅱 看Peppa Pig——Peppa's Grandma和Grandpa的片段，指认角色。🅲 抱弟弟/玩偶说\"Love brother!\"，拍全家福时学称谓。",
+          "parentTips": "祖辈周：grandma, grandpa, brother。\nA. 打视频电话时让孩子说\"Hello, grandma!\"\"Love you, grandpa!\"\nB. 看Peppa Pig——Peppa's Grandma和Grandpa的片段，指认角色。\nC. 抱弟弟/玩偶说\"Love brother!\"，拍全家福时学称谓。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -1811,7 +1811,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Grandma",
-                  "description": "和Peppa Pig一起学grandma，在生活情景中理解这个词的意思！",
+                  "description": "看Peppa Pig S01E05: Grandma and Grandpa动画片段，在生活情景中理解grandma的意思！",
                   "wordsFocus": [
                     "grandma"
                   ]
@@ -1840,8 +1840,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说grandma、grandpa、brother，孩子指认对应物品或图片。",
+                  "title": "亲子互动：歌曲律动",
+                  "description": "放相关主题的英文儿歌，边唱边指grandma和grandpa，用身体动作加深记忆。",
                   "wordsFocus": [
                     "grandma",
                     "grandpa",
@@ -1882,7 +1882,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Grandpa",
-                  "description": "Peppa Pig动画片段——跟着可爱的小猪Peppa学习grandpa。",
+                  "description": "看Peppa Pig S01E05: Grandma and Grandpa动画片段，在生活情景中理解grandpa的意思！",
                   "wordsFocus": [
                     "grandpa"
                   ]
@@ -1953,7 +1953,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Brother",
-                  "description": "看Peppa Pig动画片段，听听Peppa一家是怎么说brother的。",
+                  "description": "看Peppa Pig S01E12: The Baby Pig动画片段，在生活情景中理解brother的意思！",
                   "wordsFocus": [
                     "brother"
                   ]
@@ -2108,7 +2108,7 @@
             "cat",
             "dog"
           ],
-          "parentTips": "宠物和宝宝：baby, cat, dog。🅰 看Yakka Dee!认识cat和dog，边看边模仿叫声。🅱 走路上看到猫狗马上指出\"Look! A cat!\"\"Big dog!\"🅲 唱I Have A Pet，用玩偶当道具比划。",
+          "parentTips": "宠物和宝宝：baby, cat, dog。\nA. 看Yakka Dee!认识cat和dog，边看边模仿叫声。\nB. 走路上看到猫狗马上指出\"Look! A cat!\"\"Big dog!\"\nC. 唱I Have A Pet，用玩偶当道具比划。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -2439,7 +2439,7 @@
             "ball",
             "doll"
           ],
-          "parentTips": "玩具周：teddy bear, ball, doll。🅰 玩球时说\"Throw the ball!\"\"Catch the ball!\"抱玩偶说\"I love my teddy bear!\"🅱 把玩具藏起来玩Hide & Seek——\"Where is the ball?\"\"Find teddy bear!\"🅲 用3个玩具练习数数和指认。",
+          "parentTips": "玩具周：teddy bear, ball, doll。\nA. 玩球时说\"Throw the ball!\"\"Catch the ball!\"抱玩偶说\"I love my teddy bear!\"\nB. 把玩具藏起来玩Hide & Seek——\"Where is the ball?\"\"Find teddy bear!\"\nC. 用3个玩具练习数数和指认。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -2778,7 +2778,7 @@
             "pants",
             "dress"
           ],
-          "parentTips": "穿衣周：shirt, pants, dress。🅰 穿衣服时是最好的学习时机！\"Put on your shirt!\"\"These are your pants!\"边穿边说。🅱 整理衣柜时玩配对——\"Where is the blue shirt?\"\"Baby's dress!\"🅲 唱Put On Your Shoes改编版，把歌词换成shirt/pants/dress。",
+          "parentTips": "穿衣周：shirt, pants, dress。\nA. 穿衣服时是最好的学习时机！\"Put on your shirt!\"\"These are your pants!\"边穿边说。\nB. 整理衣柜时玩配对——\"Where is the blue shirt?\"\"Baby's dress!\"\nC. 唱Put On Your Shoes改编版，把歌词换成shirt/pants/dress。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -3109,7 +3109,7 @@
             "socks",
             "mittens"
           ],
-          "parentTips": "出门装备：shoes, socks, mittens。🅰 出门前\"Put on your shoes!\"\"Wear your mittens!\"边穿边互动。🅱 穿鞋比赛——\"Find your shoes!\"\"Put on your socks!\"看谁穿得快。🅲 唱Put On Your Shoes完整版，跟着视频做动作。",
+          "parentTips": "出门装备：shoes, socks, mittens。\nA. 出门前\"Put on your shoes!\"\"Wear your mittens!\"边穿边互动。\nB. 穿鞋比赛——\"Find your shoes!\"\"Put on your socks!\"看谁穿得快。\nC. 唱Put On Your Shoes完整版，跟着视频做动作。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -3440,7 +3440,7 @@
             "hat",
             "scarf"
           ],
-          "parentTips": "保暖穿搭：coat, hat, scarf。🅰 出门前\"Put on your coat!\"\"Wear your hat!\"边说边帮孩子穿。🅱 玩角色扮演——给玩偶穿衣服\"Teddy needs his scarf!\"🅲 唱天气相关歌曲，结合本周词汇。",
+          "parentTips": "保暖穿搭：coat, hat, scarf。\nA. 出门前\"Put on your coat!\"\"Wear your hat!\"边说边帮孩子穿。\nB. 玩角色扮演——给玩偶穿衣服\"Teddy needs his scarf!\"\nC. 唱天气相关歌曲，结合本周词汇。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -3645,8 +3645,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说coat、hat、scarf，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将coat、hat、scarf的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "coat",
                     "hat",
@@ -3771,7 +3771,7 @@
             "brush",
             "comb"
           ],
-          "parentTips": "卫生习惯：wash, brush, comb。🅰 早晚刷牙时说\"Brush your teeth!\"洗手说\"Wash your hands!\"餐前必说。🅱 唱The Bath Song边唱边做动作，强化wash概念。🅲 梳头比赛——\"Comb mommy's hair!\"\"Comb your hair!\"用梳子互动。",
+          "parentTips": "卫生习惯：wash, brush, comb。\nA. 早晚刷牙时说\"Brush your teeth!\"洗手说\"Wash your hands!\"餐前必说。\nB. 唱The Bath Song边唱边做动作，强化wash概念。\nC. 梳头比赛——\"Comb mommy's hair!\"\"Comb your hair!\"用梳子互动。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -3905,8 +3905,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说wash、brush、comb，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将wash、brush、comb的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "wash",
                     "brush",
@@ -4110,7 +4110,7 @@
             "jam",
             "milk"
           ],
-          "parentTips": "早餐周：bread, jam, milk。🅰 \"Let's eat bread!\"\"Drink your milk!\"边吃边说最自然。🅱 摆餐桌时问\"Do you want jam on your bread?\"让孩子点头或说yes。🅲 用玩具厨房过家家，假装做早餐。",
+          "parentTips": "早餐周：bread, jam, milk。\nA. \"Let's eat bread!\"\"Drink your milk!\"边吃边说最自然。\nB. 摆餐桌时问\"Do you want jam on your bread?\"让孩子点头或说yes。\nC. 用玩具厨房过家家，假装做早餐。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -4173,8 +4173,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说bread、jam、milk，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将bread、jam、milk的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "bread",
                     "jam",
@@ -4441,7 +4441,7 @@
             "water",
             "cold"
           ],
-          "parentTips": "温度概念：hot, water, cold。🅰 喝热水说\"Hot water!\"吃冰淇淋\"Cold ice cream!\"用实物感受温度。🅱 洗澡时玩冷热水——\"Hot water\"(热水出) \"Cold water\"(冷水出)。🅲 唱有关天气/温度的歌谣。",
+          "parentTips": "温度概念：hot, water, cold。\nA. 喝热水说\"Hot water!\"吃冰淇淋\"Cold ice cream!\"用实物感受温度。\nB. 洗澡时玩冷热水——\"Hot water\"(热水出) \"Cold water\"(冷水出)。\nC. 唱有关天气/温度的歌谣。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -4772,7 +4772,7 @@
             "plate",
             "cup"
           ],
-          "parentTips": "餐具周：spoon, plate, cup。🅰 摆餐具时\"This is your spoon!\"\"Put the cup on the table!\"让孩子帮忙。🅱 吃饭时问\"Where is your spoon?\"\"Can you find your cup?\"🅲 玩角色扮演餐厅游戏，用玩具餐具练习。",
+          "parentTips": "餐具周：spoon, plate, cup。\nA. 摆餐具时\"This is your spoon!\"\"Put the cup on the table!\"让孩子帮忙。\nB. 吃饭时问\"Where is your spoon?\"\"Can you find your cup?\"\nC. 玩角色扮演餐厅游戏，用玩具餐具练习。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -5103,7 +5103,7 @@
             "banana",
             "orange"
           ],
-          "parentTips": "水果周：apple, banana, orange。🅰 吃水果时\"This is a red apple!\"\"Yellow banana!\"边切边说。🅱 唱The Apple Is Red，用真实水果当道具。🅲 玩水果猜猜看——摸一摸、闻一闻，猜\"What fruit is this?\"",
+          "parentTips": "水果周：apple, banana, orange。\nA. 吃水果时\"This is a red apple!\"\"Yellow banana!\"边切边说。\nB. 唱The Apple Is Red，用真实水果当道具。\nC. 玩水果猜猜看——摸一摸、闻一闻，猜\"What fruit is this?\"",
           "days": [
             {
               "dayOfWeek": 1,
@@ -5442,7 +5442,7 @@
             "wall",
             "table"
           ],
-          "parentTips": "认识家：door, wall, table。🅰 \"Open the door!\"\"The book is on the table!\"在家里边走边说。🅱 玩找东西游戏——\"Touch the door!\"\"Where is the wall?\"🅲 画家里的平面图，标记door/wall/table的位置。",
+          "parentTips": "认识家：door, wall, table。\nA. \"Open the door!\"\"The book is on the table!\"在家里边走边说。\nB. 玩找东西游戏——\"Touch the door!\"\"Where is the wall?\"\nC. 画家里的平面图，标记door/wall/table的位置。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -5773,7 +5773,7 @@
             "sofa",
             "bed"
           ],
-          "parentTips": "家具周：chair, sofa, bed。🅰 \"Sit on the chair!\"\"Time for bed!\"\"Jump on the sofa!\"日常指令融入。🅱 玩家具配对卡——图片和实物对应。🅲 睡前唱摇篮曲，在床上说\"Good night, bed!\"",
+          "parentTips": "家具周：chair, sofa, bed。\nA. \"Sit on the chair!\"\"Time for bed!\"\"Jump on the sofa!\"日常指令融入。\nB. 玩家具配对卡——图片和实物对应。\nC. 睡前唱摇篮曲，在床上说\"Good night, bed!\"",
           "days": [
             {
               "dayOfWeek": 1,
@@ -5978,8 +5978,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说chair、sofa、bed，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把chair、sofa、bed相关的物品/卡片藏在家里各处，让孩子\"Find chair!\" \"Find sofa!\" 找到后一起说。",
                   "wordsFocus": [
                     "chair",
                     "sofa",
@@ -6104,7 +6104,7 @@
             "watch",
             "smile"
           ],
-          "parentTips": "动作周：sit, watch, smile。🅰 \"Sit down please!\"\"Watch me!\"\"Show me your smile!\"用动作强化理解。🅱 拍照片时\"Say cheese and smile!\"一起做笑脸。🅲 看电视时\"Let's watch together!\"用遥控器指认。",
+          "parentTips": "动作周：sit, watch, smile。\nA. \"Sit down please!\"\"Watch me!\"\"Show me your smile!\"用动作强化理解。\nB. 拍照片时\"Say cheese and smile!\"一起做笑脸。\nC. 看电视时\"Let's watch together!\"用遥控器指认。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -6238,8 +6238,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说sit、watch、smile，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把sit、watch、smile相关的物品/卡片藏在家里各处，让孩子\"Find sit!\" \"Find watch!\" 找到后一起说。",
                   "wordsFocus": [
                     "sit",
                     "watch",
@@ -6435,7 +6435,7 @@
             "kiss",
             "sleep"
           ],
-          "parentTips": "情感周：hug, kiss, sleep。🅰 睡前\"Give me a hug!\"\"Good night, sleep well!\"🅱 玩情感卡片——\"Show me hug!\"\"Give a kiss!\"🅲 唱甜蜜的晚安歌曲，用玩偶演示hug和sleep。",
+          "parentTips": "情感周：hug, kiss, sleep。\nA. 睡前\"Give me a hug!\"\"Good night, sleep well!\"\nB. 玩情感卡片——\"Show me hug!\"\"Give a kiss!\"\nC. 唱甜蜜的晚安歌曲，用玩偶演示hug和sleep。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -6498,8 +6498,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说hug、kiss、sleep，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把hug、kiss、sleep相关的物品/卡片藏在家里各处，让孩子\"Find hug!\" \"Find kiss!\" 找到后一起说。",
                   "wordsFocus": [
                     "hug",
                     "kiss",
@@ -6774,7 +6774,7 @@
             "yellow",
             "red"
           ],
-          "parentTips": "颜色周：green, yellow, red。🅰 玩交通灯游戏\"Red light stop! Green light go!\"🅱 用蜡笔画画——\"Let's color a red apple!\"\"Yellow banana!\"🅲 在家里找颜色——\"Find something green!\"\"Where is yellow?\"",
+          "parentTips": "颜色周：green, yellow, red。\nA. 玩交通灯游戏\"Red light stop! Green light go!\"\nB. 用蜡笔画画——\"Let's color a red apple!\"\"Yellow banana!\"\nC. 在家里找颜色——\"Find something green!\"\"Where is yellow?\"",
           "days": [
             {
               "dayOfWeek": 1,
@@ -7105,7 +7105,7 @@
             "car",
             "bus"
           ],
-          "parentTips": "车车周：bike, car, bus。🅰 路上看到车马上指出\"Look! A red car!\"\"Big bus!\"🅱 唱The Wheels On The Bus，用动作模拟车轮和喇叭。🅲 用玩具车排排队——\"Red car, blue car, yellow bus\"边排边数。",
+          "parentTips": "车车周：bike, car, bus。\nA. 路上看到车马上指出\"Look! A red car!\"\"Big bus!\"\nB. 唱The Wheels On The Bus，用动作模拟车轮和喇叭。\nC. 用玩具车排排队——\"Red car, blue car, yellow bus\"边排边数。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -7436,7 +7436,7 @@
             "ship",
             "plane"
           ],
-          "parentTips": "交通工具：train, ship, plane。🅰 \"Choo choo train!\"\"The plane is flying!\"用玩具演示声音和动作。🅱 看相关的SSS歌曲视频，指认train/ship/plane。🅲 折纸飞机飞出去——\"Fly, plane, fly!\"",
+          "parentTips": "交通工具：train, ship, plane。\nA. \"Choo choo train!\"\"The plane is flying!\"用玩具演示声音和动作。\nB. 看相关的SSS歌曲视频，指认train/ship/plane。\nC. 折纸飞机飞出去——\"Fly, plane, fly!\"",
           "days": [
             {
               "dayOfWeek": 1,
@@ -7767,7 +7767,7 @@
             "run",
             "fly"
           ],
-          "parentTips": "动作动词：walk, run, fly。🅰 唱Walking Walking边唱边做！\"Let's run!\"\"Fly like a bird!\"🅱 户外活动时——\"Walk to the tree!\"\"Run to mommy!\"🅲 玩Simon Says——\"Simon says walk!\"\"Simon says fly!\"",
+          "parentTips": "动作动词：walk, run, fly。\nA. 唱Walking Walking边唱边做！\"Let's run!\"\"Fly like a bird!\"\nB. 户外活动时——\"Walk to the tree!\"\"Run to mommy!\"\nC. 玩Simon Says——\"Simon says walk!\"\"Simon says fly!\"",
           "days": [
             {
               "dayOfWeek": 1,
@@ -8106,7 +8106,7 @@
             "two",
             "three"
           ],
-          "parentTips": "数字周：one, two, three。🅰 \"How many fingers? One, two, three!\"边数边伸出手指。🅱 爬楼梯时数数——\"One step, two steps, three steps!\"🅲 用积木搭高塔——\"One block, two blocks, three!\"推倒说\"All fall down!\"",
+          "parentTips": "数字周：one, two, three。\nA. \"How many fingers? One, two, three!\"边数边伸出手指。\nB. 爬楼梯时数数——\"One step, two steps, three steps!\"\nC. 用积木搭高塔——\"One block, two blocks, three!\"推倒说\"All fall down!\"",
           "days": [
             {
               "dayOfWeek": 1,
@@ -8311,8 +8311,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说one、two、three，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把one、two、three的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "one",
                     "two",
@@ -8437,7 +8437,7 @@
             "row",
             "swim"
           ],
-          "parentTips": "运动周：jump, row, swim。🅰 \"Jump up high!\"\"Row row row your boat!\"边唱边做动作。🅱 洗澡时玩游泳——\"The baby is swimming!\"用动作演示。🅲 在床上/垫子上——\"Let's jump like a frog!\"",
+          "parentTips": "运动周：jump, row, swim。\nA. \"Jump up high!\"\"Row row row your boat!\"边唱边做动作。\nB. 洗澡时玩游泳——\"The baby is swimming!\"用动作演示。\nC. 在床上/垫子上——\"Let's jump like a frog!\"",
           "days": [
             {
               "dayOfWeek": 1,
@@ -8571,8 +8571,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说jump、row、swim，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把jump、row、swim的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "jump",
                     "row",
@@ -8768,7 +8768,7 @@
             "listen",
             "sing"
           ],
-          "parentTips": "感官周：look, listen, sing。🅰 \"Look at that!\"\"Listen to the music!\"\"Let's sing together!\"日常引导观察。🅱 玩感官游戏——\"Look! What's this?\"摇铃铛\"Listen!\"🅲 一起唱本周学过SSS歌曲，鼓励跟唱。",
+          "parentTips": "感官周：look, listen, sing。\nA. \"Look at that!\"\"Listen to the music!\"\"Let's sing together!\"日常引导观察。\nB. 玩感官游戏——\"Look! What's this?\"摇铃铛\"Listen!\"\nC. 一起唱本周学过SSS歌曲，鼓励跟唱。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -8831,8 +8831,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说look、listen、sing，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把look、listen、sing的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "look",
                     "listen",
@@ -9099,7 +9099,7 @@
             "up",
             "down"
           ],
-          "parentTips": "律动周：dance, up, down。🅰 \"Let's dance!\"\"Hands up! Hands down!\"放音乐跳舞。🅱 唱Stand Up Song，按歌词做up/down动作。🅲 玩高矮游戏——\"Stand up tall!\"\"Sit down low!\"对比up和down。",
+          "parentTips": "律动周：dance, up, down。\nA. \"Let's dance!\"\"Hands up! Hands down!\"放音乐跳舞。\nB. 唱Stand Up Song，按歌词做up/down动作。\nC. 玩高矮游戏——\"Stand up tall!\"\"Sit down low!\"对比up和down。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -9438,7 +9438,7 @@
             "peach",
             "kiwi"
           ],
-          "parentTips": "水果周B：pear, peach, kiwi。🅰 \"Sweet pear!\"\"Yummy peach!\"吃水果时边吃边说颜色和味道。🅱 切水果——\"Cut the pear!\"\"Open the kiwi!\"触摸不同质感。🅲 做水果沙拉，边做边学水果名称。",
+          "parentTips": "水果周B：pear, peach, kiwi。\nA. \"Sweet pear!\"\"Yummy peach!\"吃水果时边吃边说颜色和味道。\nB. 切水果——\"Cut the pear!\"\"Open the kiwi!\"触摸不同质感。\nC. 做水果沙拉，边做边学水果名称。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -9769,7 +9769,7 @@
             "tomato",
             "carrot"
           ],
-          "parentTips": "蔬菜周：pea, tomato, carrot。🅰 吃饭时指认\"Green pea!\"\"Red tomato!\"\"Orange carrot!\"🅱 玩超市游戏——\"Buy some carrots!\"\"I want tomatoes!\"用玩具菜篮假装购物。🅲 给蔬菜涂色——\"Color the carrot orange!\"",
+          "parentTips": "蔬菜周：pea, tomato, carrot。\nA. 吃饭时指认\"Green pea!\"\"Red tomato!\"\"Orange carrot!\"\nB. 玩超市游戏——\"Buy some carrots!\"\"I want tomatoes!\"用玩具菜篮假装购物。\nC. 给蔬菜涂色——\"Color the carrot orange!\"",
           "days": [
             {
               "dayOfWeek": 1,
@@ -10100,7 +10100,7 @@
             "noodles",
             "egg"
           ],
-          "parentTips": "主食周：rice, noodles, egg。🅰 \"Eat your rice!\"\"Yummy noodles!\"\"Good egg!\"三餐自然融入。🅱 用筷子/勺子玩Pretend Play——假装做饭。🅲 打开鸡蛋做早餐——\"Crack the egg!\"看蛋黄流出。",
+          "parentTips": "主食周：rice, noodles, egg。\nA. \"Eat your rice!\"\"Yummy noodles!\"\"Good egg!\"三餐自然融入。\nB. 用筷子/勺子玩Pretend Play——假装做饭。\nC. 打开鸡蛋做早餐——\"Crack the egg!\"看蛋黄流出。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -10431,7 +10431,7 @@
             "play",
             "eat"
           ],
-          "parentTips": "综合动作：drink, play, eat。🅰 \"Drink some water!\"\"Let's play!\"\"Time to eat!\"日常高频指令。🅱 玩角色扮演——给娃娃\"喂食\"\"喝水\"。🅲 唱日常作息歌曲，按时间段做drink/play/eat动作。",
+          "parentTips": "综合动作：drink, play, eat。\nA. \"Drink some water!\"\"Let's play!\"\"Time to eat!\"日常高频指令。\nB. 玩角色扮演——给娃娃\"喂食\"\"喝水\"。\nC. 唱日常作息歌曲，按时间段做drink/play/eat动作。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -10636,8 +10636,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说drink、play、eat，孩子指认对应物品或图片。",
+                  "title": "亲子互动：配对分类",
+                  "description": "准备多张卡片（包含drink、play、eat和干扰项），让孩子按类别或特征配对。",
                   "wordsFocus": [
                     "drink",
                     "play",
@@ -10770,7 +10770,7 @@
             "slide",
             "seesaw"
           ],
-          "parentTips": "游乐场周：swing, slide, seesaw。🅰 去公园边玩边说\"Push the swing!\"\"Go down the slide!\"🅱 在家用枕头搭\"滑梯\"让玩偶滑下去。🅲 看相关动画片段，指认游乐设施。",
+          "parentTips": "游乐场周：swing, slide, seesaw。\nA. 去公园边玩边说\"Push the swing!\"\"Go down the slide!\"\nB. 在家用枕头搭\"滑梯\"让玩偶滑下去。\nC. 看相关动画片段，指认游乐设施。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -10875,7 +10875,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Slide",
-                  "description": "Peppa Pig动画片段——跟着可爱的小猪Peppa学习slide。",
+                  "description": "看Peppa Pig S01E28: The Park动画片段，在生活情景中理解slide的意思！",
                   "wordsFocus": [
                     "slide"
                   ]
@@ -10904,8 +10904,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说swing、slide、seesaw，孩子指认对应物品或图片。",
+                  "title": "亲子互动：配对分类",
+                  "description": "准备多张卡片（包含swing、slide、seesaw和干扰项），让孩子按类别或特征配对。",
                   "wordsFocus": [
                     "swing",
                     "slide",
@@ -11101,7 +11101,7 @@
             "brown",
             "blue"
           ],
-          "parentTips": "颜色周B：pink, brown, blue。🅰 在家里找颜色——\"Find something pink!\"\"Blue sky!\"\"Brown bear!\"🅱 用彩色粘土做不同颜色的球。🅲 唱颜色歌曲，拿出对应颜色的物品。",
+          "parentTips": "颜色周B：pink, brown, blue。\nA. 在家里找颜色——\"Find something pink!\"\"Blue sky!\"\"Brown bear!\"\nB. 用彩色粘土做不同颜色的球。\nC. 唱颜色歌曲，拿出对应颜色的物品。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -11164,8 +11164,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说pink、brown、blue，孩子指认对应物品或图片。",
+                  "title": "亲子互动：配对分类",
+                  "description": "准备多张卡片（包含pink、brown、blue和干扰项），让孩子按类别或特征配对。",
                   "wordsFocus": [
                     "pink",
                     "brown",
@@ -11432,7 +11432,7 @@
             "tap",
             "clap"
           ],
-          "parentTips": "动作周B：shake, tap, clap。🅰 \"Shake your body!\"\"Tap your nose!\"\"Clap your hands!\"全部用动作回应。🅱 用沙锤或装豆子的瓶子——\"Let's shake!\"做节奏练习。🅲 拍手游戏——\"Clap once! Clap twice!\"边拍边数。",
+          "parentTips": "动作周B：shake, tap, clap。\nA. \"Shake your body!\"\"Tap your nose!\"\"Clap your hands!\"全部用动作回应。\nB. 用沙锤或装豆子的瓶子——\"Let's shake!\"做节奏练习。\nC. 拍手游戏——\"Clap once! Clap twice!\"边拍边数。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -11763,7 +11763,7 @@
             "sad",
             "angry"
           ],
-          "parentTips": "情绪周：happy, sad, angry。🅰 唱If You're Happy完整版，做happy/sad/angry表情。🅱 看情绪闪卡\"Are you happy?\"\"Don't be sad!\"用表情回应。🅲 讲故事时问\"How is the bear? Happy or sad?\"启蒙情商。",
+          "parentTips": "情绪周：happy, sad, angry。\nA. 唱If You're Happy完整版，做happy/sad/angry表情。\nB. 看情绪闪卡\"Are you happy?\"\"Don't be sad!\"用表情回应。\nC. 讲故事时问\"How is the bear? Happy or sad?\"启蒙情商。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -12102,7 +12102,7 @@
             "fish",
             "turtle"
           ],
-          "parentTips": "小动物A：bird, fish, turtle。🅰 看窗外\"Look! A bird!\"养金鱼\"Pretty fish!\"🅱 唱Little Bird/Baby Shark，用动作模仿动物。🅲 用手偶玩角色扮演——小鸟飞、小鱼游、乌龟爬。",
+          "parentTips": "小动物A：bird, fish, turtle。\nA. 看窗外\"Look! A bird!\"养金鱼\"Pretty fish!\"\nB. 唱Little Bird/Baby Shark，用动作模仿动物。\nC. 用手偶玩角色扮演——小鸟飞、小鱼游、乌龟爬。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -12433,7 +12433,7 @@
             "duck",
             "pig"
           ],
-          "parentTips": "农场动物A：hen, duck, pig。🅰 学动物叫声\"The duck says quack quack!\"让孩子模仿声音。🅱 唱Old MacDonald Had A Farm，每段一种动物。🅲 用闪卡玩配对游戏——动物和叫声配对。",
+          "parentTips": "农场动物A：hen, duck, pig。\nA. 学动物叫声\"The duck says quack quack!\"让孩子模仿声音。\nB. 唱Old MacDonald Had A Farm，每段一种动物。\nC. 用闪卡玩配对游戏——动物和叫声配对。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -12609,7 +12609,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Pig",
-                  "description": "Peppa Pig动画片段——跟着可爱的小猪Peppa学习pig。",
+                  "description": "看Peppa Pig S01E01: Muddy Puddles动画片段，在生活情景中理解pig的意思！",
                   "wordsFocus": [
                     "pig"
                   ]
@@ -12764,7 +12764,7 @@
             "sheep",
             "horse"
           ],
-          "parentTips": "农场动物B：cow, sheep, horse。🅰 \"The cow says moo!\"\"White sheep!\"\"Fast horse!\"边走边学。🅱 用积木搭农场，把动物放进去。🅲 唱Old MacDonald续集，加入cow/sheep/horse。",
+          "parentTips": "农场动物B：cow, sheep, horse。\nA. \"The cow says moo!\"\"White sheep!\"\"Fast horse!\"边走边学。\nB. 用积木搭农场，把动物放进去。\nC. 唱Old MacDonald续集，加入cow/sheep/horse。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -12969,8 +12969,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说cow、sheep、horse，孩子指认对应物品或图片。",
+                  "title": "亲子互动：角色扮演",
+                  "description": "用玩偶/实物进行情景角色扮演，家长引导对话，让孩子在模拟场景中使用cow和sheep。",
                   "wordsFocus": [
                     "cow",
                     "sheep",
@@ -13095,7 +13095,7 @@
             "panda",
             "monkey"
           ],
-          "parentTips": "野生动物：tiger, panda, monkey。🅰 通过闪卡和绘本认识！\"Big tiger!\"\"Cute panda!\"\"Funny monkey!\"🅱 看相关动画片段（PP等），指认动物。🅲 模仿动物动作——\"Stomp like a tiger!\"\"Jump like a monkey!\"",
+          "parentTips": "野生动物：tiger, panda, monkey。\nA. 通过闪卡和绘本认识！\"Big tiger!\"\"Cute panda!\"\"Funny monkey!\"\nB. 看相关动画片段（PP等），指认动物。\nC. 模仿动物动作——\"Stomp like a tiger!\"\"Jump like a monkey!\"",
           "days": [
             {
               "dayOfWeek": 1,
@@ -13229,8 +13229,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说tiger、panda、monkey，孩子指认对应物品或图片。",
+                  "title": "亲子互动：角色扮演",
+                  "description": "用玩偶/实物进行情景角色扮演，家长引导对话，让孩子在模拟场景中使用tiger和panda。",
                   "wordsFocus": [
                     "tiger",
                     "panda",
@@ -13434,7 +13434,7 @@
             "zoo",
             "farm"
           ],
-          "parentTips": "地点周：park, zoo, farm。🅰 \"Let's go to the park!\"\"See the animals at the zoo!\"去之前先说要去哪里。🅱 看绘本故事，找出park/zoo/farm场景。🅲 玩地图游戏——玩具小车开去不同的地点。",
+          "parentTips": "地点周：park, zoo, farm。\nA. \"Let's go to the park!\"\"See the animals at the zoo!\"去之前先说要去哪里。\nB. 看绘本故事，找出park/zoo/farm场景。\nC. 玩地图游戏——玩具小车开去不同的地点。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -13468,7 +13468,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Park",
-                  "description": "看Peppa Pig动画片段，听听Peppa一家是怎么说park的。",
+                  "description": "看Peppa Pig S01E28: The Park动画片段，在生活情景中理解park的意思！",
                   "wordsFocus": [
                     "park"
                   ]
@@ -13497,8 +13497,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说park、zoo、farm，孩子指认对应物品或图片。",
+                  "title": "亲子互动：角色扮演",
+                  "description": "用玩偶/实物进行情景角色扮演，家长引导对话，让孩子在模拟场景中使用park和zoo。",
                   "wordsFocus": [
                     "park",
                     "zoo",
@@ -13765,7 +13765,7 @@
             "doctor",
             "baker"
           ],
-          "parentTips": "职业周：teacher, doctor, baker。🅰 玩角色扮演——\"My teacher says hello!\"\"Doctor, I'm sick!\"\"Baker bakes bread!\"🅱 看相关绘本和动画，指认不同职业。🅲 收集日常生活中的职业元素——听诊器、围裙等。",
+          "parentTips": "职业周：teacher, doctor, baker。\nA. 玩角色扮演——\"My teacher says hello!\"\"Doctor, I'm sick!\"\"Baker bakes bread!\"\nB. 看相关绘本和动画，指认不同职业。\nC. 收集日常生活中的职业元素——听诊器、围裙等。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -14096,7 +14096,7 @@
             "small",
             "house"
           ],
-          "parentTips": "概念周：big, small, house。🅰 \"Big elephant!\"\"Small mouse!\"用夸张手势对比大小。🅱 在家里找大小物品——\"Big chair, small chair!\"\"This is our house!\"🅲 玩大小配对——大小盒子、大小球排序。",
+          "parentTips": "概念周：big, small, house。\nA. \"Big elephant!\"\"Small mouse!\"用夸张手势对比大小。\nB. 在家里找大小物品——\"Big chair, small chair!\"\"This is our house!\"\nC. 玩大小配对——大小盒子、大小球排序。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -14427,7 +14427,7 @@
             "morning",
             "night"
           ],
-          "parentTips": "礼貌用语：good, morning, night。🅰 每天\"Good morning!\"\"Good night!\"养成礼貌习惯。🅱 玩角色扮演——打电话\"Good morning!\"告别\"Goodbye!\"🅲 唱Good Morning Song和Good Night Song，建立作息仪式。",
+          "parentTips": "礼貌用语：good, morning, night。\nA. 每天\"Good morning!\"\"Good night!\"养成礼貌习惯。\nB. 玩角色扮演——打电话\"Good morning!\"告别\"Goodbye!\"\nC. 唱Good Morning Song和Good Night Song，建立作息仪式。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -14766,7 +14766,7 @@
             "grass",
             "flower"
           ],
-          "parentTips": "自然周：tree, grass, flower。🅰 去公园\"Tall tree!\"\"Green grass!\"\"Pretty flower!\"用五感观察。🅱 收集树叶花瓣做手工——\"This is a tree leaf!\"🅲 唱自然主题歌曲，配合动作。",
+          "parentTips": "自然周：tree, grass, flower。\nA. 去公园\"Tall tree!\"\"Green grass!\"\"Pretty flower!\"用五感观察。\nB. 收集树叶花瓣做手工——\"This is a tree leaf!\"\nC. 唱自然主题歌曲，配合动作。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -15097,7 +15097,7 @@
             "river",
             "lake"
           ],
-          "parentTips": "地貌周：hill, river, lake。🅰 看Peppa Pig剧集——Peppa去hills/rivers/lakes的片段。🅱 用沙盘/粘土做hill和river的模型。🅲 唱Row Row Row Your Boat，想象在river上划船。",
+          "parentTips": "地貌周：hill, river, lake。\nA. 看Peppa Pig剧集——Peppa去hills/rivers/lakes的片段。\nB. 用沙盘/粘土做hill和river的模型。\nC. 唱Row Row Row Your Boat，想象在river上划船。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -15131,7 +15131,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Hill",
-                  "description": "Peppa Pig动画片段——跟着可爱的小猪Peppa学习hill。",
+                  "description": "看Peppa Pig S01E06: The Hill动画片段，在生活情景中理解hill的意思！",
                   "wordsFocus": [
                     "hill"
                   ]
@@ -15202,7 +15202,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: River",
-                  "description": "看Peppa Pig动画片段，听听Peppa一家是怎么说river的。",
+                  "description": "看Peppa Pig S01E19: The River动画片段，在生活情景中理解river的意思！",
                   "wordsFocus": [
                     "river"
                   ]
@@ -15273,7 +15273,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Lake",
-                  "description": "和Peppa Pig一起学lake，在生活情景中理解这个词的意思！",
+                  "description": "看Peppa Pig S01E19: The River动画片段，在生活情景中理解lake的意思！",
                   "wordsFocus": [
                     "lake"
                   ]
@@ -15302,8 +15302,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说hill、river、lake，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答并做动作，然后互换角色。",
                   "wordsFocus": [
                     "hill",
                     "river",
@@ -15428,7 +15428,7 @@
             "rain",
             "snow"
           ],
-          "parentTips": "天气周：cloud, rain, snow。🅰 \"White clouds!\"\"Rain rain go away!\"\"Let's play in the snow!\"🅱 做天气观察——每天看窗外\"Is it rainy? Cloudy?\"🅲 唱Rain Rain Go Away和Little Snowflake，配合手指动作。",
+          "parentTips": "天气周：cloud, rain, snow。\nA. \"White clouds!\"\"Rain rain go away!\"\"Let's play in the snow!\"\nB. 做天气观察——每天看窗外\"Is it rainy? Cloudy?\"\nC. 唱Rain Rain Go Away和Little Snowflake，配合手指动作。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -15562,8 +15562,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说cloud、rain、snow，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答并做动作，然后互换角色。",
                   "wordsFocus": [
                     "cloud",
                     "rain",
@@ -15759,7 +15759,7 @@
             "moon",
             "sun"
           ],
-          "parentTips": "天空周：star, moon, sun。🅰 唱Twinkle Twinkle Little Star！\"Good morning, sun!\"\"Good night, moon!\"🅱 睡前看窗外——\"Can you find the moon?\"\"Where are the stars?\"🅲 S1结业啦！翻看这周的所有闪卡，一起回顾这一年的学习成果！",
+          "parentTips": "天空周：star, moon, sun。\nA. 唱Twinkle Twinkle Little Star！\"Good morning, sun!\"\"Good night, moon!\"\nB. 睡前看窗外——\"Can you find the moon?\"\"Where are the stars?\"\nC. S1结业啦！翻看这周的所有闪卡，一起回顾这一年的学习成果！",
           "days": [
             {
               "dayOfWeek": 1,
@@ -15822,8 +15822,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说star、moon、sun，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答并做动作，然后互换角色。",
                   "wordsFocus": [
                     "star",
                     "moon",

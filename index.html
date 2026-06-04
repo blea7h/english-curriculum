@@ -1550,16 +1550,16 @@ function renderPage() {
   prevBtn.disabled = idx <= 0;
   nextBtn.disabled = idx >= total - 1;
 
-  content.appendChild(learningPages[idx]);
+  // Clone to preserve original for backward navigation
+  content.appendChild(learningPages[idx].cloneNode(true));
 
-  // Trigger pending resource checks now that the page is in the DOM
+  // Trigger resource checks for any video containers in the current page.
   pendingResourceChecks.forEach(({ act, resInfo, weekNum, resId }) => {
     const container = document.getElementById(resId);
-    if (container) {
+    if (container && container.querySelector('.res-checking')) {
       checkAndRenderResource(act, resInfo, weekNum, resId);
     }
   });
-  pendingResourceChecks = [];
 }
 
 // ─── Navigate pages ───
