@@ -114,7 +114,7 @@
             "mouth",
             "eye"
           ],
-          "parentTips": "这周学脸部：nose, mouth, eye。洗澡时玩\"Wash your nose!\"\"Where is your mouth?\"游戏，指认游戏最有效！",
+          "parentTips": "这周学脸部：nose, mouth, eye。🅰 洗澡时玩\"Wash your nose!\"\"Where is your mouth?\"指认游戏。🅱 唱Head Shoulders Knees & Toes边唱边指，重点放慢nose和mouth。🅲 用镜子玩Face Game——指着自己的nose说\"Mommy's nose\"，再指宝宝的说\"Baby's nose\"。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -148,7 +148,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Nose",
-                  "description": "通过SSS资源学习nose。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住nose。",
                   "wordsFocus": [
                     "nose"
                   ]
@@ -177,8 +177,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说nose、mouth、eye，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把nose、mouth、eye的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "nose",
                     "mouth",
@@ -219,7 +219,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Mouth",
-                  "description": "通过SSS资源学习mouth。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习mouth的发音。",
                   "wordsFocus": [
                     "mouth"
                   ]
@@ -248,8 +248,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说nose、mouth、eye，孩子指认对应物品或图片。",
+                  "title": "亲子互动：我说你做",
+                  "description": "家长发指令\"Show me nose!\" \"Where is mouth?\"，孩子用动作或指认回应。",
                   "wordsFocus": [
                     "nose",
                     "mouth",
@@ -290,7 +290,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Eye",
-                  "description": "通过SSS资源学习eye。",
+                  "description": "在SSS经典歌曲中找出eye，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "eye"
                   ]
@@ -319,8 +319,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说nose、mouth、eye，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把nose、mouth、eye相关的物品/卡片藏在家里各处，让孩子\"Find nose!\" \"Find mouth!\" 找到后一起说。",
                   "wordsFocus": [
                     "nose",
                     "mouth",
@@ -445,7 +445,7 @@
             "ear",
             "hair"
           ],
-          "parentTips": "这周继续脸部：face, ear, hair。梳头时说\"Comb your hair!\"，玩\"Where is your ear?\"指认游戏。",
+          "parentTips": "这周继续脸部：face, ear, hair。🅰 梳头时说\"Comb your hair!\"，玩\"Where is your ear?\"指认。🅱 画人脸简笔画，边画边说\"This is the face\"\"Two ears\"，让孩子帮忙画。🅲 唱One Little Finger，唱到\"point to the ceiling\"时改成\"point to your ear\"。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -479,7 +479,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Face",
-                  "description": "通过SSS资源学习face。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习face的发音。",
                   "wordsFocus": [
                     "face"
                   ]
@@ -508,8 +508,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说face、ear、hair，孩子指认对应物品或图片。",
+                  "title": "亲子互动：我说你做",
+                  "description": "家长发指令\"Show me face!\" \"Where is ear?\"，孩子用动作或指认回应。",
                   "wordsFocus": [
                     "face",
                     "ear",
@@ -550,7 +550,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Ear",
-                  "description": "通过SSS资源学习ear。",
+                  "description": "在SSS经典歌曲中找出ear，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "ear"
                   ]
@@ -579,8 +579,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说face、ear、hair，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把face、ear、hair相关的物品/卡片藏在家里各处，让孩子\"Find face!\" \"Find ear!\" 找到后一起说。",
                   "wordsFocus": [
                     "face",
                     "ear",
@@ -621,7 +621,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Hair",
-                  "description": "通过SSS资源学习hair。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住hair。",
                   "wordsFocus": [
                     "hair"
                   ]
@@ -650,8 +650,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说face、ear、hair，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答，然后互换角色。",
                   "wordsFocus": [
                     "face",
                     "ear",
@@ -776,7 +776,7 @@
             "arm",
             "foot"
           ],
-          "parentTips": "这周学上半身和脚：hand, arm, foot。唱Head Shoulders边唱边指！玩\"Clap your hands!\"",
+          "parentTips": "这周学上半身和脚：hand, arm, foot。🅰 唱Head Shoulders边唱边指，熟练后加快速度挑战反应。🅱 玩\"Touch Game\"——\"Touch your hand!\"\"Touch your arm!\"看谁反应快。🅲 画手印脚印，边画边说\"This is my hand!\"\"Big foot!\"",
           "days": [
             {
               "dayOfWeek": 1,
@@ -810,7 +810,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Hand",
-                  "description": "通过SSS资源学习hand。",
+                  "description": "在SSS经典歌曲中找出hand，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "hand"
                   ]
@@ -839,8 +839,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说hand、arm、foot，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把hand、arm、foot相关的物品/卡片藏在家里各处，让孩子\"Find hand!\" \"Find arm!\" 找到后一起说。",
                   "wordsFocus": [
                     "hand",
                     "arm",
@@ -881,7 +881,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Arm",
-                  "description": "通过SSS资源学习arm。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住arm。",
                   "wordsFocus": [
                     "arm"
                   ]
@@ -910,8 +910,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说hand、arm、foot，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答，然后互换角色。",
                   "wordsFocus": [
                     "hand",
                     "arm",
@@ -952,7 +952,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Foot",
-                  "description": "通过SSS资源学习foot。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习foot的发音。",
                   "wordsFocus": [
                     "foot"
                   ]
@@ -981,8 +981,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说hand、arm、foot，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将hand、arm、foot的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "hand",
                     "arm",
@@ -1107,7 +1107,7 @@
             "leg",
             "toe"
           ],
-          "parentTips": "本周复习：head, leg, toe。用Simon Says游戏巩固全部身体词。\"Touch your head!\"\"Wiggle your toes!\"",
+          "parentTips": "本周复习：head, leg, toe。🅰 用Simon Says游戏巩固全部身体词。\"Simon says touch your head!\"\"Wiggle your toes!\"🅱 唱Head Shoulders Knees & Toes完整版，特别强调knees和toes。🅲 睡前玩身体歌谣，边指边唱强化记忆。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -1141,7 +1141,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Head",
-                  "description": "通过SSS资源学习head。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住head。",
                   "wordsFocus": [
                     "head"
                   ]
@@ -1170,8 +1170,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说head、leg、toe，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答，然后互换角色。",
                   "wordsFocus": [
                     "head",
                     "leg",
@@ -1212,7 +1212,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Leg",
-                  "description": "通过SSS资源学习leg。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习leg的发音。",
                   "wordsFocus": [
                     "leg"
                   ]
@@ -1241,8 +1241,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说head、leg、toe，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将head、leg、toe的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "head",
                     "leg",
@@ -1283,7 +1283,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Toe",
-                  "description": "通过SSS资源学习toe。",
+                  "description": "在SSS经典歌曲中找出toe，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "toe"
                   ]
@@ -1446,7 +1446,7 @@
             "daddy",
             "sister"
           ],
-          "parentTips": "用家庭相册学mommy和daddy！指着照片说\"This is mommy!\"，叫家人时说\"Come here, daddy!\"",
+          "parentTips": "家庭主题：mommy, daddy, sister。🅰 翻家庭相册，指着照片说\"This is mommy!\"\"Where is daddy?\"🅱 玩Who's Calling游戏——假装打电话\"Hello, mommy!\"\"Bye bye, daddy!\"🅲 唱The Mommy Song，边唱边做家庭角色动作。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -1480,7 +1480,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Mommy",
-                  "description": "通过PP资源学习mommy。",
+                  "description": "看Peppa Pig动画片段，听听Peppa一家是怎么说mommy的。",
                   "wordsFocus": [
                     "mommy"
                   ]
@@ -1509,8 +1509,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说mommy、daddy、sister，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将mommy、daddy、sister的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "mommy",
                     "daddy",
@@ -1551,7 +1551,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Daddy",
-                  "description": "通过PP资源学习daddy。",
+                  "description": "和Peppa Pig一起学daddy，在生活情景中理解这个词的意思！",
                   "wordsFocus": [
                     "daddy"
                   ]
@@ -1622,7 +1622,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Sister",
-                  "description": "通过PP资源学习sister。",
+                  "description": "Peppa Pig动画片段——跟着可爱的小猪Peppa学习sister。",
                   "wordsFocus": [
                     "sister"
                   ]
@@ -1651,8 +1651,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说mommy、daddy、sister，孩子指认对应物品或图片。",
+                  "title": "亲子互动：Simon Says",
+                  "description": "玩Simon Says游戏——家长说\"Simon says touch mommy\"，孩子做出动作；不定期只说\"mommy\"让孩子判断是否该做。",
                   "wordsFocus": [
                     "mommy",
                     "daddy",
@@ -1777,7 +1777,7 @@
             "grandpa",
             "brother"
           ],
-          "parentTips": "学祖辈grandma, grandpa和brother。打电话时说\"Hello grandma!\"，抱弟弟说\"Love brother!\"",
+          "parentTips": "祖辈周：grandma, grandpa, brother。🅰 打视频电话时让孩子说\"Hello, grandma!\"\"Love you, grandpa!\"🅱 看Peppa Pig——Peppa's Grandma和Grandpa的片段，指认角色。🅲 抱弟弟/玩偶说\"Love brother!\"，拍全家福时学称谓。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -1811,7 +1811,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Grandma",
-                  "description": "通过PP资源学习grandma。",
+                  "description": "和Peppa Pig一起学grandma，在生活情景中理解这个词的意思！",
                   "wordsFocus": [
                     "grandma"
                   ]
@@ -1882,7 +1882,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Grandpa",
-                  "description": "通过PP资源学习grandpa。",
+                  "description": "Peppa Pig动画片段——跟着可爱的小猪Peppa学习grandpa。",
                   "wordsFocus": [
                     "grandpa"
                   ]
@@ -1911,8 +1911,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说grandma、grandpa、brother，孩子指认对应物品或图片。",
+                  "title": "亲子互动：Simon Says",
+                  "description": "玩Simon Says游戏——家长说\"Simon says touch grandma\"，孩子做出动作；不定期只说\"grandma\"让孩子判断是否该做。",
                   "wordsFocus": [
                     "grandma",
                     "grandpa",
@@ -1953,7 +1953,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Brother",
-                  "description": "通过PP资源学习brother。",
+                  "description": "看Peppa Pig动画片段，听听Peppa一家是怎么说brother的。",
                   "wordsFocus": [
                     "brother"
                   ]
@@ -1982,8 +1982,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说grandma、grandpa、brother，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把grandma、grandpa、brother的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "grandma",
                     "grandpa",
@@ -2108,7 +2108,7 @@
             "cat",
             "dog"
           ],
-          "parentTips": "这周学宠物和宝宝：baby, cat, dog。看YD认识cat和dog，唱I Have A Pet。",
+          "parentTips": "宠物和宝宝：baby, cat, dog。🅰 看Yakka Dee!认识cat和dog，边看边模仿叫声。🅱 走路上看到猫狗马上指出\"Look! A cat!\"\"Big dog!\"🅲 唱I Have A Pet，用玩偶当道具比划。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -2142,7 +2142,7 @@
                   "resourceId": "pf",
                   "resourceType": "PF",
                   "title": "PF: Baby",
-                  "description": "通过PF资源学习baby。",
+                  "description": "Pinkfong主题动画，在蹦蹦跳跳中学会baby。",
                   "wordsFocus": [
                     "baby"
                   ]
@@ -2171,8 +2171,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说baby、cat、dog，孩子指认对应物品或图片。",
+                  "title": "亲子互动：Simon Says",
+                  "description": "玩Simon Says游戏——家长说\"Simon says touch baby\"，孩子做出动作；不定期只说\"baby\"让孩子判断是否该做。",
                   "wordsFocus": [
                     "baby",
                     "cat",
@@ -2213,7 +2213,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Cat",
-                  "description": "通过SSS资源学习cat。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习cat的发音。",
                   "wordsFocus": [
                     "cat"
                   ]
@@ -2242,8 +2242,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说baby、cat、dog，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把baby、cat、dog的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "baby",
                     "cat",
@@ -2284,7 +2284,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Dog",
-                  "description": "通过SSS资源学习dog。",
+                  "description": "在SSS经典歌曲中找出dog，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "dog"
                   ]
@@ -2313,8 +2313,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说baby、cat、dog，孩子指认对应物品或图片。",
+                  "title": "亲子互动：我说你做",
+                  "description": "家长发指令\"Show me baby!\" \"Where is cat?\"，孩子用动作或指认回应。",
                   "wordsFocus": [
                     "baby",
                     "cat",
@@ -2439,7 +2439,7 @@
             "ball",
             "doll"
           ],
-          "parentTips": "玩具周：teddy bear, ball, doll。玩球时说\"Throw the ball!\"，抱玩偶\"I love my teddy bear!\"",
+          "parentTips": "玩具周：teddy bear, ball, doll。🅰 玩球时说\"Throw the ball!\"\"Catch the ball!\"抱玩偶说\"I love my teddy bear!\"🅱 把玩具藏起来玩Hide & Seek——\"Where is the ball?\"\"Find teddy bear!\"🅲 用3个玩具练习数数和指认。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -2473,7 +2473,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Teddy Bear",
-                  "description": "通过SSS资源学习teddy bear。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习teddy bear的发音。",
                   "wordsFocus": [
                     "teddy bear"
                   ]
@@ -2502,8 +2502,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说teddy bear、ball、doll，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把teddy bear、ball、doll的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "teddy bear",
                     "ball",
@@ -2544,7 +2544,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Ball",
-                  "description": "通过SSS资源学习ball。",
+                  "description": "在SSS经典歌曲中找出ball，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "ball"
                   ]
@@ -2573,8 +2573,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说teddy bear、ball、doll，孩子指认对应物品或图片。",
+                  "title": "亲子互动：我说你做",
+                  "description": "家长发指令\"Show me teddy bear!\" \"Where is ball?\"，孩子用动作或指认回应。",
                   "wordsFocus": [
                     "teddy bear",
                     "ball",
@@ -2615,7 +2615,7 @@
                   "resourceId": "cc",
                   "resourceType": "CC",
                   "title": "CC: Doll",
-                  "description": "通过CC资源学习doll。",
+                  "description": "和Cocomelon一起互动，在歌曲中反复听到doll，自然习得。",
                   "wordsFocus": [
                     "doll"
                   ]
@@ -2644,8 +2644,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说teddy bear、ball、doll，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把teddy bear、ball、doll相关的物品/卡片藏在家里各处，让孩子\"Find teddy bear!\" \"Find ball!\" 找到后一起说。",
                   "wordsFocus": [
                     "teddy bear",
                     "ball",
@@ -2778,7 +2778,7 @@
             "pants",
             "dress"
           ],
-          "parentTips": "穿衣服时是最好的学习时机！\"Put on your shirt!\"\"These are your pants!\"边穿边说。",
+          "parentTips": "穿衣周：shirt, pants, dress。🅰 穿衣服时是最好的学习时机！\"Put on your shirt!\"\"These are your pants!\"边穿边说。🅱 整理衣柜时玩配对——\"Where is the blue shirt?\"\"Baby's dress!\"🅲 唱Put On Your Shoes改编版，把歌词换成shirt/pants/dress。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -2812,7 +2812,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Shirt",
-                  "description": "通过SSS资源学习shirt。",
+                  "description": "在SSS经典歌曲中找出shirt，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "shirt"
                   ]
@@ -2841,8 +2841,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说shirt、pants、dress，孩子指认对应物品或图片。",
+                  "title": "亲子互动：我说你做",
+                  "description": "家长发指令\"Show me shirt!\" \"Where is pants?\"，孩子用动作或指认回应。",
                   "wordsFocus": [
                     "shirt",
                     "pants",
@@ -2883,7 +2883,7 @@
                   "resourceId": "cc",
                   "resourceType": "CC",
                   "title": "CC: Pants",
-                  "description": "通过CC资源学习pants。",
+                  "description": "和Cocomelon一起互动，在歌曲中反复听到pants，自然习得。",
                   "wordsFocus": [
                     "pants"
                   ]
@@ -2912,8 +2912,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说shirt、pants、dress，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把shirt、pants、dress相关的物品/卡片藏在家里各处，让孩子\"Find shirt!\" \"Find pants!\" 找到后一起说。",
                   "wordsFocus": [
                     "shirt",
                     "pants",
@@ -2954,7 +2954,7 @@
                   "resourceId": "cc",
                   "resourceType": "CC",
                   "title": "CC: Dress",
-                  "description": "通过CC资源学习dress。",
+                  "description": "看Cocomelon动画片段，和JJ一起学dress，跟着唱起来！",
                   "wordsFocus": [
                     "dress"
                   ]
@@ -2983,8 +2983,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说shirt、pants、dress，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答，然后互换角色。",
                   "wordsFocus": [
                     "shirt",
                     "pants",
@@ -3109,7 +3109,7 @@
             "socks",
             "mittens"
           ],
-          "parentTips": "出门前学shoes, socks, mittens。\"Put on your shoes!\"\"Wear your mittens!\"唱Put On Your Shoes。",
+          "parentTips": "出门装备：shoes, socks, mittens。🅰 出门前\"Put on your shoes!\"\"Wear your mittens!\"边穿边互动。🅱 穿鞋比赛——\"Find your shoes!\"\"Put on your socks!\"看谁穿得快。🅲 唱Put On Your Shoes完整版，跟着视频做动作。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -3143,7 +3143,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Shoes",
-                  "description": "通过SSS资源学习shoes。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住shoes。",
                   "wordsFocus": [
                     "shoes"
                   ]
@@ -3172,8 +3172,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说shoes、socks、mittens，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把shoes、socks、mittens相关的物品/卡片藏在家里各处，让孩子\"Find shoes!\" \"Find socks!\" 找到后一起说。",
                   "wordsFocus": [
                     "shoes",
                     "socks",
@@ -3214,7 +3214,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Socks",
-                  "description": "通过SSS资源学习socks。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习socks的发音。",
                   "wordsFocus": [
                     "socks"
                   ]
@@ -3243,8 +3243,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说shoes、socks、mittens，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答，然后互换角色。",
                   "wordsFocus": [
                     "shoes",
                     "socks",
@@ -3285,7 +3285,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Mittens",
-                  "description": "通过SSS资源学习mittens。",
+                  "description": "在SSS经典歌曲中找出mittens，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "mittens"
                   ]
@@ -3314,8 +3314,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说shoes、socks、mittens，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将shoes、socks、mittens的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "shoes",
                     "socks",
@@ -3440,7 +3440,7 @@
             "hat",
             "scarf"
           ],
-          "parentTips": "天气冷了学coat, hat, scarf！\"Put on your coat!\"\"Wear your hat!\"出门前边说边穿。",
+          "parentTips": "保暖穿搭：coat, hat, scarf。🅰 出门前\"Put on your coat!\"\"Wear your hat!\"边说边帮孩子穿。🅱 玩角色扮演——给玩偶穿衣服\"Teddy needs his scarf!\"🅲 唱天气相关歌曲，结合本周词汇。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -3474,7 +3474,7 @@
                   "resourceId": "pf",
                   "resourceType": "PF",
                   "title": "PF: Coat",
-                  "description": "通过PF资源学习coat。",
+                  "description": "跟着Pinkfong的节奏学习coat，边唱边跳，动起来吧！",
                   "wordsFocus": [
                     "coat"
                   ]
@@ -3503,8 +3503,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说coat、hat、scarf，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答，然后互换角色。",
                   "wordsFocus": [
                     "coat",
                     "hat",
@@ -3545,7 +3545,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Hat",
-                  "description": "通过SSS资源学习hat。",
+                  "description": "在SSS经典歌曲中找出hat，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "hat"
                   ]
@@ -3574,8 +3574,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说coat、hat、scarf，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将coat、hat、scarf的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "coat",
                     "hat",
@@ -3616,7 +3616,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Scarf",
-                  "description": "通过PP资源学习scarf。",
+                  "description": "Peppa Pig动画片段——跟着可爱的小猪Peppa学习scarf。",
                   "wordsFocus": [
                     "scarf"
                   ]
@@ -3771,7 +3771,7 @@
             "brush",
             "comb"
           ],
-          "parentTips": "卫生习惯周：wash, brush, comb。刷牙时说\"Brush your teeth!\"，洗手说\"Wash your hands!\"",
+          "parentTips": "卫生习惯：wash, brush, comb。🅰 早晚刷牙时说\"Brush your teeth!\"洗手说\"Wash your hands!\"餐前必说。🅱 唱The Bath Song边唱边做动作，强化wash概念。🅲 梳头比赛——\"Comb mommy's hair!\"\"Comb your hair!\"用梳子互动。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -3805,7 +3805,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Wash",
-                  "description": "通过SSS资源学习wash。",
+                  "description": "在SSS经典歌曲中找出wash，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "wash"
                   ]
@@ -3834,8 +3834,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说wash、brush、comb，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将wash、brush、comb的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "wash",
                     "brush",
@@ -3876,7 +3876,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Brush",
-                  "description": "通过SSS资源学习brush。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住brush。",
                   "wordsFocus": [
                     "brush"
                   ]
@@ -3947,7 +3947,7 @@
                   "resourceId": "cc",
                   "resourceType": "CC",
                   "title": "CC: Comb",
-                  "description": "通过CC资源学习comb。",
+                  "description": "看Cocomelon动画片段，和JJ一起学comb，跟着唱起来！",
                   "wordsFocus": [
                     "comb"
                   ]
@@ -3976,8 +3976,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说wash、brush、comb，孩子指认对应物品或图片。",
+                  "title": "亲子互动：Simon Says",
+                  "description": "玩Simon Says游戏——家长说\"Simon says touch wash\"，孩子做出动作；不定期只说\"wash\"让孩子判断是否该做。",
                   "wordsFocus": [
                     "wash",
                     "brush",
@@ -4110,7 +4110,7 @@
             "jam",
             "milk"
           ],
-          "parentTips": "早餐周：bread, jam, milk。\"Let's eat bread!\"\"Drink your milk!\"边吃边说最自然。",
+          "parentTips": "早餐周：bread, jam, milk。🅰 \"Let's eat bread!\"\"Drink your milk!\"边吃边说最自然。🅱 摆餐桌时问\"Do you want jam on your bread?\"让孩子点头或说yes。🅲 用玩具厨房过家家，假装做早餐。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -4144,7 +4144,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Bread",
-                  "description": "通过SSS资源学习bread。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住bread。",
                   "wordsFocus": [
                     "bread"
                   ]
@@ -4215,7 +4215,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Jam",
-                  "description": "通过SSS资源学习jam。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习jam的发音。",
                   "wordsFocus": [
                     "jam"
                   ]
@@ -4244,8 +4244,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说bread、jam、milk，孩子指认对应物品或图片。",
+                  "title": "亲子互动：Simon Says",
+                  "description": "玩Simon Says游戏——家长说\"Simon says touch bread\"，孩子做出动作；不定期只说\"bread\"让孩子判断是否该做。",
                   "wordsFocus": [
                     "bread",
                     "jam",
@@ -4286,7 +4286,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Milk",
-                  "description": "通过SSS资源学习milk。",
+                  "description": "在SSS经典歌曲中找出milk，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "milk"
                   ]
@@ -4315,8 +4315,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说bread、jam、milk，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把bread、jam、milk的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "bread",
                     "jam",
@@ -4441,7 +4441,7 @@
             "water",
             "cold"
           ],
-          "parentTips": "温度概念：hot, water, cold。\"The water is hot!\"\"Cold ice cream!\"用实物感受温度。",
+          "parentTips": "温度概念：hot, water, cold。🅰 喝热水说\"Hot water!\"吃冰淇淋\"Cold ice cream!\"用实物感受温度。🅱 洗澡时玩冷热水——\"Hot water\"(热水出) \"Cold water\"(冷水出)。🅲 唱有关天气/温度的歌谣。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -4475,7 +4475,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Hot",
-                  "description": "通过SSS资源学习hot。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习hot的发音。",
                   "wordsFocus": [
                     "hot"
                   ]
@@ -4504,8 +4504,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说hot、water、cold，孩子指认对应物品或图片。",
+                  "title": "亲子互动：Simon Says",
+                  "description": "玩Simon Says游戏——家长说\"Simon says touch hot\"，孩子做出动作；不定期只说\"hot\"让孩子判断是否该做。",
                   "wordsFocus": [
                     "hot",
                     "water",
@@ -4546,7 +4546,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Water",
-                  "description": "通过SSS资源学习water。",
+                  "description": "在SSS经典歌曲中找出water，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "water"
                   ]
@@ -4575,8 +4575,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说hot、water、cold，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把hot、water、cold的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "hot",
                     "water",
@@ -4617,7 +4617,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Cold",
-                  "description": "通过SSS资源学习cold。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住cold。",
                   "wordsFocus": [
                     "cold"
                   ]
@@ -4646,8 +4646,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说hot、water、cold，孩子指认对应物品或图片。",
+                  "title": "亲子互动：我说你做",
+                  "description": "家长发指令\"Show me hot!\" \"Where is water?\"，孩子用动作或指认回应。",
                   "wordsFocus": [
                     "hot",
                     "water",
@@ -4772,7 +4772,7 @@
             "plate",
             "cup"
           ],
-          "parentTips": "餐具周：spoon, plate, cup。摆餐具时\"This is your spoon!\"，\"Put the cup on the table!\"",
+          "parentTips": "餐具周：spoon, plate, cup。🅰 摆餐具时\"This is your spoon!\"\"Put the cup on the table!\"让孩子帮忙。🅱 吃饭时问\"Where is your spoon?\"\"Can you find your cup?\"🅲 玩角色扮演餐厅游戏，用玩具餐具练习。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -4806,7 +4806,7 @@
                   "resourceId": "pf",
                   "resourceType": "PF",
                   "title": "PF: Spoon",
-                  "description": "通过PF资源学习spoon。",
+                  "description": "Pinkfong动画时间到了！用欢快的歌舞帮宝宝记住spoon。",
                   "wordsFocus": [
                     "spoon"
                   ]
@@ -4835,8 +4835,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说spoon、plate、cup，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把spoon、plate、cup的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "spoon",
                     "plate",
@@ -4877,7 +4877,7 @@
                   "resourceId": "pf",
                   "resourceType": "PF",
                   "title": "PF: Plate",
-                  "description": "通过PF资源学习plate。",
+                  "description": "Pinkfong主题动画，在蹦蹦跳跳中学会plate。",
                   "wordsFocus": [
                     "plate"
                   ]
@@ -4906,8 +4906,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说spoon、plate、cup，孩子指认对应物品或图片。",
+                  "title": "亲子互动：我说你做",
+                  "description": "家长发指令\"Show me spoon!\" \"Where is plate?\"，孩子用动作或指认回应。",
                   "wordsFocus": [
                     "spoon",
                     "plate",
@@ -4948,7 +4948,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Cup",
-                  "description": "通过SSS资源学习cup。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习cup的发音。",
                   "wordsFocus": [
                     "cup"
                   ]
@@ -4977,8 +4977,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说spoon、plate、cup，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把spoon、plate、cup相关的物品/卡片藏在家里各处，让孩子\"Find spoon!\" \"Find plate!\" 找到后一起说。",
                   "wordsFocus": [
                     "spoon",
                     "plate",
@@ -5103,7 +5103,7 @@
             "banana",
             "orange"
           ],
-          "parentTips": "水果周：apple, banana, orange。吃水果时\"This is a red apple!\"\"Yellow banana!\"唱The Apple Is Red。",
+          "parentTips": "水果周：apple, banana, orange。🅰 吃水果时\"This is a red apple!\"\"Yellow banana!\"边切边说。🅱 唱The Apple Is Red，用真实水果当道具。🅲 玩水果猜猜看——摸一摸、闻一闻，猜\"What fruit is this?\"",
           "days": [
             {
               "dayOfWeek": 1,
@@ -5137,7 +5137,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Apple",
-                  "description": "通过SSS资源学习apple。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住apple。",
                   "wordsFocus": [
                     "apple"
                   ]
@@ -5166,8 +5166,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说apple、banana、orange，孩子指认对应物品或图片。",
+                  "title": "亲子互动：我说你做",
+                  "description": "家长发指令\"Show me apple!\" \"Where is banana?\"，孩子用动作或指认回应。",
                   "wordsFocus": [
                     "apple",
                     "banana",
@@ -5208,7 +5208,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Banana",
-                  "description": "通过SSS资源学习banana。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习banana的发音。",
                   "wordsFocus": [
                     "banana"
                   ]
@@ -5237,8 +5237,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说apple、banana、orange，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把apple、banana、orange相关的物品/卡片藏在家里各处，让孩子\"Find apple!\" \"Find banana!\" 找到后一起说。",
                   "wordsFocus": [
                     "apple",
                     "banana",
@@ -5279,7 +5279,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Orange",
-                  "description": "通过SSS资源学习orange。",
+                  "description": "在SSS经典歌曲中找出orange，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "orange"
                   ]
@@ -5308,8 +5308,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说apple、banana、orange，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答，然后互换角色。",
                   "wordsFocus": [
                     "apple",
                     "banana",
@@ -5442,7 +5442,7 @@
             "wall",
             "table"
           ],
-          "parentTips": "认识家：door, wall, table。\"Open the door!\"\"The book is on the table!\"在家里边走边说。",
+          "parentTips": "认识家：door, wall, table。🅰 \"Open the door!\"\"The book is on the table!\"在家里边走边说。🅱 玩找东西游戏——\"Touch the door!\"\"Where is the wall?\"🅲 画家里的平面图，标记door/wall/table的位置。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -5476,7 +5476,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Door",
-                  "description": "通过SSS资源学习door。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习door的发音。",
                   "wordsFocus": [
                     "door"
                   ]
@@ -5505,8 +5505,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说door、wall、table，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把door、wall、table相关的物品/卡片藏在家里各处，让孩子\"Find door!\" \"Find wall!\" 找到后一起说。",
                   "wordsFocus": [
                     "door",
                     "wall",
@@ -5547,7 +5547,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Wall",
-                  "description": "通过SSS资源学习wall。",
+                  "description": "在SSS经典歌曲中找出wall，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "wall"
                   ]
@@ -5576,8 +5576,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说door、wall、table，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答，然后互换角色。",
                   "wordsFocus": [
                     "door",
                     "wall",
@@ -5618,7 +5618,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Table",
-                  "description": "通过PP资源学习table。",
+                  "description": "Peppa Pig动画片段——跟着可爱的小猪Peppa学习table。",
                   "wordsFocus": [
                     "table"
                   ]
@@ -5647,8 +5647,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说door、wall、table，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将door、wall、table的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "door",
                     "wall",
@@ -5773,7 +5773,7 @@
             "sofa",
             "bed"
           ],
-          "parentTips": "家具周：chair, sofa, bed。\"Sit on the chair!\"\"Time for bed!\"\"Jump on the sofa!\"",
+          "parentTips": "家具周：chair, sofa, bed。🅰 \"Sit on the chair!\"\"Time for bed!\"\"Jump on the sofa!\"日常指令融入。🅱 玩家具配对卡——图片和实物对应。🅲 睡前唱摇篮曲，在床上说\"Good night, bed!\"",
           "days": [
             {
               "dayOfWeek": 1,
@@ -5807,7 +5807,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Chair",
-                  "description": "通过SSS资源学习chair。",
+                  "description": "在SSS经典歌曲中找出chair，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "chair"
                   ]
@@ -5836,8 +5836,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说chair、sofa、bed，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答，然后互换角色。",
                   "wordsFocus": [
                     "chair",
                     "sofa",
@@ -5878,7 +5878,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Sofa",
-                  "description": "通过SSS资源学习sofa。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住sofa。",
                   "wordsFocus": [
                     "sofa"
                   ]
@@ -5907,8 +5907,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说chair、sofa、bed，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将chair、sofa、bed的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "chair",
                     "sofa",
@@ -5949,7 +5949,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Bed",
-                  "description": "通过SSS资源学习bed。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习bed的发音。",
                   "wordsFocus": [
                     "bed"
                   ]
@@ -6104,7 +6104,7 @@
             "watch",
             "smile"
           ],
-          "parentTips": "动作周：sit, watch, smile。\"Sit down please!\"\"Watch me!\"\"Show me your smile!\"",
+          "parentTips": "动作周：sit, watch, smile。🅰 \"Sit down please!\"\"Watch me!\"\"Show me your smile!\"用动作强化理解。🅱 拍照片时\"Say cheese and smile!\"一起做笑脸。🅲 看电视时\"Let's watch together!\"用遥控器指认。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -6138,7 +6138,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Sit",
-                  "description": "通过SSS资源学习sit。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住sit。",
                   "wordsFocus": [
                     "sit"
                   ]
@@ -6167,8 +6167,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说sit、watch、smile，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将sit、watch、smile的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "sit",
                     "watch",
@@ -6209,7 +6209,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Watch",
-                  "description": "通过SSS资源学习watch。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习watch的发音。",
                   "wordsFocus": [
                     "watch"
                   ]
@@ -6280,7 +6280,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Smile",
-                  "description": "通过SSS资源学习smile。",
+                  "description": "在SSS经典歌曲中找出smile，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "smile"
                   ]
@@ -6309,8 +6309,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说sit、watch、smile，孩子指认对应物品或图片。",
+                  "title": "亲子互动：Simon Says",
+                  "description": "玩Simon Says游戏——家长说\"Simon says touch sit\"，孩子做出动作；不定期只说\"sit\"让孩子判断是否该做。",
                   "wordsFocus": [
                     "sit",
                     "watch",
@@ -6435,7 +6435,7 @@
             "kiss",
             "sleep"
           ],
-          "parentTips": "情感周：hug, kiss, sleep。睡前\"Give me a hug!\"\"Good night, sleep well!\"",
+          "parentTips": "情感周：hug, kiss, sleep。🅰 睡前\"Give me a hug!\"\"Good night, sleep well!\"🅱 玩情感卡片——\"Show me hug!\"\"Give a kiss!\"🅲 唱甜蜜的晚安歌曲，用玩偶演示hug和sleep。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -6469,7 +6469,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Hug",
-                  "description": "通过SSS资源学习hug。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习hug的发音。",
                   "wordsFocus": [
                     "hug"
                   ]
@@ -6540,7 +6540,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Kiss",
-                  "description": "通过SSS资源学习kiss。",
+                  "description": "在SSS经典歌曲中找出kiss，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "kiss"
                   ]
@@ -6569,8 +6569,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说hug、kiss、sleep，孩子指认对应物品或图片。",
+                  "title": "亲子互动：Simon Says",
+                  "description": "玩Simon Says游戏——家长说\"Simon says touch hug\"，孩子做出动作；不定期只说\"hug\"让孩子判断是否该做。",
                   "wordsFocus": [
                     "hug",
                     "kiss",
@@ -6611,7 +6611,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Sleep",
-                  "description": "通过SSS资源学习sleep。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住sleep。",
                   "wordsFocus": [
                     "sleep"
                   ]
@@ -6640,8 +6640,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说hug、kiss、sleep，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把hug、kiss、sleep的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "hug",
                     "kiss",
@@ -6774,7 +6774,7 @@
             "yellow",
             "red"
           ],
-          "parentTips": "颜色周：green, yellow, red。玩交通灯游戏\"Red light stop, green light go!\"用蜡笔画色。",
+          "parentTips": "颜色周：green, yellow, red。🅰 玩交通灯游戏\"Red light stop! Green light go!\"🅱 用蜡笔画画——\"Let's color a red apple!\"\"Yellow banana!\"🅲 在家里找颜色——\"Find something green!\"\"Where is yellow?\"",
           "days": [
             {
               "dayOfWeek": 1,
@@ -6808,7 +6808,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Green",
-                  "description": "通过SSS资源学习green。",
+                  "description": "在SSS经典歌曲中找出green，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "green"
                   ]
@@ -6837,8 +6837,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说green、yellow、red，孩子指认对应物品或图片。",
+                  "title": "亲子互动：Simon Says",
+                  "description": "玩Simon Says游戏——家长说\"Simon says touch green\"，孩子做出动作；不定期只说\"green\"让孩子判断是否该做。",
                   "wordsFocus": [
                     "green",
                     "yellow",
@@ -6879,7 +6879,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Yellow",
-                  "description": "通过SSS资源学习yellow。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住yellow。",
                   "wordsFocus": [
                     "yellow"
                   ]
@@ -6908,8 +6908,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说green、yellow、red，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把green、yellow、red的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "green",
                     "yellow",
@@ -6950,7 +6950,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Red",
-                  "description": "通过SSS资源学习red。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习red的发音。",
                   "wordsFocus": [
                     "red"
                   ]
@@ -6979,8 +6979,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说green、yellow、red，孩子指认对应物品或图片。",
+                  "title": "亲子互动：我说你做",
+                  "description": "家长发指令\"Show me green!\" \"Where is yellow?\"，孩子用动作或指认回应。",
                   "wordsFocus": [
                     "green",
                     "yellow",
@@ -7105,7 +7105,7 @@
             "car",
             "bus"
           ],
-          "parentTips": "车车周：bike, car, bus。\"Look! A red car!\"\"Big bus!\"唱The Wheels On The Bus！",
+          "parentTips": "车车周：bike, car, bus。🅰 路上看到车马上指出\"Look! A red car!\"\"Big bus!\"🅱 唱The Wheels On The Bus，用动作模拟车轮和喇叭。🅲 用玩具车排排队——\"Red car, blue car, yellow bus\"边排边数。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -7139,7 +7139,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Bike",
-                  "description": "通过SSS资源学习bike。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住bike。",
                   "wordsFocus": [
                     "bike"
                   ]
@@ -7168,8 +7168,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说bike、car、bus，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把bike、car、bus的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "bike",
                     "car",
@@ -7210,7 +7210,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Car",
-                  "description": "通过SSS资源学习car。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习car的发音。",
                   "wordsFocus": [
                     "car"
                   ]
@@ -7239,8 +7239,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说bike、car、bus，孩子指认对应物品或图片。",
+                  "title": "亲子互动：我说你做",
+                  "description": "家长发指令\"Show me bike!\" \"Where is car?\"，孩子用动作或指认回应。",
                   "wordsFocus": [
                     "bike",
                     "car",
@@ -7281,7 +7281,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Bus",
-                  "description": "通过SSS资源学习bus。",
+                  "description": "在SSS经典歌曲中找出bus，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "bus"
                   ]
@@ -7310,8 +7310,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说bike、car、bus，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把bike、car、bus相关的物品/卡片藏在家里各处，让孩子\"Find bike!\" \"Find car!\" 找到后一起说。",
                   "wordsFocus": [
                     "bike",
                     "car",
@@ -7436,7 +7436,7 @@
             "ship",
             "plane"
           ],
-          "parentTips": "交通工具周：train, ship, plane。\"Choo choo train!\"\"The plane is flying!\"用玩具演示。",
+          "parentTips": "交通工具：train, ship, plane。🅰 \"Choo choo train!\"\"The plane is flying!\"用玩具演示声音和动作。🅱 看相关的SSS歌曲视频，指认train/ship/plane。🅲 折纸飞机飞出去——\"Fly, plane, fly!\"",
           "days": [
             {
               "dayOfWeek": 1,
@@ -7470,7 +7470,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Train",
-                  "description": "通过SSS资源学习train。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习train的发音。",
                   "wordsFocus": [
                     "train"
                   ]
@@ -7499,8 +7499,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说train、ship、plane，孩子指认对应物品或图片。",
+                  "title": "亲子互动：我说你做",
+                  "description": "家长发指令\"Show me train!\" \"Where is ship?\"，孩子用动作或指认回应。",
                   "wordsFocus": [
                     "train",
                     "ship",
@@ -7541,7 +7541,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Ship",
-                  "description": "通过SSS资源学习ship。",
+                  "description": "在SSS经典歌曲中找出ship，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "ship"
                   ]
@@ -7570,8 +7570,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说train、ship、plane，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把train、ship、plane相关的物品/卡片藏在家里各处，让孩子\"Find train!\" \"Find ship!\" 找到后一起说。",
                   "wordsFocus": [
                     "train",
                     "ship",
@@ -7612,7 +7612,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Plane",
-                  "description": "通过SSS资源学习plane。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住plane。",
                   "wordsFocus": [
                     "plane"
                   ]
@@ -7641,8 +7641,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说train、ship、plane，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答，然后互换角色。",
                   "wordsFocus": [
                     "train",
                     "ship",
@@ -7767,7 +7767,7 @@
             "run",
             "fly"
           ],
-          "parentTips": "动作周：walk, run, fly。唱Walking Walking边唱边做！\"Let's run!\"\"Fly like a bird!\"",
+          "parentTips": "动作动词：walk, run, fly。🅰 唱Walking Walking边唱边做！\"Let's run!\"\"Fly like a bird!\"🅱 户外活动时——\"Walk to the tree!\"\"Run to mommy!\"🅲 玩Simon Says——\"Simon says walk!\"\"Simon says fly!\"",
           "days": [
             {
               "dayOfWeek": 1,
@@ -7801,7 +7801,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Walk",
-                  "description": "通过SSS资源学习walk。",
+                  "description": "在SSS经典歌曲中找出walk，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "walk"
                   ]
@@ -7830,8 +7830,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说walk、run、fly，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把walk、run、fly相关的物品/卡片藏在家里各处，让孩子\"Find walk!\" \"Find run!\" 找到后一起说。",
                   "wordsFocus": [
                     "walk",
                     "run",
@@ -7872,7 +7872,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Run",
-                  "description": "通过SSS资源学习run。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住run。",
                   "wordsFocus": [
                     "run"
                   ]
@@ -7901,8 +7901,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说walk、run、fly，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答，然后互换角色。",
                   "wordsFocus": [
                     "walk",
                     "run",
@@ -7943,7 +7943,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Fly",
-                  "description": "通过SSS资源学习fly。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习fly的发音。",
                   "wordsFocus": [
                     "fly"
                   ]
@@ -7972,8 +7972,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说walk、run、fly，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将walk、run、fly的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "walk",
                     "run",
@@ -8106,7 +8106,7 @@
             "two",
             "three"
           ],
-          "parentTips": "数字周：one, two, three！\"How many fingers? One, two, three!\"边数边做。",
+          "parentTips": "数字周：one, two, three。🅰 \"How many fingers? One, two, three!\"边数边伸出手指。🅱 爬楼梯时数数——\"One step, two steps, three steps!\"🅲 用积木搭高塔——\"One block, two blocks, three!\"推倒说\"All fall down!\"",
           "days": [
             {
               "dayOfWeek": 1,
@@ -8140,7 +8140,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: One",
-                  "description": "通过SSS资源学习one。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住one。",
                   "wordsFocus": [
                     "one"
                   ]
@@ -8169,8 +8169,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说one、two、three，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答，然后互换角色。",
                   "wordsFocus": [
                     "one",
                     "two",
@@ -8211,7 +8211,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Two",
-                  "description": "通过SSS资源学习two。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习two的发音。",
                   "wordsFocus": [
                     "two"
                   ]
@@ -8240,8 +8240,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说one、two、three，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将one、two、three的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "one",
                     "two",
@@ -8282,7 +8282,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Three",
-                  "description": "通过SSS资源学习three。",
+                  "description": "在SSS经典歌曲中找出three，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "three"
                   ]
@@ -8437,7 +8437,7 @@
             "row",
             "swim"
           ],
-          "parentTips": "运动周：jump, row, swim。\"Jump up high!\"\"Row row row your boat!\"边唱边做动作。",
+          "parentTips": "运动周：jump, row, swim。🅰 \"Jump up high!\"\"Row row row your boat!\"边唱边做动作。🅱 洗澡时玩游泳——\"The baby is swimming!\"用动作演示。🅲 在床上/垫子上——\"Let's jump like a frog!\"",
           "days": [
             {
               "dayOfWeek": 1,
@@ -8471,7 +8471,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Jump",
-                  "description": "通过SSS资源学习jump。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习jump的发音。",
                   "wordsFocus": [
                     "jump"
                   ]
@@ -8500,8 +8500,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说jump、row、swim，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将jump、row、swim的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "jump",
                     "row",
@@ -8542,7 +8542,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Row",
-                  "description": "通过SSS资源学习row。",
+                  "description": "在SSS经典歌曲中找出row，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "row"
                   ]
@@ -8613,7 +8613,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Swim",
-                  "description": "通过SSS资源学习swim。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住swim。",
                   "wordsFocus": [
                     "swim"
                   ]
@@ -8642,8 +8642,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说jump、row、swim，孩子指认对应物品或图片。",
+                  "title": "亲子互动：Simon Says",
+                  "description": "玩Simon Says游戏——家长说\"Simon says touch jump\"，孩子做出动作；不定期只说\"jump\"让孩子判断是否该做。",
                   "wordsFocus": [
                     "jump",
                     "row",
@@ -8768,7 +8768,7 @@
             "listen",
             "sing"
           ],
-          "parentTips": "感官周：look, listen, sing。\"Look at that!\"\"Listen to the music!\"\"Let's sing together!\"",
+          "parentTips": "感官周：look, listen, sing。🅰 \"Look at that!\"\"Listen to the music!\"\"Let's sing together!\"日常引导观察。🅱 玩感官游戏——\"Look! What's this?\"摇铃铛\"Listen!\"🅲 一起唱本周学过SSS歌曲，鼓励跟唱。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -8802,7 +8802,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Look",
-                  "description": "通过SSS资源学习look。",
+                  "description": "在SSS经典歌曲中找出look，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "look"
                   ]
@@ -8873,7 +8873,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Listen",
-                  "description": "通过SSS资源学习listen。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住listen。",
                   "wordsFocus": [
                     "listen"
                   ]
@@ -8902,8 +8902,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说look、listen、sing，孩子指认对应物品或图片。",
+                  "title": "亲子互动：Simon Says",
+                  "description": "玩Simon Says游戏——家长说\"Simon says touch look\"，孩子做出动作；不定期只说\"look\"让孩子判断是否该做。",
                   "wordsFocus": [
                     "look",
                     "listen",
@@ -8944,7 +8944,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Sing",
-                  "description": "通过SSS资源学习sing。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习sing的发音。",
                   "wordsFocus": [
                     "sing"
                   ]
@@ -8973,8 +8973,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说look、listen、sing，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把look、listen、sing的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "look",
                     "listen",
@@ -9099,7 +9099,7 @@
             "up",
             "down"
           ],
-          "parentTips": "律动周：dance, up, down。\"Let's dance!\"\"Hands up! Hands down!\"唱Stand Up Song。",
+          "parentTips": "律动周：dance, up, down。🅰 \"Let's dance!\"\"Hands up! Hands down!\"放音乐跳舞。🅱 唱Stand Up Song，按歌词做up/down动作。🅲 玩高矮游戏——\"Stand up tall!\"\"Sit down low!\"对比up和down。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -9133,7 +9133,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Dance",
-                  "description": "通过SSS资源学习dance。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住dance。",
                   "wordsFocus": [
                     "dance"
                   ]
@@ -9162,8 +9162,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说dance、up、down，孩子指认对应物品或图片。",
+                  "title": "亲子互动：Simon Says",
+                  "description": "玩Simon Says游戏——家长说\"Simon says touch dance\"，孩子做出动作；不定期只说\"dance\"让孩子判断是否该做。",
                   "wordsFocus": [
                     "dance",
                     "up",
@@ -9204,7 +9204,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Up",
-                  "description": "通过SSS资源学习up。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习up的发音。",
                   "wordsFocus": [
                     "up"
                   ]
@@ -9233,8 +9233,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说dance、up、down，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把dance、up、down的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "dance",
                     "up",
@@ -9275,7 +9275,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Down",
-                  "description": "通过SSS资源学习down。",
+                  "description": "在SSS经典歌曲中找出down，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "down"
                   ]
@@ -9304,8 +9304,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说dance、up、down，孩子指认对应物品或图片。",
+                  "title": "亲子互动：我说你做",
+                  "description": "家长发指令\"Show me dance!\" \"Where is up?\"，孩子用动作或指认回应。",
                   "wordsFocus": [
                     "dance",
                     "up",
@@ -9438,7 +9438,7 @@
             "peach",
             "kiwi"
           ],
-          "parentTips": "水果周：pear, peach, kiwi。\"Sweet pear!\"\"Yummy peach!\"吃水果时边吃边说。",
+          "parentTips": "水果周B：pear, peach, kiwi。🅰 \"Sweet pear!\"\"Yummy peach!\"吃水果时边吃边说颜色和味道。🅱 切水果——\"Cut the pear!\"\"Open the kiwi!\"触摸不同质感。🅲 做水果沙拉，边做边学水果名称。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -9472,7 +9472,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Pear",
-                  "description": "通过SSS资源学习pear。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习pear的发音。",
                   "wordsFocus": [
                     "pear"
                   ]
@@ -9501,8 +9501,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说pear、peach、kiwi，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把pear、peach、kiwi的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "pear",
                     "peach",
@@ -9543,7 +9543,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Peach",
-                  "description": "通过SSS资源学习peach。",
+                  "description": "在SSS经典歌曲中找出peach，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "peach"
                   ]
@@ -9572,8 +9572,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说pear、peach、kiwi，孩子指认对应物品或图片。",
+                  "title": "亲子互动：我说你做",
+                  "description": "家长发指令\"Show me pear!\" \"Where is peach?\"，孩子用动作或指认回应。",
                   "wordsFocus": [
                     "pear",
                     "peach",
@@ -9614,7 +9614,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Kiwi",
-                  "description": "通过SSS资源学习kiwi。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住kiwi。",
                   "wordsFocus": [
                     "kiwi"
                   ]
@@ -9643,8 +9643,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说pear、peach、kiwi，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把pear、peach、kiwi相关的物品/卡片藏在家里各处，让孩子\"Find pear!\" \"Find peach!\" 找到后一起说。",
                   "wordsFocus": [
                     "pear",
                     "peach",
@@ -9769,7 +9769,7 @@
             "tomato",
             "carrot"
           ],
-          "parentTips": "蔬菜周：pea, tomato, carrot。\"Green pea!\"\"Red tomato!\"\"Orange carrot!\"吃饭时指认。",
+          "parentTips": "蔬菜周：pea, tomato, carrot。🅰 吃饭时指认\"Green pea!\"\"Red tomato!\"\"Orange carrot!\"🅱 玩超市游戏——\"Buy some carrots!\"\"I want tomatoes!\"用玩具菜篮假装购物。🅲 给蔬菜涂色——\"Color the carrot orange!\"",
           "days": [
             {
               "dayOfWeek": 1,
@@ -9803,7 +9803,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Pea",
-                  "description": "通过SSS资源学习pea。",
+                  "description": "在SSS经典歌曲中找出pea，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "pea"
                   ]
@@ -9832,8 +9832,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说pea、tomato、carrot，孩子指认对应物品或图片。",
+                  "title": "亲子互动：我说你做",
+                  "description": "家长发指令\"Show me pea!\" \"Where is tomato?\"，孩子用动作或指认回应。",
                   "wordsFocus": [
                     "pea",
                     "tomato",
@@ -9874,7 +9874,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Tomato",
-                  "description": "通过SSS资源学习tomato。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住tomato。",
                   "wordsFocus": [
                     "tomato"
                   ]
@@ -9903,8 +9903,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说pea、tomato、carrot，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把pea、tomato、carrot相关的物品/卡片藏在家里各处，让孩子\"Find pea!\" \"Find tomato!\" 找到后一起说。",
                   "wordsFocus": [
                     "pea",
                     "tomato",
@@ -9945,7 +9945,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Carrot",
-                  "description": "通过SSS资源学习carrot。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习carrot的发音。",
                   "wordsFocus": [
                     "carrot"
                   ]
@@ -9974,8 +9974,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说pea、tomato、carrot，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答，然后互换角色。",
                   "wordsFocus": [
                     "pea",
                     "tomato",
@@ -10100,7 +10100,7 @@
             "noodles",
             "egg"
           ],
-          "parentTips": "主食周：rice, noodles, egg。\"Eat your rice!\"\"Yummy noodles!\"\"Good egg!\"",
+          "parentTips": "主食周：rice, noodles, egg。🅰 \"Eat your rice!\"\"Yummy noodles!\"\"Good egg!\"三餐自然融入。🅱 用筷子/勺子玩Pretend Play——假装做饭。🅲 打开鸡蛋做早餐——\"Crack the egg!\"看蛋黄流出。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -10134,7 +10134,7 @@
                   "resourceId": "pf",
                   "resourceType": "PF",
                   "title": "PF: Rice",
-                  "description": "通过PF资源学习rice。",
+                  "description": "Pinkfong主题动画，在蹦蹦跳跳中学会rice。",
                   "wordsFocus": [
                     "rice"
                   ]
@@ -10163,8 +10163,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说rice、noodles、egg，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把rice、noodles、egg相关的物品/卡片藏在家里各处，让孩子\"Find rice!\" \"Find noodles!\" 找到后一起说。",
                   "wordsFocus": [
                     "rice",
                     "noodles",
@@ -10205,7 +10205,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Noodles",
-                  "description": "通过SSS资源学习noodles。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习noodles的发音。",
                   "wordsFocus": [
                     "noodles"
                   ]
@@ -10234,8 +10234,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说rice、noodles、egg，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答，然后互换角色。",
                   "wordsFocus": [
                     "rice",
                     "noodles",
@@ -10276,7 +10276,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Egg",
-                  "description": "通过SSS资源学习egg。",
+                  "description": "在SSS经典歌曲中找出egg，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "egg"
                   ]
@@ -10305,8 +10305,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说rice、noodles、egg，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将rice、noodles、egg的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "rice",
                     "noodles",
@@ -10431,7 +10431,7 @@
             "play",
             "eat"
           ],
-          "parentTips": "综合动作周：drink, play, eat。\"Drink some water!\"\"Let's play!\"\"Time to eat!\"",
+          "parentTips": "综合动作：drink, play, eat。🅰 \"Drink some water!\"\"Let's play!\"\"Time to eat!\"日常高频指令。🅱 玩角色扮演——给娃娃\"喂食\"\"喝水\"。🅲 唱日常作息歌曲，按时间段做drink/play/eat动作。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -10465,7 +10465,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Drink",
-                  "description": "通过SSS资源学习drink。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习drink的发音。",
                   "wordsFocus": [
                     "drink"
                   ]
@@ -10494,8 +10494,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说drink、play、eat，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答，然后互换角色。",
                   "wordsFocus": [
                     "drink",
                     "play",
@@ -10536,7 +10536,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Play",
-                  "description": "通过SSS资源学习play。",
+                  "description": "在SSS经典歌曲中找出play，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "play"
                   ]
@@ -10565,8 +10565,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说drink、play、eat，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将drink、play、eat的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "drink",
                     "play",
@@ -10607,7 +10607,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Eat",
-                  "description": "通过SSS资源学习eat。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住eat。",
                   "wordsFocus": [
                     "eat"
                   ]
@@ -10770,7 +10770,7 @@
             "slide",
             "seesaw"
           ],
-          "parentTips": "游乐场周：swing, slide, seesaw！去公园边玩边说\"Push the swing!\"\"Go down the slide!\"",
+          "parentTips": "游乐场周：swing, slide, seesaw。🅰 去公园边玩边说\"Push the swing!\"\"Go down the slide!\"🅱 在家用枕头搭\"滑梯\"让玩偶滑下去。🅲 看相关动画片段，指认游乐设施。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -10804,7 +10804,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Swing",
-                  "description": "通过SSS资源学习swing。",
+                  "description": "在SSS经典歌曲中找出swing，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "swing"
                   ]
@@ -10833,8 +10833,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说swing、slide、seesaw，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将swing、slide、seesaw的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "swing",
                     "slide",
@@ -10875,7 +10875,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Slide",
-                  "description": "通过PP资源学习slide。",
+                  "description": "Peppa Pig动画片段——跟着可爱的小猪Peppa学习slide。",
                   "wordsFocus": [
                     "slide"
                   ]
@@ -10946,7 +10946,7 @@
                   "resourceId": "cc",
                   "resourceType": "CC",
                   "title": "CC: Seesaw",
-                  "description": "通过CC资源学习seesaw。",
+                  "description": "看Cocomelon动画片段，和JJ一起学seesaw，跟着唱起来！",
                   "wordsFocus": [
                     "seesaw"
                   ]
@@ -10975,8 +10975,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说swing、slide、seesaw，孩子指认对应物品或图片。",
+                  "title": "亲子互动：Simon Says",
+                  "description": "玩Simon Says游戏——家长说\"Simon says touch swing\"，孩子做出动作；不定期只说\"swing\"让孩子判断是否该做。",
                   "wordsFocus": [
                     "swing",
                     "slide",
@@ -11101,7 +11101,7 @@
             "brown",
             "blue"
           ],
-          "parentTips": "颜色周：pink, brown, blue。\"Pink flower!\"\"Brown bear!\"\"Blue sky!\"在环境中找颜色。",
+          "parentTips": "颜色周B：pink, brown, blue。🅰 在家里找颜色——\"Find something pink!\"\"Blue sky!\"\"Brown bear!\"🅱 用彩色粘土做不同颜色的球。🅲 唱颜色歌曲，拿出对应颜色的物品。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -11135,7 +11135,7 @@
                   "resourceId": "pf",
                   "resourceType": "PF",
                   "title": "PF: Pink",
-                  "description": "通过PF资源学习pink。",
+                  "description": "Pinkfong主题动画，在蹦蹦跳跳中学会pink。",
                   "wordsFocus": [
                     "pink"
                   ]
@@ -11206,7 +11206,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Brown",
-                  "description": "通过SSS资源学习brown。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习brown的发音。",
                   "wordsFocus": [
                     "brown"
                   ]
@@ -11235,8 +11235,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说pink、brown、blue，孩子指认对应物品或图片。",
+                  "title": "亲子互动：Simon Says",
+                  "description": "玩Simon Says游戏——家长说\"Simon says touch pink\"，孩子做出动作；不定期只说\"pink\"让孩子判断是否该做。",
                   "wordsFocus": [
                     "pink",
                     "brown",
@@ -11277,7 +11277,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Blue",
-                  "description": "通过SSS资源学习blue。",
+                  "description": "在SSS经典歌曲中找出blue，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "blue"
                   ]
@@ -11306,8 +11306,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说pink、brown、blue，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把pink、brown、blue的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "pink",
                     "brown",
@@ -11432,7 +11432,7 @@
             "tap",
             "clap"
           ],
-          "parentTips": "动作周：shake, tap, clap。\"Shake your body!\"\"Tap your nose!\"\"Clap your hands!\"",
+          "parentTips": "动作周B：shake, tap, clap。🅰 \"Shake your body!\"\"Tap your nose!\"\"Clap your hands!\"全部用动作回应。🅱 用沙锤或装豆子的瓶子——\"Let's shake!\"做节奏练习。🅲 拍手游戏——\"Clap once! Clap twice!\"边拍边数。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -11466,7 +11466,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Shake",
-                  "description": "通过SSS资源学习shake。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习shake的发音。",
                   "wordsFocus": [
                     "shake"
                   ]
@@ -11495,8 +11495,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说shake、tap、clap，孩子指认对应物品或图片。",
+                  "title": "亲子互动：Simon Says",
+                  "description": "玩Simon Says游戏——家长说\"Simon says touch shake\"，孩子做出动作；不定期只说\"shake\"让孩子判断是否该做。",
                   "wordsFocus": [
                     "shake",
                     "tap",
@@ -11537,7 +11537,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Tap",
-                  "description": "通过SSS资源学习tap。",
+                  "description": "在SSS经典歌曲中找出tap，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "tap"
                   ]
@@ -11566,8 +11566,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说shake、tap、clap，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把shake、tap、clap的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "shake",
                     "tap",
@@ -11608,7 +11608,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Clap",
-                  "description": "通过SSS资源学习clap。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住clap。",
                   "wordsFocus": [
                     "clap"
                   ]
@@ -11637,8 +11637,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说shake、tap、clap，孩子指认对应物品或图片。",
+                  "title": "亲子互动：我说你做",
+                  "description": "家长发指令\"Show me shake!\" \"Where is tap?\"，孩子用动作或指认回应。",
                   "wordsFocus": [
                     "shake",
                     "tap",
@@ -11763,7 +11763,7 @@
             "sad",
             "angry"
           ],
-          "parentTips": "情绪周：happy, sad, angry。唱If You're Happy！\"Are you happy?\"\"Don't be sad!\"",
+          "parentTips": "情绪周：happy, sad, angry。🅰 唱If You're Happy完整版，做happy/sad/angry表情。🅱 看情绪闪卡\"Are you happy?\"\"Don't be sad!\"用表情回应。🅲 讲故事时问\"How is the bear? Happy or sad?\"启蒙情商。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -11797,7 +11797,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Happy",
-                  "description": "通过SSS资源学习happy。",
+                  "description": "在SSS经典歌曲中找出happy，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "happy"
                   ]
@@ -11826,8 +11826,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说happy、sad、angry，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把happy、sad、angry的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "happy",
                     "sad",
@@ -11868,7 +11868,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Sad",
-                  "description": "通过SSS资源学习sad。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住sad。",
                   "wordsFocus": [
                     "sad"
                   ]
@@ -11897,8 +11897,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说happy、sad、angry，孩子指认对应物品或图片。",
+                  "title": "亲子互动：我说你做",
+                  "description": "家长发指令\"Show me happy!\" \"Where is sad?\"，孩子用动作或指认回应。",
                   "wordsFocus": [
                     "happy",
                     "sad",
@@ -11939,7 +11939,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Angry",
-                  "description": "通过SSS资源学习angry。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习angry的发音。",
                   "wordsFocus": [
                     "angry"
                   ]
@@ -11968,8 +11968,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说happy、sad、angry，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把happy、sad、angry相关的物品/卡片藏在家里各处，让孩子\"Find happy!\" \"Find sad!\" 找到后一起说。",
                   "wordsFocus": [
                     "happy",
                     "sad",
@@ -12102,7 +12102,7 @@
             "fish",
             "turtle"
           ],
-          "parentTips": "小动物周：bird, fish, turtle。看鸟说\"Look! A bird!\"养金鱼说\"Pretty fish!\"",
+          "parentTips": "小动物A：bird, fish, turtle。🅰 看窗外\"Look! A bird!\"养金鱼\"Pretty fish!\"🅱 唱Little Bird/Baby Shark，用动作模仿动物。🅲 用手偶玩角色扮演——小鸟飞、小鱼游、乌龟爬。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -12136,7 +12136,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Bird",
-                  "description": "通过SSS资源学习bird。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住bird。",
                   "wordsFocus": [
                     "bird"
                   ]
@@ -12165,8 +12165,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说bird、fish、turtle，孩子指认对应物品或图片。",
+                  "title": "亲子互动：我说你做",
+                  "description": "家长发指令\"Show me bird!\" \"Where is fish?\"，孩子用动作或指认回应。",
                   "wordsFocus": [
                     "bird",
                     "fish",
@@ -12207,7 +12207,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Fish",
-                  "description": "通过SSS资源学习fish。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习fish的发音。",
                   "wordsFocus": [
                     "fish"
                   ]
@@ -12236,8 +12236,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说bird、fish、turtle，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把bird、fish、turtle相关的物品/卡片藏在家里各处，让孩子\"Find bird!\" \"Find fish!\" 找到后一起说。",
                   "wordsFocus": [
                     "bird",
                     "fish",
@@ -12278,7 +12278,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Turtle",
-                  "description": "通过SSS资源学习turtle。",
+                  "description": "在SSS经典歌曲中找出turtle，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "turtle"
                   ]
@@ -12307,8 +12307,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说bird、fish、turtle，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答，然后互换角色。",
                   "wordsFocus": [
                     "bird",
                     "fish",
@@ -12433,7 +12433,7 @@
             "duck",
             "pig"
           ],
-          "parentTips": "农场动物1：hen, duck, pig。学动物叫声\"The duck says quack quack!\"唱Old MacDonald。",
+          "parentTips": "农场动物A：hen, duck, pig。🅰 学动物叫声\"The duck says quack quack!\"让孩子模仿声音。🅱 唱Old MacDonald Had A Farm，每段一种动物。🅲 用闪卡玩配对游戏——动物和叫声配对。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -12467,7 +12467,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Hen",
-                  "description": "通过SSS资源学习hen。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习hen的发音。",
                   "wordsFocus": [
                     "hen"
                   ]
@@ -12496,8 +12496,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说hen、duck、pig，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把hen、duck、pig相关的物品/卡片藏在家里各处，让孩子\"Find hen!\" \"Find duck!\" 找到后一起说。",
                   "wordsFocus": [
                     "hen",
                     "duck",
@@ -12538,7 +12538,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Duck",
-                  "description": "通过SSS资源学习duck。",
+                  "description": "在SSS经典歌曲中找出duck，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "duck"
                   ]
@@ -12567,8 +12567,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说hen、duck、pig，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答，然后互换角色。",
                   "wordsFocus": [
                     "hen",
                     "duck",
@@ -12609,7 +12609,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Pig",
-                  "description": "通过PP资源学习pig。",
+                  "description": "Peppa Pig动画片段——跟着可爱的小猪Peppa学习pig。",
                   "wordsFocus": [
                     "pig"
                   ]
@@ -12638,8 +12638,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说hen、duck、pig，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将hen、duck、pig的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "hen",
                     "duck",
@@ -12764,7 +12764,7 @@
             "sheep",
             "horse"
           ],
-          "parentTips": "农场动物2：cow, sheep, horse。\"The cow says moo!\"\"White sheep!\"\"Fast horse!\"",
+          "parentTips": "农场动物B：cow, sheep, horse。🅰 \"The cow says moo!\"\"White sheep!\"\"Fast horse!\"边走边学。🅱 用积木搭农场，把动物放进去。🅲 唱Old MacDonald续集，加入cow/sheep/horse。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -12798,7 +12798,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Cow",
-                  "description": "通过SSS资源学习cow。",
+                  "description": "在SSS经典歌曲中找出cow，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "cow"
                   ]
@@ -12827,8 +12827,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说cow、sheep、horse，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答，然后互换角色。",
                   "wordsFocus": [
                     "cow",
                     "sheep",
@@ -12869,7 +12869,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Sheep",
-                  "description": "通过SSS资源学习sheep。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住sheep。",
                   "wordsFocus": [
                     "sheep"
                   ]
@@ -12898,8 +12898,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说cow、sheep、horse，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将cow、sheep、horse的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "cow",
                     "sheep",
@@ -12940,7 +12940,7 @@
                   "resourceId": "pf",
                   "resourceType": "PF",
                   "title": "PF: Horse",
-                  "description": "通过PF资源学习horse。",
+                  "description": "跟着Pinkfong的节奏学习horse，边唱边跳，动起来吧！",
                   "wordsFocus": [
                     "horse"
                   ]
@@ -13095,7 +13095,7 @@
             "panda",
             "monkey"
           ],
-          "parentTips": "野生动物周：tiger, panda, monkey。通过闪卡和绘本认识！\"Big tiger!\"\"Cute panda!\"",
+          "parentTips": "野生动物：tiger, panda, monkey。🅰 通过闪卡和绘本认识！\"Big tiger!\"\"Cute panda!\"\"Funny monkey!\"🅱 看相关动画片段（PP等），指认动物。🅲 模仿动物动作——\"Stomp like a tiger!\"\"Jump like a monkey!\"",
           "days": [
             {
               "dayOfWeek": 1,
@@ -13129,7 +13129,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Tiger",
-                  "description": "通过SSS资源学习tiger。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住tiger。",
                   "wordsFocus": [
                     "tiger"
                   ]
@@ -13158,8 +13158,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说tiger、panda、monkey，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将tiger、panda、monkey的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "tiger",
                     "panda",
@@ -13200,7 +13200,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Panda",
-                  "description": "通过SSS资源学习panda。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习panda的发音。",
                   "wordsFocus": [
                     "panda"
                   ]
@@ -13271,7 +13271,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Monkey",
-                  "description": "通过SSS资源学习monkey。",
+                  "description": "在SSS经典歌曲中找出monkey，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "monkey"
                   ]
@@ -13300,8 +13300,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说tiger、panda、monkey，孩子指认对应物品或图片。",
+                  "title": "亲子互动：Simon Says",
+                  "description": "玩Simon Says游戏——家长说\"Simon says touch tiger\"，孩子做出动作；不定期只说\"tiger\"让孩子判断是否该做。",
                   "wordsFocus": [
                     "tiger",
                     "panda",
@@ -13434,7 +13434,7 @@
             "zoo",
             "farm"
           ],
-          "parentTips": "地点周：park, zoo, farm。\"Let's go to the park!\"\"See the animals at the zoo!\"",
+          "parentTips": "地点周：park, zoo, farm。🅰 \"Let's go to the park!\"\"See the animals at the zoo!\"去之前先说要去哪里。🅱 看绘本故事，找出park/zoo/farm场景。🅲 玩地图游戏——玩具小车开去不同的地点。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -13468,7 +13468,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Park",
-                  "description": "通过PP资源学习park。",
+                  "description": "看Peppa Pig动画片段，听听Peppa一家是怎么说park的。",
                   "wordsFocus": [
                     "park"
                   ]
@@ -13539,7 +13539,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Zoo",
-                  "description": "通过SSS资源学习zoo。",
+                  "description": "在SSS经典歌曲中找出zoo，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "zoo"
                   ]
@@ -13568,8 +13568,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说park、zoo、farm，孩子指认对应物品或图片。",
+                  "title": "亲子互动：Simon Says",
+                  "description": "玩Simon Says游戏——家长说\"Simon says touch park\"，孩子做出动作；不定期只说\"park\"让孩子判断是否该做。",
                   "wordsFocus": [
                     "park",
                     "zoo",
@@ -13610,7 +13610,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Farm",
-                  "description": "通过SSS资源学习farm。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住farm。",
                   "wordsFocus": [
                     "farm"
                   ]
@@ -13639,8 +13639,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说park、zoo、farm，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把park、zoo、farm的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "park",
                     "zoo",
@@ -13765,7 +13765,7 @@
             "doctor",
             "baker"
           ],
-          "parentTips": "职业周：teacher, doctor, baker。玩角色扮演\"My teacher!\"\"Doctor!\"\"Baker makes bread!\"",
+          "parentTips": "职业周：teacher, doctor, baker。🅰 玩角色扮演——\"My teacher says hello!\"\"Doctor, I'm sick!\"\"Baker bakes bread!\"🅱 看相关绘本和动画，指认不同职业。🅲 收集日常生活中的职业元素——听诊器、围裙等。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -13799,7 +13799,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Teacher",
-                  "description": "通过SSS资源学习teacher。",
+                  "description": "在SSS经典歌曲中找出teacher，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "teacher"
                   ]
@@ -13828,8 +13828,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说teacher、doctor、baker，孩子指认对应物品或图片。",
+                  "title": "亲子互动：Simon Says",
+                  "description": "玩Simon Says游戏——家长说\"Simon says touch teacher\"，孩子做出动作；不定期只说\"teacher\"让孩子判断是否该做。",
                   "wordsFocus": [
                     "teacher",
                     "doctor",
@@ -13870,7 +13870,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Doctor",
-                  "description": "通过SSS资源学习doctor。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住doctor。",
                   "wordsFocus": [
                     "doctor"
                   ]
@@ -13899,8 +13899,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说teacher、doctor、baker，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把teacher、doctor、baker的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "teacher",
                     "doctor",
@@ -13941,7 +13941,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Baker",
-                  "description": "通过SSS资源学习baker。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习baker的发音。",
                   "wordsFocus": [
                     "baker"
                   ]
@@ -13970,8 +13970,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说teacher、doctor、baker，孩子指认对应物品或图片。",
+                  "title": "亲子互动：我说你做",
+                  "description": "家长发指令\"Show me teacher!\" \"Where is doctor?\"，孩子用动作或指认回应。",
                   "wordsFocus": [
                     "teacher",
                     "doctor",
@@ -14096,7 +14096,7 @@
             "small",
             "house"
           ],
-          "parentTips": "概念周：big, small, house。\"Big elephant!\"\"Small mouse!\"\"This is our house!\"",
+          "parentTips": "概念周：big, small, house。🅰 \"Big elephant!\"\"Small mouse!\"用夸张手势对比大小。🅱 在家里找大小物品——\"Big chair, small chair!\"\"This is our house!\"🅲 玩大小配对——大小盒子、大小球排序。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -14130,7 +14130,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Big",
-                  "description": "通过SSS资源学习big。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住big。",
                   "wordsFocus": [
                     "big"
                   ]
@@ -14159,8 +14159,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说big、small、house，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把big、small、house的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "big",
                     "small",
@@ -14201,7 +14201,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Small",
-                  "description": "通过SSS资源学习small。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习small的发音。",
                   "wordsFocus": [
                     "small"
                   ]
@@ -14230,8 +14230,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说big、small、house，孩子指认对应物品或图片。",
+                  "title": "亲子互动：我说你做",
+                  "description": "家长发指令\"Show me big!\" \"Where is small?\"，孩子用动作或指认回应。",
                   "wordsFocus": [
                     "big",
                     "small",
@@ -14272,7 +14272,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: House",
-                  "description": "通过SSS资源学习house。",
+                  "description": "在SSS经典歌曲中找出house，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "house"
                   ]
@@ -14301,8 +14301,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说big、small、house，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把big、small、house相关的物品/卡片藏在家里各处，让孩子\"Find big!\" \"Find small!\" 找到后一起说。",
                   "wordsFocus": [
                     "big",
                     "small",
@@ -14427,7 +14427,7 @@
             "morning",
             "night"
           ],
-          "parentTips": "礼貌用语周：good, morning, night。每天\"Good morning!\"\"Good night!\"养成礼貌习惯。",
+          "parentTips": "礼貌用语：good, morning, night。🅰 每天\"Good morning!\"\"Good night!\"养成礼貌习惯。🅱 玩角色扮演——打电话\"Good morning!\"告别\"Goodbye!\"🅲 唱Good Morning Song和Good Night Song，建立作息仪式。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -14461,7 +14461,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Good",
-                  "description": "通过SSS资源学习good。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习good的发音。",
                   "wordsFocus": [
                     "good"
                   ]
@@ -14490,8 +14490,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说good、morning、night，孩子指认对应物品或图片。",
+                  "title": "亲子互动：我说你做",
+                  "description": "家长发指令\"Show me good!\" \"Where is morning?\"，孩子用动作或指认回应。",
                   "wordsFocus": [
                     "good",
                     "morning",
@@ -14532,7 +14532,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Morning",
-                  "description": "通过SSS资源学习morning。",
+                  "description": "在SSS经典歌曲中找出morning，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "morning"
                   ]
@@ -14561,8 +14561,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说good、morning、night，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把good、morning、night相关的物品/卡片藏在家里各处，让孩子\"Find good!\" \"Find morning!\" 找到后一起说。",
                   "wordsFocus": [
                     "good",
                     "morning",
@@ -14603,7 +14603,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Night",
-                  "description": "通过SSS资源学习night。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住night。",
                   "wordsFocus": [
                     "night"
                   ]
@@ -14632,8 +14632,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说good、morning、night，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答，然后互换角色。",
                   "wordsFocus": [
                     "good",
                     "morning",
@@ -14766,7 +14766,7 @@
             "grass",
             "flower"
           ],
-          "parentTips": "自然周：tree, grass, flower。去公园\"Tall tree!\"\"Green grass!\"\"Pretty flower!\"",
+          "parentTips": "自然周：tree, grass, flower。🅰 去公园\"Tall tree!\"\"Green grass!\"\"Pretty flower!\"用五感观察。🅱 收集树叶花瓣做手工——\"This is a tree leaf!\"🅲 唱自然主题歌曲，配合动作。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -14800,7 +14800,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Tree",
-                  "description": "通过SSS资源学习tree。",
+                  "description": "在SSS经典歌曲中找出tree，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "tree"
                   ]
@@ -14829,8 +14829,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说tree、grass、flower，孩子指认对应物品或图片。",
+                  "title": "亲子互动：寻宝游戏",
+                  "description": "把tree、grass、flower相关的物品/卡片藏在家里各处，让孩子\"Find tree!\" \"Find grass!\" 找到后一起说。",
                   "wordsFocus": [
                     "tree",
                     "grass",
@@ -14871,7 +14871,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Grass",
-                  "description": "通过SSS资源学习grass。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住grass。",
                   "wordsFocus": [
                     "grass"
                   ]
@@ -14900,8 +14900,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说tree、grass、flower，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答，然后互换角色。",
                   "wordsFocus": [
                     "tree",
                     "grass",
@@ -14942,7 +14942,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Flower",
-                  "description": "通过SSS资源学习flower。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习flower的发音。",
                   "wordsFocus": [
                     "flower"
                   ]
@@ -14971,8 +14971,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说tree、grass、flower，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将tree、grass、flower的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "tree",
                     "grass",
@@ -15097,7 +15097,7 @@
             "river",
             "lake"
           ],
-          "parentTips": "地貌周：hill, river, lake。看PP剧集认识！\"Climb the hill!\"\"The river flows!\"",
+          "parentTips": "地貌周：hill, river, lake。🅰 看Peppa Pig剧集——Peppa去hills/rivers/lakes的片段。🅱 用沙盘/粘土做hill和river的模型。🅲 唱Row Row Row Your Boat，想象在river上划船。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -15131,7 +15131,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Hill",
-                  "description": "通过PP资源学习hill。",
+                  "description": "Peppa Pig动画片段——跟着可爱的小猪Peppa学习hill。",
                   "wordsFocus": [
                     "hill"
                   ]
@@ -15160,8 +15160,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说hill、river、lake，孩子指认对应物品或图片。",
+                  "title": "亲子互动：动作模仿",
+                  "description": "家长做动作（如指鼻子、梳头），问\"What is this?\" 让孩子回答，然后互换角色。",
                   "wordsFocus": [
                     "hill",
                     "river",
@@ -15202,7 +15202,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: River",
-                  "description": "通过PP资源学习river。",
+                  "description": "看Peppa Pig动画片段，听听Peppa一家是怎么说river的。",
                   "wordsFocus": [
                     "river"
                   ]
@@ -15231,8 +15231,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说hill、river、lake，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将hill、river、lake的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "hill",
                     "river",
@@ -15273,7 +15273,7 @@
                   "resourceId": "pp",
                   "resourceType": "PP",
                   "title": "PP: Lake",
-                  "description": "通过PP资源学习lake。",
+                  "description": "和Peppa Pig一起学lake，在生活情景中理解这个词的意思！",
                   "wordsFocus": [
                     "lake"
                   ]
@@ -15428,7 +15428,7 @@
             "rain",
             "snow"
           ],
-          "parentTips": "天气周：cloud, rain, snow。\"White clouds!\"\"Rain rain go away!\"\"Let's play in the snow!\"",
+          "parentTips": "天气周：cloud, rain, snow。🅰 \"White clouds!\"\"Rain rain go away!\"\"Let's play in the snow!\"🅱 做天气观察——每天看窗外\"Is it rainy? Cloudy?\"🅲 唱Rain Rain Go Away和Little Snowflake，配合手指动作。",
           "days": [
             {
               "dayOfWeek": 1,
@@ -15462,7 +15462,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Cloud",
-                  "description": "通过SSS资源学习cloud。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习cloud的发音。",
                   "wordsFocus": [
                     "cloud"
                   ]
@@ -15491,8 +15491,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说cloud、rain、snow，孩子指认对应物品或图片。",
+                  "title": "亲子互动：翻牌记忆",
+                  "description": "将cloud、rain、snow的卡片面朝下摆放，每次翻一张并说出英文名，说对则保留，说错放回。",
                   "wordsFocus": [
                     "cloud",
                     "rain",
@@ -15533,7 +15533,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Rain",
-                  "description": "通过SSS资源学习rain。",
+                  "description": "在SSS经典歌曲中找出rain，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "rain"
                   ]
@@ -15604,7 +15604,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Snow",
-                  "description": "通过SSS资源学习snow。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住snow。",
                   "wordsFocus": [
                     "snow"
                   ]
@@ -15633,8 +15633,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说cloud、rain、snow，孩子指认对应物品或图片。",
+                  "title": "亲子互动：Simon Says",
+                  "description": "玩Simon Says游戏——家长说\"Simon says touch cloud\"，孩子做出动作；不定期只说\"cloud\"让孩子判断是否该做。",
                   "wordsFocus": [
                     "cloud",
                     "rain",
@@ -15759,7 +15759,7 @@
             "moon",
             "sun"
           ],
-          "parentTips": "天空周：star, moon, sun。唱Twinkle Twinkle！\"Good morning, sun!\"\"Good night, moon!\"S1结业啦！",
+          "parentTips": "天空周：star, moon, sun。🅰 唱Twinkle Twinkle Little Star！\"Good morning, sun!\"\"Good night, moon!\"🅱 睡前看窗外——\"Can you find the moon?\"\"Where are the stars?\"🅲 S1结业啦！翻看这周的所有闪卡，一起回顾这一年的学习成果！",
           "days": [
             {
               "dayOfWeek": 1,
@@ -15793,7 +15793,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Star",
-                  "description": "通过SSS资源学习star。",
+                  "description": "在SSS经典歌曲中找出star，边看边唱边指认，加深印象！",
                   "wordsFocus": [
                     "star"
                   ]
@@ -15864,7 +15864,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Moon",
-                  "description": "通过SSS资源学习moon。",
+                  "description": "Super Simple Songs动画片段——用欢快的旋律帮宝宝记住moon。",
                   "wordsFocus": [
                     "moon"
                   ]
@@ -15893,8 +15893,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说star、moon、sun，孩子指认对应物品或图片。",
+                  "title": "亲子互动：Simon Says",
+                  "description": "玩Simon Says游戏——家长说\"Simon says touch star\"，孩子做出动作；不定期只说\"star\"让孩子判断是否该做。",
                   "wordsFocus": [
                     "star",
                     "moon",
@@ -15935,7 +15935,7 @@
                   "resourceId": "sss",
                   "resourceType": "SSS",
                   "title": "SSS: Sun",
-                  "description": "通过SSS资源学习sun。",
+                  "description": "观看Super Simple Songs动画片段，跟着音乐和动作学习sun的发音。",
                   "wordsFocus": [
                     "sun"
                   ]
@@ -15964,8 +15964,8 @@
                   "priority": "core",
                   "resourceId": null,
                   "resourceType": "PARENT",
-                  "title": "亲子互动：指认练习",
-                  "description": "家长说star、moon、sun，孩子指认对应物品或图片。",
+                  "title": "亲子互动：闪卡配对",
+                  "description": "把star、moon、sun的闪卡摊开，家长说出一个词，让孩子找出对应的卡片并大声读出来。",
                   "wordsFocus": [
                     "star",
                     "moon",
